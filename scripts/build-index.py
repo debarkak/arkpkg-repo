@@ -15,6 +15,80 @@ import lz4.frame
 PACKAGE_NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._+-]*\Z")
 PACKAGE_ATOM = re.compile(r"[A-Za-z0-9][A-Za-z0-9._+-]*\Z")
 
+PAGE_STYLE = """
+body { font-family: sans-serif; line-height: 1.5; margin: 0; padding: 2rem; }
+main { margin: 0 auto; max-width: 72rem; }
+label { display: block; margin-bottom: .35rem; }
+input { box-sizing: border-box; max-width: 28rem; padding: .5rem; width: 100%; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; margin-top: 1rem; width: 100%; }
+th, td { border: 1px solid #8888; padding: .5rem .65rem; text-align: left; }
+th { white-space: nowrap; }
+th button { background: none; border: 0; cursor: pointer; font: inherit; font-weight: 600; padding: 0; }
+th button:focus-visible, input:focus-visible { outline: 2px solid; outline-offset: 2px; }
+[hidden] { display: none !important; }
+"""
+
+PAGE_SCRIPT = """
+(() => {
+  const search = document.querySelector("#package-search");
+  const table = document.querySelector("#package-table");
+  const body = table.querySelector("tbody");
+  const count = document.querySelector("#package-count");
+  const headers = [...table.querySelectorAll("th[data-sort-key]")];
+  const rows = [...body.querySelectorAll("tr[data-package-row]")];
+  const noResults = body.querySelector("[data-no-results]");
+  let sortKey = "name";
+  let sortDirection = 1;
+
+  function updateResults() {
+    const query = search.value.trim().toLocaleLowerCase();
+    let visible = 0;
+    for (const row of rows) {
+      row.hidden = !row.textContent.toLocaleLowerCase().includes(query);
+      if (!row.hidden) visible += 1;
+    }
+    noResults.hidden = rows.length === 0 || visible > 0;
+    count.textContent = rows.length === 0
+      ? "0 packages available"
+      : `${visible} of ${rows.length} packages shown`;
+  }
+
+  function sortBy(key) {
+    if (key === sortKey) {
+      sortDirection *= -1;
+    } else {
+      sortKey = key;
+      sortDirection = 1;
+    }
+    const column = headers.findIndex((header) => header.dataset.sortKey === key);
+    rows.sort((left, right) => {
+      const a = left.cells[column].textContent.trim();
+      const b = right.cells[column].textContent.trim();
+      return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" })
+        * sortDirection;
+    });
+    body.append(...rows, noResults);
+    for (const header of headers) {
+      const active = header.dataset.sortKey === sortKey;
+      header.setAttribute("aria-sort", active
+        ? (sortDirection === 1 ? "ascending" : "descending")
+        : "none");
+      header.querySelector("span").textContent = active
+        ? (sortDirection === 1 ? "↑" : "↓")
+        : "↕";
+    }
+    updateResults();
+  }
+
+  search.addEventListener("input", updateResults);
+  for (const button of table.querySelectorAll("button[data-sort-key]")) {
+    button.addEventListener("click", () => sortBy(button.dataset.sortKey));
+  }
+  updateResults();
+})();
+"""
+
 
 def read_metadata(archive_path: Path) -> dict[str, str]:
     metadata = None
@@ -120,7 +194,7 @@ def build_site(repo_root: Path, site_dir: Path) -> None:
         encoding="utf-8",
     )
     package_rows = "\n".join(
-        "<tr><td>{}</td><td>{}</td><td>{}</td><td>{}</td></tr>".format(
+        "<tr data-package-row><td>{}</td><td>{}</td><td>{}</td><td>{}</td></tr>".format(
             html.escape(item["name"]),
             html.escape(item["version"]),
             html.escape(item["arch"]),
@@ -130,17 +204,35 @@ def build_site(repo_root: Path, site_dir: Path) -> None:
     )
     if not package_rows:
         package_rows = '<tr><td colspan="4">no packages published yet.</td></tr>'
+    package_count = len(entries)
+    table_headers = "".join(
+        '<th data-sort-key="{0}" aria-sort="{1}"><button type="button" '
+        'data-sort-key="{0}">{0} <span aria-hidden="true">{2}</span></button></th>'.format(
+            key,
+            "ascending" if key == "name" else "none",
+            "↑" if key == "name" else "↕",
+        )
+        for key in ("name", "version", "architecture", "description")
+    )
     (site_dir / "index.html").write_text(
         "<!doctype html>\n"
         '<html lang="en"><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        f"<style>{PAGE_STYLE}</style>"
         "<title>arkpkg package repository</title>"
         "<body><main><h1>arkpkg package repository</h1>"
         "<p>static package repository for arkanaOS. configure it with:</p>"
         "<pre>arkpkg repo add arkanaOS https://arkana-team.github.io/arkpkg-repo</pre>"
+        '<label for="package-search">search packages</label>'
+        '<input id="package-search" type="search" autocomplete="off" '
+        'placeholder="search by name, version, architecture, or description">'
+        f'<p id="package-count" aria-live="polite">{package_count} packages available</p>'
         '<p><a href="index.json">package index (json)</a></p>'
-        "<table><thead><tr><th>name</th><th>version</th><th>architecture</th>"
-        f"<th>description</th></tr></thead><tbody>{package_rows}</tbody></table>"
+        f'<div class="table-wrap"><table id="package-table"><thead><tr>{table_headers}'
+        "</tr></thead><tbody>"
+        f'{package_rows}<tr data-no-results hidden><td colspan="4">no packages match your search.</td></tr>'
+        "</tbody></table></div>"
+        f"<script>{PAGE_SCRIPT}</script>"
         "</main></body></html>\n",
         encoding="utf-8",
     )
