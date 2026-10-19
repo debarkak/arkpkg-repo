@@ -354,6 +354,7 @@ PACKAGES = (
     "viewres",
     "luit",
     "xterm",
+    "xpdf-tools",
     "nscde",
     "xorg-util-macros",
     "xcb-util",
@@ -1596,6 +1597,18 @@ STAGED_PACKAGE_FILES = {
         "etc/X11/app-defaults/XTerm-color",
         "usr/share/applications/uxterm.desktop",
         "usr/share/applications/xterm.desktop",
+    ),
+    "xpdf-tools": (
+        "usr/bin/pdfdetach",
+        "usr/bin/pdffonts",
+        "usr/bin/pdfimages",
+        "usr/bin/pdfinfo",
+        "usr/bin/pdftohtml",
+        "usr/bin/pdftoppm",
+        "usr/bin/pdftopng",
+        "usr/bin/pdftops",
+        "usr/bin/pdftotext",
+        "usr/share/licenses/xpdf-tools",
     ),
     "font-misc-misc": (
         "usr/share/fonts/misc",
@@ -2932,6 +2945,10 @@ STAGED_PACKAGE_GLOBS = {
         "usr/share/man/man1/uxterm*.1",
         "usr/share/man/man1/xterm*.1",
         "usr/share/pixmaps/*xterm*.xpm",
+    ),
+    "xpdf-tools": (
+        "usr/share/man/man1/pdf*.1",
+        "usr/share/man/man5/xpdfrc.5",
     ),
     "xcb-util": (
         "usr/lib/libxcb-util.so*",
