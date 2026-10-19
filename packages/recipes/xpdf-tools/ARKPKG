@@ -1,0 +1,14 @@
+Name: xpdf-tools
+Description: classic Xpdf command-line tools for inspecting and converting PDF files
+Version: 4.06
+Arch: x86_64
+URL: https://www.xpdfreader.com/
+License: GPL-2.0-or-later
+Maintainer: arkanaOS team
+Dependencies:
+  freetype-devel>=26.2.20
+  libpng-devel>=1.6.50
+  zlib-devel>=1.3.1
+Provides:
+  pdfinfo=/usr/bin/pdfinfo
+  pdftotext=/usr/bin/pdftotext
