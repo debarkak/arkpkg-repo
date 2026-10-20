@@ -1,0 +1,8 @@
+Name: libfyba0t64
+Description: FYBA library to read and write Norwegian geodata standard format SOSI
+Version: 4.1.1-11+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfyba0t64
+License: See /usr/share/doc/libfyba0t64/copyright
+Maintainer: arkanaOS Team
+Provides: libfyba.so.0=/usr/lib/x86_64-linux-gnu/libfyba.so.0.0.0, libfygm.so.0=/usr/lib/x86_64-linux-gnu/libfygm.so.0.0.0, libfyut.so.0=/usr/lib/x86_64-linux-gnu/libfyut.so.0.0.0
