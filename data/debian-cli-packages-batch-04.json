@@ -292,6 +292,20 @@
       "name": "libboost-test1.83.0",
       "url": "https://packages.debian.org/trixie/libboost-test1.83.0",
       "version": "1.83.0-4.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libboost-thread1.83.0"
+      ],
+      "debian_version": "1.83.0-4.2",
+      "dependencies": [],
+      "description": "portable C++ multi-threading",
+      "license": "See /usr/share/doc/libboost-thread1.83.0/copyright",
+      "license_path": "usr/share/doc/libboost-thread1.83.0/copyright",
+      "name": "libboost-thread1.83.0",
+      "url": "https://packages.debian.org/trixie/libboost-thread1.83.0",
+      "version": "1.83.0-4.2"
     }
   ],
   "source_integrity": {
@@ -422,6 +436,12 @@
       "architecture": "amd64",
       "filename": "pool/main/b/boost1.83/libboost-test1.83.0_1.83.0-4.2_amd64.deb",
       "sha256": "26e093572904a5ac681d8e201822245c6ab24376d6df30b33543d8630b7806ab",
+      "version": "1.83.0-4.2"
+    },
+    "libboost-thread1.83.0": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/boost1.83/libboost-thread1.83.0_1.83.0-4.2_amd64.deb",
+      "sha256": "00d3ec4fa47bb2bab1afa3ef5cd354e1afd47eacf08bb7db6c4092218008ebbb",
       "version": "1.83.0-4.2"
     }
   },
