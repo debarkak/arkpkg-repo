@@ -1373,6 +1373,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpkcs11-helper1t64"
+      ],
+      "debian_version": "1.30.0-1+b1",
+      "dependencies": [
+        "openssl-libs"
+      ],
+      "description": "library that simplifies the interaction with PKCS#11",
+      "license": "See /usr/share/doc/libpkcs11-helper1t64/copyright",
+      "license_path": "usr/share/doc/libpkcs11-helper1t64/copyright",
+      "name": "libpkcs11-helper1t64",
+      "url": "https://packages.debian.org/trixie/libpkcs11-helper1t64",
+      "version": "1.30.0-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsbc1"
       ],
       "debian_version": "2.1-1",
@@ -2408,6 +2424,12 @@
       "filename": "pool/main/p/pcsc-lite/libpcsclite1_2.3.3-1_amd64.deb",
       "sha256": "a8bc4725549060d1e696d358e32a3699d947d5381871553a290389830bebccbd",
       "version": "2.3.3-1"
+    },
+    "libpkcs11-helper1t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/pkcs11-helper/libpkcs11-helper1t64_1.30.0-1+b1_amd64.deb",
+      "sha256": "261e0fd80cad9c5478cb702cf77b1b3494ddfde4ad14f7a0531f4781b1c84b81",
+      "version": "1.30.0-1+b1"
     },
     "libsbc1": {
       "architecture": "amd64",
