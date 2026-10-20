@@ -1,0 +1,8 @@
+Name: libevent-2.1-7t64
+Description: Asynchronous event notification library
+Version: 2.1.12-stable-10+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libevent-2.1-7t64
+License: See /usr/share/doc/libevent-2.1-7t64/copyright
+Maintainer: arkanaOS Team
+Provides: libevent-2.1.so.7=/usr/lib/x86_64-linux-gnu/libevent-2.1.so.7.0.1

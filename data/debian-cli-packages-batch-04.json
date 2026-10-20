@@ -432,6 +432,20 @@
       "name": "libell0",
       "url": "https://packages.debian.org/trixie/libell0",
       "version": "0.77-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libevent-2.1-7t64"
+      ],
+      "debian_version": "2.1.12-stable-10+b1",
+      "dependencies": [],
+      "description": "Asynchronous event notification library",
+      "license": "See /usr/share/doc/libevent-2.1-7t64/copyright",
+      "license_path": "usr/share/doc/libevent-2.1-7t64/copyright",
+      "name": "libevent-2.1-7t64",
+      "url": "https://packages.debian.org/trixie/libevent-2.1-7t64",
+      "version": "2.1.12-stable-10+b1"
     }
   ],
   "source_integrity": {
@@ -623,6 +637,12 @@
       "filename": "pool/main/e/ell/libell0_0.77-1_amd64.deb",
       "sha256": "8f1ca795337fe0c2990a34dca608b76a4c94db580cc7173d730f82bc14375af5",
       "version": "0.77-1"
+    },
+    "libevent-2.1-7t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libe/libevent/libevent-2.1-7t64_2.1.12-stable-10+b1_amd64.deb",
+      "sha256": "5b2201fe46d8710bc4b2566abe0a3e29c63dd94779644f6d32c777a5281c86a3",
+      "version": "2.1.12-stable-10+b1"
     }
   },
   "suite": "trixie"
