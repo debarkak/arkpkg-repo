@@ -1,0 +1,8 @@
+Name: libbluetooth3
+Description: Library to use the BlueZ Linux Bluetooth stack
+Version: 5.82-1.1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libbluetooth3
+License: See /usr/share/doc/libbluetooth3/copyright
+Maintainer: arkanaOS Team
+Provides: libbluetooth.so.3=/usr/lib/x86_64-linux-gnu/libbluetooth.so.3.19.15

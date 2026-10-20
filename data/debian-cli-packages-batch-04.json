@@ -222,6 +222,20 @@
       "name": "libbcg729-0",
       "url": "https://packages.debian.org/trixie/libbcg729-0",
       "version": "1.1.1-3+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libbluetooth3"
+      ],
+      "debian_version": "5.82-1.1",
+      "dependencies": [],
+      "description": "Library to use the BlueZ Linux Bluetooth stack",
+      "license": "See /usr/share/doc/libbluetooth3/copyright",
+      "license_path": "usr/share/doc/libbluetooth3/copyright",
+      "name": "libbluetooth3",
+      "url": "https://packages.debian.org/trixie/libbluetooth3",
+      "version": "5.82-1.1"
     }
   ],
   "source_integrity": {
@@ -323,6 +337,12 @@
       "filename": "pool/main/b/bcg729/libbcg729-0_1.1.1-3+deb13u1_amd64.deb",
       "sha256": "5b0175dd97a54acae860a6b228683bad092ae5dd02eaf64fb4664b7b9b7e3f01",
       "version": "1.1.1-3+deb13u1"
+    },
+    "libbluetooth3": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/bluez/libbluetooth3_5.82-1.1_amd64.deb",
+      "sha256": "36e8ab3e964ae05d2c5282db8cf907f6e03dd5c98d70dfe9639a107eb791ff7e",
+      "version": "5.82-1.1"
     }
   },
   "suite": "trixie"
