@@ -1,0 +1,26 @@
+Name: libwireshark18
+Description: network packet dissection library -- shared library
+Version: 4.4.18-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwireshark18
+License: See /usr/share/doc/libwireshark18/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  brotli-libs
+  c-ares-libs
+  gnutls-libs
+  krb5-libs
+  libbcg729-0
+  libnghttp3-9
+  libopencore-amrnb0
+  libopus0
+  libsbc1
+  libsmi2t64
+  libsnappy1v5
+  libspandsp2t64
+  libwiretap15
+  libwsutil16
+  lua54-libs
+  pcre2-libs
+  xml-runtime-libs
+Provides: libwireshark.so.18=/usr/lib/x86_64-linux-gnu/libwireshark.so.18.0.18

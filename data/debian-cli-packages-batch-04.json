@@ -3085,6 +3085,38 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libwireshark18"
+      ],
+      "debian_version": "4.4.18-0+deb13u1",
+      "dependencies": [
+        "brotli-libs",
+        "c-ares-libs",
+        "gnutls-libs",
+        "krb5-libs",
+        "libbcg729-0",
+        "libnghttp3-9",
+        "libopencore-amrnb0",
+        "libopus0",
+        "libsbc1",
+        "libsmi2t64",
+        "libsnappy1v5",
+        "libspandsp2t64",
+        "libwiretap15",
+        "libwsutil16",
+        "lua54-libs",
+        "pcre2-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "network packet dissection library -- shared library",
+      "license": "See /usr/share/doc/libwireshark18/copyright",
+      "license_path": "usr/share/doc/libwireshark18/copyright",
+      "name": "libwireshark18",
+      "url": "https://packages.debian.org/trixie/libwireshark18",
+      "version": "4.4.18-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libwiretap15"
       ],
       "debian_version": "4.4.18-0+deb13u1",
@@ -5274,6 +5306,12 @@
       "filename": "pool/main/libw/libwebsockets/libwebsockets19t64_4.3.5-1+deb13u2_amd64.deb",
       "sha256": "d518b148939adffa78e60c6a6129150b81643ee89d8948d19f8ac71e0f3c8553",
       "version": "4.3.5-1+deb13u2"
+    },
+    "libwireshark18": {
+      "architecture": "amd64",
+      "filename": "pool/main/w/wireshark/libwireshark18_4.4.18-0+deb13u1_amd64.deb",
+      "sha256": "81fb3315aafca26b848c7039ce7c3db3c10deb9d0b202c0ec2356e159e80799a",
+      "version": "4.4.18-0+deb13u1"
     },
     "libwiretap15": {
       "architecture": "amd64",
