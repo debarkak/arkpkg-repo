@@ -1,0 +1,8 @@
+Name: libout123-0t64
+Description: MPEG layer 1/2/3 audio decoder (libout123 shared library)
+Version: 1.32.10-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libout123-0t64
+License: See /usr/share/doc/libout123-0t64/copyright
+Maintainer: arkanaOS Team
+Provides: libout123.so.0=/usr/lib/x86_64-linux-gnu/libout123.so.0.5.1

@@ -1584,6 +1584,20 @@
       "name": "libopenblas0-openmp",
       "url": "https://packages.debian.org/trixie/libopenblas0-openmp",
       "version": "0.3.29+ds-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libout123-0t64"
+      ],
+      "debian_version": "1.32.10-1+deb13u1",
+      "dependencies": [],
+      "description": "MPEG layer 1/2/3 audio decoder (libout123 shared library)",
+      "license": "See /usr/share/doc/libout123-0t64/copyright",
+      "license_path": "usr/share/doc/libout123-0t64/copyright",
+      "name": "libout123-0t64",
+      "url": "https://packages.debian.org/trixie/libout123-0t64",
+      "version": "1.32.10-1+deb13u1"
     }
   ],
   "source_integrity": {
