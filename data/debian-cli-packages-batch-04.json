@@ -1498,6 +1498,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "liblilv-0-0"
+      ],
+      "debian_version": "0.24.26-1",
+      "dependencies": [
+        "libserd-0-0",
+        "libsord-0-0",
+        "libsratom-0-0",
+        "libzix-0-0"
+      ],
+      "description": "library for simple use of LV2 plugins",
+      "license": "See /usr/share/doc/liblilv-0-0/copyright",
+      "license_path": "usr/share/doc/liblilv-0-0/copyright",
+      "name": "liblilv-0-0",
+      "url": "https://packages.debian.org/trixie/liblilv-0-0",
+      "version": "0.24.26-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "liblua5.3-0"
       ],
       "debian_version": "5.3.6-2+b4",
@@ -3826,6 +3845,12 @@
       "filename": "pool/main/l/lapack/liblapack3_3.12.1-6_amd64.deb",
       "sha256": "abfc59c8410beee738617bb6daf86b295e45ec0bd08cc0e97bfecc3cfa40fe75",
       "version": "3.12.1-6"
+    },
+    "liblilv-0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/l/lilv/liblilv-0-0_0.24.26-1_amd64.deb",
+      "sha256": "71f03560980b7c7f89ada7bd49ac3239166db770b2fa752b13d67abbd98ce8bc",
+      "version": "0.24.26-1"
     },
     "liblua5.3-0": {
       "architecture": "amd64",
