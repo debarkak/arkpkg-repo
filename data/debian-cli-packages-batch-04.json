@@ -852,6 +852,20 @@
       "name": "libtinyxml2-11",
       "url": "https://packages.debian.org/trixie/libtinyxml2-11",
       "version": "11.0.0+dfsg-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtommath1"
+      ],
+      "debian_version": "1.3.0-1",
+      "dependencies": [],
+      "description": "multiple-precision integer library [runtime]",
+      "license": "See /usr/share/doc/libtommath1/copyright",
+      "license_path": "usr/share/doc/libtommath1/copyright",
+      "name": "libtommath1",
+      "url": "https://packages.debian.org/trixie/libtommath1",
+      "version": "1.3.0-1"
     }
   ],
   "source_integrity": {
@@ -1223,6 +1237,12 @@
       "filename": "pool/main/t/tinyxml2/libtinyxml2-11_11.0.0+dfsg-1+b1_amd64.deb",
       "sha256": "6b61fb15444bcd6b516163f661d6af85eb98f4e89b880060889e9ec8e4e3ad64",
       "version": "11.0.0+dfsg-1+b1"
+    },
+    "libtommath1": {
+      "architecture": "amd64",
+      "filename": "pool/main/libt/libtommath/libtommath1_1.3.0-1_amd64.deb",
+      "sha256": "0e6025c5c3c07c7055993eb23fd1eb8e55ec037ef46eca2e7622825e85f56a60",
+      "version": "1.3.0-1"
     }
   },
   "suite": "trixie"

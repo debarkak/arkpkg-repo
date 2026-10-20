@@ -1,0 +1,8 @@
+Name: libtommath1
+Description: multiple-precision integer library [runtime]
+Version: 1.3.0-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtommath1
+License: See /usr/share/doc/libtommath1/copyright
+Maintainer: arkanaOS Team
+Provides: libtommath.so.1=/usr/lib/x86_64-linux-gnu/libtommath.so.1.3.0
