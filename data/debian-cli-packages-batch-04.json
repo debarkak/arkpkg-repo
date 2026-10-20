@@ -2891,6 +2891,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "monitoring-plugins-contrib"
+      ],
+      "debian_version": "48.20250420",
+      "dependencies": [
+        "libmemcached11t64"
+      ],
+      "description": "Plugins for nagios compatible monitoring systems",
+      "license": "See /usr/share/doc/monitoring-plugins-contrib/copyright",
+      "license_path": "usr/share/doc/monitoring-plugins-contrib/copyright",
+      "name": "monitoring-plugins-contrib",
+      "url": "https://packages.debian.org/trixie/monitoring-plugins-contrib",
+      "version": "48.20250420"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "mosquitto"
       ],
       "debian_version": "2.0.21-1",
@@ -4568,6 +4584,12 @@
       "filename": "pool/main/m/monitoring-plugins/monitoring-plugins-basic_2.4.0-3+deb13u1_amd64.deb",
       "sha256": "4dce246b4262c074377055c2fdb477b45b6654a74bcfe33eaea9d2d3a4e8b8b3",
       "version": "2.4.0-3+deb13u1"
+    },
+    "monitoring-plugins-contrib": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/nagios-plugins-contrib/monitoring-plugins-contrib_48.20250420_amd64.deb",
+      "sha256": "6e15a21c8d8b001b104ffd29b53c13862eef567571ad91309b4d8770aa92b60b",
+      "version": "48.20250420"
     },
     "mosquitto": {
       "architecture": "amd64",

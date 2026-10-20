@@ -1,0 +1,9 @@
+Name: monitoring-plugins-contrib
+Description: Plugins for nagios compatible monitoring systems
+Version: 48.20250420
+Arch: x86_64
+URL: https://packages.debian.org/trixie/monitoring-plugins-contrib
+License: See /usr/share/doc/monitoring-plugins-contrib/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmemcached11t64
