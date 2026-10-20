@@ -852,6 +852,22 @@
       "name": "libavahi-glib1",
       "url": "https://packages.debian.org/trixie/libavahi-glib1",
       "version": "0.8-16"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libb2-1"
+      ],
+      "debian_version": "0.98.1-1.1+b2",
+      "dependencies": [
+        "libgomp1"
+      ],
+      "description": "BLAKE2 family of hash functions",
+      "license": "See /usr/share/doc/libb2-1/copyright",
+      "license_path": "usr/share/doc/libb2-1/copyright",
+      "name": "libb2-1",
+      "url": "https://packages.debian.org/trixie/libb2-1",
+      "version": "0.98.1-1.1+b2"
     }
   ],
   "source_integrity": {

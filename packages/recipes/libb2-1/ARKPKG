@@ -1,0 +1,10 @@
+Name: libb2-1
+Description: BLAKE2 family of hash functions
+Version: 0.98.1-1.1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libb2-1
+License: See /usr/share/doc/libb2-1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgomp1
+Provides: libb2.so.1=/usr/lib/x86_64-linux-gnu/libb2.so.1.0.4
