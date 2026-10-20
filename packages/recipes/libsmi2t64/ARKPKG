@@ -1,0 +1,8 @@
+Name: libsmi2t64
+Description: library to access SMI MIB information
+Version: 0.4.8+dfsg2-17+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsmi2t64
+License: See /usr/share/doc/libsmi2t64/copyright
+Maintainer: arkanaOS Team
+Provides: libsmi.so.2=/usr/lib/x86_64-linux-gnu/libsmi.so.2.0.27

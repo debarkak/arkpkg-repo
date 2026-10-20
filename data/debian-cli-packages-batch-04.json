@@ -796,6 +796,20 @@
       "name": "libserd-0-0",
       "url": "https://packages.debian.org/trixie/libserd-0-0",
       "version": "0.32.4-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libsmi2t64"
+      ],
+      "debian_version": "0.4.8+dfsg2-17+b1",
+      "dependencies": [],
+      "description": "library to access SMI MIB information",
+      "license": "See /usr/share/doc/libsmi2t64/copyright",
+      "license_path": "usr/share/doc/libsmi2t64/copyright",
+      "name": "libsmi2t64",
+      "url": "https://packages.debian.org/trixie/libsmi2t64",
+      "version": "0.4.8+dfsg2-17+b1"
     }
   ],
   "source_integrity": {
@@ -1143,6 +1157,12 @@
       "filename": "pool/main/s/serd/libserd-0-0_0.32.4-1_amd64.deb",
       "sha256": "a2e1097666c09bf2fce41bff40b8d4cfb8c3c419da99fcb746ea175c5d48fcd5",
       "version": "0.32.4-1"
+    },
+    "libsmi2t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libs/libsmi/libsmi2t64_0.4.8+dfsg2-17+b1_amd64.deb",
+      "sha256": "c5bef97b6d4c74879993f217a46395500004f186f92e007135496bf4ca2c1085",
+      "version": "0.4.8+dfsg2-17+b1"
     }
   },
   "suite": "trixie"
