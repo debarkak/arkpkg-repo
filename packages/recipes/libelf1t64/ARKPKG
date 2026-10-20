@@ -1,0 +1,8 @@
+Name: libelf1t64
+Description: library to read and write ELF files
+Version: 0.192-4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libelf1t64
+License: See /usr/share/doc/libelf1t64/copyright
+Maintainer: arkanaOS Team
+Provides: libelf.so.1=/usr/lib/x86_64-linux-gnu/libelf-0.192.so
