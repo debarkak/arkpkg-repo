@@ -1,0 +1,14 @@
+Name: speech-dispatcher-audio-plugins
+Description: Speech Dispatcher: Audio output plugins
+Version: 0.12.0-5
+Arch: x86_64
+URL: http://devel.freebsoft.org/speechd
+License: See /usr/share/doc/speech-dispatcher-audio-plugins/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  alsa-libs
+  libao4
+  libaudio2
+  libpipewire-0.3-0t64
+  libpulse0
+Provides: spd_alsa.so=/usr/lib/x86_64-linux-gnu/speech-dispatcher/spd_alsa.so, spd_libao.so=/usr/lib/x86_64-linux-gnu/speech-dispatcher/spd_libao.so, spd_nas.so=/usr/lib/x86_64-linux-gnu/speech-dispatcher/spd_nas.so, spd_oss.so=/usr/lib/x86_64-linux-gnu/speech-dispatcher/spd_oss.so, spd_pipewire.so=/usr/lib/x86_64-linux-gnu/speech-dispatcher/spd_pipewire.so, spd_pulse.so=/usr/lib/x86_64-linux-gnu/speech-dispatcher/spd_pulse.so
