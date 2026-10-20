@@ -1,0 +1,10 @@
+Name: libevent-pthreads-2.1-7t64
+Description: Asynchronous event notification library (pthreads)
+Version: 2.1.12-stable-10+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libevent-pthreads-2.1-7t64
+License: See /usr/share/doc/libevent-pthreads-2.1-7t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libevent-core-2.1-7t64
+Provides: libevent_pthreads-2.1.so.7=/usr/lib/x86_64-linux-gnu/libevent_pthreads-2.1.so.7.0.1
