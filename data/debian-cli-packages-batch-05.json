@@ -2644,6 +2644,20 @@
       "name": "printer-driver-min12xxw",
       "url": "http://www.hinterbergen.de/mala/min12xxw/",
       "version": "0.0.9-11"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-pnm2ppa"
+      ],
+      "debian_version": "1.13-13+b1",
+      "dependencies": [],
+      "description": "printer driver for HP-GDI printers",
+      "license": "See /usr/share/doc/printer-driver-pnm2ppa/copyright",
+      "license_path": "usr/share/doc/printer-driver-pnm2ppa/copyright",
+      "name": "printer-driver-pnm2ppa",
+      "url": "http://pnm2ppa.sf.net/",
+      "version": "1.13-13+b1"
     }
   ],
   "source_integrity": {

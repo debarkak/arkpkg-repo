@@ -1,0 +1,8 @@
+Name: printer-driver-pnm2ppa
+Description: printer driver for HP-GDI printers
+Version: 1.13-13+b1
+Arch: x86_64
+URL: http://pnm2ppa.sf.net/
+License: See /usr/share/doc/printer-driver-pnm2ppa/copyright
+Maintainer: arkanaOS Team
+Provides: calibrate_ppa=/usr/bin/calibrate_ppa, pnm2ppa=/usr/bin/pnm2ppa
