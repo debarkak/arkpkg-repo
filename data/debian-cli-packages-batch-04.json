@@ -978,6 +978,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libhdf4-0-alt"
+      ],
+      "debian_version": "4.3.0-1+b1",
+      "dependencies": [
+        "libjpeg62-turbo",
+        "libsz2"
+      ],
+      "description": "Hierarchical Data Format library (without NetCDF)",
+      "license": "See /usr/share/doc/libhdf4-0-alt/copyright",
+      "license_path": "usr/share/doc/libhdf4-0-alt/copyright",
+      "name": "libhdf4-0-alt",
+      "url": "https://packages.debian.org/trixie/libhdf4-0-alt",
+      "version": "4.3.0-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libhiredis1.1.0"
       ],
       "debian_version": "1.2.0-6+b3",
@@ -2787,6 +2804,12 @@
       "filename": "pool/main/libm/libmemcached/libhashkit2t64_1.1.4-1.1+b2_amd64.deb",
       "sha256": "15ab3ffef038f85b7bd3d0731c23ddd9873bea34b9eabac91863fc987c7b9177",
       "version": "1.1.4-1.1+b2"
+    },
+    "libhdf4-0-alt": {
+      "architecture": "amd64",
+      "filename": "pool/main/libh/libhdf4/libhdf4-0-alt_4.3.0-1+b1_amd64.deb",
+      "sha256": "4c03149e1eb55b1ffd8389575465d7c4227a418b53f39e4339eab377ec800aeb",
+      "version": "4.3.0-1+b1"
     },
     "libhiredis1.1.0": {
       "architecture": "amd64",

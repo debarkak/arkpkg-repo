@@ -1,0 +1,11 @@
+Name: libhdf4-0-alt
+Description: Hierarchical Data Format library (without NetCDF)
+Version: 4.3.0-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhdf4-0-alt
+License: See /usr/share/doc/libhdf4-0-alt/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libjpeg62-turbo
+  libsz2
+Provides: libdfalt.so.0=/usr/lib/x86_64-linux-gnu/libdfalt.so.0.0.0, libmfhdfalt.so.0=/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0.0.0
