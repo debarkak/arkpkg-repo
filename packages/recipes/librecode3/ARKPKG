@@ -1,0 +1,8 @@
+Name: librecode3
+Description: Shared library on which recode is based
+Version: 3.7.15-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librecode3
+License: See /usr/share/doc/librecode3/copyright
+Maintainer: arkanaOS Team
+Provides: librecode.so.3=/usr/lib/x86_64-linux-gnu/librecode.so.3.7.15
