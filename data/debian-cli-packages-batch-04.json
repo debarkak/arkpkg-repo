@@ -544,6 +544,20 @@
       "name": "libgl2ps1.4",
       "url": "https://packages.debian.org/trixie/libgl2ps1.4",
       "version": "1.4.2+dfsg1-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libibumad3"
+      ],
+      "debian_version": "56.1-1",
+      "dependencies": [],
+      "description": "InfiniBand Userspace Management Datagram (uMAD) library",
+      "license": "See /usr/share/doc/libibumad3/copyright",
+      "license_path": "usr/share/doc/libibumad3/copyright",
+      "name": "libibumad3",
+      "url": "https://packages.debian.org/trixie/libibumad3",
+      "version": "56.1-1"
     }
   ],
   "source_integrity": {
@@ -783,6 +797,12 @@
       "filename": "pool/main/g/gl2ps/libgl2ps1.4_1.4.2+dfsg1-2_amd64.deb",
       "sha256": "e92c67bdf9373b3315ef101119cf7ef96ac5ae4ffa9b9c2445686f1af1425260",
       "version": "1.4.2+dfsg1-2"
+    },
+    "libibumad3": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rdma-core/libibumad3_56.1-1_amd64.deb",
+      "sha256": "973be69e92b9e2d3c639774a77c95eef710f4586756c2191ab779e9534254208",
+      "version": "56.1-1"
     }
   },
   "suite": "trixie"

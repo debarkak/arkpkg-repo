@@ -1,0 +1,8 @@
+Name: libibumad3
+Description: InfiniBand Userspace Management Datagram (uMAD) library
+Version: 56.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libibumad3
+License: See /usr/share/doc/libibumad3/copyright
+Maintainer: arkanaOS Team
+Provides: libibumad.so.3=/usr/lib/x86_64-linux-gnu/libibumad.so.3.4.56.1
