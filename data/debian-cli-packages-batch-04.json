@@ -682,6 +682,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgeos-c1t64"
+      ],
+      "debian_version": "3.13.1-1",
+      "dependencies": [
+        "libgeos3.13.1"
+      ],
+      "description": "Geometry engine for Geographic Information Systems - C Library",
+      "license": "See /usr/share/doc/libgeos-c1t64/copyright",
+      "license_path": "usr/share/doc/libgeos-c1t64/copyright",
+      "name": "libgeos-c1t64",
+      "url": "https://packages.debian.org/trixie/libgeos-c1t64",
+      "version": "3.13.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgeos3.13.1"
       ],
       "debian_version": "3.13.1-1",
@@ -1693,6 +1709,12 @@
       "filename": "pool/main/libg/libgee-0.8/libgee-0.8-2_0.20.8-1_amd64.deb",
       "sha256": "7ed27d901b248188ca37882d8ed004a974f7c56fa64acfed7ffce82cbfc7fc49",
       "version": "0.20.8-1"
+    },
+    "libgeos-c1t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/geos/libgeos-c1t64_3.13.1-1_amd64.deb",
+      "sha256": "a57f23882d8c3f28e3c7b757244a496264c2afde5a0e23a8196fe616b5667def",
+      "version": "3.13.1-1"
     },
     "libgeos3.13.1": {
       "architecture": "amd64",

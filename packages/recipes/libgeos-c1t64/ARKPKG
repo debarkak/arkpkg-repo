@@ -1,0 +1,10 @@
+Name: libgeos-c1t64
+Description: Geometry engine for Geographic Information Systems - C Library
+Version: 3.13.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgeos-c1t64
+License: See /usr/share/doc/libgeos-c1t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgeos3.13.1
+Provides: libgeos_c.so.1=/usr/lib/x86_64-linux-gnu/libgeos_c.so.1.19.2
