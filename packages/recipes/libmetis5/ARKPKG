@@ -1,0 +1,8 @@
+Name: libmetis5
+Description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
+Version: 5.1.0.dfsg-7+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmetis5
+License: See /usr/share/doc/libmetis5/copyright
+Maintainer: arkanaOS Team
+Provides: libmetis.so.5=/usr/lib/x86_64-linux-gnu/libmetis.so.5.1.0

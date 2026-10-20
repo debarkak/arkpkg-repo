@@ -614,6 +614,20 @@
       "name": "liblua5.3-0",
       "url": "https://packages.debian.org/trixie/liblua5.3-0",
       "version": "5.3.6-2+b4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libmetis5"
+      ],
+      "debian_version": "5.1.0.dfsg-7+b2",
+      "dependencies": [],
+      "description": "Serial Graph Partitioning and Fill-reducing Matrix Ordering",
+      "license": "See /usr/share/doc/libmetis5/copyright",
+      "license_path": "usr/share/doc/libmetis5/copyright",
+      "name": "libmetis5",
+      "url": "https://packages.debian.org/trixie/libmetis5",
+      "version": "5.1.0.dfsg-7+b2"
     }
   ],
   "source_integrity": {
@@ -883,6 +897,12 @@
       "filename": "pool/main/l/lua5.3/liblua5.3-0_5.3.6-2+b4_amd64.deb",
       "sha256": "35af63e29e035d7f1ce3586922c51868df86c7fd9a4d28777d80384ad809df61",
       "version": "5.3.6-2+b4"
+    },
+    "libmetis5": {
+      "architecture": "amd64",
+      "filename": "pool/main/m/metis/libmetis5_5.1.0.dfsg-7+b2_amd64.deb",
+      "sha256": "2cc25f57cdff33c906f053ffcade96db40fa973695a48beb06e5d9fc266899a7",
+      "version": "5.1.0.dfsg-7+b2"
     }
   },
   "suite": "trixie"
