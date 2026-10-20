@@ -2961,6 +2961,22 @@
       "name": "t1utils",
       "url": "https://www.lcdf.org/type/",
       "version": "1.41-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "teckit"
+      ],
+      "debian_version": "2.5.12+ds1-1+b1",
+      "dependencies": [
+        "libteckit0"
+      ],
+      "description": "Custom legacy encoding conversion tools for plain text files",
+      "license": "See /usr/share/doc/teckit/copyright",
+      "license_path": "usr/share/doc/teckit/copyright",
+      "name": "teckit",
+      "url": "https://github.com/silnrsi/teckit",
+      "version": "2.5.12+ds1-1+b1"
     }
   ],
   "source_integrity": {
