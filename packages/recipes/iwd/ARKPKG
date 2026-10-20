@@ -1,0 +1,11 @@
+Name: iwd
+Description: wireless daemon for Linux
+Version: 3.8-2
+Arch: x86_64
+URL: https://iwd.wiki.kernel.org/
+License: See /usr/share/doc/iwd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libell0
+  readline-libs
+Provides: iwctl=/usr/bin/iwctl, iwmon=/usr/bin/iwmon

@@ -272,6 +272,23 @@
       "version": "4.4.3-P1-8"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "iwd"
+      ],
+      "debian_version": "3.8-2",
+      "dependencies": [
+        "libell0",
+        "readline-libs"
+      ],
+      "description": "wireless daemon for Linux",
+      "license": "See /usr/share/doc/iwd/copyright",
+      "license_path": "usr/share/doc/iwd/copyright",
+      "name": "iwd",
+      "url": "https://iwd.wiki.kernel.org/",
+      "version": "3.8-2"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "krb5-config"
@@ -2437,6 +2454,12 @@
       "filename": "pool/main/i/isc-dhcp/isc-dhcp-server_4.4.3-P1-8_amd64.deb",
       "sha256": "1546b7cb586c65890a5a3fb43ae1b3b633d195c9c5ec64cffe6a9f1509297f98",
       "version": "4.4.3-P1-8"
+    },
+    "iwd": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/iwd/iwd_3.8-2_amd64.deb",
+      "sha256": "3eb7927d5a0ec4ada17fb90fe06a46d512a53bd0269b2120d961fa57c3bc9053",
+      "version": "3.8-2"
     },
     "krb5-config": {
       "architecture": "all",
