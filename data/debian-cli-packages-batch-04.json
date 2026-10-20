@@ -264,6 +264,20 @@
       "name": "libboost-filesystem1.83.0",
       "url": "https://packages.debian.org/trixie/libboost-filesystem1.83.0",
       "version": "1.83.0-4.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libboost-serialization1.83.0"
+      ],
+      "debian_version": "1.83.0-4.2",
+      "dependencies": [],
+      "description": "serialization library for C++",
+      "license": "See /usr/share/doc/libboost-serialization1.83.0/copyright",
+      "license_path": "usr/share/doc/libboost-serialization1.83.0/copyright",
+      "name": "libboost-serialization1.83.0",
+      "url": "https://packages.debian.org/trixie/libboost-serialization1.83.0",
+      "version": "1.83.0-4.2"
     }
   ],
   "source_integrity": {
@@ -382,6 +396,12 @@
       "architecture": "amd64",
       "filename": "pool/main/b/boost1.83/libboost-filesystem1.83.0_1.83.0-4.2_amd64.deb",
       "sha256": "6b587623a4fd1824613e7ee02ba35b84cd9534b520b7f3d08d15f9ed85f28cf3",
+      "version": "1.83.0-4.2"
+    },
+    "libboost-serialization1.83.0": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/boost1.83/libboost-serialization1.83.0_1.83.0-4.2_amd64.deb",
+      "sha256": "5c0f28f2464e72c16c01440db47122e23ae0b4147e11e0e6d3b4ced86190324c",
       "version": "1.83.0-4.2"
     }
   },

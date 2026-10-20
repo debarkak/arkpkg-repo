@@ -1,0 +1,8 @@
+Name: libboost-serialization1.83.0
+Description: serialization library for C++
+Version: 1.83.0-4.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libboost-serialization1.83.0
+License: See /usr/share/doc/libboost-serialization1.83.0/copyright
+Maintainer: arkanaOS Team
+Provides: libboost_serialization.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.83.0, libboost_wserialization.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_wserialization.so.1.83.0
