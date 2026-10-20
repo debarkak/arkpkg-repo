@@ -313,6 +313,23 @@
       "name": "cups-ppdc",
       "url": "https://github.com/OpenPrinting/cups/",
       "version": "2.4.10-3+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "dcmtk"
+      ],
+      "debian_version": "3.6.9-5+deb13u3",
+      "dependencies": [
+        "libdcmtk19",
+        "xml-runtime-libs"
+      ],
+      "description": "OFFIS DICOM toolkit command line utilities",
+      "license": "See /usr/share/doc/dcmtk/copyright",
+      "license_path": "usr/share/doc/dcmtk/copyright",
+      "name": "dcmtk",
+      "url": "https://dicom.offis.de/dcmtk",
+      "version": "3.6.9-5+deb13u3"
     }
   ],
   "source_integrity": {
