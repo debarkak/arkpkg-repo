@@ -1,0 +1,10 @@
+Name: wakeonlan
+Description: Sends 'magic packets' to wake-on-LAN enabled ethernet adapters
+Version: 0.41-14
+Arch: any
+URL: https://github.com/jpoliv/wakeonlan
+License: See /usr/share/doc/wakeonlan/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: wakeonlan=/usr/bin/wakeonlan

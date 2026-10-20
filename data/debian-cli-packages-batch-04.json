@@ -2946,6 +2946,22 @@
       "version": "2.0.8-3"
     },
     {
+      "arch": "any",
+      "debian_packages": [
+        "wakeonlan"
+      ],
+      "debian_version": "0.41-14",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "Sends 'magic packets' to wake-on-LAN enabled ethernet adapters",
+      "license": "See /usr/share/doc/wakeonlan/copyright",
+      "license_path": "usr/share/doc/wakeonlan/copyright",
+      "name": "wakeonlan",
+      "url": "https://github.com/jpoliv/wakeonlan",
+      "version": "0.41-14"
+    },
+    {
       "arch": "x86_64",
       "debian_packages": [
         "wireguard-tools"
@@ -4123,6 +4139,12 @@
       "filename": "pool/main/u/ulogd2/ulogd2_2.0.8-3_amd64.deb",
       "sha256": "6018e0c4b1ddcdd96b9b6c28e7fb1698c9fdb63503a064f79cd08a51b2ce9f93",
       "version": "2.0.8-3"
+    },
+    "wakeonlan": {
+      "architecture": "all",
+      "filename": "pool/main/w/wakeonlan/wakeonlan_0.41-14_all.deb",
+      "sha256": "87ebcd85c21ce25b95db8fa3bdc2ab37681a2eac4c2d4fdc8b91a6d7096958c8",
+      "version": "0.41-14"
     },
     "wireguard-tools": {
       "architecture": "amd64",
