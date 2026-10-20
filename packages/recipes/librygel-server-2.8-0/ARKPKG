@@ -1,0 +1,17 @@
+Name: librygel-server-2.8-0
+Description: GNOME UPnP/DLNA services - server library
+Version: 0.44.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librygel-server-2.8-0
+License: See /usr/share/doc/librygel-server-2.8-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgee-0.8-2
+  libgssdp-1.6-0
+  libgupnp-1.6-0
+  libgupnp-av-1.0-3
+  libmediaart-2.0-0
+  librygel-core-2.8-0
+  libsoup-3.0-0
+  xml-runtime-libs
+Provides: librygel-server-2.8.so.0=/usr/lib/x86_64-linux-gnu/librygel-server-2.8.so.0.44.2
