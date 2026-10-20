@@ -1,0 +1,10 @@
+Name: ebtables
+Description: Ethernet bridge frame table administration
+Version: 2.0.11-6
+Arch: x86_64
+URL: https://netfilter.org/
+License: See /usr/share/doc/ebtables/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: ebtables-legacy-restore=/usr/sbin/ebtables-legacy-restore, ebtables-legacy-save=/usr/sbin/ebtables-legacy-save, ebtables-legacy=/usr/sbin/ebtables-legacy, ebtablesd=/usr/sbin/ebtablesd, ebtablesu=/usr/sbin/ebtablesu, libebtc.so.0=/usr/lib/ebtables/libebtc.so.0.0.0

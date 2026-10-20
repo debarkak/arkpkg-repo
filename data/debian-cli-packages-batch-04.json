@@ -95,6 +95,22 @@
       "version": "3.11.2-2"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "ebtables"
+      ],
+      "debian_version": "2.0.11-6",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "Ethernet bridge frame table administration",
+      "license": "See /usr/share/doc/ebtables/copyright",
+      "license_path": "usr/share/doc/ebtables/copyright",
+      "name": "ebtables",
+      "url": "https://netfilter.org/",
+      "version": "2.0.11-6"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "fail2ban"
@@ -2294,6 +2310,12 @@
       "filename": "pool/main/d/ddclient/ddclient_3.11.2-2_all.deb",
       "sha256": "2da80dc1b6cb01a7f514df8f7b314f219de259cfe68a15a5528adfcedabacd37",
       "version": "3.11.2-2"
+    },
+    "ebtables": {
+      "architecture": "amd64",
+      "filename": "pool/main/e/ebtables/ebtables_2.0.11-6_amd64.deb",
+      "sha256": "95b59eb50fbc7463562f3b51d36ea72f21f6a76d2fe24bc6084f2fc0b01eb3fd",
+      "version": "2.0.11-6"
     },
     "fail2ban": {
       "architecture": "all",
