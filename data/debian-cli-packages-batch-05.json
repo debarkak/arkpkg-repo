@@ -160,6 +160,22 @@
       "name": "beep",
       "url": "https://github.com/spkr-beep/beep",
       "version": "1.4.9-1.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "cabextract"
+      ],
+      "debian_version": "1.11-2",
+      "dependencies": [
+        "libmspack0t64"
+      ],
+      "description": "Microsoft Cabinet file unpacker",
+      "license": "See /usr/share/doc/cabextract/copyright",
+      "license_path": "usr/share/doc/cabextract/copyright",
+      "name": "cabextract",
+      "url": "https://packages.debian.org/trixie/cabextract",
+      "version": "1.11-2"
     }
   ],
   "source_integrity": {

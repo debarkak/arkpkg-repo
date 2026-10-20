@@ -1,0 +1,8 @@
+Name: cabextract
+Description: Microsoft Cabinet file unpacker
+Version: 1.11-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/cabextract
+License: See /usr/share/doc/cabextract/copyright
+Maintainer: arkanaOS Team
+Provides: cabextract=/usr/bin/cabextract
