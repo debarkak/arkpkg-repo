@@ -1,0 +1,11 @@
+Name: maxima
+Description: Computer algebra system -- base system
+Version: 5.47.0-7
+Arch: x86_64
+URL: https://maxima.sourceforge.io/
+License: See /usr/share/doc/maxima/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  dns-runtime-libs
+  gmp-libs
+Provides: maxima=/usr/bin/maxima

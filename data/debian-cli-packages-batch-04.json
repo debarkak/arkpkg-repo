@@ -2840,6 +2840,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "maxima"
+      ],
+      "debian_version": "5.47.0-7",
+      "dependencies": [
+        "dns-runtime-libs",
+        "gmp-libs"
+      ],
+      "description": "Computer algebra system -- base system",
+      "license": "See /usr/share/doc/maxima/copyright",
+      "license_path": "usr/share/doc/maxima/copyright",
+      "name": "maxima",
+      "url": "https://maxima.sourceforge.io/",
+      "version": "5.47.0-7"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "minissdpd"
       ],
       "debian_version": "1.6.0-3",
@@ -4533,6 +4550,12 @@
       "filename": "pool/main/m/mathpiper/mathpiper_0.81f+svn4469+dfsg3-4_all.deb",
       "sha256": "0cdeea35e35207c0492146d67040ce486769ac6b8346e806e875f2e8343d343b",
       "version": "0.81f+svn4469+dfsg3-4"
+    },
+    "maxima": {
+      "architecture": "amd64",
+      "filename": "pool/main/m/maxima/maxima_5.47.0-7_amd64.deb",
+      "sha256": "f293b2d2712580a99e014e0cbf632309b97c4550d36bd223e9daff7b945b960f",
+      "version": "5.47.0-7"
     },
     "minissdpd": {
       "architecture": "amd64",
