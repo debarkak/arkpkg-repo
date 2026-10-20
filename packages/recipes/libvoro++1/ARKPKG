@@ -1,0 +1,8 @@
+Name: libvoro++1
+Description: library for the computation of the Voronoi diagram (shared library)
+Version: 0.5+revert-to-0.4.6+dfsg1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libvoro++1
+License: See /usr/share/doc/libvoro++1/copyright
+Maintainer: arkanaOS Team
+Provides: libvoro++.so.1=/usr/lib/x86_64-linux-gnu/libvoro++.so.1.0.0

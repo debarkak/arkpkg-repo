@@ -950,6 +950,20 @@
       "name": "libuu0",
       "url": "https://packages.debian.org/trixie/libuu0",
       "version": "0.5.20+20250228-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libvoro++1"
+      ],
+      "debian_version": "0.5+revert-to-0.4.6+dfsg1-1",
+      "dependencies": [],
+      "description": "library for the computation of the Voronoi diagram (shared library)",
+      "license": "See /usr/share/doc/libvoro++1/copyright",
+      "license_path": "usr/share/doc/libvoro++1/copyright",
+      "name": "libvoro++1",
+      "url": "https://packages.debian.org/trixie/libvoro++1",
+      "version": "0.5+revert-to-0.4.6+dfsg1-1"
     }
   ],
   "source_integrity": {
@@ -1363,6 +1377,12 @@
       "filename": "pool/main/u/uudeview/libuu0_0.5.20+20250228-1_amd64.deb",
       "sha256": "f0b6debac29d65e16366ea8ec8098cb8511328a5079a704edd8c2441814019cb",
       "version": "0.5.20+20250228-1"
+    },
+    "libvoro++1": {
+      "architecture": "amd64",
+      "filename": "pool/main/v/voro++/libvoro++1_0.5+revert-to-0.4.6+dfsg1-1_amd64.deb",
+      "sha256": "4b536aa17c6d9d1dcb8c202b9c31ea6502577996ab18de49496ec3e2dc022443",
+      "version": "0.5+revert-to-0.4.6+dfsg1-1"
     }
   },
   "suite": "trixie"
