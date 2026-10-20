@@ -1,0 +1,8 @@
+Name: acpi
+Description: displays information on ACPI devices
+Version: 1.8-1
+Arch: x86_64
+URL: http://sourceforge.net/projects/acpiclient
+License: See /usr/share/doc/acpi/copyright
+Maintainer: arkanaOS Team
+Provides: acpi=/usr/bin/acpi

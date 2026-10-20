@@ -15,7 +15,22 @@
     "fuse3": "its /usr/bin/fusermount3 path is already provided by the existing fuse3-tools package",
     "ksh93u+m": "its /usr/bin/ksh93 path is already provided by the existing ksh93 package"
   },
-  "packages": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "acpi"
+      ],
+      "debian_version": "1.8-1",
+      "dependencies": [],
+      "description": "displays information on ACPI devices",
+      "license": "See /usr/share/doc/acpi/copyright",
+      "license_path": "usr/share/doc/acpi/copyright",
+      "name": "acpi",
+      "url": "http://sourceforge.net/projects/acpiclient",
+      "version": "1.8-1"
+    }
+  ],
   "source_integrity": {
     "archive_signing_key_fingerprint": "04B54C3CDCA79751B16BC6B5225629DF75B188BD",
     "archive_signing_key_sha256": "6f1d277429dd7ffedcc6f8688a7ad9a458859b1139ffa026d1eeaadcbffb0da7",
