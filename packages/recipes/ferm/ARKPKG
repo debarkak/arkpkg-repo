@@ -1,0 +1,11 @@
+Name: ferm
+Description: maintain and setup complicated firewall rules
+Version: 2.5.1-4
+Arch: any
+URL: http://ferm.foo-projects.org/
+License: See /usr/share/doc/ferm/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  iptables
+  perl
+Provides: ferm=/usr/sbin/ferm, import-ferm=/usr/sbin/import-ferm

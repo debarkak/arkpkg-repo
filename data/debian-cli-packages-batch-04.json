@@ -125,6 +125,23 @@
       "version": "1.1.0-8"
     },
     {
+      "arch": "any",
+      "debian_packages": [
+        "ferm"
+      ],
+      "debian_version": "2.5.1-4",
+      "dependencies": [
+        "iptables",
+        "perl"
+      ],
+      "description": "maintain and setup complicated firewall rules",
+      "license": "See /usr/share/doc/ferm/copyright",
+      "license_path": "usr/share/doc/ferm/copyright",
+      "name": "ferm",
+      "url": "http://ferm.foo-projects.org/",
+      "version": "2.5.1-4"
+    },
+    {
       "arch": "x86_64",
       "debian_packages": [
         "finger"
@@ -2322,6 +2339,12 @@
       "filename": "pool/main/f/fail2ban/fail2ban_1.1.0-8_all.deb",
       "sha256": "ac35080546f1a1581163b2ebcb9796b08eb4abca3d3643082b76dce505cbd6d8",
       "version": "1.1.0-8"
+    },
+    "ferm": {
+      "architecture": "all",
+      "filename": "pool/main/f/ferm/ferm_2.5.1-4_all.deb",
+      "sha256": "e769f83b96593092a4a80de9af9012899156812d609a4cc0dd36c6889bedfab8",
+      "version": "2.5.1-4"
     },
     "finger": {
       "architecture": "amd64",
