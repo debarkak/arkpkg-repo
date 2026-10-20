@@ -1006,6 +1006,20 @@
       "name": "libxxhash0",
       "url": "https://packages.debian.org/trixie/libxxhash0",
       "version": "0.8.3-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libz3-4"
+      ],
+      "debian_version": "4.13.3-1",
+      "dependencies": [],
+      "description": "theorem prover from Microsoft Research - runtime libraries",
+      "license": "See /usr/share/doc/libz3-4/copyright",
+      "license_path": "usr/share/doc/libz3-4/copyright",
+      "name": "libz3-4",
+      "url": "https://packages.debian.org/trixie/libz3-4",
+      "version": "4.13.3-1"
     }
   ],
   "source_integrity": {
@@ -1443,6 +1457,12 @@
       "filename": "pool/main/x/xxhash/libxxhash0_0.8.3-2_amd64.deb",
       "sha256": "81da7064d56fc044f5db4bb3c1e80ff50a4986dcbbf80d958eeca565b44c157f",
       "version": "0.8.3-2"
+    },
+    "libz3-4": {
+      "architecture": "amd64",
+      "filename": "pool/main/z/z3/libz3-4_4.13.3-1_amd64.deb",
+      "sha256": "71383373523ef62d47eccf660cf6535c3febcbb3f88e54cb7a43124014b57359",
+      "version": "4.13.3-1"
     }
   },
   "suite": "trixie"

@@ -1,0 +1,8 @@
+Name: libz3-4
+Description: theorem prover from Microsoft Research - runtime libraries
+Version: 4.13.3-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libz3-4
+License: See /usr/share/doc/libz3-4/copyright
+Maintainer: arkanaOS Team
+Provides: libz3.so.4=/usr/lib/x86_64-linux-gnu/libz3.so.4
