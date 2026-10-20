@@ -1,0 +1,8 @@
+Name: libalglib4.2
+Description: Numerical analysis and data processing library
+Version: 4.2.0-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libalglib4.2
+License: See /usr/share/doc/libalglib4.2/copyright
+Maintainer: arkanaOS Team
+Provides: libalglib.so.4.2=/usr/lib/x86_64-linux-gnu/libalglib.so.4.2.0
