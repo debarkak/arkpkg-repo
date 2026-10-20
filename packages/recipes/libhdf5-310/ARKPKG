@@ -1,0 +1,11 @@
+Name: libhdf5-310
+Description: HDF5 C runtime files - serial version
+Version: 1.14.5+repack-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhdf5-310
+License: See /usr/share/doc/libhdf5-310/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsz2
+  openssl-libs
+Provides: libhdf5_serial.so.310=/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.310.5.0

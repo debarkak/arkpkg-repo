@@ -995,6 +995,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libhdf5-310"
+      ],
+      "debian_version": "1.14.5+repack-3",
+      "dependencies": [
+        "libsz2",
+        "openssl-libs"
+      ],
+      "description": "HDF5 C runtime files - serial version",
+      "license": "See /usr/share/doc/libhdf5-310/copyright",
+      "license_path": "usr/share/doc/libhdf5-310/copyright",
+      "name": "libhdf5-310",
+      "url": "https://packages.debian.org/trixie/libhdf5-310",
+      "version": "1.14.5+repack-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libhiredis1.1.0"
       ],
       "debian_version": "1.2.0-6+b3",
@@ -2810,6 +2827,12 @@
       "filename": "pool/main/libh/libhdf4/libhdf4-0-alt_4.3.0-1+b1_amd64.deb",
       "sha256": "4c03149e1eb55b1ffd8389575465d7c4227a418b53f39e4339eab377ec800aeb",
       "version": "4.3.0-1+b1"
+    },
+    "libhdf5-310": {
+      "architecture": "amd64",
+      "filename": "pool/main/h/hdf5/libhdf5-310_1.14.5+repack-3_amd64.deb",
+      "sha256": "6432421c16e7ebfd4c29d8d7b5ee00196c2ebb357bd97c1de6e6d7940edc9f7e",
+      "version": "1.14.5+repack-3"
     },
     "libhiredis1.1.0": {
       "architecture": "amd64",
