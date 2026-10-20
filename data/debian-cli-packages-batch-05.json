@@ -2897,6 +2897,23 @@
       "name": "speech-dispatcher-audio-plugins",
       "url": "http://devel.freebsoft.org/speechd",
       "version": "0.12.0-5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "sqv"
+      ],
+      "debian_version": "1.3.0-3+b2",
+      "dependencies": [
+        "gmp-libs",
+        "nettle-libs"
+      ],
+      "description": "OpenPGP signature verification program from Sequoia",
+      "license": "See /usr/share/doc/sqv/copyright",
+      "license_path": "usr/share/doc/sqv/copyright",
+      "name": "sqv",
+      "url": "https://sequoia-pgp.org/",
+      "version": "1.3.0-3+b2"
     }
   ],
   "source_integrity": {

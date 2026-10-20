@@ -1,0 +1,11 @@
+Name: sqv
+Description: OpenPGP signature verification program from Sequoia
+Version: 1.3.0-3+b2
+Arch: x86_64
+URL: https://sequoia-pgp.org/
+License: See /usr/share/doc/sqv/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  nettle-libs
+Provides: sqv=/usr/bin/sqv
