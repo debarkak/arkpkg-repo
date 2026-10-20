@@ -1202,6 +1202,20 @@
       "name": "snap",
       "url": "https://github.com/KorfLab/SNAP",
       "version": "2013-11-29-11"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "torsocks"
+      ],
+      "debian_version": "2.5.0-1+deb13u1",
+      "dependencies": [],
+      "description": "use SOCKS-friendly applications with Tor",
+      "license": "See /usr/share/doc/torsocks/copyright",
+      "license_path": "usr/share/doc/torsocks/copyright",
+      "name": "torsocks",
+      "url": "https://gitweb.torproject.org/torsocks.git",
+      "version": "2.5.0-1+deb13u1"
     }
   ],
   "source_integrity": {
@@ -1723,6 +1737,12 @@
       "filename": "pool/main/s/snap/snap_2013-11-29-11_amd64.deb",
       "sha256": "8611b047dc9e2c708234fcac952f10a74fa845caddd25058c82e30cefe8765c5",
       "version": "2013-11-29-11"
+    },
+    "torsocks": {
+      "architecture": "all",
+      "filename": "pool/main/t/torsocks/torsocks_2.5.0-1+deb13u1_all.deb",
+      "sha256": "1e1f2994d4dbcb9a9dc9e238ec20fc59d78a0faa954f1e983646c4d8f85770fb",
+      "version": "2.5.0-1+deb13u1"
     }
   },
   "suite": "trixie"

@@ -1,0 +1,8 @@
+Name: torsocks
+Description: use SOCKS-friendly applications with Tor
+Version: 2.5.0-1+deb13u1
+Arch: any
+URL: https://gitweb.torproject.org/torsocks.git
+License: See /usr/share/doc/torsocks/copyright
+Maintainer: arkanaOS Team
+Provides: torsocks=/usr/bin/torsocks
