@@ -886,6 +886,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libibverbs1"
+      ],
+      "debian_version": "56.1-1",
+      "dependencies": [
+        "libnl-libs"
+      ],
+      "description": "Library for direct userspace use of RDMA (InfiniBand/iWARP)",
+      "license": "See /usr/share/doc/libibverbs1/copyright",
+      "license_path": "usr/share/doc/libibverbs1/copyright",
+      "name": "libibverbs1",
+      "url": "https://packages.debian.org/trixie/libibverbs1",
+      "version": "56.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libimath-3-1-29t64"
       ],
       "debian_version": "3.1.12-1+b3",
@@ -1938,6 +1954,12 @@
       "architecture": "amd64",
       "filename": "pool/main/r/rdma-core/libibumad3_56.1-1_amd64.deb",
       "sha256": "973be69e92b9e2d3c639774a77c95eef710f4586756c2191ab779e9534254208",
+      "version": "56.1-1"
+    },
+    "libibverbs1": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rdma-core/libibverbs1_56.1-1_amd64.deb",
+      "sha256": "4c3b889607586e6328964a5f98e01ef01daa415be24334d743d6654aab4c47a4",
       "version": "56.1-1"
     },
     "libimath-3-1-29t64": {

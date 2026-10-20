@@ -1,0 +1,10 @@
+Name: libibverbs1
+Description: Library for direct userspace use of RDMA (InfiniBand/iWARP)
+Version: 56.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libibverbs1
+License: See /usr/share/doc/libibverbs1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libnl-libs
+Provides: libibverbs.so.1=/usr/lib/x86_64-linux-gnu/libibverbs.so.1.14.56.1
