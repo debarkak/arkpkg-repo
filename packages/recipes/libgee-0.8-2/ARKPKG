@@ -1,0 +1,8 @@
+Name: libgee-0.8-2
+Description: GObject based collection and utility library
+Version: 0.20.8-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgee-0.8-2
+License: See /usr/share/doc/libgee-0.8-2/copyright
+Maintainer: arkanaOS Team
+Provides: libgee-0.8.so.2=/usr/lib/x86_64-linux-gnu/libgee-0.8.so.2.6.1

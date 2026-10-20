@@ -502,6 +502,20 @@
       "name": "libgdbuspp3",
       "url": "https://packages.debian.org/trixie/libgdbuspp3",
       "version": "3-2+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgee-0.8-2"
+      ],
+      "debian_version": "0.20.8-1",
+      "dependencies": [],
+      "description": "GObject based collection and utility library",
+      "license": "See /usr/share/doc/libgee-0.8-2/copyright",
+      "license_path": "usr/share/doc/libgee-0.8-2/copyright",
+      "name": "libgee-0.8-2",
+      "url": "https://packages.debian.org/trixie/libgee-0.8-2",
+      "version": "0.20.8-1"
     }
   ],
   "source_integrity": {
@@ -723,6 +737,12 @@
       "filename": "pool/main/g/gdbuspp/libgdbuspp3_3-2+b1_amd64.deb",
       "sha256": "a513dcb1aa8c77a83dfef15abec336edf275b00cff447c851df2d8f26d3be515",
       "version": "3-2+b1"
+    },
+    "libgee-0.8-2": {
+      "architecture": "amd64",
+      "filename": "pool/main/libg/libgee-0.8/libgee-0.8-2_0.20.8-1_amd64.deb",
+      "sha256": "7ed27d901b248188ca37882d8ed004a974f7c56fa64acfed7ffce82cbfc7fc49",
+      "version": "0.20.8-1"
     }
   },
   "suite": "trixie"
