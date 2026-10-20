@@ -1118,6 +1118,20 @@
       "name": "libenchant-2-2",
       "url": "https://packages.debian.org/trixie/libenchant-2-2",
       "version": "2.8.2+dfsg1-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libfaad2"
+      ],
+      "debian_version": "2.11.2-1",
+      "dependencies": [],
+      "description": "freeware Advanced Audio Decoder - runtime files",
+      "license": "See /usr/share/doc/libfaad2/copyright",
+      "license_path": "usr/share/doc/libfaad2/copyright",
+      "name": "libfaad2",
+      "url": "https://packages.debian.org/trixie/libfaad2",
+      "version": "2.11.2-1"
     }
   ],
   "source_integrity": {
