@@ -1,0 +1,8 @@
+Name: ndiff
+Description: The Network Mapper - result compare utility
+Version: 7.95+dfsg-3
+Arch: any
+URL: https://nmap.org/
+License: See /usr/share/doc/ndiff/copyright
+Maintainer: arkanaOS Team
+Provides: ndiff=/usr/bin/ndiff

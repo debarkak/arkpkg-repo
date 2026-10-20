@@ -1076,6 +1076,20 @@
       "name": "mathpiper",
       "url": "https://www.mathpiper.org/",
       "version": "0.81f+svn4469+dfsg3-4"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "ndiff"
+      ],
+      "debian_version": "7.95+dfsg-3",
+      "dependencies": [],
+      "description": "The Network Mapper - result compare utility",
+      "license": "See /usr/share/doc/ndiff/copyright",
+      "license_path": "usr/share/doc/ndiff/copyright",
+      "name": "ndiff",
+      "url": "https://nmap.org/",
+      "version": "7.95+dfsg-3"
     }
   ],
   "source_integrity": {
@@ -1543,6 +1557,12 @@
       "filename": "pool/main/m/mathpiper/mathpiper_0.81f+svn4469+dfsg3-4_all.deb",
       "sha256": "0cdeea35e35207c0492146d67040ce486769ac6b8346e806e875f2e8343d343b",
       "version": "0.81f+svn4469+dfsg3-4"
+    },
+    "ndiff": {
+      "architecture": "all",
+      "filename": "pool/main/n/nmap/ndiff_7.95+dfsg-3_all.deb",
+      "sha256": "3bc8c71c730cebf71187b53679f32cd02e1fa1372cbc6add0e5ead024a67e00e",
+      "version": "7.95+dfsg-3"
     }
   },
   "suite": "trixie"
