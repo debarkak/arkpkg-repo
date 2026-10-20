@@ -3762,6 +3762,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "netplan.io"
+      ],
+      "debian_version": "1.1.2-7",
+      "dependencies": [
+        "ethtool",
+        "iproute2",
+        "libnetplan1",
+        "systemd-libs"
+      ],
+      "description": "Declarative network configuration for various backends at runtime",
+      "license": "See /usr/share/doc/netplan.io/copyright",
+      "license_path": "usr/share/doc/netplan.io/copyright",
+      "name": "netplan.io",
+      "url": "https://netplan.io/",
+      "version": "1.1.2-7"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "nfacct"
       ],
       "debian_version": "1.0.2-4",
@@ -5816,6 +5835,12 @@
       "filename": "pool/main/n/netavark/netavark_1.14.0-2_amd64.deb",
       "sha256": "34820688e7c671e746d88d109d4f7a34ffbb4a013b7dd2035d2762baf8e50a79",
       "version": "1.14.0-2"
+    },
+    "netplan.io": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/netplan.io/netplan.io_1.1.2-7_amd64.deb",
+      "sha256": "f25b10e4531cd241806412135afce78a7d32b8194b073203acd23c4c1b45db02",
+      "version": "1.1.2-7"
     },
     "nfacct": {
       "architecture": "amd64",

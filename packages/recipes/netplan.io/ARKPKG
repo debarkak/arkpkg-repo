@@ -1,0 +1,13 @@
+Name: netplan.io
+Description: Declarative network configuration for various backends at runtime
+Version: 1.1.2-7
+Arch: x86_64
+URL: https://netplan.io/
+License: See /usr/share/doc/netplan.io/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  ethtool
+  iproute2
+  libnetplan1
+  systemd-libs
+Provides: netplan=/usr/sbin/netplan
