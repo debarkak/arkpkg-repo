@@ -376,6 +376,20 @@
       "name": "direnv",
       "url": "http://direnv.net/",
       "version": "2.32.1-2+b16"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "dos2unix"
+      ],
+      "debian_version": "7.5.2-1",
+      "dependencies": [],
+      "description": "convert text file line endings between CRLF and LF",
+      "license": "See /usr/share/doc/dos2unix/copyright",
+      "license_path": "usr/share/doc/dos2unix/copyright",
+      "name": "dos2unix",
+      "url": "https://waterlan.home.xs4all.nl/dos2unix.html",
+      "version": "7.5.2-1"
     }
   ],
   "source_integrity": {

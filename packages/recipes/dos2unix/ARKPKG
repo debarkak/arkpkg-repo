@@ -1,0 +1,8 @@
+Name: dos2unix
+Description: convert text file line endings between CRLF and LF
+Version: 7.5.2-1
+Arch: x86_64
+URL: https://waterlan.home.xs4all.nl/dos2unix.html
+License: See /usr/share/doc/dos2unix/copyright
+Maintainer: arkanaOS Team
+Provides: dos2unix=/usr/bin/dos2unix, mac2unix=/usr/bin/mac2unix, unix2dos=/usr/bin/unix2dos, unix2mac=/usr/bin/unix2mac
