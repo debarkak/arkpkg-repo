@@ -1159,6 +1159,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnetplan1"
+      ],
+      "debian_version": "1.1.2-7",
+      "dependencies": [
+        "libyaml-libs",
+        "util-linux-libs"
+      ],
+      "description": "Declarative network configuration runtime library",
+      "license": "See /usr/share/doc/libnetplan1/copyright",
+      "license_path": "usr/share/doc/libnetplan1/copyright",
+      "name": "libnetplan1",
+      "url": "https://packages.debian.org/trixie/libnetplan1",
+      "version": "1.1.2-7"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libnova-0.16-0t64"
       ],
       "debian_version": "0.16-5.1+b1",
@@ -2194,6 +2211,12 @@
       "filename": "pool/main/libn/libnetfilter-log/libnetfilter-log1_1.0.2-4+b1_amd64.deb",
       "sha256": "6e63d5a0d7393ca51397a08edcf54852364a640a4fcdc6a0cb4e97cb9c574bb5",
       "version": "1.0.2-4+b1"
+    },
+    "libnetplan1": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/netplan.io/libnetplan1_1.1.2-7_amd64.deb",
+      "sha256": "007b5541494d01127d367385cff32caf976c3cf3e4300554d34b1579d5461180",
+      "version": "1.1.2-7"
     },
     "libnova-0.16-0t64": {
       "architecture": "amd64",

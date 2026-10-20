@@ -1,0 +1,11 @@
+Name: libnetplan1
+Description: Declarative network configuration runtime library
+Version: 1.1.2-7
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnetplan1
+License: See /usr/share/doc/libnetplan1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libyaml-libs
+  util-linux-libs
+Provides: libnetplan.so.1=/usr/lib/x86_64-linux-gnu/libnetplan.so.1
