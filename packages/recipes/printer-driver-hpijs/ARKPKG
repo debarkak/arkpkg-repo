@@ -1,0 +1,11 @@
+Name: printer-driver-hpijs
+Description: HP Linux Printing and Imaging - printer driver (hpijs)
+Version: 3.22.10+dfsg0-8.1+deb13u1
+Arch: x86_64
+URL: https://developers.hp.com/hp-linux-imaging-and-printing
+License: See /usr/share/doc/printer-driver-hpijs/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libhpmud0
+  libjpeg62-turbo
+Provides: hpijs=/usr/bin/hpijs
