@@ -1321,6 +1321,20 @@
       "name": "libhpmud0",
       "url": "https://packages.debian.org/trixie/libhpmud0",
       "version": "3.22.10+dfsg0-8.1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libhunspell-1.7-0"
+      ],
+      "debian_version": "1.7.2+really1.7.2-10+b4",
+      "dependencies": [],
+      "description": "spell checker and morphological analyzer (shared library)",
+      "license": "See /usr/share/doc/libhunspell-1.7-0/copyright",
+      "license_path": "usr/share/doc/libhunspell-1.7-0/copyright",
+      "name": "libhunspell-1.7-0",
+      "url": "https://packages.debian.org/trixie/libhunspell-1.7-0",
+      "version": "1.7.2+really1.7.2-10+b4"
     }
   ],
   "source_integrity": {

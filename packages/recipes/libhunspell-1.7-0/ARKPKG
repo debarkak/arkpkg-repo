@@ -1,0 +1,8 @@
+Name: libhunspell-1.7-0
+Description: spell checker and morphological analyzer (shared library)
+Version: 1.7.2+really1.7.2-10+b4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhunspell-1.7-0
+License: See /usr/share/doc/libhunspell-1.7-0/copyright
+Maintainer: arkanaOS Team
+Provides: libhunspell-1.7.so.0=/usr/lib/x86_64-linux-gnu/libhunspell-1.7.so.0.0.1
