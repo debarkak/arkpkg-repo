@@ -1666,6 +1666,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libunbound8"
+      ],
+      "debian_version": "1.22.0-2+deb13u3",
+      "dependencies": [
+        "libevent-2.1-7t64",
+        "openssl-libs"
+      ],
+      "description": "library implementing DNS resolution and validation",
+      "license": "See /usr/share/doc/libunbound8/copyright",
+      "license_path": "usr/share/doc/libunbound8/copyright",
+      "name": "libunbound8",
+      "url": "https://packages.debian.org/trixie/libunbound8",
+      "version": "1.22.0-2+deb13u3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libunibreak6"
       ],
       "debian_version": "6.1-3",
@@ -2689,6 +2706,12 @@
       "filename": "pool/main/t/tpm2-tss/libtss2-tctildr0t64_4.1.3-1.2_amd64.deb",
       "sha256": "90a301083c38ae92c16fab7d5bfc2d1f3874a09a33f500d289308bdbb12e135d",
       "version": "4.1.3-1.2"
+    },
+    "libunbound8": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/unbound/libunbound8_1.22.0-2+deb13u3_amd64.deb",
+      "sha256": "39e4e5bc6f870bf8fd77e45b36588c76bf0a7f2ec1c8f9b4416b0aa662b1c521",
+      "version": "1.22.0-2+deb13u3"
     },
     "libunibreak6": {
       "architecture": "amd64",

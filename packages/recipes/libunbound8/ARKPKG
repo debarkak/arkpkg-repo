@@ -1,0 +1,11 @@
+Name: libunbound8
+Description: library implementing DNS resolution and validation
+Version: 1.22.0-2+deb13u3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libunbound8
+License: See /usr/share/doc/libunbound8/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libevent-2.1-7t64
+  openssl-libs
+Provides: libunbound.so.8=/usr/lib/x86_64-linux-gnu/libunbound.so.8.1.30
