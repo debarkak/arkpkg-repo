@@ -1,0 +1,10 @@
+Name: libgudev-1.0-0
+Description: GObject-based wrapper library for libudev
+Version: 238-6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgudev-1.0-0
+License: See /usr/share/doc/libgudev-1.0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  systemd-libs
+Provides: libgudev-1.0.so.0=/usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.3.0

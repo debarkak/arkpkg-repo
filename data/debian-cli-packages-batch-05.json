@@ -1271,6 +1271,22 @@
       "name": "libgtk-3-0t64",
       "url": "https://packages.debian.org/trixie/libgtk-3-0t64",
       "version": "3.24.49-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgudev-1.0-0"
+      ],
+      "debian_version": "238-6",
+      "dependencies": [
+        "systemd-libs"
+      ],
+      "description": "GObject-based wrapper library for libudev",
+      "license": "See /usr/share/doc/libgudev-1.0-0/copyright",
+      "license_path": "usr/share/doc/libgudev-1.0-0/copyright",
+      "name": "libgudev-1.0-0",
+      "url": "https://packages.debian.org/trixie/libgudev-1.0-0",
+      "version": "238-6"
     }
   ],
   "source_integrity": {
