@@ -932,6 +932,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libisns0t64"
+      ],
+      "debian_version": "0.101-1+b1",
+      "dependencies": [
+        "openssl-libs"
+      ],
+      "description": "Internet Storage Name Service - shared libraries",
+      "license": "See /usr/share/doc/libisns0t64/copyright",
+      "license_path": "usr/share/doc/libisns0t64/copyright",
+      "name": "libisns0t64",
+      "url": "https://packages.debian.org/trixie/libisns0t64",
+      "version": "0.101-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libjsoncpp26"
       ],
       "debian_version": "1.9.6-3",
@@ -1989,6 +2005,12 @@
       "filename": "pool/main/i/ipset/libipset13t64_7.22-1+b1_amd64.deb",
       "sha256": "e1787d904412131228411ead317c4c5bdfeadb32c90bc349d9d387c42520fe0f",
       "version": "7.22-1+b1"
+    },
+    "libisns0t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/open-isns/libisns0t64_0.101-1+b1_amd64.deb",
+      "sha256": "b4d06873d723b8e33763859d3a9f23b0d2f9267f83e8cd643b2cf3101d81a396",
+      "version": "0.101-1+b1"
     },
     "libjsoncpp26": {
       "architecture": "amd64",

@@ -1,0 +1,10 @@
+Name: libisns0t64
+Description: Internet Storage Name Service - shared libraries
+Version: 0.101-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libisns0t64
+License: See /usr/share/doc/libisns0t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl-libs
+Provides: libisns.so.0=/usr/lib/x86_64-linux-gnu/libisns.so.0
