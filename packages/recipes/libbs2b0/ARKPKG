@@ -1,0 +1,8 @@
+Name: libbs2b0
+Description: Bauer stereophonic-to-binaural DSP library
+Version: 3.1.0+dfsg-8+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libbs2b0
+License: See /usr/share/doc/libbs2b0/copyright
+Maintainer: arkanaOS Team
+Provides: libbs2b.so.0=/usr/lib/x86_64-linux-gnu/libbs2b.so.0.0.0

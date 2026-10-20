@@ -306,6 +306,20 @@
       "name": "libboost-thread1.83.0",
       "url": "https://packages.debian.org/trixie/libboost-thread1.83.0",
       "version": "1.83.0-4.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libbs2b0"
+      ],
+      "debian_version": "3.1.0+dfsg-8+b1",
+      "dependencies": [],
+      "description": "Bauer stereophonic-to-binaural DSP library",
+      "license": "See /usr/share/doc/libbs2b0/copyright",
+      "license_path": "usr/share/doc/libbs2b0/copyright",
+      "name": "libbs2b0",
+      "url": "https://packages.debian.org/trixie/libbs2b0",
+      "version": "3.1.0+dfsg-8+b1"
     }
   ],
   "source_integrity": {
@@ -443,6 +457,12 @@
       "filename": "pool/main/b/boost1.83/libboost-thread1.83.0_1.83.0-4.2_amd64.deb",
       "sha256": "00d3ec4fa47bb2bab1afa3ef5cd354e1afd47eacf08bb7db6c4092218008ebbb",
       "version": "1.83.0-4.2"
+    },
+    "libbs2b0": {
+      "architecture": "amd64",
+      "filename": "pool/main/libb/libbs2b/libbs2b0_3.1.0+dfsg-8+b1_amd64.deb",
+      "sha256": "683621e230de5d9cb919f6c6c3a18db4eb7b80706761b983a4a8f2a56747351d",
+      "version": "3.1.0+dfsg-8+b1"
     }
   },
   "suite": "trixie"
