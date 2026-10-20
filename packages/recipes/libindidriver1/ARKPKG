@@ -1,0 +1,17 @@
+Name: libindidriver1
+Description: Instrument-Neutral Device Interface library -- driver library
+Version: 1.9.9+dfsg-3+b5
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libindidriver1
+License: See /usr/share/doc/libindidriver1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcfitsio10t64
+  libfftw3-double3
+  libjpeg62-turbo
+  libnova-0.16-0t64
+  libogg0
+  libtheoradec1
+  libtheoraenc1
+  libusb-libs
+Provides: libindidriver.so.1=/usr/lib/x86_64-linux-gnu/libindidriver.so.1.9.9
