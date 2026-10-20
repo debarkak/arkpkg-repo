@@ -1,0 +1,12 @@
+Name: smartmontools
+Description: control and monitor storage systems using S.M.A.R.T.
+Version: 7.4-3
+Arch: x86_64
+URL: https://www.smartmontools.org/
+License: See /usr/share/doc/smartmontools/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap-ng
+  systemd-libs
+  vis-runtime-libs
+Provides: smartctl=/usr/sbin/smartctl, smartd=/usr/sbin/smartd, update-smart-drivedb=/usr/sbin/update-smart-drivedb
