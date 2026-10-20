@@ -947,6 +947,23 @@
       "name": "libcdio-cdda2t64",
       "url": "https://packages.debian.org/trixie/libcdio-cdda2t64",
       "version": "10.2+2.0.2-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcdio-paranoia2t64"
+      ],
+      "debian_version": "10.2+2.0.2-1+b1",
+      "dependencies": [
+        "libcdio-cdda2t64",
+        "libcdio19t64"
+      ],
+      "description": "library to read digital audio CDs with error correction",
+      "license": "See /usr/share/doc/libcdio-paranoia2t64/copyright",
+      "license_path": "usr/share/doc/libcdio-paranoia2t64/copyright",
+      "name": "libcdio-paranoia2t64",
+      "url": "https://packages.debian.org/trixie/libcdio-paranoia2t64",
+      "version": "10.2+2.0.2-1+b1"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,11 @@
+Name: libcdio-paranoia2t64
+Description: library to read digital audio CDs with error correction
+Version: 10.2+2.0.2-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcdio-paranoia2t64
+License: See /usr/share/doc/libcdio-paranoia2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcdio-cdda2t64
+  libcdio19t64
+Provides: libcdio_paranoia.so.2=/usr/lib/x86_64-linux-gnu/libcdio_paranoia.so.2.0.0
