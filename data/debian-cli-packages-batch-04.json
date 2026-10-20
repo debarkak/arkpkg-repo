@@ -46,6 +46,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "avahi-daemon"
+      ],
+      "debian_version": "0.8-16",
+      "dependencies": [
+        "libavahi-common3",
+        "libavahi-core7",
+        "libcap",
+        "libdaemon0",
+        "systemd-libs"
+      ],
+      "description": "Avahi mDNS/DNS-SD daemon",
+      "license": "See /usr/share/doc/avahi-daemon/copyright",
+      "license_path": "usr/share/doc/avahi-daemon/copyright",
+      "name": "avahi-daemon",
+      "url": "https://avahi.org/",
+      "version": "0.8-16"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "bridge-utils"
       ],
       "debian_version": "1.7.1-4+b1",
@@ -2238,6 +2258,12 @@
       "architecture": "amd64",
       "filename": "pool/main/a/avahi/avahi-autoipd_0.8-16_amd64.deb",
       "sha256": "2d1d84ac452f3ec873d866251de7d7d69f0489c286786b1d0cd4c1b0019403a0",
+      "version": "0.8-16"
+    },
+    "avahi-daemon": {
+      "architecture": "amd64",
+      "filename": "pool/main/a/avahi/avahi-daemon_0.8-16_amd64.deb",
+      "sha256": "18baeb6f29d6c11686ae62d559d8454b06012dc8c4bf0b4f4037312439ef22a3",
       "version": "0.8-16"
     },
     "bridge-utils": {

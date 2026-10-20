@@ -1,0 +1,14 @@
+Name: avahi-daemon
+Description: Avahi mDNS/DNS-SD daemon
+Version: 0.8-16
+Arch: x86_64
+URL: https://avahi.org/
+License: See /usr/share/doc/avahi-daemon/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavahi-common3
+  libavahi-core7
+  libcap
+  libdaemon0
+  systemd-libs
+Provides: avahi-daemon=/usr/sbin/avahi-daemon
