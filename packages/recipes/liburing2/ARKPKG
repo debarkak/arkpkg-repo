@@ -1,0 +1,8 @@
+Name: liburing2
+Description: Linux kernel io_uring access library - shared library
+Version: 2.9-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/liburing2
+License: See /usr/share/doc/liburing2/copyright
+Maintainer: arkanaOS Team
+Provides: liburing-ffi.so.2=/usr/lib/x86_64-linux-gnu/liburing-ffi.so.2.9, liburing.so.2=/usr/lib/x86_64-linux-gnu/liburing.so.2.9

@@ -1965,6 +1965,20 @@
       "name": "libupnp17t64",
       "url": "https://packages.debian.org/trixie/libupnp17t64",
       "version": "1:1.14.20-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "liburing2"
+      ],
+      "debian_version": "2.9-1",
+      "dependencies": [],
+      "description": "Linux kernel io_uring access library - shared library",
+      "license": "See /usr/share/doc/liburing2/copyright",
+      "license_path": "usr/share/doc/liburing2/copyright",
+      "name": "liburing2",
+      "url": "https://packages.debian.org/trixie/liburing2",
+      "version": "2.9-1"
     }
   ],
   "source_integrity": {
