@@ -1,0 +1,14 @@
+Name: libdcmtk19
+Description: OFFIS DICOM toolkit runtime libraries
+Version: 3.6.9-5+deb13u3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libdcmtk19
+License: See /usr/share/doc/libdcmtk19/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libpng16-16t64
+  libtiff6
+  libwrap-libs
+  openssl-libs
+  xml-runtime-libs
+Provides: libcmr.so.19=/usr/lib/x86_64-linux-gnu/libcmr.so.19.3.6.9, libdcmdata.so.19=/usr/lib/x86_64-linux-gnu/libdcmdata.so.19.3.6.9, libdcmdsig.so.19=/usr/lib/x86_64-linux-gnu/libdcmdsig.so.19.3.6.9, libdcmect.so.19=/usr/lib/x86_64-linux-gnu/libdcmect.so.19.3.6.9, libdcmfg.so.19=/usr/lib/x86_64-linux-gnu/libdcmfg.so.19.3.6.9, libdcmimage.so.19=/usr/lib/x86_64-linux-gnu/libdcmimage.so.19.3.6.9, libdcmimgle.so.19=/usr/lib/x86_64-linux-gnu/libdcmimgle.so.19.3.6.9, libdcmiod.so.19=/usr/lib/x86_64-linux-gnu/libdcmiod.so.19.3.6.9, libdcmjpeg.so.19=/usr/lib/x86_64-linux-gnu/libdcmjpeg.so.19.3.6.9, libdcmjpls.so.19=/usr/lib/x86_64-linux-gnu/libdcmjpls.so.19.3.6.9, libdcmnet.so.19=/usr/lib/x86_64-linux-gnu/libdcmnet.so.19.3.6.9, libdcmpmap.so.19=/usr/lib/x86_64-linux-gnu/libdcmpmap.so.19.3.6.9, libdcmpstat.so.19=/usr/lib/x86_64-linux-gnu/libdcmpstat.so.19.3.6.9, libdcmqrdb.so.19=/usr/lib/x86_64-linux-gnu/libdcmqrdb.so.19.3.6.9, libdcmrt.so.19=/usr/lib/x86_64-linux-gnu/libdcmrt.so.19.3.6.9, libdcmseg.so.19=/usr/lib/x86_64-linux-gnu/libdcmseg.so.19.3.6.9, libdcmsr.so.19=/usr/lib/x86_64-linux-gnu/libdcmsr.so.19.3.6.9, libdcmtkcharls.so.19=/usr/lib/x86_64-linux-gnu/libdcmtkcharls.so.19.3.6.9, libdcmtls.so.19=/usr/lib/x86_64-linux-gnu/libdcmtls.so.19.3.6.9, libdcmtract.so.19=/usr/lib/x86_64-linux-gnu/libdcmtract.so.19.3.6.9, libdcmwlm.so.19=/usr/lib/x86_64-linux-gnu/libdcmwlm.so.19.3.6.9, libdcmxml.so.19=/usr/lib/x86_64-linux-gnu/libdcmxml.so.19.3.6.9, libi2d.so.19=/usr/lib/x86_64-linux-gnu/libi2d.so.19.3.6.9, libijg12.so.19=/usr/lib/x86_64-linux-gnu/libijg12.so.19.3.6.9, libijg16.so.19=/usr/lib/x86_64-linux-gnu/libijg16.so.19.3.6.9, libijg8.so.19=/usr/lib/x86_64-linux-gnu/libijg8.so.19.3.6.9, liboficonv.so.19=/usr/lib/x86_64-linux-gnu/liboficonv.so.19.3.6.9, liboflog.so.19=/usr/lib/x86_64-linux-gnu/liboflog.so.19.3.6.9, libofstd.so.19=/usr/lib/x86_64-linux-gnu/libofstd.so.19.3.6.9

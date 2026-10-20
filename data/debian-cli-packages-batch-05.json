@@ -1053,6 +1053,26 @@
       "name": "libcupsimage2t64",
       "url": "https://packages.debian.org/trixie/libcupsimage2t64",
       "version": "2.4.10-3+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libdcmtk19"
+      ],
+      "debian_version": "3.6.9-5+deb13u3",
+      "dependencies": [
+        "libpng16-16t64",
+        "libtiff6",
+        "libwrap-libs",
+        "openssl-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "OFFIS DICOM toolkit runtime libraries",
+      "license": "See /usr/share/doc/libdcmtk19/copyright",
+      "license_path": "usr/share/doc/libdcmtk19/copyright",
+      "name": "libdcmtk19",
+      "url": "https://packages.debian.org/trixie/libdcmtk19",
+      "version": "3.6.9-5+deb13u3"
     }
   ],
   "source_integrity": {
