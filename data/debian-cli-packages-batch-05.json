@@ -2861,6 +2861,22 @@
       "name": "smartmontools",
       "url": "https://www.smartmontools.org/",
       "version": "7.4-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "sox"
+      ],
+      "debian_version": "14.4.2+git20190427-5+b3",
+      "dependencies": [
+        "libsox3"
+      ],
+      "description": "Swiss army knife of sound processing",
+      "license": "See /usr/share/doc/sox/copyright",
+      "license_path": "usr/share/doc/sox/copyright",
+      "name": "sox",
+      "url": "https://sox.sourceforge.io/",
+      "version": "14.4.2+git20190427-5+b3"
     }
   ],
   "source_integrity": {

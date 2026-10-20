@@ -1,0 +1,10 @@
+Name: sox
+Description: Swiss army knife of sound processing
+Version: 14.4.2+git20190427-5+b3
+Arch: x86_64
+URL: https://sox.sourceforge.io/
+License: See /usr/share/doc/sox/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsox3
+Provides: play=/usr/bin/play, rec=/usr/bin/rec, sox=/usr/bin/sox, soxi=/usr/bin/soxi
