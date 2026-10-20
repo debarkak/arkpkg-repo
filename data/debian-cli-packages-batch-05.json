@@ -346,6 +346,22 @@
       "name": "dconf-cli",
       "url": "https://wiki.gnome.org/Projects/dconf",
       "version": "0.40.0-5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "dictzip"
+      ],
+      "debian_version": "1.13.1+dfsg-1",
+      "dependencies": [
+        "libmaa4"
+      ],
+      "description": "compression utility for dictionary databases",
+      "license": "See /usr/share/doc/dictzip/copyright",
+      "license_path": "usr/share/doc/dictzip/copyright",
+      "name": "dictzip",
+      "url": "https://sourceforge.net/projects/dict/",
+      "version": "1.13.1+dfsg-1"
     }
   ],
   "source_integrity": {

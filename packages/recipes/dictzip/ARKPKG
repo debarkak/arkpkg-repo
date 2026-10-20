@@ -1,0 +1,8 @@
+Name: dictzip
+Description: compression utility for dictionary databases
+Version: 1.13.1+dfsg-1
+Arch: x86_64
+URL: https://sourceforge.net/projects/dict/
+License: See /usr/share/doc/dictzip/copyright
+Maintainer: arkanaOS Team
+Provides: dictunzip=/usr/bin/dictunzip, dictzcat=/usr/bin/dictzcat, dictzip=/usr/bin/dictzip
