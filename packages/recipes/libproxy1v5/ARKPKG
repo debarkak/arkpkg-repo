@@ -1,0 +1,11 @@
+Name: libproxy1v5
+Description: automatic proxy configuration management library (shared)
+Version: 0.5.9-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libproxy1v5
+License: See /usr/share/doc/libproxy1v5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcurl3t64-gnutls
+  libduktape207
+Provides: libproxy.so.1=/usr/lib/x86_64-linux-gnu/libproxy.so.0.5.9, libpxbackend-1.0.so=/usr/lib/x86_64-linux-gnu/libproxy/libpxbackend-1.0.so

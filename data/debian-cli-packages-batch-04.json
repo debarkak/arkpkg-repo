@@ -2410,6 +2410,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libproxy1v5"
+      ],
+      "debian_version": "0.5.9-1",
+      "dependencies": [
+        "libcurl3t64-gnutls",
+        "libduktape207"
+      ],
+      "description": "automatic proxy configuration management library (shared)",
+      "license": "See /usr/share/doc/libproxy1v5/copyright",
+      "license_path": "usr/share/doc/libproxy1v5/copyright",
+      "name": "libproxy1v5",
+      "url": "https://packages.debian.org/trixie/libproxy1v5",
+      "version": "0.5.9-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpskc0t64"
       ],
       "debian_version": "2.6.12-1",
@@ -4968,6 +4985,12 @@
       "filename": "pool/main/p/proj/libproj25_9.6.0-1_amd64.deb",
       "sha256": "c6fafb82c6f55c091b54c19ef652eb695fbdd2bfac508e291d132276eefac143",
       "version": "9.6.0-1"
+    },
+    "libproxy1v5": {
+      "architecture": "amd64",
+      "filename": "pool/main/libp/libproxy/libproxy1v5_0.5.9-1_amd64.deb",
+      "sha256": "794a8526989464cb17f1dec9dab921f0e5afb82bcc665e938fac925be47698eb",
+      "version": "0.5.9-1"
     },
     "libpskc0t64": {
       "architecture": "amd64",
