@@ -1297,6 +1297,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libopenexr-3-1-30"
+      ],
+      "debian_version": "3.1.13-2",
+      "dependencies": [
+        "libimath-3-1-29t64"
+      ],
+      "description": "runtime files for the OpenEXR image library",
+      "license": "See /usr/share/doc/libopenexr-3-1-30/copyright",
+      "license_path": "usr/share/doc/libopenexr-3-1-30/copyright",
+      "name": "libopenexr-3-1-30",
+      "url": "https://packages.debian.org/trixie/libopenexr-3-1-30",
+      "version": "3.1.13-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "liborc-0.4-0t64"
       ],
       "debian_version": "1:0.4.41-1",
@@ -2330,6 +2346,12 @@
       "filename": "pool/main/o/opencore-amr/libopencore-amrnb0_0.1.6-1+b2_amd64.deb",
       "sha256": "25ec8a9f76a9b4377e676c3223d59eed5a0a3a943438c8cab066238328b24315",
       "version": "0.1.6-1+b2"
+    },
+    "libopenexr-3-1-30": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openexr/libopenexr-3-1-30_3.1.13-2_amd64.deb",
+      "sha256": "a3e2304380465c787eca5101d6673b2f6e7a2198d4b9521b485dce37ac1fa15d",
+      "version": "3.1.13-2"
     },
     "liborc-0.4-0t64": {
       "architecture": "amd64",
