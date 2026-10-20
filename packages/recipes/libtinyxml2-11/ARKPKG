@@ -1,0 +1,8 @@
+Name: libtinyxml2-11
+Description: C++ XML parsing library
+Version: 11.0.0+dfsg-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtinyxml2-11
+License: See /usr/share/doc/libtinyxml2-11/copyright
+Maintainer: arkanaOS Team
+Provides: libtinyxml2.so.11=/usr/lib/x86_64-linux-gnu/libtinyxml2.so.11.0.0

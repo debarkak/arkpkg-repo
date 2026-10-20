@@ -838,6 +838,20 @@
       "name": "libteamdctl0",
       "url": "https://packages.debian.org/trixie/libteamdctl0",
       "version": "1.31-1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtinyxml2-11"
+      ],
+      "debian_version": "11.0.0+dfsg-1+b1",
+      "dependencies": [],
+      "description": "C++ XML parsing library",
+      "license": "See /usr/share/doc/libtinyxml2-11/copyright",
+      "license_path": "usr/share/doc/libtinyxml2-11/copyright",
+      "name": "libtinyxml2-11",
+      "url": "https://packages.debian.org/trixie/libtinyxml2-11",
+      "version": "11.0.0+dfsg-1+b1"
     }
   ],
   "source_integrity": {
@@ -1203,6 +1217,12 @@
       "filename": "pool/main/libt/libteam/libteamdctl0_1.31-1+b2_amd64.deb",
       "sha256": "05deaf3ed534c32213071e7e2d1b804117bd767e8fb52c5560d9cb8d4253008d",
       "version": "1.31-1+b2"
+    },
+    "libtinyxml2-11": {
+      "architecture": "amd64",
+      "filename": "pool/main/t/tinyxml2/libtinyxml2-11_11.0.0+dfsg-1+b1_amd64.deb",
+      "sha256": "6b61fb15444bcd6b516163f661d6af85eb98f4e89b880060889e9ec8e4e3ad64",
+      "version": "11.0.0+dfsg-1+b1"
     }
   },
   "suite": "trixie"
