@@ -1,0 +1,7 @@
+Name: krb5-config
+Description: Configuration files for Kerberos Version 5
+Version: 2.7
+Arch: any
+URL: https://packages.debian.org/trixie/krb5-config
+License: See /usr/share/doc/krb5-config/copyright
+Maintainer: arkanaOS Team

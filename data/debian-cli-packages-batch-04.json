@@ -152,6 +152,20 @@
       "name": "isc-dhcp-server",
       "url": "http://www.isc.org",
       "version": "4.4.3-P1-8"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "krb5-config"
+      ],
+      "debian_version": "2.7",
+      "dependencies": [],
+      "description": "Configuration files for Kerberos Version 5",
+      "license": "See /usr/share/doc/krb5-config/copyright",
+      "license_path": "usr/share/doc/krb5-config/copyright",
+      "name": "krb5-config",
+      "url": "https://packages.debian.org/trixie/krb5-config",
+      "version": "2.7"
     }
   ],
   "source_integrity": {
@@ -223,6 +237,12 @@
       "filename": "pool/main/i/isc-dhcp/isc-dhcp-server_4.4.3-P1-8_amd64.deb",
       "sha256": "1546b7cb586c65890a5a3fb43ae1b3b633d195c9c5ec64cffe6a9f1509297f98",
       "version": "4.4.3-P1-8"
+    },
+    "krb5-config": {
+      "architecture": "all",
+      "filename": "pool/main/k/kerberos-configs/krb5-config_2.7_all.deb",
+      "sha256": "b6470221ab266cd2a30f36b1d542a40847383cc74be35405257bbb714faf5edc",
+      "version": "2.7"
     }
   },
   "suite": "trixie"
