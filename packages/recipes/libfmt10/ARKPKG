@@ -1,8 +1,8 @@
 Name: libfmt10
-Description: fast type-safe C++ formatting library -- library
+Description: fast type-safe c++ formatting library -- library
 Version: 10.1.1+ds1-4
 Arch: x86_64
-URL: https://packages.debian.org/trixie/libfmt10
+URL: https://fmt.dev/
 License: See /usr/share/doc/libfmt10/copyright
 Maintainer: arkanaOS Team
 Provides: libfmt.so.10=/usr/lib/x86_64-linux-gnu/libfmt.so.10.1.0
