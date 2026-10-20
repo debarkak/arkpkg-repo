@@ -1,0 +1,8 @@
+Name: snap
+Description: location of genes from DNA sequence with hidden markov model
+Version: 2013-11-29-11
+Arch: x86_64
+URL: https://github.com/KorfLab/SNAP
+License: See /usr/share/doc/snap/copyright
+Maintainer: arkanaOS Team
+Provides: exonpairs=/usr/bin/exonpairs, fathom=/usr/bin/fathom, forge=/usr/bin/forge, hmm-assembler.pl=/usr/bin/hmm-assembler.pl, hmm-info=/usr/bin/hmm-info, patch-hmm.pl=/usr/bin/patch-hmm.pl, snap-hmm=/usr/bin/snap-hmm, zff2gff3.pl=/usr/bin/zff2gff3.pl, zoe-loop=/usr/bin/zoe-loop

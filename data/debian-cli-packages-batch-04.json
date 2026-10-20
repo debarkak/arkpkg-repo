@@ -1188,6 +1188,20 @@
       "name": "scilab-include",
       "url": "https://www.scilab.org",
       "version": "2024.1.0+dfsg-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "snap"
+      ],
+      "debian_version": "2013-11-29-11",
+      "dependencies": [],
+      "description": "location of genes from DNA sequence with hidden markov model",
+      "license": "See /usr/share/doc/snap/copyright",
+      "license_path": "usr/share/doc/snap/copyright",
+      "name": "snap",
+      "url": "https://github.com/KorfLab/SNAP",
+      "version": "2013-11-29-11"
     }
   ],
   "source_integrity": {
@@ -1703,6 +1717,12 @@
       "filename": "pool/main/s/scilab/scilab-include_2024.1.0+dfsg-6+deb13u1_amd64.deb",
       "sha256": "fa3102b7684c4dcd6e119249ae6561b12ef8fe296feaa63573abc34f38db9c69",
       "version": "2024.1.0+dfsg-6+deb13u1"
+    },
+    "snap": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/snap/snap_2013-11-29-11_amd64.deb",
+      "sha256": "8611b047dc9e2c708234fcac952f10a74fa845caddd25058c82e30cefe8765c5",
+      "version": "2013-11-29-11"
     }
   },
   "suite": "trixie"
