@@ -1,0 +1,10 @@
+Name: tftpd-hpa
+Description: HPA's tftp server
+Version: 5.2+20240610-3
+Arch: x86_64
+URL: https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/
+License: See /usr/share/doc/tftpd-hpa/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libwrap-libs
+Provides: in.tftpd=/usr/sbin/in.tftpd
