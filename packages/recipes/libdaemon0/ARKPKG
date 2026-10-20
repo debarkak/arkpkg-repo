@@ -1,0 +1,8 @@
+Name: libdaemon0
+Description: lightweight C library for daemons - runtime library
+Version: 0.14-7.1+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libdaemon0
+License: See /usr/share/doc/libdaemon0/copyright
+Maintainer: arkanaOS Team
+Provides: libdaemon.so.0=/usr/lib/x86_64-linux-gnu/libdaemon.so.0.5.0
