@@ -679,6 +679,22 @@
       "name": "lame",
       "url": "https://lame.sourceforge.io/",
       "version": "3.100-6+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "lcdf-typetools"
+      ],
+      "debian_version": "2.110-1",
+      "dependencies": [
+        "libkpathsea6"
+      ],
+      "description": "tools for OpenType, multiple-master, and Type 1 fonts",
+      "license": "See /usr/share/doc/lcdf-typetools/copyright",
+      "license_path": "usr/share/doc/lcdf-typetools/copyright",
+      "name": "lcdf-typetools",
+      "url": "https://www.lcdf.org/type/",
+      "version": "2.110-1"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,10 @@
+Name: lcdf-typetools
+Description: tools for OpenType, multiple-master, and Type 1 fonts
+Version: 2.110-1
+Arch: x86_64
+URL: https://www.lcdf.org/type/
+License: See /usr/share/doc/lcdf-typetools/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libkpathsea6
+Provides: cfftot1=/usr/bin/cfftot1, mmafm=/usr/bin/mmafm, mmpfb=/usr/bin/mmpfb, otfinfo=/usr/bin/otfinfo, otftotfm=/usr/bin/otftotfm, t1dotlessj=/usr/bin/t1dotlessj, t1lint=/usr/bin/t1lint, t1rawafm=/usr/bin/t1rawafm, t1reencode=/usr/bin/t1reencode, t1testpage=/usr/bin/t1testpage, ttftotype42=/usr/bin/ttftotype42
