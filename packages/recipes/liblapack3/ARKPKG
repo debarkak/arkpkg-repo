@@ -1,0 +1,11 @@
+Name: liblapack3
+Description: Library of linear algebra routines 3 - shared version
+Version: 3.12.1-6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/liblapack3
+License: See /usr/share/doc/liblapack3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgfortran5
+  nmap-runtime-libs
+Provides: liblapack.so.3=/usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.1
