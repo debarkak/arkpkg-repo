@@ -1,0 +1,8 @@
+Name: libgl2ps1.4
+Description: Lib providing high quality vector output for OpenGL application
+Version: 1.4.2+dfsg1-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgl2ps1.4
+License: See /usr/share/doc/libgl2ps1.4/copyright
+Maintainer: arkanaOS Team
+Provides: libgl2ps.so.1.4=/usr/lib/x86_64-linux-gnu/libgl2ps.so.1.4.2

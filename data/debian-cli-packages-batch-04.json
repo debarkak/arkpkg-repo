@@ -530,6 +530,20 @@
       "name": "libgeos3.13.1",
       "url": "https://packages.debian.org/trixie/libgeos3.13.1",
       "version": "3.13.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgl2ps1.4"
+      ],
+      "debian_version": "1.4.2+dfsg1-2",
+      "dependencies": [],
+      "description": "Lib providing high quality vector output for OpenGL application",
+      "license": "See /usr/share/doc/libgl2ps1.4/copyright",
+      "license_path": "usr/share/doc/libgl2ps1.4/copyright",
+      "name": "libgl2ps1.4",
+      "url": "https://packages.debian.org/trixie/libgl2ps1.4",
+      "version": "1.4.2+dfsg1-2"
     }
   ],
   "source_integrity": {
@@ -763,6 +777,12 @@
       "filename": "pool/main/g/geos/libgeos3.13.1_3.13.1-1_amd64.deb",
       "sha256": "174b08f3092a8f10cf51d618d934d9703b88b4c51abf41d33535a12b7797e970",
       "version": "3.13.1-1"
+    },
+    "libgl2ps1.4": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gl2ps/libgl2ps1.4_1.4.2+dfsg1-2_amd64.deb",
+      "sha256": "e92c67bdf9373b3315ef101119cf7ef96ac5ae4ffa9b9c2445686f1af1425260",
+      "version": "1.4.2+dfsg1-2"
     }
   },
   "suite": "trixie"
