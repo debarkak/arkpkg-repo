@@ -1,0 +1,12 @@
+Name: libass9
+Description: library for SSA/ASS subtitles rendering
+Version: 1:0.17.3-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libass9
+License: See /usr/share/doc/libass9/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libfribidi0
+  libharfbuzz0b
+  libunibreak6
+Provides: libass.so.9=/usr/lib/x86_64-linux-gnu/libass.so.9.3.1

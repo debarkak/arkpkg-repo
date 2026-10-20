@@ -349,6 +349,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libass9"
+      ],
+      "debian_version": "1:0.17.3-1+deb13u1",
+      "dependencies": [
+        "libfribidi0",
+        "libharfbuzz0b",
+        "libunibreak6"
+      ],
+      "description": "library for SSA/ASS subtitles rendering",
+      "license": "See /usr/share/doc/libass9/copyright",
+      "license_path": "usr/share/doc/libass9/copyright",
+      "name": "libass9",
+      "url": "https://packages.debian.org/trixie/libass9",
+      "version": "1:0.17.3-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libassuan9"
       ],
       "debian_version": "3.0.2-2",
@@ -2484,6 +2502,12 @@
       "filename": "pool/main/a/alglib/libalglib4.2_4.2.0-2_amd64.deb",
       "sha256": "f65afcd36717c1453f5873a8f65c5b3cdebfb742efe47d8b2882be980227228f",
       "version": "4.2.0-2"
+    },
+    "libass9": {
+      "architecture": "amd64",
+      "filename": "pool/main/liba/libass/libass9_0.17.3-1+deb13u1_amd64.deb",
+      "sha256": "000faddfaa19c7c1631f2d71a9cd1982cd3a88611967debe631440a1c64617b4",
+      "version": "1:0.17.3-1+deb13u1"
     },
     "libassuan9": {
       "architecture": "amd64",
