@@ -1,0 +1,7 @@
+Name: lsp-plugins-r3d-glx
+Description: LSP (Linux Studio Plugins) r3d-glx library
+Version: 1.2.21-5
+Arch: x86_64
+URL: https://lsp-plug.in/
+License: See /usr/share/doc/lsp-plugins-r3d-glx/copyright
+Maintainer: arkanaOS Team

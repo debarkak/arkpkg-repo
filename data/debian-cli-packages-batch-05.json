@@ -2113,6 +2113,20 @@
       "name": "loki",
       "url": "https://packages.debian.org/trixie/loki",
       "version": "2.4.7.4-12"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "lsp-plugins-r3d-glx"
+      ],
+      "debian_version": "1.2.21-5",
+      "dependencies": [],
+      "description": "LSP (Linux Studio Plugins) r3d-glx library",
+      "license": "See /usr/share/doc/lsp-plugins-r3d-glx/copyright",
+      "license_path": "usr/share/doc/lsp-plugins-r3d-glx/copyright",
+      "name": "lsp-plugins-r3d-glx",
+      "url": "https://lsp-plug.in/",
+      "version": "1.2.21-5"
     }
   ],
   "source_integrity": {
