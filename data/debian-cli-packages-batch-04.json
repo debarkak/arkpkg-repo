@@ -1620,6 +1620,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libklu2"
+      ],
+      "debian_version": "1:7.10.1+dfsg-1",
+      "dependencies": [
+        "libamd3",
+        "libbtf2",
+        "libcholmod5",
+        "libcolamd3",
+        "libsuitesparseconfig7"
+      ],
+      "description": "circuit simulation sparse LU factorization library",
+      "license": "See /usr/share/doc/libklu2/copyright",
+      "license_path": "usr/share/doc/libklu2/copyright",
+      "name": "libklu2",
+      "url": "https://packages.debian.org/trixie/libklu2",
+      "version": "1:7.10.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libkmlbase1t64"
       ],
       "debian_version": "1.3.0-12+b2",
@@ -4563,6 +4583,12 @@
       "filename": "pool/main/j/jxrlib/libjxr0t64_1.2~git20170615.f752187-5.3_amd64.deb",
       "sha256": "d36e3db1b03d0b5a50990f15076f5fb02f451fbce07344ed6a80a4b5f7ad9dee",
       "version": "1.2~git20170615.f752187-5.3"
+    },
+    "libklu2": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/suitesparse/libklu2_7.10.1+dfsg-1_amd64.deb",
+      "sha256": "ed35201bf329dee5e849a46b13a025bf0cde4c50e6f68c66138b5a71c5d0d88e",
+      "version": "1:7.10.1+dfsg-1"
     },
     "libkmlbase1t64": {
       "architecture": "amd64",

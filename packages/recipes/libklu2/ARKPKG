@@ -1,0 +1,14 @@
+Name: libklu2
+Description: circuit simulation sparse LU factorization library
+Version: 1:7.10.1+dfsg-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libklu2
+License: See /usr/share/doc/libklu2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libamd3
+  libbtf2
+  libcholmod5
+  libcolamd3
+  libsuitesparseconfig7
+Provides: libklu.so.2=/usr/lib/x86_64-linux-gnu/libklu.so.2.3.5, libklu_cholmod.so.2=/usr/lib/x86_64-linux-gnu/libklu_cholmod.so.2.3.5
