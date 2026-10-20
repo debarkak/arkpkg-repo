@@ -3442,6 +3442,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "ubertooth"
+      ],
+      "debian_version": "2018.12.R1-5.3",
+      "dependencies": [
+        "libbluetooth3",
+        "libbtbb1",
+        "libubertooth1",
+        "libusb-libs"
+      ],
+      "description": "2.4 GHz wireless development platform for Bluetooth experimentation",
+      "license": "See /usr/share/doc/ubertooth/copyright",
+      "license_path": "usr/share/doc/ubertooth/copyright",
+      "name": "ubertooth",
+      "url": "http://ubertooth.sourceforge.net/",
+      "version": "2018.12.R1-5.3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "ulogd2"
       ],
       "debian_version": "2.0.8-3",
@@ -4821,6 +4840,12 @@
       "filename": "pool/main/t/torsocks/torsocks_2.5.0-1+deb13u1_all.deb",
       "sha256": "1e1f2994d4dbcb9a9dc9e238ec20fc59d78a0faa954f1e983646c4d8f85770fb",
       "version": "2.5.0-1+deb13u1"
+    },
+    "ubertooth": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/ubertooth/ubertooth_2018.12.R1-5.3_amd64.deb",
+      "sha256": "f978625463058c9999e3152b2f3a2b6f8120e90cb2058238cf321407c1104ec0",
+      "version": "2018.12.R1-5.3"
     },
     "ulogd2": {
       "architecture": "amd64",

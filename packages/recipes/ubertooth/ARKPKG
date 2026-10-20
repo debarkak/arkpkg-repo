@@ -1,0 +1,13 @@
+Name: ubertooth
+Description: 2.4 GHz wireless development platform for Bluetooth experimentation
+Version: 2018.12.R1-5.3
+Arch: x86_64
+URL: http://ubertooth.sourceforge.net/
+License: See /usr/share/doc/ubertooth/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libbluetooth3
+  libbtbb1
+  libubertooth1
+  libusb-libs
+Provides: ubertooth-afh=/usr/bin/ubertooth-afh, ubertooth-btle=/usr/bin/ubertooth-btle, ubertooth-debug=/usr/bin/ubertooth-debug, ubertooth-dfu=/usr/bin/ubertooth-dfu, ubertooth-ducky=/usr/bin/ubertooth-ducky, ubertooth-dump=/usr/bin/ubertooth-dump, ubertooth-ego=/usr/bin/ubertooth-ego, ubertooth-follow=/usr/bin/ubertooth-follow, ubertooth-rx=/usr/bin/ubertooth-rx, ubertooth-scan=/usr/bin/ubertooth-scan, ubertooth-specan-ui=/usr/bin/ubertooth-specan-ui, ubertooth-specan=/usr/bin/ubertooth-specan, ubertooth-util=/usr/bin/ubertooth-util
