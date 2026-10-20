@@ -1389,6 +1389,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libplacebo349"
+      ],
+      "debian_version": "7.349.0-3",
+      "dependencies": [
+        "liblcms2-2",
+        "libvulkan1"
+      ],
+      "description": "GPU-accelerated video/image rendering primitives (shared library)",
+      "license": "See /usr/share/doc/libplacebo349/copyright",
+      "license_path": "usr/share/doc/libplacebo349/copyright",
+      "name": "libplacebo349",
+      "url": "https://packages.debian.org/trixie/libplacebo349",
+      "version": "7.349.0-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsbc1"
       ],
       "debian_version": "2.1-1",
@@ -2430,6 +2447,12 @@
       "filename": "pool/main/p/pkcs11-helper/libpkcs11-helper1t64_1.30.0-1+b1_amd64.deb",
       "sha256": "261e0fd80cad9c5478cb702cf77b1b3494ddfde4ad14f7a0531f4781b1c84b81",
       "version": "1.30.0-1+b1"
+    },
+    "libplacebo349": {
+      "architecture": "amd64",
+      "filename": "pool/main/libp/libplacebo/libplacebo349_7.349.0-3_amd64.deb",
+      "sha256": "3d2ebdb86ccc35b9d115e8280cfc12c2cdc5ca67d0234af7370259181768dff2",
+      "version": "7.349.0-3"
     },
     "libsbc1": {
       "architecture": "amd64",

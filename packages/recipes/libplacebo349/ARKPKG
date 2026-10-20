@@ -1,0 +1,11 @@
+Name: libplacebo349
+Description: GPU-accelerated video/image rendering primitives (shared library)
+Version: 7.349.0-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libplacebo349
+License: See /usr/share/doc/libplacebo349/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  liblcms2-2
+  libvulkan1
+Provides: libplacebo.so.349=/usr/lib/x86_64-linux-gnu/libplacebo.so.349
