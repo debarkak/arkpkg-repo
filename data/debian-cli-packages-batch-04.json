@@ -166,6 +166,20 @@
       "name": "krb5-config",
       "url": "https://packages.debian.org/trixie/krb5-config",
       "version": "2.7"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libaec0"
+      ],
+      "debian_version": "1.1.3-1+b1",
+      "dependencies": [],
+      "description": "Adaptive Entropy Coding library",
+      "license": "See /usr/share/doc/libaec0/copyright",
+      "license_path": "usr/share/doc/libaec0/copyright",
+      "name": "libaec0",
+      "url": "https://packages.debian.org/trixie/libaec0",
+      "version": "1.1.3-1+b1"
     }
   ],
   "source_integrity": {
@@ -243,6 +257,12 @@
       "filename": "pool/main/k/kerberos-configs/krb5-config_2.7_all.deb",
       "sha256": "b6470221ab266cd2a30f36b1d542a40847383cc74be35405257bbb714faf5edc",
       "version": "2.7"
+    },
+    "libaec0": {
+      "architecture": "amd64",
+      "filename": "pool/main/liba/libaec/libaec0_1.1.3-1+b1_amd64.deb",
+      "sha256": "a13684bdc8a38a44ddf038ddade23ebeee59fcc6e58d4a8d3800a457f11c8e19",
+      "version": "1.1.3-1+b1"
     }
   },
   "suite": "trixie"
