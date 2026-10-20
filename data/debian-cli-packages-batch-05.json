@@ -1335,6 +1335,25 @@
       "name": "libhunspell-1.7-0",
       "url": "https://packages.debian.org/trixie/libhunspell-1.7-0",
       "version": "1.7.2+really1.7.2-10+b4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libimobiledevice-1.0-6"
+      ],
+      "debian_version": "1.3.0+git20250228-2",
+      "dependencies": [
+        "libimobiledevice-glue-1.0-0",
+        "libplist-2.0-4",
+        "libusbmuxd-2.0-7",
+        "openssl-libs"
+      ],
+      "description": "Library for communicating with iPhone and other Apple devices",
+      "license": "See /usr/share/doc/libimobiledevice-1.0-6/copyright",
+      "license_path": "usr/share/doc/libimobiledevice-1.0-6/copyright",
+      "name": "libimobiledevice-1.0-6",
+      "url": "https://packages.debian.org/trixie/libimobiledevice-1.0-6",
+      "version": "1.3.0+git20250228-2"
     }
   ],
   "source_integrity": {
