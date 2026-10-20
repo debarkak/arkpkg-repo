@@ -1,0 +1,10 @@
+Name: libupnp17t64
+Description: Portable SDK for UPnP Devices (shared library)
+Version: 1:1.14.20-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libupnp17t64
+License: See /usr/share/doc/libupnp17t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libixml11t64
+Provides: libupnp.so.17=/usr/lib/x86_64-linux-gnu/libupnp.so.17.2.0
