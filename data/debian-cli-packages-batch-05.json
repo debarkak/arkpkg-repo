@@ -1301,6 +1301,26 @@
       "name": "libgumbo3",
       "url": "https://packages.debian.org/trixie/libgumbo3",
       "version": "0.13.0+dfsg-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libhpmud0"
+      ],
+      "debian_version": "3.22.10+dfsg0-8.1+deb13u1",
+      "dependencies": [
+        "libavahi-client3",
+        "libavahi-common3",
+        "libcups2t64",
+        "libsnmp40t64",
+        "libusb-libs"
+      ],
+      "description": "HP Multi-Point Transport Driver (hpmud) run-time libraries",
+      "license": "See /usr/share/doc/libhpmud0/copyright",
+      "license_path": "usr/share/doc/libhpmud0/copyright",
+      "name": "libhpmud0",
+      "url": "https://packages.debian.org/trixie/libhpmud0",
+      "version": "3.22.10+dfsg0-8.1+deb13u1"
     }
   ],
   "source_integrity": {

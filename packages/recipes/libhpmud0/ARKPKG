@@ -1,0 +1,14 @@
+Name: libhpmud0
+Description: HP Multi-Point Transport Driver (hpmud) run-time libraries
+Version: 3.22.10+dfsg0-8.1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhpmud0
+License: See /usr/share/doc/libhpmud0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavahi-client3
+  libavahi-common3
+  libcups2t64
+  libsnmp40t64
+  libusb-libs
+Provides: libhpdiscovery.so.0=/usr/lib/x86_64-linux-gnu/libhpdiscovery.so.0.0.1, libhpip.so.0=/usr/lib/x86_64-linux-gnu/libhpip.so.0.0.1, libhpipp.so.0=/usr/lib/x86_64-linux-gnu/libhpipp.so.0.0.1, libhpmud.so.0=/usr/lib/x86_64-linux-gnu/libhpmud.so.0.0.6
