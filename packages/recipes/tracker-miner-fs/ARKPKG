@@ -1,0 +1,7 @@
+Name: tracker-miner-fs
+Description: metadata database, indexer and search tool - transitional package
+Version: 3.8.2-4
+Arch: any
+URL: https://tracker.gnome.org/
+License: See /usr/share/doc/tracker-miner-fs/copyright
+Maintainer: arkanaOS Team
