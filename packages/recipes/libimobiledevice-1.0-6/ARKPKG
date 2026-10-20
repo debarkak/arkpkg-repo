@@ -1,8 +1,8 @@
 Name: libimobiledevice-1.0-6
-Description: Library for communicating with iPhone and other Apple devices
+Description: library for communicating with iphone and other apple devices
 Version: 1.3.0+git20250228-2
 Arch: x86_64
-URL: https://packages.debian.org/trixie/libimobiledevice-1.0-6
+URL: https://www.libimobiledevice.org/
 License: See /usr/share/doc/libimobiledevice-1.0-6/copyright
 Maintainer: arkanaOS Team
 Dependencies:
