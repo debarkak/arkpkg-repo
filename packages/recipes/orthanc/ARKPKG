@@ -1,0 +1,24 @@
+Name: orthanc
+Description: Lightweight, RESTful DICOM server for medical imaging
+Version: 1.12.7+dfsg-4
+Arch: x86_64
+URL: https://www.orthanc-server.com/
+License: See /usr/share/doc/orthanc/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libboost-filesystem1.83.0
+  libboost-iostreams1.83.0
+  libboost-locale1.83.0
+  libboost-thread1.83.0
+  libcivetweb1
+  libdcmtk19
+  libjpeg62-turbo
+  libjsoncpp26
+  liblua5.3-0
+  libpng16-16t64
+  libpugixml1v5
+  libsqlite3-0
+  mosh-runtime-libs
+  openssl-libs
+  util-linux-libs
+Provides: Orthanc=/usr/sbin/Orthanc, OrthancRecoverCompressedFile=/usr/bin/OrthancRecoverCompressedFile, libDelayedDeletion.so.1.12.7=/usr/lib/orthanc/libDelayedDeletion.so.1.12.7, libHousekeeper.so.1.12.7=/usr/lib/orthanc/libHousekeeper.so.1.12.7, libModalityWorklists.so.1.12.7=/usr/lib/orthanc/libModalityWorklists.so.1.12.7, libMultitenantDicom.so.1.12.7=/usr/lib/orthanc/libMultitenantDicom.so.1.12.7, libServeFolders.so.1.12.7=/usr/lib/orthanc/libServeFolders.so.1.12.7, orthanc_upgrade=/usr/sbin/orthanc_upgrade

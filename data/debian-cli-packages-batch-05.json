@@ -2348,6 +2348,36 @@
       "name": "openprinting-ppds",
       "url": "https://www.openprinting.org/",
       "version": "20230202-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "orthanc"
+      ],
+      "debian_version": "1.12.7+dfsg-4",
+      "dependencies": [
+        "libboost-filesystem1.83.0",
+        "libboost-iostreams1.83.0",
+        "libboost-locale1.83.0",
+        "libboost-thread1.83.0",
+        "libcivetweb1",
+        "libdcmtk19",
+        "libjpeg62-turbo",
+        "libjsoncpp26",
+        "liblua5.3-0",
+        "libpng16-16t64",
+        "libpugixml1v5",
+        "libsqlite3-0",
+        "mosh-runtime-libs",
+        "openssl-libs",
+        "util-linux-libs"
+      ],
+      "description": "Lightweight, RESTful DICOM server for medical imaging",
+      "license": "See /usr/share/doc/orthanc/copyright",
+      "license_path": "usr/share/doc/orthanc/copyright",
+      "name": "orthanc",
+      "url": "https://www.orthanc-server.com/",
+      "version": "1.12.7+dfsg-4"
     }
   ],
   "source_integrity": {
