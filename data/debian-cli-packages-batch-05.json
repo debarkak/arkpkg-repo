@@ -1448,6 +1448,20 @@
       "name": "libldb2",
       "url": "https://packages.debian.org/trixie/libldb2",
       "version": "2:2.11.0+samba4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libmaa4"
+      ],
+      "debian_version": "1.5.1-1",
+      "dependencies": [],
+      "description": "maa programming library",
+      "license": "See /usr/share/doc/libmaa4/copyright",
+      "license_path": "usr/share/doc/libmaa4/copyright",
+      "name": "libmaa4",
+      "url": "https://packages.debian.org/trixie/libmaa4",
+      "version": "1.5.1-1"
     }
   ],
   "source_integrity": {

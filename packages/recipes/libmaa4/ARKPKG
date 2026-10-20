@@ -1,0 +1,8 @@
+Name: libmaa4
+Description: maa programming library
+Version: 1.5.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmaa4
+License: See /usr/share/doc/libmaa4/copyright
+Maintainer: arkanaOS Team
+Provides: libmaa.so.4=/usr/lib/x86_64-linux-gnu/libmaa.so.4.1
