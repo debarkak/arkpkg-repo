@@ -1,0 +1,11 @@
+Name: libsratom-0-0
+Description: library for serialising LV2 atoms to/from Turtle
+Version: 0.6.18-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsratom-0-0
+License: See /usr/share/doc/libsratom-0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libserd-0-0
+  libsord-0-0
+Provides: libsratom-0.so.0=/usr/lib/x86_64-linux-gnu/libsratom-0.so.0.6.18

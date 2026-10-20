@@ -1875,6 +1875,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libsratom-0-0"
+      ],
+      "debian_version": "0.6.18-1",
+      "dependencies": [
+        "libserd-0-0",
+        "libsord-0-0"
+      ],
+      "description": "library for serialising LV2 atoms to/from Turtle",
+      "license": "See /usr/share/doc/libsratom-0-0/copyright",
+      "license_path": "usr/share/doc/libsratom-0-0/copyright",
+      "name": "libsratom-0-0",
+      "url": "https://packages.debian.org/trixie/libsratom-0-0",
+      "version": "0.6.18-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libstrongswan"
       ],
       "debian_version": "6.0.1-6+deb13u6",
@@ -3319,6 +3336,12 @@
       "filename": "pool/main/s/sord/libsord-0-0_0.16.18-1_amd64.deb",
       "sha256": "cbb4167b1a85cfec94faa9f85666ee382a8bc79ce93f5d7457514e8334299e52",
       "version": "0.16.18-1"
+    },
+    "libsratom-0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/sratom/libsratom-0-0_0.6.18-1_amd64.deb",
+      "sha256": "63195bd9233678ed397cfded0aae85d85cf2584ff7c638b34013ca34544962d7",
+      "version": "0.6.18-1"
     },
     "libstrongswan": {
       "architecture": "amd64",
