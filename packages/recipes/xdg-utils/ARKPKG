@@ -1,0 +1,8 @@
+Name: xdg-utils
+Description: desktop integration utilities from freedesktop.org
+Version: 1.2.1-2
+Arch: any
+URL: https://www.freedesktop.org/wiki/Software/xdg-utils/
+License: See /usr/share/doc/xdg-utils/copyright
+Maintainer: arkanaOS Team
+Provides: xdg-desktop-icon=/usr/bin/xdg-desktop-icon, xdg-desktop-menu=/usr/bin/xdg-desktop-menu, xdg-email=/usr/bin/xdg-email, xdg-icon-resource=/usr/bin/xdg-icon-resource, xdg-mime=/usr/bin/xdg-mime, xdg-open=/usr/bin/xdg-open, xdg-screensaver=/usr/bin/xdg-screensaver, xdg-settings=/usr/bin/xdg-settings

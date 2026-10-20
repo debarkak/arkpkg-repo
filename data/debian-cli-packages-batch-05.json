@@ -3127,6 +3127,20 @@
       "name": "xdg-user-dirs",
       "url": "https://www.freedesktop.org/wiki/Software/xdg-user-dirs",
       "version": "0.18-2"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "xdg-utils"
+      ],
+      "debian_version": "1.2.1-2",
+      "dependencies": [],
+      "description": "desktop integration utilities from freedesktop.org",
+      "license": "See /usr/share/doc/xdg-utils/copyright",
+      "license_path": "usr/share/doc/xdg-utils/copyright",
+      "name": "xdg-utils",
+      "url": "https://www.freedesktop.org/wiki/Software/xdg-utils/",
+      "version": "1.2.1-2"
     }
   ],
   "source_integrity": {
