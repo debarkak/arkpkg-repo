@@ -1846,6 +1846,20 @@
       "name": "libspdlog1.15",
       "url": "https://packages.debian.org/trixie/libspdlog1.15",
       "version": "1:1.15.2+ds-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libsyn123-0t64"
+      ],
+      "debian_version": "1.32.10-1+deb13u1",
+      "dependencies": [],
+      "description": "MPEG layer 1/2/3 audio decoder (libsyn123 shared library)",
+      "license": "See /usr/share/doc/libsyn123-0t64/copyright",
+      "license_path": "usr/share/doc/libsyn123-0t64/copyright",
+      "name": "libsyn123-0t64",
+      "url": "https://packages.debian.org/trixie/libsyn123-0t64",
+      "version": "1.32.10-1+deb13u1"
     }
   ],
   "source_integrity": {
