@@ -464,6 +464,25 @@
       "name": "figlet",
       "url": "http://www.figlet.org/",
       "version": "2.2.5-3+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "fluidsynth"
+      ],
+      "debian_version": "2.4.4+dfsg-1+deb13u3",
+      "dependencies": [
+        "libfluidsynth3",
+        "libpipewire-0.3-0t64",
+        "libsdl2-2.0-0",
+        "systemd-libs"
+      ],
+      "description": "Real-time MIDI software synthesizer",
+      "license": "See /usr/share/doc/fluidsynth/copyright",
+      "license_path": "usr/share/doc/fluidsynth/copyright",
+      "name": "fluidsynth",
+      "url": "https://github.com/Fluidsynth/fluidsynth",
+      "version": "2.4.4+dfsg-1+deb13u3"
     }
   ],
   "source_integrity": {

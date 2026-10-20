@@ -1,0 +1,8 @@
+Name: fluidsynth
+Description: Real-time MIDI software synthesizer
+Version: 2.4.4+dfsg-1+deb13u3
+Arch: x86_64
+URL: https://github.com/Fluidsynth/fluidsynth
+License: See /usr/share/doc/fluidsynth/copyright
+Maintainer: arkanaOS Team
+Provides: fluidsynth=/usr/bin/fluidsynth
