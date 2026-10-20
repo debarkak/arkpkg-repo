@@ -1,0 +1,10 @@
+Name: libpsm2-2
+Description: Intel PSM2 library
+Version: 11.2.185-2.1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpsm2-2
+License: See /usr/share/doc/libpsm2-2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libnuma1
+Provides: libpsm2.so.2=/usr/lib/x86_64-linux-gnu/libpsm2.so.2.2

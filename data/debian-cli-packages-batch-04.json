@@ -1406,6 +1406,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpsm2-2"
+      ],
+      "debian_version": "11.2.185-2.1",
+      "dependencies": [
+        "libnuma1"
+      ],
+      "description": "Intel PSM2 library",
+      "license": "See /usr/share/doc/libpsm2-2/copyright",
+      "license_path": "usr/share/doc/libpsm2-2/copyright",
+      "name": "libpsm2-2",
+      "url": "https://packages.debian.org/trixie/libpsm2-2",
+      "version": "11.2.185-2.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsbc1"
       ],
       "debian_version": "2.1-1",
@@ -2453,6 +2469,12 @@
       "filename": "pool/main/libp/libplacebo/libplacebo349_7.349.0-3_amd64.deb",
       "sha256": "3d2ebdb86ccc35b9d115e8280cfc12c2cdc5ca67d0234af7370259181768dff2",
       "version": "7.349.0-3"
+    },
+    "libpsm2-2": {
+      "architecture": "amd64",
+      "filename": "pool/main/libp/libpsm2/libpsm2-2_11.2.185-2.1_amd64.deb",
+      "sha256": "f86d201c90d3bb47a36a2e9cea99a9cac4b5a4d24f0e6144e1ca84de77c54da5",
+      "version": "11.2.185-2.1"
     },
     "libsbc1": {
       "architecture": "amd64",
