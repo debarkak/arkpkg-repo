@@ -4404,6 +4404,38 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "rygel"
+      ],
+      "debian_version": "0.44.2-1",
+      "dependencies": [
+        "libgdk-pixbuf-2.0-0",
+        "libgee-0.8-2",
+        "libges-1.0-0",
+        "libgssdp-1.6-0",
+        "libgstreamer-plugins-base1.0-0",
+        "libgstreamer1.0-0",
+        "libgupnp-1.6-0",
+        "libgupnp-av-1.0-3",
+        "libgupnp-dlna-2.0-4",
+        "libmediaart-2.0-0",
+        "librygel-core-2.8-0",
+        "librygel-db-2.8-0",
+        "librygel-renderer-2.8-0",
+        "librygel-server-2.8-0",
+        "libsoup-3.0-0",
+        "libsqlite3-0",
+        "xml-runtime-libs"
+      ],
+      "description": "GNOME UPnP/DLNA services",
+      "license": "See /usr/share/doc/rygel/copyright",
+      "license_path": "usr/share/doc/rygel/copyright",
+      "name": "rygel",
+      "url": "https://wiki.gnome.org/Projects/Rygel",
+      "version": "0.44.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "scilab-include"
       ],
       "debian_version": "2024.1.0+dfsg-6+deb13u1",
@@ -6413,6 +6445,12 @@
       "filename": "pool/main/r/rpcbind/rpcbind_1.2.7-1_amd64.deb",
       "sha256": "29e6ee5f7737f8678e4ef8c992437ae23e1c7cd67d517bc70e29234dccf13786",
       "version": "1.2.7-1"
+    },
+    "rygel": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rygel/rygel_0.44.2-1_amd64.deb",
+      "sha256": "2b8e273e68679e501f204b09d6e1428fc733cca74424cd5c648c0c848caeb489",
+      "version": "0.44.2-1"
     },
     "scilab-include": {
       "architecture": "amd64",
