@@ -1,0 +1,13 @@
+Name: mupdf
+Description: lightweight PDF viewer
+Version: 1.25.1+ds1-6+deb13u1
+Arch: x86_64
+URL: https://mupdf.com/
+License: See /usr/share/doc/mupdf/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libglut3.12
+  libmujs3
+  libmupdf25.1
+  openssl-libs
+Provides: mupdf-gl=/usr/bin/mupdf-gl, mupdf=/usr/bin/mupdf

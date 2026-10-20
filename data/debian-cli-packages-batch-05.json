@@ -2283,6 +2283,25 @@
       "name": "mummer",
       "url": "https://mummer.sourceforge.net/",
       "version": "3.23+dfsg-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "mupdf"
+      ],
+      "debian_version": "1.25.1+ds1-6+deb13u1",
+      "dependencies": [
+        "libglut3.12",
+        "libmujs3",
+        "libmupdf25.1",
+        "openssl-libs"
+      ],
+      "description": "lightweight PDF viewer",
+      "license": "See /usr/share/doc/mupdf/copyright",
+      "license_path": "usr/share/doc/mupdf/copyright",
+      "name": "mupdf",
+      "url": "https://mupdf.com/",
+      "version": "1.25.1+ds1-6+deb13u1"
     }
   ],
   "source_integrity": {
