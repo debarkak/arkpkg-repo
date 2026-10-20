@@ -1,0 +1,8 @@
+Name: libmm-glib0
+Description: D-Bus service for managing modems - shared libraries
+Version: 1.24.0-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmm-glib0
+License: See /usr/share/doc/libmm-glib0/copyright
+Maintainer: arkanaOS Team
+Provides: libmm-glib.so.0=/usr/lib/x86_64-linux-gnu/libmm-glib.so.0.11.0
