@@ -1,0 +1,10 @@
+Name: libcupsimage2t64
+Description: Common UNIX Printing System(tm) - Raster image library
+Version: 2.4.10-3+deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcupsimage2t64
+License: See /usr/share/doc/libcupsimage2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcups2t64
+Provides: libcupsimage.so.2=/usr/lib/x86_64-linux-gnu/libcupsimage.so.2
