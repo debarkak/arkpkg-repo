@@ -1,0 +1,10 @@
+Name: libpcre2-posix3
+Description: New Perl Compatible Regular Expression Library - posix-compatible runtime files
+Version: 10.46-1~deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpcre2-posix3
+License: See /usr/share/doc/libpcre2-posix3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  pcre2-libs
+Provides: libpcre2-posix.so.3=/usr/lib/x86_64-linux-gnu/libpcre2-posix.so.3.0.6
