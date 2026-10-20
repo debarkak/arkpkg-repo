@@ -1090,6 +1090,20 @@
       "name": "ndiff",
       "url": "https://nmap.org/",
       "version": "7.95+dfsg-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "netavark"
+      ],
+      "debian_version": "1.14.0-2",
+      "dependencies": [],
+      "description": "Rust based network stack for containers",
+      "license": "See /usr/share/doc/netavark/copyright",
+      "license_path": "usr/share/doc/netavark/copyright",
+      "name": "netavark",
+      "url": "https://github.com/containers/netavark",
+      "version": "1.14.0-2"
     }
   ],
   "source_integrity": {
@@ -1563,6 +1577,12 @@
       "filename": "pool/main/n/nmap/ndiff_7.95+dfsg-3_all.deb",
       "sha256": "3bc8c71c730cebf71187b53679f32cd02e1fa1372cbc6add0e5ead024a67e00e",
       "version": "7.95+dfsg-3"
+    },
+    "netavark": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/netavark/netavark_1.14.0-2_amd64.deb",
+      "sha256": "34820688e7c671e746d88d109d4f7a34ffbb4a013b7dd2035d2762baf8e50a79",
+      "version": "1.14.0-2"
     }
   },
   "suite": "trixie"

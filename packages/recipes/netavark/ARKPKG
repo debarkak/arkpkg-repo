@@ -1,0 +1,7 @@
+Name: netavark
+Description: Rust based network stack for containers
+Version: 1.14.0-2
+Arch: x86_64
+URL: https://github.com/containers/netavark
+License: See /usr/share/doc/netavark/copyright
+Maintainer: arkanaOS Team
