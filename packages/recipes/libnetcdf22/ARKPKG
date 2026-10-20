@@ -1,0 +1,13 @@
+Name: libnetcdf22
+Description: Interface for scientific data access to large binary data
+Version: 1:4.9.3-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnetcdf22
+License: See /usr/share/doc/libnetcdf22/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcurl3t64-gnutls
+  libhdf5-310
+  libhdf5-hl-310
+  xml-runtime-libs
+Provides: libnetcdf.so.22=/usr/lib/x86_64-linux-gnu/libnetcdf.so.22
