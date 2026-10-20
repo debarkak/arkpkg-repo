@@ -1,0 +1,10 @@
+Name: libfreexl1
+Description: library for direct reading of Microsoft Excel spreadsheets
+Version: 2.0.0-1+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfreexl1
+License: See /usr/share/doc/libfreexl1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libminizip1t64
+Provides: libfreexl.so.1=/usr/lib/x86_64-linux-gnu/libfreexl.so.1.2.0
