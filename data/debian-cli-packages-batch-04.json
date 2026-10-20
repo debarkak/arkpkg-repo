@@ -367,6 +367,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "indi-dsi"
+      ],
+      "debian_version": "0.4+20221223123028-2",
+      "dependencies": [
+        "libindidriver1",
+        "libusb-libs"
+      ],
+      "description": "INDI driver for Meade DSI Pro I/II/III",
+      "license": "See /usr/share/doc/indi-dsi/copyright",
+      "license_path": "usr/share/doc/indi-dsi/copyright",
+      "name": "indi-dsi",
+      "url": "https://github.com/indilib/indi-3rdparty",
+      "version": "0.4+20221223123028-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "inn2-inews"
       ],
       "debian_version": "2.7.3-1",
@@ -4617,6 +4634,12 @@
       "filename": "pool/main/i/ifenslave/ifenslave_2.14_all.deb",
       "sha256": "7054cb372388091e86174489c1ff04fed31e2ab90d48649ef9101a4449b6af83",
       "version": "2.14"
+    },
+    "indi-dsi": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/indi-dsi/indi-dsi_0.4+20221223123028-2_amd64.deb",
+      "sha256": "1ec174330624936ab52d62c6ab1c88914765631b0310ae93d0a1c3886c040fb9",
+      "version": "0.4+20221223123028-2"
     },
     "inn2-inews": {
       "architecture": "amd64",

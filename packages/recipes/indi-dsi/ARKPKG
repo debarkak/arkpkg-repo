@@ -1,0 +1,11 @@
+Name: indi-dsi
+Description: INDI driver for Meade DSI Pro I/II/III
+Version: 0.4+20221223123028-2
+Arch: x86_64
+URL: https://github.com/indilib/indi-3rdparty
+License: See /usr/share/doc/indi-dsi/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libindidriver1
+  libusb-libs
+Provides: indi_dsi_ccd=/usr/bin/indi_dsi_ccd
