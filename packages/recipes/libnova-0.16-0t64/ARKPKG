@@ -1,0 +1,8 @@
+Name: libnova-0.16-0t64
+Description: celestial mechanics, astrometry and astrodynamics library
+Version: 0.16-5.1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnova-0.16-0t64
+License: See /usr/share/doc/libnova-0.16-0t64/copyright
+Maintainer: arkanaOS Team
+Provides: libnova-0.16.so.0=/usr/lib/x86_64-linux-gnu/libnova-0.16.so.0.0.0
