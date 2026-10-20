@@ -992,6 +992,20 @@
       "name": "libxdp1",
       "url": "https://packages.debian.org/trixie/libxdp1",
       "version": "1.5.4-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libxxhash0"
+      ],
+      "debian_version": "0.8.3-2",
+      "dependencies": [],
+      "description": "shared library for xxhash",
+      "license": "See /usr/share/doc/libxxhash0/copyright",
+      "license_path": "usr/share/doc/libxxhash0/copyright",
+      "name": "libxxhash0",
+      "url": "https://packages.debian.org/trixie/libxxhash0",
+      "version": "0.8.3-2"
     }
   ],
   "source_integrity": {
@@ -1423,6 +1437,12 @@
       "filename": "pool/main/x/xdp-tools/libxdp1_1.5.4-1_amd64.deb",
       "sha256": "f76c5565a96a486e7de5c187427bb4849f5a96b58e6e881aa662b22cadaefc5d",
       "version": "1.5.4-1"
+    },
+    "libxxhash0": {
+      "architecture": "amd64",
+      "filename": "pool/main/x/xxhash/libxxhash0_0.8.3-2_amd64.deb",
+      "sha256": "81da7064d56fc044f5db4bb3c1e80ff50a4986dcbbf80d958eeca565b44c157f",
+      "version": "0.8.3-2"
     }
   },
   "suite": "trixie"

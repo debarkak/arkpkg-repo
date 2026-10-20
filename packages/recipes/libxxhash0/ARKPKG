@@ -1,0 +1,8 @@
+Name: libxxhash0
+Description: shared library for xxhash
+Version: 0.8.3-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libxxhash0
+License: See /usr/share/doc/libxxhash0/copyright
+Maintainer: arkanaOS Team
+Provides: libxxhash.so.0=/usr/lib/x86_64-linux-gnu/libxxhash.so.0.8.3
