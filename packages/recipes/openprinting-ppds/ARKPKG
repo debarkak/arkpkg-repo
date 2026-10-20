@@ -1,0 +1,7 @@
+Name: openprinting-ppds
+Description: OpenPrinting printer support - PostScript PPD files
+Version: 20230202-1
+Arch: any
+URL: https://www.openprinting.org/
+License: See /usr/share/doc/openprinting-ppds/copyright
+Maintainer: arkanaOS Team

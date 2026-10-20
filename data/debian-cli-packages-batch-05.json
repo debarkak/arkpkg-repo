@@ -2334,6 +2334,20 @@
       "name": "odt2txt",
       "url": "https://github.com/dstosberg/odt2txt/",
       "version": "0.5-7"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "openprinting-ppds"
+      ],
+      "debian_version": "20230202-1",
+      "dependencies": [],
+      "description": "OpenPrinting printer support - PostScript PPD files",
+      "license": "See /usr/share/doc/openprinting-ppds/copyright",
+      "license_path": "usr/share/doc/openprinting-ppds/copyright",
+      "name": "openprinting-ppds",
+      "url": "https://www.openprinting.org/",
+      "version": "20230202-1"
     }
   ],
   "source_integrity": {
