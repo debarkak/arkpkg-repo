@@ -1,0 +1,7 @@
+Name: publicsuffix
+Description: accurate, machine-readable list of domain name suffixes
+Version: 20250328.1952-0.1
+Arch: any
+URL: https://publicsuffix.org
+License: See /usr/share/doc/publicsuffix/copyright
+Maintainer: arkanaOS Team

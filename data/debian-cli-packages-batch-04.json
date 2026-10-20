@@ -1146,6 +1146,20 @@
       "name": "prometheus-node-exporter",
       "url": "https://github.com/prometheus/node_exporter",
       "version": "1.9.0-1+b4"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "publicsuffix"
+      ],
+      "debian_version": "20250328.1952-0.1",
+      "dependencies": [],
+      "description": "accurate, machine-readable list of domain name suffixes",
+      "license": "See /usr/share/doc/publicsuffix/copyright",
+      "license_path": "usr/share/doc/publicsuffix/copyright",
+      "name": "publicsuffix",
+      "url": "https://publicsuffix.org",
+      "version": "20250328.1952-0.1"
     }
   ],
   "source_integrity": {
@@ -1643,6 +1657,12 @@
       "filename": "pool/main/p/prometheus-node-exporter/prometheus-node-exporter_1.9.0-1+b4_amd64.deb",
       "sha256": "9db00cad0c9e160a4e9c13cbdb2833d58becb1f4cd60eeb0b5e12477ba6a42bd",
       "version": "1.9.0-1+b4"
+    },
+    "publicsuffix": {
+      "architecture": "all",
+      "filename": "pool/main/p/publicsuffix/publicsuffix_20250328.1952-0.1_all.deb",
+      "sha256": "80b5b3959ddf1c54c82001380aab866fa9964274a59a7f169110c8a036e40864",
+      "version": "20250328.1952-0.1"
     }
   },
   "suite": "trixie"
