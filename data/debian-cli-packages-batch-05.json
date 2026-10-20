@@ -2476,6 +2476,35 @@
       "name": "plocate",
       "url": "https://plocate.sesse.net/",
       "version": "1.1.23-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "poppler-utils"
+      ],
+      "debian_version": "25.03.0-5+deb13u4",
+      "dependencies": [
+        "libcairo2",
+        "liblcms2-2",
+        "libpoppler147",
+        "xpdf-tools"
+      ],
+      "description": "PDF utilities (based on Poppler)",
+      "license": "See /usr/share/doc/poppler-utils/copyright",
+      "license_path": "usr/share/doc/poppler-utils/copyright",
+      "name": "poppler-utils",
+      "omitted_paths": {
+        "usr/bin/pdfdetach": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdffonts": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdfimages": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdfinfo": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdftohtml": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdftoppm": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdftops": "the existing xpdf-tools package provides this command",
+        "usr/bin/pdftotext": "the existing xpdf-tools package provides this command"
+      },
+      "url": "https://poppler.freedesktop.org/",
+      "version": "25.03.0-5+deb13u4"
     }
   ],
   "source_integrity": {

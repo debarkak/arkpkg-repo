@@ -1,0 +1,13 @@
+Name: poppler-utils
+Description: PDF utilities (based on Poppler)
+Version: 25.03.0-5+deb13u4
+Arch: x86_64
+URL: https://poppler.freedesktop.org/
+License: See /usr/share/doc/poppler-utils/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcairo2
+  liblcms2-2
+  libpoppler147
+  xpdf-tools
+Provides: pdfattach=/usr/bin/pdfattach, pdfseparate=/usr/bin/pdfseparate, pdfsig=/usr/bin/pdfsig, pdftocairo=/usr/bin/pdftocairo, pdfunite=/usr/bin/pdfunite
