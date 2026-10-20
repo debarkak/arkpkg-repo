@@ -1,0 +1,10 @@
+Name: libodbc2
+Description: ODBC Driver Manager library for Unix
+Version: 2.3.12-2+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libodbc2
+License: See /usr/share/doc/libodbc2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libltdl
+Provides: libodbc.so.2=/usr/lib/x86_64-linux-gnu/libodbc.so.2.0.0

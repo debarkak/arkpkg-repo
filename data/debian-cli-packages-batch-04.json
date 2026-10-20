@@ -1237,6 +1237,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libodbc2"
+      ],
+      "debian_version": "2.3.12-2+deb13u1",
+      "dependencies": [
+        "libltdl"
+      ],
+      "description": "ODBC Driver Manager library for Unix",
+      "license": "See /usr/share/doc/libodbc2/copyright",
+      "license_path": "usr/share/doc/libodbc2/copyright",
+      "name": "libodbc2",
+      "url": "https://packages.debian.org/trixie/libodbc2",
+      "version": "2.3.12-2+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libogdi4.1"
       ],
       "debian_version": "4.1.1+ds-5",
@@ -2274,6 +2290,12 @@
       "filename": "pool/main/n/nss/libnss3_3.110-1+deb13u4_amd64.deb",
       "sha256": "8d20d0754039e15e9bd2c8484e98dc9c2982907d4f20834da29a9501913d00b5",
       "version": "2:3.110-1+deb13u4"
+    },
+    "libodbc2": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/unixodbc/libodbc2_2.3.12-2+deb13u1_amd64.deb",
+      "sha256": "c106c001b9e81f75d89e1126ff4eb10b437371dfaee6c4457f218846796e7187",
+      "version": "2.3.12-2+deb13u1"
     },
     "libogdi4.1": {
       "architecture": "amd64",
