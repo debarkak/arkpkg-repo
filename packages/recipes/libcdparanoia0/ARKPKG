@@ -1,0 +1,8 @@
+Name: libcdparanoia0
+Description: audio extraction tool for sampling CDs (library)
+Version: 3.10.2+debian-14+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcdparanoia0
+License: See /usr/share/doc/libcdparanoia0/copyright
+Maintainer: arkanaOS Team
+Provides: libcdda_interface.so.0=/usr/lib/x86_64-linux-gnu/libcdda_interface.so.0.10.2, libcdda_paranoia.so.0=/usr/lib/x86_64-linux-gnu/libcdda_paranoia.so.0.10.2

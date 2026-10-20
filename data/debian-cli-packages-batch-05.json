@@ -978,6 +978,20 @@
       "name": "libcdio19t64",
       "url": "https://packages.debian.org/trixie/libcdio19t64",
       "version": "2.2.0-4.1~deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcdparanoia0"
+      ],
+      "debian_version": "3.10.2+debian-14+b1",
+      "dependencies": [],
+      "description": "audio extraction tool for sampling CDs (library)",
+      "license": "See /usr/share/doc/libcdparanoia0/copyright",
+      "license_path": "usr/share/doc/libcdparanoia0/copyright",
+      "name": "libcdparanoia0",
+      "url": "https://packages.debian.org/trixie/libcdparanoia0",
+      "version": "3.10.2+debian-14+b1"
     }
   ],
   "source_integrity": {
