@@ -1,0 +1,7 @@
+Name: python3-pyaml-env
+Description: Python3 YAML configuration with environment variables parsing
+Version: 1.2.1-2
+Arch: any
+URL: https://github.com/mkaranasou/pyaml_env
+License: See /usr/share/doc/python3-pyaml-env/copyright
+Maintainer: arkanaOS Team
