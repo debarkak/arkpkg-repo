@@ -294,6 +294,52 @@ def payload_paths(payload: Path) -> list[str]:
     return paths
 
 
+def omit_payload_paths(
+    payload: Path, omitted_paths: object, package_name: str
+) -> None:
+    """Remove explicitly documented paths already supplied by another package."""
+    if not isinstance(omitted_paths, dict):
+        raise TypeError(
+            f"{package_name}: omitted_paths must be a path-to-reason map"
+        )
+
+    payload_root = payload.resolve()
+    for relative, reason in sorted(omitted_paths.items()):
+        if (
+            not isinstance(relative, str)
+            or not isinstance(reason, str)
+            or not reason.strip()
+        ):
+            raise ValueError(f"{package_name}: invalid omitted path or reason")
+        normalized = PurePosixPath(relative)
+        if (
+            normalized.is_absolute()
+            or not normalized.parts
+            or normalized.as_posix() != relative
+            or any(part in {"", ".", ".."} for part in normalized.parts)
+        ):
+            raise ValueError(
+                f"{package_name}: unsafe omitted payload path {relative!r}"
+            )
+
+        target = payload.joinpath(*normalized.parts)
+        try:
+            target.parent.resolve(strict=False).relative_to(payload_root)
+        except ValueError as error:
+            raise ValueError(
+                f"{package_name}: omitted path escapes its payload: {relative!r}"
+            ) from error
+        if target.is_dir() and not target.is_symlink():
+            raise ValueError(
+                f"{package_name}: omitted path must name a file or symlink: {relative!r}"
+            )
+        if not target.is_file() and not target.is_symlink():
+            raise ValueError(
+                f"{package_name}: omitted path does not exist in payload: {relative!r}"
+            )
+        target.unlink()
+
+
 def staging_conflicts(payload: Path, paths: list[str], staging: Path) -> list[str]:
     conflicts = []
     for relative in paths:
@@ -503,6 +549,8 @@ def build(args: argparse.Namespace) -> None:
                     raise ValueError(f"{name}: refusing to replace payload path {link}")
                 link_path.parent.mkdir(parents=True, exist_ok=True)
                 link_path.symlink_to(target)
+
+            omit_payload_paths(payload, package.get("omitted_paths", {}), name)
 
             license_path = package["license_path"]
             license_target = payload / license_path

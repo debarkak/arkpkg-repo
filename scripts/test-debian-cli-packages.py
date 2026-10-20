@@ -94,6 +94,65 @@ class LicensePathTests(unittest.TestCase):
             self.assertEqual(closure, {"app"})
 
 
+class PayloadOmissionTests(unittest.TestCase):
+    def test_omits_only_the_declared_payload_file(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            payload = Path(temporary) / "package"
+            binaries = payload / "usr/bin"
+            binaries.mkdir(parents=True)
+            (binaries / "pdfinfo").write_text("duplicate\n", encoding="utf-8")
+            (binaries / "pdfsig").write_text("unique\n", encoding="utf-8")
+
+            BUILDER.omit_payload_paths(
+                payload,
+                {"usr/bin/pdfinfo": "provided by xpdf-tools"},
+                "poppler-utils",
+            )
+
+            self.assertFalse((binaries / "pdfinfo").exists())
+            self.assertEqual(
+                (binaries / "pdfsig").read_text(encoding="utf-8"), "unique\n"
+            )
+
+    def test_omissions_reject_traversal_paths(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            payload = Path(temporary) / "package"
+            payload.mkdir()
+
+            with self.assertRaisesRegex(ValueError, "unsafe omitted payload path"):
+                BUILDER.omit_payload_paths(
+                    payload, {"../outside": "duplicate"}, "sample"
+                )
+
+    def test_omissions_cannot_follow_a_symlink_outside_the_payload(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            payload = root / "package"
+            outside = root / "outside"
+            payload.mkdir()
+            outside.mkdir()
+            secret = outside / "secret"
+            secret.write_text("keep\n", encoding="utf-8")
+            (payload / "escape").symlink_to(outside, target_is_directory=True)
+
+            with self.assertRaisesRegex(ValueError, "escapes its payload"):
+                BUILDER.omit_payload_paths(
+                    payload, {"escape/secret": "duplicate"}, "sample"
+                )
+
+            self.assertTrue(secret.is_file())
+
+    def test_omissions_require_the_declared_path_to_exist(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            payload = Path(temporary) / "package"
+            payload.mkdir()
+
+            with self.assertRaisesRegex(ValueError, "does not exist in payload"):
+                BUILDER.omit_payload_paths(
+                    payload, {"usr/bin/missing": "duplicate"}, "sample"
+                )
+
+
 class RepositoryProviderTests(unittest.TestCase):
     def test_runtime_analysis_reports_needed_sonames(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
