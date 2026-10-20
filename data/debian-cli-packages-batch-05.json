@@ -631,6 +631,20 @@
       "name": "ispell",
       "url": "https://www.cs.hmc.edu/~geoff/ispell.html",
       "version": "3.4.06-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "iucode-tool"
+      ],
+      "debian_version": "2.3.1-3",
+      "dependencies": [],
+      "description": "Intel processor microcode tool",
+      "license": "See /usr/share/doc/iucode-tool/copyright",
+      "license_path": "usr/share/doc/iucode-tool/copyright",
+      "name": "iucode-tool",
+      "url": "https://gitlab.com/iucode-tool",
+      "version": "2.3.1-3"
     }
   ],
   "source_integrity": {
