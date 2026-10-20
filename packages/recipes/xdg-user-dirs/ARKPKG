@@ -1,0 +1,8 @@
+Name: xdg-user-dirs
+Description: tool to manage well known user directories
+Version: 0.18-2
+Arch: x86_64
+URL: https://www.freedesktop.org/wiki/Software/xdg-user-dirs
+License: See /usr/share/doc/xdg-user-dirs/copyright
+Maintainer: arkanaOS Team
+Provides: xdg-user-dir=/usr/bin/xdg-user-dir, xdg-user-dirs-update=/usr/bin/xdg-user-dirs-update

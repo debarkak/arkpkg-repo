@@ -3113,6 +3113,20 @@
       "name": "wngerman",
       "url": "https://www.j3e.de/ispell/igerman98/",
       "version": "20161207-15"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "xdg-user-dirs"
+      ],
+      "debian_version": "0.18-2",
+      "dependencies": [],
+      "description": "tool to manage well known user directories",
+      "license": "See /usr/share/doc/xdg-user-dirs/copyright",
+      "license_path": "usr/share/doc/xdg-user-dirs/copyright",
+      "name": "xdg-user-dirs",
+      "url": "https://www.freedesktop.org/wiki/Software/xdg-user-dirs",
+      "version": "0.18-2"
     }
   ],
   "source_integrity": {
