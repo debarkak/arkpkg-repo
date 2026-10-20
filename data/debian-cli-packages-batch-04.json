@@ -3569,6 +3569,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "onedrive"
+      ],
+      "debian_version": "2.5.4-1",
+      "dependencies": [
+        "libnotify4",
+        "libsqlite3-0"
+      ],
+      "description": "folder synchronization with OneDrive",
+      "license": "See /usr/share/doc/onedrive/copyright",
+      "license_path": "usr/share/doc/onedrive/copyright",
+      "name": "onedrive",
+      "url": "https://github.com/abraunegg/onedrive",
+      "version": "2.5.4-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "open-iscsi"
       ],
       "debian_version": "2.1.11-1+deb13u2",
@@ -5503,6 +5520,12 @@
       "filename": "pool/main/n/ntpsec/ntpsec-ntpdig_1.2.3+dfsg1-8_amd64.deb",
       "sha256": "4c6329cc403643d25a2eeaf1e316210d9dbb63baf6ab628421b6359fca1b0a01",
       "version": "1.2.3+dfsg1-8"
+    },
+    "onedrive": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/onedrive/onedrive_2.5.4-1_amd64.deb",
+      "sha256": "5afbc608013469089e1ed2762334b85e0e4d45d47d3609b55e28ee20c72250ce",
+      "version": "2.5.4-1"
     },
     "open-iscsi": {
       "architecture": "amd64",
