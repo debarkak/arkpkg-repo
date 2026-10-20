@@ -1,0 +1,8 @@
+Name: libmpdclient2t64
+Description: client library for the Music Player Daemon
+Version: 2.22-1.1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmpdclient2t64
+License: See /usr/share/doc/libmpdclient2t64/copyright
+Maintainer: arkanaOS Team
+Provides: libmpdclient.so.2=/usr/lib/x86_64-linux-gnu/libmpdclient.so.2.22

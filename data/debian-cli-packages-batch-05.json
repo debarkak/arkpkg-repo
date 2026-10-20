@@ -1476,6 +1476,20 @@
       "name": "libmms0",
       "url": "https://packages.debian.org/trixie/libmms0",
       "version": "0.6.4-3+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libmpdclient2t64"
+      ],
+      "debian_version": "2.22-1.1+b1",
+      "dependencies": [],
+      "description": "client library for the Music Player Daemon",
+      "license": "See /usr/share/doc/libmpdclient2t64/copyright",
+      "license_path": "usr/share/doc/libmpdclient2t64/copyright",
+      "name": "libmpdclient2t64",
+      "url": "https://packages.debian.org/trixie/libmpdclient2t64",
+      "version": "2.22-1.1+b1"
     }
   ],
   "source_integrity": {
