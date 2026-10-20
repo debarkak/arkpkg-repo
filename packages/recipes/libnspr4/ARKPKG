@@ -1,0 +1,8 @@
+Name: libnspr4
+Description: NetScape Portable Runtime Library
+Version: 2:4.36-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnspr4
+License: See /usr/share/doc/libnspr4/copyright
+Maintainer: arkanaOS Team
+Provides: libnspr4.so=/usr/lib/x86_64-linux-gnu/libnspr4.so, libplc4.so=/usr/lib/x86_64-linux-gnu/libplc4.so, libplds4.so=/usr/lib/x86_64-linux-gnu/libplds4.so

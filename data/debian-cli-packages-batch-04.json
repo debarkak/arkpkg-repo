@@ -698,6 +698,20 @@
       "name": "libnova-0.16-0t64",
       "url": "https://packages.debian.org/trixie/libnova-0.16-0t64",
       "version": "0.16-5.1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libnspr4"
+      ],
+      "debian_version": "2:4.36-1",
+      "dependencies": [],
+      "description": "NetScape Portable Runtime Library",
+      "license": "See /usr/share/doc/libnspr4/copyright",
+      "license_path": "usr/share/doc/libnspr4/copyright",
+      "name": "libnspr4",
+      "url": "https://packages.debian.org/trixie/libnspr4",
+      "version": "2:4.36-1"
     }
   ],
   "source_integrity": {
@@ -1003,6 +1017,12 @@
       "filename": "pool/main/libn/libnova/libnova-0.16-0t64_0.16-5.1+b1_amd64.deb",
       "sha256": "9e732c8e108eaebb9bf8dc5619e46c4a0f0baddcf8e77a27329b6f60468c670d",
       "version": "0.16-5.1+b1"
+    },
+    "libnspr4": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/nspr/libnspr4_4.36-1_amd64.deb",
+      "sha256": "87fc2039ee89cff2b8010fa9535706b1def40031acfc52bf12197dcb3cb7b064",
+      "version": "2:4.36-1"
     }
   },
   "suite": "trixie"
