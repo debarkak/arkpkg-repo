@@ -1,0 +1,10 @@
+Name: libfltk-gl1.3t64
+Description: Fast Light Toolkit - OpenGL rendering support
+Version: 1.3.11-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfltk-gl1.3t64
+License: See /usr/share/doc/libfltk-gl1.3t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libfltk1.3t64
+Provides: libfltk_gl.so.1.3=/usr/lib/x86_64-linux-gnu/libfltk_gl.so.1.3
