@@ -3552,6 +3552,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "snmp"
+      ],
+      "debian_version": "5.9.4+dfsg-2+deb13u1",
+      "dependencies": [
+        "libsnmp40t64",
+        "openssl-libs"
+      ],
+      "description": "SNMP (Simple Network Management Protocol) applications",
+      "license": "See /usr/share/doc/snmp/copyright",
+      "license_path": "usr/share/doc/snmp/copyright",
+      "license_source_package": "libsnmp40t64",
+      "license_source_path": "usr/share/doc/libsnmp40t64/copyright",
+      "name": "snmp",
+      "url": "https://net-snmp.sourceforge.net/",
+      "version": "5.9.4+dfsg-2+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "strongswan-libcharon"
       ],
       "debian_version": "6.0.1-6+deb13u6",
@@ -5172,6 +5191,12 @@
       "filename": "pool/main/s/snap/snap_2013-11-29-11_amd64.deb",
       "sha256": "8611b047dc9e2c708234fcac952f10a74fa845caddd25058c82e30cefe8765c5",
       "version": "2013-11-29-11"
+    },
+    "snmp": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/net-snmp/snmp_5.9.4+dfsg-2+deb13u1_amd64.deb",
+      "sha256": "74ef3198171dfaf78582e62a06114c06780554eea9c524c350a1758c7be585b8",
+      "version": "5.9.4+dfsg-2+deb13u1"
     },
     "strongswan-libcharon": {
       "architecture": "amd64",

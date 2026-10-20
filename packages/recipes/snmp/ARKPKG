@@ -1,0 +1,11 @@
+Name: snmp
+Description: SNMP (Simple Network Management Protocol) applications
+Version: 5.9.4+dfsg-2+deb13u1
+Arch: x86_64
+URL: https://net-snmp.sourceforge.net/
+License: See /usr/share/doc/snmp/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsnmp40t64
+  openssl-libs
+Provides: agentxtrap=/usr/bin/agentxtrap, encode_keychange=/usr/bin/encode_keychange, fixproc=/usr/bin/fixproc, snmp-bridge-mib=/usr/bin/snmp-bridge-mib, snmpbulkget=/usr/bin/snmpbulkget, snmpbulkwalk=/usr/bin/snmpbulkwalk, snmpcheck=/usr/bin/snmpcheck, snmpconf=/usr/bin/snmpconf, snmpdelta=/usr/bin/snmpdelta, snmpdf=/usr/bin/snmpdf, snmpget=/usr/bin/snmpget, snmpgetnext=/usr/bin/snmpgetnext, snmpinform=/usr/bin/snmpinform, snmpnetstat=/usr/bin/snmpnetstat, snmpping=/usr/bin/snmpping, snmpps=/usr/bin/snmpps, snmpset=/usr/bin/snmpset, snmpstatus=/usr/bin/snmpstatus, snmptable=/usr/bin/snmptable, snmptest=/usr/bin/snmptest, snmptls=/usr/bin/snmptls, snmptranslate=/usr/bin/snmptranslate, snmptrap=/usr/bin/snmptrap, snmpusm=/usr/bin/snmpusm, snmpvacm=/usr/bin/snmpvacm, snmpwalk=/usr/bin/snmpwalk
