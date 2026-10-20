@@ -1,0 +1,8 @@
+Name: autojump
+Description: shell extension to jump to frequently used directories
+Version: 22.5.1-1.1
+Arch: any
+URL: https://github.com/wting/autojump
+License: See /usr/share/doc/autojump/copyright
+Maintainer: arkanaOS Team
+Provides: autojump=/usr/bin/autojump

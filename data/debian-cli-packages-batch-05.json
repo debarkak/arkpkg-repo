@@ -132,6 +132,20 @@
       "name": "audacious",
       "url": "https://www.audacious-media-player.org/",
       "version": "4.4.2-1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "autojump"
+      ],
+      "debian_version": "22.5.1-1.1",
+      "dependencies": [],
+      "description": "shell extension to jump to frequently used directories",
+      "license": "See /usr/share/doc/autojump/copyright",
+      "license_path": "usr/share/doc/autojump/copyright",
+      "name": "autojump",
+      "url": "https://github.com/wting/autojump",
+      "version": "22.5.1-1.1"
     }
   ],
   "source_integrity": {
