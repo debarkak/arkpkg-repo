@@ -1,0 +1,16 @@
+Name: libspatialite8t64
+Description: Geospatial extension for SQLite - libraries
+Version: 5.1.0-3+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libspatialite8t64
+License: See /usr/share/doc/libspatialite8t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libfreexl1
+  libgeos-c1t64
+  libminizip1t64
+  libproj25
+  librttopo1
+  libsqlite3-0
+  xml-runtime-libs
+Provides: libspatialite.so.8=/usr/lib/x86_64-linux-gnu/libspatialite.so.8.1.0
