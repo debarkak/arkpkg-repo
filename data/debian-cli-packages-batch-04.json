@@ -740,6 +740,20 @@
       "name": "libopencore-amrnb0",
       "url": "https://packages.debian.org/trixie/libopencore-amrnb0",
       "version": "0.1.6-1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "liborc-0.4-0t64"
+      ],
+      "debian_version": "1:0.4.41-1",
+      "dependencies": [],
+      "description": "Library of Optimized Inner Loops Runtime Compiler",
+      "license": "See /usr/share/doc/liborc-0.4-0t64/copyright",
+      "license_path": "usr/share/doc/liborc-0.4-0t64/copyright",
+      "name": "liborc-0.4-0t64",
+      "url": "https://packages.debian.org/trixie/liborc-0.4-0t64",
+      "version": "1:0.4.41-1"
     }
   ],
   "source_integrity": {
@@ -1063,6 +1077,12 @@
       "filename": "pool/main/o/opencore-amr/libopencore-amrnb0_0.1.6-1+b2_amd64.deb",
       "sha256": "25ec8a9f76a9b4377e676c3223d59eed5a0a3a943438c8cab066238328b24315",
       "version": "0.1.6-1+b2"
+    },
+    "liborc-0.4-0t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/orc/liborc-0.4-0t64_0.4.41-1_amd64.deb",
+      "sha256": "5b9afe78be0dd71399c0d4d7e5f26beb6ddf207279997942d8280be1b20bd58c",
+      "version": "1:0.4.41-1"
     }
   },
   "suite": "trixie"

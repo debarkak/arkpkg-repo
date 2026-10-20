@@ -1,0 +1,8 @@
+Name: liborc-0.4-0t64
+Description: Library of Optimized Inner Loops Runtime Compiler
+Version: 1:0.4.41-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/liborc-0.4-0t64
+License: See /usr/share/doc/liborc-0.4-0t64/copyright
+Maintainer: arkanaOS Team
+Provides: liborc-0.4.so.0=/usr/lib/x86_64-linux-gnu/liborc-0.4.so.0.41.0, liborc-test-0.4.so.0=/usr/lib/x86_64-linux-gnu/liborc-test-0.4.so.0.41.0
