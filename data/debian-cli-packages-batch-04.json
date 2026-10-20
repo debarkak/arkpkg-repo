@@ -2674,6 +2674,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libwsutil16"
+      ],
+      "debian_version": "4.4.18-0+deb13u1",
+      "dependencies": [
+        "gnutls-libs",
+        "pcre2-libs"
+      ],
+      "description": "network packet dissection utilities library -- shared library",
+      "license": "See /usr/share/doc/libwsutil16/copyright",
+      "license_path": "usr/share/doc/libwsutil16/copyright",
+      "name": "libwsutil16",
+      "url": "https://packages.debian.org/trixie/libwsutil16",
+      "version": "4.4.18-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libxdp1"
       ],
       "debian_version": "1.5.4-1",
@@ -4450,6 +4467,12 @@
       "filename": "pool/main/t/tcp-wrappers/libwrap0_7.6.q-36_amd64.deb",
       "sha256": "cde12afa15d6b1556c5e0564d22edf3b99e6b8fa94c59ccd8b8eebbb62dc19ec",
       "version": "7.6.q-36"
+    },
+    "libwsutil16": {
+      "architecture": "amd64",
+      "filename": "pool/main/w/wireshark/libwsutil16_4.4.18-0+deb13u1_amd64.deb",
+      "sha256": "3ac9d8d14d71271631e7b749bcd76941bd25b3f2c15de166f32bcbf306ac9933",
+      "version": "4.4.18-0+deb13u1"
     },
     "libxdp1": {
       "architecture": "amd64",

@@ -1,0 +1,11 @@
+Name: libwsutil16
+Description: network packet dissection utilities library -- shared library
+Version: 4.4.18-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwsutil16
+License: See /usr/share/doc/libwsutil16/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gnutls-libs
+  pcre2-libs
+Provides: libwsutil.so.16=/usr/lib/x86_64-linux-gnu/libwsutil.so.16.0.0
