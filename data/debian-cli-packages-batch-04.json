@@ -78,6 +78,24 @@
       "version": "1.7.1-4+b1"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "connman"
+      ],
+      "debian_version": "1.44-3",
+      "dependencies": [
+        "gnutls-libs",
+        "iptables",
+        "readline-libs"
+      ],
+      "description": "Intel Connection Manager daemon",
+      "license": "See /usr/share/doc/connman/copyright",
+      "license_path": "usr/share/doc/connman/copyright",
+      "name": "connman",
+      "url": "https://git.kernel.org/pub/scm/network/connman/connman.git",
+      "version": "1.44-3"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "ddclient"
@@ -3023,6 +3041,12 @@
       "filename": "pool/main/b/bridge-utils/bridge-utils_1.7.1-4+b1_amd64.deb",
       "sha256": "890416fc5cdd17925411a63769cef5af108516231b9e0761f4f50dc142cf8293",
       "version": "1.7.1-4+b1"
+    },
+    "connman": {
+      "architecture": "amd64",
+      "filename": "pool/main/c/connman/connman_1.44-3_amd64.deb",
+      "sha256": "160aa629085c330cd6d49d05c8a1da22b100804069e878fbb21ef03b916d03db",
+      "version": "1.44-3"
     },
     "ddclient": {
       "architecture": "all",
