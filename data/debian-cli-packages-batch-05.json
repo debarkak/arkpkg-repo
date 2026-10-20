@@ -744,6 +744,23 @@
       "name": "libaspell15",
       "url": "https://packages.debian.org/trixie/libaspell15",
       "version": "0.60.8.1-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libastrometry0t64"
+      ],
+      "debian_version": "0.97+dfsg-2",
+      "dependencies": [
+        "libgsl28",
+        "libwcs8"
+      ],
+      "description": "Astrometry plate solver (shared lib)",
+      "license": "See /usr/share/doc/libastrometry0t64/copyright",
+      "license_path": "usr/share/doc/libastrometry0t64/copyright",
+      "name": "libastrometry0t64",
+      "url": "https://packages.debian.org/trixie/libastrometry0t64",
+      "version": "0.97+dfsg-2"
     }
   ],
   "source_integrity": {

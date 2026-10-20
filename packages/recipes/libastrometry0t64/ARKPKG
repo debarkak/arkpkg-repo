@@ -1,0 +1,11 @@
+Name: libastrometry0t64
+Description: Astrometry plate solver (shared lib)
+Version: 0.97+dfsg-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libastrometry0t64
+License: See /usr/share/doc/libastrometry0t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgsl28
+  libwcs8
+Provides: libastrometry.so.0=/usr/lib/x86_64-linux-gnu/libastrometry.so.0
