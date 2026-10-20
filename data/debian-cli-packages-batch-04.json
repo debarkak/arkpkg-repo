@@ -1422,6 +1422,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libquadmath0"
+      ],
+      "debian_version": "14.2.0-19",
+      "dependencies": [
+        "gcc-14-base"
+      ],
+      "description": "GCC Quad-Precision Math Library",
+      "license": "See /usr/share/doc/libquadmath0/copyright",
+      "license_path": "usr/share/doc/libquadmath0/copyright",
+      "license_source_package": "gcc-14-base",
+      "license_source_path": "usr/share/doc/gcc-14-base/copyright",
+      "name": "libquadmath0",
+      "url": "https://packages.debian.org/trixie/libquadmath0",
+      "version": "14.2.0-19"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsbc1"
       ],
       "debian_version": "2.1-1",
@@ -2475,6 +2493,12 @@
       "filename": "pool/main/libp/libpsm2/libpsm2-2_11.2.185-2.1_amd64.deb",
       "sha256": "f86d201c90d3bb47a36a2e9cea99a9cac4b5a4d24f0e6144e1ca84de77c54da5",
       "version": "11.2.185-2.1"
+    },
+    "libquadmath0": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gcc-14/libquadmath0_14.2.0-19_amd64.deb",
+      "sha256": "f5b51cf0ece3ec3bb7494d0cdbff3ce715ae00cfb2b6ed787f7db91319d64a7b",
+      "version": "14.2.0-19"
     },
     "libsbc1": {
       "architecture": "amd64",

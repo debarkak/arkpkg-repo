@@ -1,0 +1,10 @@
+Name: libquadmath0
+Description: GCC Quad-Precision Math Library
+Version: 14.2.0-19
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libquadmath0
+License: See /usr/share/doc/libquadmath0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gcc-14-base
+Provides: libquadmath.so.0=/usr/lib/x86_64-linux-gnu/libquadmath.so.0.0.0
