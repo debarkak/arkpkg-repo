@@ -30,6 +30,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "avahi-autoipd"
+      ],
+      "debian_version": "0.8-16",
+      "dependencies": [
+        "libdaemon0"
+      ],
+      "description": "Avahi IPv4LL network address configuration daemon",
+      "license": "See /usr/share/doc/avahi-autoipd/copyright",
+      "license_path": "usr/share/doc/avahi-autoipd/copyright",
+      "name": "avahi-autoipd",
+      "url": "https://avahi.org/",
+      "version": "0.8-16"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "bridge-utils"
       ],
       "debian_version": "1.7.1-4+b1",
@@ -1261,6 +1277,12 @@
       "filename": "pool/main/a/autossh/autossh_1.4g-1+b1_amd64.deb",
       "sha256": "3e890599832cce5e6c8c858119995695f0ec859afe2bbe31ec306af769162474",
       "version": "1.4g-1+b1"
+    },
+    "avahi-autoipd": {
+      "architecture": "amd64",
+      "filename": "pool/main/a/avahi/avahi-autoipd_0.8-16_amd64.deb",
+      "sha256": "2d1d84ac452f3ec873d866251de7d7d69f0489c286786b1d0cd4c1b0019403a0",
+      "version": "0.8-16"
     },
     "bridge-utils": {
       "architecture": "amd64",

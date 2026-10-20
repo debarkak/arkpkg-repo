@@ -1,0 +1,10 @@
+Name: avahi-autoipd
+Description: Avahi IPv4LL network address configuration daemon
+Version: 0.8-16
+Arch: x86_64
+URL: https://avahi.org/
+License: See /usr/share/doc/avahi-autoipd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libdaemon0
+Provides: avahi-autoipd=/usr/sbin/avahi-autoipd
