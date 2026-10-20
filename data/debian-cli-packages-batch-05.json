@@ -584,6 +584,23 @@
       "name": "groff-base",
       "url": "https://packages.debian.org/trixie/groff-base",
       "version": "1.23.0-9"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "iio-sensor-proxy"
+      ],
+      "debian_version": "3.7-3",
+      "dependencies": [
+        "libgudev-1.0-0",
+        "libpolkit-gobject-1-0"
+      ],
+      "description": "IIO sensors to D-Bus proxy",
+      "license": "See /usr/share/doc/iio-sensor-proxy/copyright",
+      "license_path": "usr/share/doc/iio-sensor-proxy/copyright",
+      "name": "iio-sensor-proxy",
+      "url": "https://gitlab.freedesktop.org/hadess/iio-sensor-proxy",
+      "version": "3.7-3"
     }
   ],
   "source_integrity": {

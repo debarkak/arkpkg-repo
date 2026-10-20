@@ -1,0 +1,11 @@
+Name: iio-sensor-proxy
+Description: IIO sensors to D-Bus proxy
+Version: 3.7-3
+Arch: x86_64
+URL: https://gitlab.freedesktop.org/hadess/iio-sensor-proxy
+License: See /usr/share/doc/iio-sensor-proxy/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgudev-1.0-0
+  libpolkit-gobject-1-0
+Provides: monitor-sensor=/usr/bin/monitor-sensor
