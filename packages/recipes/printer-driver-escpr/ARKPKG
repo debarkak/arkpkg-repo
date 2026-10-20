@@ -1,0 +1,11 @@
+Name: printer-driver-escpr
+Description: printer driver for Epson Inkjet that use ESC/P-R
+Version: 1.7.17-4
+Arch: x86_64
+URL: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX&productName=B700
+License: See /usr/share/doc/printer-driver-escpr/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcups2t64
+  libcupsimage2t64
+Provides: libescpr.so.1=/usr/lib/printer-driver-escpr/libescpr.so.1.0.0

@@ -2580,6 +2580,23 @@
       "name": "printer-driver-dymo",
       "url": "https://www.dymo-label-printers.co.uk/news/download-dymo-sdk-for-linux.html",
       "version": "1.4.0-12+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-escpr"
+      ],
+      "debian_version": "1.7.17-4",
+      "dependencies": [
+        "libcups2t64",
+        "libcupsimage2t64"
+      ],
+      "description": "printer driver for Epson Inkjet that use ESC/P-R",
+      "license": "See /usr/share/doc/printer-driver-escpr/copyright",
+      "license_path": "usr/share/doc/printer-driver-escpr/copyright",
+      "name": "printer-driver-escpr",
+      "url": "http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX&productName=B700",
+      "version": "1.7.17-4"
     }
   ],
   "source_integrity": {
