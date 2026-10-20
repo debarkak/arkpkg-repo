@@ -1224,6 +1224,20 @@
       "name": "libgsl28",
       "url": "https://packages.debian.org/trixie/libgsl28",
       "version": "2.8+dfsg-5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgslcblas0"
+      ],
+      "debian_version": "2.8+dfsg-5",
+      "dependencies": [],
+      "description": "GNU Scientific Library (GSL) -- blas library package",
+      "license": "See /usr/share/doc/libgslcblas0/copyright",
+      "license_path": "usr/share/doc/libgslcblas0/copyright",
+      "name": "libgslcblas0",
+      "url": "https://packages.debian.org/trixie/libgslcblas0",
+      "version": "2.8+dfsg-5"
     }
   ],
   "source_integrity": {

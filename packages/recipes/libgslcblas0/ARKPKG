@@ -1,0 +1,8 @@
+Name: libgslcblas0
+Description: GNU Scientific Library (GSL) -- blas library package
+Version: 2.8+dfsg-5
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgslcblas0
+License: See /usr/share/doc/libgslcblas0/copyright
+Maintainer: arkanaOS Team
+Provides: libgslcblas.so.0=/usr/lib/x86_64-linux-gnu/libgslcblas.so.0.0.0
