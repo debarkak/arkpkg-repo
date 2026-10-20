@@ -824,6 +824,20 @@
       "name": "libtbb12",
       "url": "https://packages.debian.org/trixie/libtbb12",
       "version": "2022.1.0-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libteamdctl0"
+      ],
+      "debian_version": "1.31-1+b2",
+      "dependencies": [],
+      "description": "library for communication with `teamd` process",
+      "license": "See /usr/share/doc/libteamdctl0/copyright",
+      "license_path": "usr/share/doc/libteamdctl0/copyright",
+      "name": "libteamdctl0",
+      "url": "https://packages.debian.org/trixie/libteamdctl0",
+      "version": "1.31-1+b2"
     }
   ],
   "source_integrity": {
@@ -1183,6 +1197,12 @@
       "filename": "pool/main/o/onetbb/libtbb12_2022.1.0-1+deb13u1_amd64.deb",
       "sha256": "37378f4e8bae165a645d7112799c33b331f4ef077876eedd19c3ad67206cba8f",
       "version": "2022.1.0-1+deb13u1"
+    },
+    "libteamdctl0": {
+      "architecture": "amd64",
+      "filename": "pool/main/libt/libteam/libteamdctl0_1.31-1+b2_amd64.deb",
+      "sha256": "05deaf3ed534c32213071e7e2d1b804117bd767e8fb52c5560d9cb8d4253008d",
+      "version": "1.31-1+b2"
     }
   },
   "suite": "trixie"

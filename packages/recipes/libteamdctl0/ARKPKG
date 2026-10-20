@@ -1,0 +1,8 @@
+Name: libteamdctl0
+Description: library for communication with `teamd` process
+Version: 1.31-1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libteamdctl0
+License: See /usr/share/doc/libteamdctl0/copyright
+Maintainer: arkanaOS Team
+Provides: libteamdctl.so.0=/usr/lib/x86_64-linux-gnu/libteamdctl.so.0.1.5
