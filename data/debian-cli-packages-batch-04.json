@@ -586,6 +586,20 @@
       "name": "libjsoncpp26",
       "url": "https://packages.debian.org/trixie/libjsoncpp26",
       "version": "1.9.6-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libjxr0t64"
+      ],
+      "debian_version": "1.2~git20170615.f752187-5.3",
+      "dependencies": [],
+      "description": "JPEG-XR lib - libraries",
+      "license": "See /usr/share/doc/libjxr0t64/copyright",
+      "license_path": "usr/share/doc/libjxr0t64/copyright",
+      "name": "libjxr0t64",
+      "url": "https://packages.debian.org/trixie/libjxr0t64",
+      "version": "1.2~git20170615.f752187-5.3"
     }
   ],
   "source_integrity": {
@@ -843,6 +857,12 @@
       "filename": "pool/main/libj/libjsoncpp/libjsoncpp26_1.9.6-3_amd64.deb",
       "sha256": "fd0b75839fe7b1a08df49e4203b1fb042df4f7d982db8d91c1fd7bdbcd4b1460",
       "version": "1.9.6-3"
+    },
+    "libjxr0t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/j/jxrlib/libjxr0t64_1.2~git20170615.f752187-5.3_amd64.deb",
+      "sha256": "d36e3db1b03d0b5a50990f15076f5fb02f451fbce07344ed6a80a4b5f7ad9dee",
+      "version": "1.2~git20170615.f752187-5.3"
     }
   },
   "suite": "trixie"
