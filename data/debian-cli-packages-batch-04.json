@@ -1020,6 +1020,20 @@
       "name": "libz3-4",
       "url": "https://packages.debian.org/trixie/libz3-4",
       "version": "4.13.3-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libzimg2"
+      ],
+      "debian_version": "3.0.5+ds1-1+b2",
+      "dependencies": [],
+      "description": "scaling, colorspace, depth conversion library (shared library)",
+      "license": "See /usr/share/doc/libzimg2/copyright",
+      "license_path": "usr/share/doc/libzimg2/copyright",
+      "name": "libzimg2",
+      "url": "https://packages.debian.org/trixie/libzimg2",
+      "version": "3.0.5+ds1-1+b2"
     }
   ],
   "source_integrity": {
@@ -1463,6 +1477,12 @@
       "filename": "pool/main/z/z3/libz3-4_4.13.3-1_amd64.deb",
       "sha256": "71383373523ef62d47eccf660cf6535c3febcbb3f88e54cb7a43124014b57359",
       "version": "4.13.3-1"
+    },
+    "libzimg2": {
+      "architecture": "amd64",
+      "filename": "pool/main/z/zimg/libzimg2_3.0.5+ds1-1+b2_amd64.deb",
+      "sha256": "d021b92ec5d647565db6b67e92a7e06e16b35ae6046c0f36d454a0cff88bbd50",
+      "version": "3.0.5+ds1-1+b2"
     }
   },
   "suite": "trixie"

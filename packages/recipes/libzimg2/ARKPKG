@@ -1,0 +1,8 @@
+Name: libzimg2
+Description: scaling, colorspace, depth conversion library (shared library)
+Version: 3.0.5+ds1-1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libzimg2
+License: See /usr/share/doc/libzimg2/copyright
+Maintainer: arkanaOS Team
+Provides: libzimg.so.2=/usr/lib/x86_64-linux-gnu/libzimg.so.2.0.0
