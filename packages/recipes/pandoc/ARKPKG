@@ -1,0 +1,14 @@
+Name: pandoc
+Description: general markup converter
+Version: 3.1.11.1+ds-2
+Arch: x86_64
+URL: https://pandoc.org/
+License: See /usr/share/doc/pandoc/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  libffi-libs
+  libnuma1
+  libyaml-libs
+  lua54-libs
+Provides: pandoc=/usr/bin/pandoc

@@ -2392,6 +2392,26 @@
       "name": "os-prober",
       "url": "https://packages.debian.org/trixie/os-prober",
       "version": "1.83"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "pandoc"
+      ],
+      "debian_version": "3.1.11.1+ds-2",
+      "dependencies": [
+        "gmp-libs",
+        "libffi-libs",
+        "libnuma1",
+        "libyaml-libs",
+        "lua54-libs"
+      ],
+      "description": "general markup converter",
+      "license": "See /usr/share/doc/pandoc/copyright",
+      "license_path": "usr/share/doc/pandoc/copyright",
+      "name": "pandoc",
+      "url": "https://pandoc.org/",
+      "version": "3.1.11.1+ds-2"
     }
   ],
   "source_integrity": {
