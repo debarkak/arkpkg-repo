@@ -690,6 +690,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libcgns3.4"
+      ],
+      "debian_version": "3.4.0-5+b2",
+      "dependencies": [
+        "libhdf5-310"
+      ],
+      "description": "CFD General Notation System library",
+      "license": "See /usr/share/doc/libcgns3.4/copyright",
+      "license_path": "usr/share/doc/libcgns3.4/copyright",
+      "name": "libcgns3.4",
+      "url": "https://packages.debian.org/trixie/libcgns3.4",
+      "version": "3.4.0-5+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libdaemon0"
       ],
       "debian_version": "0.14-7.1+b3",
@@ -3392,6 +3408,12 @@
       "filename": "pool/main/s/suitesparse/libccolamd3_7.10.1+dfsg-1_amd64.deb",
       "sha256": "c96f0cc73e92b2295b4f58a62e5cf5e7e32fc4f940c3df2e40ccd34bd3a2c593",
       "version": "1:7.10.1+dfsg-1"
+    },
+    "libcgns3.4": {
+      "architecture": "amd64",
+      "filename": "pool/main/libc/libcgns/libcgns3.4_3.4.0-5+b2_amd64.deb",
+      "sha256": "d606c05aba56ae707a9e1ef41b686a787b95ab2f26fe9ec196dc5c6eb6bfb1fe",
+      "version": "3.4.0-5+b2"
     },
     "libdaemon0": {
       "architecture": "amd64",

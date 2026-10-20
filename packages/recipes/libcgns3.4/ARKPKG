@@ -1,0 +1,10 @@
+Name: libcgns3.4
+Description: CFD General Notation System library
+Version: 3.4.0-5+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcgns3.4
+License: See /usr/share/doc/libcgns3.4/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libhdf5-310
+Provides: libcgns.so.3.4=/usr/lib/x86_64-linux-gnu/libcgns.so.3.4
