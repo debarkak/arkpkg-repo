@@ -674,6 +674,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libccolamd3"
+      ],
+      "debian_version": "1:7.10.1+dfsg-1",
+      "dependencies": [
+        "libsuitesparseconfig7"
+      ],
+      "description": "constrained column approximate library for sparse matrices",
+      "license": "See /usr/share/doc/libccolamd3/copyright",
+      "license_path": "usr/share/doc/libccolamd3/copyright",
+      "name": "libccolamd3",
+      "url": "https://packages.debian.org/trixie/libccolamd3",
+      "version": "1:7.10.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libdaemon0"
       ],
       "debian_version": "0.14-7.1+b3",
@@ -3370,6 +3386,12 @@
       "filename": "pool/main/c/canlock/libcanlock3_3.3.1-1_amd64.deb",
       "sha256": "1c4529a5be4c97acc5f8c9b5a0123812b3715b758b45a9c5d4287f28e5ef62e4",
       "version": "3.3.1-1"
+    },
+    "libccolamd3": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/suitesparse/libccolamd3_7.10.1+dfsg-1_amd64.deb",
+      "sha256": "c96f0cc73e92b2295b4f58a62e5cf5e7e32fc4f940c3df2e40ccd34bd3a2c593",
+      "version": "1:7.10.1+dfsg-1"
     },
     "libdaemon0": {
       "architecture": "amd64",
