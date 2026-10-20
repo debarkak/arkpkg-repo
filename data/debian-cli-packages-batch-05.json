@@ -1006,6 +1006,20 @@
       "name": "libcivetweb1",
       "url": "https://packages.debian.org/trixie/libcivetweb1",
       "version": "1.16+dfsg-2+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcloudproviders0"
+      ],
+      "debian_version": "0.3.6-2",
+      "dependencies": [],
+      "description": "cloud provider library",
+      "license": "See /usr/share/doc/libcloudproviders0/copyright",
+      "license_path": "usr/share/doc/libcloudproviders0/copyright",
+      "name": "libcloudproviders0",
+      "url": "https://packages.debian.org/trixie/libcloudproviders0",
+      "version": "0.3.6-2"
     }
   ],
   "source_integrity": {

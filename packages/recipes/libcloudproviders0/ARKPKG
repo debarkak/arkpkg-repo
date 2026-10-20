@@ -1,0 +1,8 @@
+Name: libcloudproviders0
+Description: cloud provider library
+Version: 0.3.6-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcloudproviders0
+License: See /usr/share/doc/libcloudproviders0/copyright
+Maintainer: arkanaOS Team
+Provides: libcloudproviders.so.0=/usr/lib/x86_64-linux-gnu/libcloudproviders.so.0.3.6
