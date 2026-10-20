@@ -2834,6 +2834,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libwiretap15"
+      ],
+      "debian_version": "4.4.18-0+deb13u1",
+      "dependencies": [
+        "libwsutil16"
+      ],
+      "description": "network packet capture library -- shared library",
+      "license": "See /usr/share/doc/libwiretap15/copyright",
+      "license_path": "usr/share/doc/libwiretap15/copyright",
+      "name": "libwiretap15",
+      "url": "https://packages.debian.org/trixie/libwiretap15",
+      "version": "4.4.18-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libwsutil16"
       ],
       "debian_version": "4.4.18-0+deb13u1",
@@ -4844,6 +4860,12 @@
       "filename": "pool/main/libw/libwebsockets/libwebsockets19t64_4.3.5-1+deb13u2_amd64.deb",
       "sha256": "d518b148939adffa78e60c6a6129150b81643ee89d8948d19f8ac71e0f3c8553",
       "version": "4.3.5-1+deb13u2"
+    },
+    "libwiretap15": {
+      "architecture": "amd64",
+      "filename": "pool/main/w/wireshark/libwiretap15_4.4.18-0+deb13u1_amd64.deb",
+      "sha256": "200a26ef86ed732cfd3bf970303557e4fa55634907d3bcdca0a6f517d527e3dc",
+      "version": "4.4.18-0+deb13u1"
     },
     "libwrap0": {
       "architecture": "amd64",

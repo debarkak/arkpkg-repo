@@ -1,0 +1,10 @@
+Name: libwiretap15
+Description: network packet capture library -- shared library
+Version: 4.4.18-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwiretap15
+License: See /usr/share/doc/libwiretap15/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libwsutil16
+Provides: libwiretap.so.15=/usr/lib/x86_64-linux-gnu/libwiretap.so.15.0.18
