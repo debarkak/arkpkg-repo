@@ -2,6 +2,7 @@
 """Test license paths shared through package dependency symlinks."""
 
 import importlib.util
+import shutil
 import tempfile
 import unittest
 from pathlib import Path
@@ -48,6 +49,27 @@ class LicensePathTests(unittest.TestCase):
                 )
             )
 
+    def test_license_source_can_name_an_aliased_dependency(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            payload = Path(temporary) / "payload"
+            docs = payload / "usr/share/doc"
+            docs.mkdir(parents=True)
+            (docs / "tcpd").symlink_to("libwrap0")
+            license_file = docs / "libwrap0/copyright"
+            license_file.parent.mkdir()
+            license_file.write_text("license text\n", encoding="utf-8")
+
+            self.assertTrue(
+                BUILDER.license_is_provided_by_dependency(
+                    payload,
+                    "usr/share/doc/tcpd/copyright",
+                    "usr/share/doc/libwrap0/copyright",
+                    ["libwrap-libs"],
+                    "libwrap0",
+                    "libwrap-libs",
+                )
+            )
+
     def test_requested_closure_reuses_an_exact_repository_dependency(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             repo_root = Path(temporary)
@@ -70,6 +92,58 @@ class LicensePathTests(unittest.TestCase):
             )
 
             self.assertEqual(closure, {"app"})
+
+
+class RepositoryProviderTests(unittest.TestCase):
+    def test_runtime_analysis_reports_needed_sonames(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            payload = Path(temporary)
+            shutil.copy2("/bin/true", payload / "true")
+
+            dependencies, missing, needed = BUILDER.runtime_dependency_details(
+                payload, {"libc.so.6": "libc"}, None, "sample"
+            )
+
+            self.assertIn("libc", dependencies)
+            self.assertIn("libc.so.6", needed)
+            self.assertEqual(missing, [])
+
+    def test_public_library_provider_beats_private_application_copy(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            recipes = Path(temporary)
+            private = recipes / "firefox-esr" / "ARKPKG"
+            public = recipes / "libnss3" / "ARKPKG"
+            private.parent.mkdir(parents=True)
+            public.parent.mkdir(parents=True)
+            private.write_text(
+                "Name: firefox-esr\n"
+                "Provides: libnss3.so=/usr/lib/firefox-esr/libnss3.so\n",
+                encoding="utf-8",
+            )
+            public.write_text(
+                "Name: libnss3\n"
+                "Provides: libnss3.so=/usr/lib/x86_64-linux-gnu/libnss3.so.3\n",
+                encoding="utf-8",
+            )
+
+            providers = BUILDER.repository_providers(recipes)
+
+            self.assertEqual(providers["libnss3.so"], "libnss3")
+
+    def test_private_provider_is_kept_when_no_public_library_exists(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            recipes = Path(temporary)
+            recipe = recipes / "libstrongswan" / "ARKPKG"
+            recipe.parent.mkdir(parents=True)
+            recipe.write_text(
+                "Name: libstrongswan\n"
+                "Provides: libstrongswan.so.0=/usr/lib/ipsec/libstrongswan.so.0\n",
+                encoding="utf-8",
+            )
+
+            providers = BUILDER.repository_providers(recipes)
+
+            self.assertEqual(providers["libstrongswan.so.0"], "libstrongswan")
 
 
 if __name__ == "__main__":

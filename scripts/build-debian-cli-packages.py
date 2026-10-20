@@ -71,20 +71,59 @@ def read_recipe(path: Path) -> tuple[dict[str, str], list[str], list[str]]:
     return fields, dependencies, provides
 
 
+def public_library_path(path: str) -> bool:
+    """Return whether a provided library is in a standard loader directory."""
+    parts = PurePosixPath(path).parts
+    if not parts or not path.startswith("/"):
+        return False
+    if len(parts) >= 3 and parts[0] == "/" and parts[1] in {"lib", "lib64"}:
+        return len(parts) == 3 or (len(parts) == 4 and parts[2].endswith("-linux-gnu"))
+    if (
+        len(parts) >= 4
+        and parts[0] == "/"
+        and parts[1] == "usr"
+        and parts[2] in {"lib", "lib64"}
+    ):
+        return len(parts) == 4 or (
+            len(parts) == 5 and parts[3].endswith("-linux-gnu")
+        )
+    return False
+
+
+def provider_preference(atom: str, package: str, target: str) -> tuple[int, int, str]:
+    """Prefer public library packages over applications' private bundled copies."""
+    path_score = 0 if public_library_path(target) else 20
+    match = re.match(r"(lib.+?)\.so(?:\.|$)", atom)
+    stem = match.group(1) if match else ""
+    name_score = 0 if stem and package.startswith(stem) else 1
+    return path_score + name_score, name_score, package
+
+
+def repository_providers(recipes: Path) -> dict[str, str]:
+    candidates: dict[str, list[tuple[tuple[int, int, str], str]]] = {}
+    for recipe in sorted(recipes.glob("*/ARKPKG")):
+        fields, _, provides = read_recipe(recipe)
+        name = fields.get("Name", recipe.parent.name)
+        candidates.setdefault(name, []).append(((-10, 0, name), name))
+        for entry in provides:
+            atom, separator, target = entry.partition("=")
+            atom = atom.strip()
+            if atom:
+                candidates.setdefault(atom, []).append(
+                    (provider_preference(atom, name, target.strip() if separator else ""), name)
+                )
+    return {
+        atom: min(options, key=lambda item: item[0])[1]
+        for atom, options in candidates.items()
+    }
+
+
 def repository_owners(
     repo_root: Path, ignored_packages: set[str]
 ) -> tuple[set[str], dict[str, str]]:
     owned: set[str] = set()
-    providers: dict[str, str] = {}
     recipes = repo_root / "packages/recipes"
-    for recipe in sorted(recipes.glob("*/ARKPKG")):
-        fields, _, provides = read_recipe(recipe)
-        name = fields.get("Name", recipe.parent.name)
-        providers.setdefault(name, name)
-        for entry in provides:
-            provided = entry.partition("=")[0].strip()
-            if provided:
-                providers.setdefault(provided, name)
+    providers = repository_providers(recipes)
 
     for archive_path in sorted((repo_root / "packages").glob("*.ark")):
         archive_name = None
@@ -282,6 +321,20 @@ def license_path_resolves_to(
     return target == source
 
 
+def license_is_provided_by_dependency(
+    payload: Path,
+    license_path: str,
+    source_path: str,
+    dependencies: list[str],
+    source_package: str,
+    source_dependency: str | None = None,
+) -> bool:
+    dependency = source_dependency or source_package
+    return dependency in dependencies and license_path_resolves_to(
+        payload, license_path, source_path
+    )
+
+
 def stage_has_library(staging: Path, soname: str) -> bool:
     for directory in (
         "lib",
@@ -297,13 +350,14 @@ def stage_has_library(staging: Path, soname: str) -> bool:
     return False
 
 
-def runtime_dependencies(
+def runtime_dependency_details(
     payload: Path,
     providers: dict[str, str],
     staging: Path | None,
     package_name: str,
-) -> tuple[list[str], list[str]]:
+) -> tuple[list[str], list[str], list[str]]:
     dependencies: set[str] = set()
+    needed_libraries: set[str] = set()
     bundled_names = {
         path.name
         for path in payload.rglob("*")
@@ -330,12 +384,25 @@ def runtime_dependencies(
             soname = match.group(1)
             if soname in bundled_names:
                 continue
+            needed_libraries.add(soname)
             provider = providers.get(soname)
             if provider and provider != package_name:
                 dependencies.add(provider)
             elif staging is not None and not stage_has_library(staging, soname):
                 missing.add(soname)
-    return sorted(dependencies), sorted(missing)
+    return sorted(dependencies), sorted(missing), sorted(needed_libraries)
+
+
+def runtime_dependencies(
+    payload: Path,
+    providers: dict[str, str],
+    staging: Path | None,
+    package_name: str,
+) -> tuple[list[str], list[str]]:
+    dependencies, missing, _ = runtime_dependency_details(
+        payload, providers, staging, package_name
+    )
+    return dependencies, missing
 
 
 def recipe_text(
@@ -455,11 +522,13 @@ def build(args: argparse.Namespace) -> None:
                         f"{name}: missing license source {package['license_source_path']} "
                         f"from {license_source_name}"
                     )
-                if (
-                    license_source_name in package.get("dependencies", [])
-                    and license_path_resolves_to(
-                        payload, license_path, package["license_source_path"]
-                    )
+                if license_is_provided_by_dependency(
+                    payload,
+                    license_path,
+                    package["license_source_path"],
+                    package.get("dependencies", []),
+                    license_source_name,
+                    package.get("license_source_dependency"),
                 ):
                     license_provided_by_dependency = True
                 else:
