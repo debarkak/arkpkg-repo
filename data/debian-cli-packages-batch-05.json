@@ -483,6 +483,20 @@
       "name": "fluidsynth",
       "url": "https://github.com/Fluidsynth/fluidsynth",
       "version": "2.4.4+dfsg-1+deb13u3"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "foomatic-db-compressed-ppds"
+      ],
+      "debian_version": "20230202-1",
+      "dependencies": [],
+      "description": "OpenPrinting printer support - Compressed PPDs derived from the database",
+      "license": "See /usr/share/doc/foomatic-db-compressed-ppds/copyright",
+      "license_path": "usr/share/doc/foomatic-db-compressed-ppds/copyright",
+      "name": "foomatic-db-compressed-ppds",
+      "url": "https://www.openprinting.org/",
+      "version": "20230202-1"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,7 @@
+Name: foomatic-db-compressed-ppds
+Description: OpenPrinting printer support - Compressed PPDs derived from the database
+Version: 20230202-1
+Arch: any
+URL: https://www.openprinting.org/
+License: See /usr/share/doc/foomatic-db-compressed-ppds/copyright
+Maintainer: arkanaOS Team
