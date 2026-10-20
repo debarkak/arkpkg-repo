@@ -2141,6 +2141,25 @@
       "version": "2013-11-29-11"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "tcpd"
+      ],
+      "debian_version": "7.6.q-36",
+      "dependencies": [
+        "libwrap-libs"
+      ],
+      "description": "Wietse Venema's TCP wrapper utilities",
+      "license": "See /usr/share/doc/tcpd/copyright",
+      "license_path": "usr/share/doc/tcpd/copyright",
+      "license_source_dependency": "libwrap-libs",
+      "license_source_package": "libwrap0",
+      "license_source_path": "usr/share/doc/libwrap0/copyright",
+      "name": "tcpd",
+      "url": "https://packages.debian.org/trixie/tcpd",
+      "version": "7.6.q-36"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "torsocks"
@@ -2907,6 +2926,12 @@
       "sha256": "d518b148939adffa78e60c6a6129150b81643ee89d8948d19f8ac71e0f3c8553",
       "version": "4.3.5-1+deb13u2"
     },
+    "libwrap0": {
+      "architecture": "amd64",
+      "filename": "pool/main/t/tcp-wrappers/libwrap0_7.6.q-36_amd64.deb",
+      "sha256": "cde12afa15d6b1556c5e0564d22edf3b99e6b8fa94c59ccd8b8eebbb62dc19ec",
+      "version": "7.6.q-36"
+    },
     "libxdp1": {
       "architecture": "amd64",
       "filename": "pool/main/x/xdp-tools/libxdp1_1.5.4-1_amd64.deb",
@@ -3050,6 +3075,12 @@
       "filename": "pool/main/s/snap/snap_2013-11-29-11_amd64.deb",
       "sha256": "8611b047dc9e2c708234fcac952f10a74fa845caddd25058c82e30cefe8765c5",
       "version": "2013-11-29-11"
+    },
+    "tcpd": {
+      "architecture": "amd64",
+      "filename": "pool/main/t/tcp-wrappers/tcpd_7.6.q-36_amd64.deb",
+      "sha256": "c9c18b6c44c3371554feda46982e43ba723c0a350d2875618d144e3065faf94f",
+      "version": "7.6.q-36"
     },
     "torsocks": {
       "architecture": "all",

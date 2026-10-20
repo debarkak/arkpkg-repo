@@ -1,0 +1,10 @@
+Name: tcpd
+Description: Wietse Venema's TCP wrapper utilities
+Version: 7.6.q-36
+Arch: x86_64
+URL: https://packages.debian.org/trixie/tcpd
+License: See /usr/share/doc/tcpd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libwrap-libs
+Provides: safe_finger=/usr/sbin/safe_finger, tcpd=/usr/sbin/tcpd, tcpdchk=/usr/sbin/tcpdchk, tcpdmatch=/usr/sbin/tcpdmatch, try-from=/usr/sbin/try-from
