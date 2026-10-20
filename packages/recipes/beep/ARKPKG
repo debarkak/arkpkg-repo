@@ -1,0 +1,8 @@
+Name: beep
+Description: advanced PC-speaker beeper
+Version: 1.4.9-1.1
+Arch: x86_64
+URL: https://github.com/spkr-beep/beep
+License: See /usr/share/doc/beep/copyright
+Maintainer: arkanaOS Team
+Provides: beep=/usr/bin/beep

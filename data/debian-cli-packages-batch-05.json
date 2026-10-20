@@ -146,6 +146,20 @@
       "name": "autojump",
       "url": "https://github.com/wting/autojump",
       "version": "22.5.1-1.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "beep"
+      ],
+      "debian_version": "1.4.9-1.1",
+      "dependencies": [],
+      "description": "advanced PC-speaker beeper",
+      "license": "See /usr/share/doc/beep/copyright",
+      "license_path": "usr/share/doc/beep/copyright",
+      "name": "beep",
+      "url": "https://github.com/spkr-beep/beep",
+      "version": "1.4.9-1.1"
     }
   ],
   "source_integrity": {
