@@ -3978,6 +3978,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "proj-bin"
+      ],
+      "debian_version": "9.6.0-1",
+      "dependencies": [
+        "libproj25"
+      ],
+      "description": "Cartographic projection library (tools)",
+      "license": "See /usr/share/doc/proj-bin/copyright",
+      "license_path": "usr/share/doc/proj-bin/copyright",
+      "name": "proj-bin",
+      "url": "https://proj.org/",
+      "version": "9.6.0-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "prometheus"
       ],
       "debian_version": "2.53.3+ds1-2",
@@ -5901,6 +5917,12 @@
       "filename": "pool/main/p/proftpd-dfsg/proftpd-core_1.3.8.c+dfsg-4+deb13u3_amd64.deb",
       "sha256": "f26e150fdeb43f0b339cf17febcecf54f9665acaded6d28235d8604257762cb8",
       "version": "1.3.8.c+dfsg-4+deb13u3"
+    },
+    "proj-bin": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/proj/proj-bin_9.6.0-1_amd64.deb",
+      "sha256": "a2237f1c0c473e29c678114fb6a9eccf9cb0a798d26d0805a4a5f68057c1a0f9",
+      "version": "9.6.0-1"
     },
     "prometheus": {
       "architecture": "amd64",

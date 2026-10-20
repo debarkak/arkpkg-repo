@@ -1,0 +1,10 @@
+Name: proj-bin
+Description: Cartographic projection library (tools)
+Version: 9.6.0-1
+Arch: x86_64
+URL: https://proj.org/
+License: See /usr/share/doc/proj-bin/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libproj25
+Provides: cct=/usr/bin/cct, cs2cs=/usr/bin/cs2cs, geod=/usr/bin/geod, gie=/usr/bin/gie, invgeod=/usr/bin/invgeod, invproj=/usr/bin/invproj, proj=/usr/bin/proj, projinfo=/usr/bin/projinfo, projsync=/usr/bin/projsync
