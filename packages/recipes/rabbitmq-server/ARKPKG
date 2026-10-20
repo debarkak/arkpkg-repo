@@ -1,0 +1,11 @@
+Name: rabbitmq-server
+Description: AMQP server written in Erlang
+Version: 4.0.5-6+deb13u2
+Arch: any
+URL: https://www.rabbitmq.com/
+License: See /usr/share/doc/rabbitmq-server/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl
+  socat
+Provides: rabbitmq-diagnostics=/usr/sbin/rabbitmq-diagnostics, rabbitmq-plugins=/usr/sbin/rabbitmq-plugins, rabbitmq-queues=/usr/sbin/rabbitmq-queues, rabbitmq-server=/usr/sbin/rabbitmq-server, rabbitmq-upgrade=/usr/sbin/rabbitmq-upgrade, rabbitmqadmin=/usr/bin/rabbitmqadmin, rabbitmqctl=/usr/sbin/rabbitmqctl

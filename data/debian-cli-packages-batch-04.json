@@ -2733,6 +2733,23 @@
       "version": "0.83-3"
     },
     {
+      "arch": "any",
+      "debian_packages": [
+        "rabbitmq-server"
+      ],
+      "debian_version": "4.0.5-6+deb13u2",
+      "dependencies": [
+        "openssl",
+        "socat"
+      ],
+      "description": "AMQP server written in Erlang",
+      "license": "See /usr/share/doc/rabbitmq-server/copyright",
+      "license_path": "usr/share/doc/rabbitmq-server/copyright",
+      "name": "rabbitmq-server",
+      "url": "https://www.rabbitmq.com/",
+      "version": "4.0.5-6+deb13u2"
+    },
+    {
       "arch": "x86_64",
       "debian_packages": [
         "rpcbind"
@@ -3960,6 +3977,12 @@
       "filename": "pool/main/p/putty/putty-tools_0.83-3_amd64.deb",
       "sha256": "23f5c5898ab9dbb5e5b908174ddfcedcd8f25efa525a796a74fbb45fd8c73212",
       "version": "0.83-3"
+    },
+    "rabbitmq-server": {
+      "architecture": "all",
+      "filename": "pool/main/r/rabbitmq-server/rabbitmq-server_4.0.5-6+deb13u2_all.deb",
+      "sha256": "2d77b12be64d480db03489825b96d241dbd38db59673adccf5b5feefacdf8e41",
+      "version": "4.0.5-6+deb13u2"
     },
     "rpcbind": {
       "architecture": "amd64",
