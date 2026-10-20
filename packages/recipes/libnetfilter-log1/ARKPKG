@@ -1,0 +1,11 @@
+Name: libnetfilter-log1
+Description: Netfilter netlink-log library
+Version: 1.0.2-4+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnetfilter-log1
+License: See /usr/share/doc/libnetfilter-log1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmnl
+  libnfnetlink
+Provides: libnetfilter_log.so.1=/usr/lib/x86_64-linux-gnu/libnetfilter_log.so.1.2.0, libnetfilter_log_libipulog.so.1=/usr/lib/x86_64-linux-gnu/libnetfilter_log_libipulog.so.1.0.0

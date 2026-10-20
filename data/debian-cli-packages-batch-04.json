@@ -1142,6 +1142,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnetfilter-log1"
+      ],
+      "debian_version": "1.0.2-4+b1",
+      "dependencies": [
+        "libmnl",
+        "libnfnetlink"
+      ],
+      "description": "Netfilter netlink-log library",
+      "license": "See /usr/share/doc/libnetfilter-log1/copyright",
+      "license_path": "usr/share/doc/libnetfilter-log1/copyright",
+      "name": "libnetfilter-log1",
+      "url": "https://packages.debian.org/trixie/libnetfilter-log1",
+      "version": "1.0.2-4+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libnova-0.16-0t64"
       ],
       "debian_version": "0.16-5.1+b1",
@@ -2171,6 +2188,12 @@
       "filename": "pool/main/libn/libnetfilter-conntrack/libnetfilter-conntrack3_1.1.0-1_amd64.deb",
       "sha256": "ffbac5d06fbe432d5171f2eb5b2504968377f27be133f72c81e71250a9957506",
       "version": "1.1.0-1"
+    },
+    "libnetfilter-log1": {
+      "architecture": "amd64",
+      "filename": "pool/main/libn/libnetfilter-log/libnetfilter-log1_1.0.2-4+b1_amd64.deb",
+      "sha256": "6e63d5a0d7393ca51397a08edcf54852364a640a4fcdc6a0cb4e97cb9c574bb5",
+      "version": "1.0.2-4+b1"
     },
     "libnova-0.16-0t64": {
       "architecture": "amd64",
