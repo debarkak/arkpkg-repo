@@ -1,0 +1,25 @@
+Name: libgmsh4.13
+Description: Three-dimensional finite element mesh generator shared library
+Version: 4.13.1+ds1-6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgmsh4.13
+License: See /usr/share/doc/libgmsh4.13/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  libalglib4.2
+  libann0
+  libcgns3.4
+  libfltk-gl1.3t64
+  libfltk-images1.3t64
+  libfltk1.3t64
+  libgl2ps1.4
+  libglu1-mesa
+  libgomp1
+  libjpeg62-turbo
+  libmetis5
+  libocct-runtime
+  libpng16-16t64
+  libvoro++1
+  nmap-runtime-libs
+Provides: libgmsh.so.4.13=/usr/lib/x86_64-linux-gnu/libgmsh.so.4.13.1

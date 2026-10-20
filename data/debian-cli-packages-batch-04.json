@@ -1223,6 +1223,37 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgmsh4.13"
+      ],
+      "debian_version": "4.13.1+ds1-6",
+      "dependencies": [
+        "gmp-libs",
+        "libalglib4.2",
+        "libann0",
+        "libcgns3.4",
+        "libfltk-gl1.3t64",
+        "libfltk-images1.3t64",
+        "libfltk1.3t64",
+        "libgl2ps1.4",
+        "libglu1-mesa",
+        "libgomp1",
+        "libjpeg62-turbo",
+        "libmetis5",
+        "libocct-runtime",
+        "libpng16-16t64",
+        "libvoro++1",
+        "nmap-runtime-libs"
+      ],
+      "description": "Three-dimensional finite element mesh generator shared library",
+      "license": "See /usr/share/doc/libgmsh4.13/copyright",
+      "license_path": "usr/share/doc/libgmsh4.13/copyright",
+      "name": "libgmsh4.13",
+      "url": "https://packages.debian.org/trixie/libgmsh4.13",
+      "version": "4.13.1+ds1-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgpgme11t64"
       ],
       "debian_version": "1.24.2-3",
@@ -4372,6 +4403,12 @@
       "filename": "pool/main/g/gl2ps/libgl2ps1.4_1.4.2+dfsg1-2_amd64.deb",
       "sha256": "e92c67bdf9373b3315ef101119cf7ef96ac5ae4ffa9b9c2445686f1af1425260",
       "version": "1.4.2+dfsg1-2"
+    },
+    "libgmsh4.13": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gmsh/libgmsh4.13_4.13.1+ds1-6_amd64.deb",
+      "sha256": "6765487132a86ce8c36450b90d5add141a4e6927b16b6408ef14e28148ff45ab",
+      "version": "4.13.1+ds1-6"
     },
     "libgpgme11t64": {
       "architecture": "amd64",
