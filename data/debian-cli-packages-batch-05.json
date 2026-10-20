@@ -1612,6 +1612,20 @@
       "name": "libpcre2-16-0",
       "url": "https://packages.debian.org/trixie/libpcre2-16-0",
       "version": "10.46-1~deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libplist-2.0-4"
+      ],
+      "debian_version": "2.6.0-2+b1",
+      "dependencies": [],
+      "description": "Library for handling Apple binary and XML property lists",
+      "license": "See /usr/share/doc/libplist-2.0-4/copyright",
+      "license_path": "usr/share/doc/libplist-2.0-4/copyright",
+      "name": "libplist-2.0-4",
+      "url": "https://packages.debian.org/trixie/libplist-2.0-4",
+      "version": "2.6.0-2+b1"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,8 @@
+Name: libplist-2.0-4
+Description: Library for handling Apple binary and XML property lists
+Version: 2.6.0-2+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libplist-2.0-4
+License: See /usr/share/doc/libplist-2.0-4/copyright
+Maintainer: arkanaOS Team
+Provides: libplist-2.0.so.4=/usr/lib/x86_64-linux-gnu/libplist-2.0.so.4.6.0
