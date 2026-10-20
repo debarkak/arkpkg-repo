@@ -3092,6 +3092,28 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "openvpn"
+      ],
+      "debian_version": "2.6.14-1+deb13u3",
+      "dependencies": [
+        "libcap-ng",
+        "liblzo2-2",
+        "libnl-libs",
+        "libpkcs11-helper1t64",
+        "openssl-libs",
+        "pam-libs",
+        "systemd-libs"
+      ],
+      "description": "virtual private network daemon",
+      "license": "See /usr/share/doc/openvpn/copyright",
+      "license_path": "usr/share/doc/openvpn/copyright",
+      "name": "openvpn",
+      "url": "https://openvpn.net/",
+      "version": "2.6.14-1+deb13u3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "openvpn3-client"
       ],
       "debian_version": "24.1+dfsg-1",
@@ -4656,6 +4678,12 @@
       "filename": "pool/main/o/open-iscsi/open-iscsi_2.1.11-1+deb13u2_amd64.deb",
       "sha256": "cbe0add75552f277d0eef21826e1b8610828cbd04ae1c26878bfa455fbbf31d5",
       "version": "2.1.11-1+deb13u2"
+    },
+    "openvpn": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openvpn/openvpn_2.6.14-1+deb13u3_amd64.deb",
+      "sha256": "8952d637f0634589d733ea18e4fc36d0556dee2b38f50f963852328c2766feca",
+      "version": "2.6.14-1+deb13u3"
     },
     "openvpn3-client": {
       "architecture": "amd64",

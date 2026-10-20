@@ -1,0 +1,16 @@
+Name: openvpn
+Description: virtual private network daemon
+Version: 2.6.14-1+deb13u3
+Arch: x86_64
+URL: https://openvpn.net/
+License: See /usr/share/doc/openvpn/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap-ng
+  liblzo2-2
+  libnl-libs
+  libpkcs11-helper1t64
+  openssl-libs
+  pam-libs
+  systemd-libs
+Provides: openvpn-plugin-auth-pam.so=/usr/lib/x86_64-linux-gnu/openvpn/plugins/openvpn-plugin-auth-pam.so, openvpn-plugin-down-root.so=/usr/lib/x86_64-linux-gnu/openvpn/plugins/openvpn-plugin-down-root.so, openvpn=/usr/sbin/openvpn
