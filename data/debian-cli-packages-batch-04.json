@@ -26,6 +26,20 @@
       "name": "autossh",
       "url": "https://www.harding.motd.ca/autossh/",
       "version": "1.4g-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "bridge-utils"
+      ],
+      "debian_version": "1.7.1-4+b1",
+      "dependencies": [],
+      "description": "Utilities for configuring the Linux Ethernet bridge",
+      "license": "See /usr/share/doc/bridge-utils/copyright",
+      "license_path": "usr/share/doc/bridge-utils/copyright",
+      "name": "bridge-utils",
+      "url": "https://packages.debian.org/trixie/bridge-utils",
+      "version": "1.7.1-4+b1"
     }
   ],
   "source_integrity": {
@@ -43,6 +57,12 @@
       "filename": "pool/main/a/autossh/autossh_1.4g-1+b1_amd64.deb",
       "sha256": "3e890599832cce5e6c8c858119995695f0ec859afe2bbe31ec306af769162474",
       "version": "1.4g-1+b1"
+    },
+    "bridge-utils": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/bridge-utils/bridge-utils_1.7.1-4+b1_amd64.deb",
+      "sha256": "890416fc5cdd17925411a63769cef5af108516231b9e0761f4f50dc142cf8293",
+      "version": "1.7.1-4+b1"
     }
   },
   "suite": "trixie"

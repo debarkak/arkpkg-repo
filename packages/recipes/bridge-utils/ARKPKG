@@ -1,0 +1,8 @@
+Name: bridge-utils
+Description: Utilities for configuring the Linux Ethernet bridge
+Version: 1.7.1-4+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/bridge-utils
+License: See /usr/share/doc/bridge-utils/copyright
+Maintainer: arkanaOS Team
+Provides: brctl=/usr/sbin/brctl
