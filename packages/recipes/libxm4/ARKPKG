@@ -1,0 +1,11 @@
+Name: libxm4
+Description: Motif - X/Motif shared library
+Version: 2.3.8-4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libxm4
+License: See /usr/share/doc/libxm4/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libjpeg62-turbo
+  libpng16-16t64
+Provides: libXm.so.4=/usr/lib/x86_64-linux-gnu/libXm.so.4.0.4
