@@ -1,0 +1,9 @@
+Name: printer-driver-brlaser
+Description: printer driver for (some) Brother laser printers
+Version: 6.2.7-1
+Arch: x86_64
+URL: https://github.com/Owl-Maintain/brlaser
+License: See /usr/share/doc/printer-driver-brlaser/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcups2t64

@@ -2519,6 +2519,22 @@
       "name": "powermgmt-base",
       "url": "https://packages.debian.org/trixie/powermgmt-base",
       "version": "1.38"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-brlaser"
+      ],
+      "debian_version": "6.2.7-1",
+      "dependencies": [
+        "libcups2t64"
+      ],
+      "description": "printer driver for (some) Brother laser printers",
+      "license": "See /usr/share/doc/printer-driver-brlaser/copyright",
+      "license_path": "usr/share/doc/printer-driver-brlaser/copyright",
+      "name": "printer-driver-brlaser",
+      "url": "https://github.com/Owl-Maintain/brlaser",
+      "version": "6.2.7-1"
     }
   ],
   "source_integrity": {
