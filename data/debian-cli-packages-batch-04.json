@@ -124,6 +124,20 @@
       "name": "inn2-inews",
       "url": "https://www.eyrie.org/~eagle/software/inn/",
       "version": "2.7.3-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "iperf"
+      ],
+      "debian_version": "2.2.1+dfsg-1",
+      "dependencies": [],
+      "description": "Internet Protocol bandwidth measuring tool",
+      "license": "See /usr/share/doc/iperf/copyright",
+      "license_path": "usr/share/doc/iperf/copyright",
+      "name": "iperf",
+      "url": "https://sourceforge.net/projects/iperf2/",
+      "version": "2.2.1+dfsg-1"
     }
   ],
   "source_integrity": {
@@ -183,6 +197,12 @@
       "filename": "pool/main/i/inn2/inn2-inews_2.7.3-1_amd64.deb",
       "sha256": "613ba757c4ad0491ef57701afaacd1733a2dc9fe41f7deef5d355427e9e5075d",
       "version": "2.7.3-1"
+    },
+    "iperf": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/iperf/iperf_2.2.1+dfsg-1_amd64.deb",
+      "sha256": "74b606ab15b63256731b0cabe2e714956c2536d1ae7ed77a3b9cf86983c89549",
+      "version": "2.2.1+dfsg-1"
     }
   },
   "suite": "trixie"

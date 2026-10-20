@@ -1,0 +1,8 @@
+Name: iperf
+Description: Internet Protocol bandwidth measuring tool
+Version: 2.2.1+dfsg-1
+Arch: x86_64
+URL: https://sourceforge.net/projects/iperf2/
+License: See /usr/share/doc/iperf/copyright
+Maintainer: arkanaOS Team
+Provides: iperf=/usr/bin/iperf
