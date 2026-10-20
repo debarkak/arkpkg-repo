@@ -1553,6 +1553,20 @@
       "name": "libnetpbm11t64",
       "url": "https://packages.debian.org/trixie/libnetpbm11t64",
       "version": "2:11.10.02-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libnfs14"
+      ],
+      "debian_version": "5.0.2-1+deb13u1",
+      "dependencies": [],
+      "description": "NFS client library (shared library)",
+      "license": "See /usr/share/doc/libnfs14/copyright",
+      "license_path": "usr/share/doc/libnfs14/copyright",
+      "name": "libnfs14",
+      "url": "https://packages.debian.org/trixie/libnfs14",
+      "version": "5.0.2-1+deb13u1"
     }
   ],
   "source_integrity": {

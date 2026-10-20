@@ -1,0 +1,8 @@
+Name: libnfs14
+Description: NFS client library (shared library)
+Version: 5.0.2-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnfs14
+License: See /usr/share/doc/libnfs14/copyright
+Maintainer: arkanaOS Team
+Provides: libnfs.so.14=/usr/lib/x86_64-linux-gnu/libnfs.so.14.0.0
