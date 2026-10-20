@@ -1,0 +1,10 @@
+Name: libavahi-core7
+Description: Avahi's embeddable mDNS/DNS-SD library
+Version: 0.8-16
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libavahi-core7
+License: See /usr/share/doc/libavahi-core7/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavahi-common3
+Provides: libavahi-core.so.7=/usr/lib/x86_64-linux-gnu/libavahi-core.so.7.1.0
