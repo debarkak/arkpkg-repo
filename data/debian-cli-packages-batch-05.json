@@ -2783,6 +2783,38 @@
       "name": "recode",
       "url": "https://github.com/rrthomas/recode",
       "version": "3.7.15-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "samba-libs"
+      ],
+      "debian_version": "2:4.22.11+dfsg-0+deb13u1",
+      "dependencies": [
+        "acl-libs",
+        "gnutls-libs",
+        "libavahi-client3",
+        "libavahi-common3",
+        "libbsd",
+        "libcap",
+        "libcrypt1",
+        "libicu76",
+        "libldb2",
+        "libtalloc2",
+        "libtdb1",
+        "libtevent0t64",
+        "libwbclient0",
+        "openldap-libs",
+        "pam-libs",
+        "popt-libs",
+        "systemd-libs"
+      ],
+      "description": "Samba core libraries",
+      "license": "See /usr/share/doc/samba-libs/copyright",
+      "license_path": "usr/share/doc/samba-libs/copyright",
+      "name": "samba-libs",
+      "url": "https://packages.debian.org/trixie/samba-libs",
+      "version": "2:4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {
