@@ -1,0 +1,10 @@
+Name: libcfitsio10t64
+Description: shared library for I/O with FITS format data files
+Version: 4.6.2-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcfitsio10t64
+License: See /usr/share/doc/libcfitsio10t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcurl3t64-gnutls
+Provides: libcfitsio.so.10=/usr/lib/x86_64-linux-gnu/libcfitsio.so.10.0.0

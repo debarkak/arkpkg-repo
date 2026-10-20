@@ -793,6 +793,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libcfitsio10t64"
+      ],
+      "debian_version": "4.6.2-2",
+      "dependencies": [
+        "libcurl3t64-gnutls"
+      ],
+      "description": "shared library for I/O with FITS format data files",
+      "license": "See /usr/share/doc/libcfitsio10t64/copyright",
+      "license_path": "usr/share/doc/libcfitsio10t64/copyright",
+      "name": "libcfitsio10t64",
+      "url": "https://packages.debian.org/trixie/libcfitsio10t64",
+      "version": "4.6.2-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libcgns3.4"
       ],
       "debian_version": "3.4.0-5+b2",
@@ -4194,6 +4210,12 @@
       "filename": "pool/main/s/suitesparse/libccolamd3_7.10.1+dfsg-1_amd64.deb",
       "sha256": "c96f0cc73e92b2295b4f58a62e5cf5e7e32fc4f940c3df2e40ccd34bd3a2c593",
       "version": "1:7.10.1+dfsg-1"
+    },
+    "libcfitsio10t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/c/cfitsio/libcfitsio10t64_4.6.2-2_amd64.deb",
+      "sha256": "ed07091002482a67a873d347e570ae1b1f024fae7b775d1873439b68d71f8468",
+      "version": "4.6.2-2"
     },
     "libcgns3.4": {
       "architecture": "amd64",
