@@ -1,0 +1,8 @@
+Name: cryfs
+Description: encrypt your files and store them in the cloud
+Version: 0.11.4-3
+Arch: x86_64
+URL: https://www.cryfs.org/
+License: See /usr/share/doc/cryfs/copyright
+Maintainer: arkanaOS Team
+Provides: cryfs-unmount=/usr/bin/cryfs-unmount, cryfs=/usr/bin/cryfs

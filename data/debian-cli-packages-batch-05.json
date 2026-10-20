@@ -258,6 +258,29 @@
       "name": "confget",
       "url": "https://devel.ringlet.net/textproc/confget/",
       "version": "5.1.2-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "cryfs"
+      ],
+      "debian_version": "0.11.4-3",
+      "dependencies": [
+        "libboost-chrono1.83.0t64",
+        "libboost-filesystem1.83.0",
+        "libboost-program-options1.83.0",
+        "libboost-thread1.83.0",
+        "libfmt10",
+        "libfuse2t64",
+        "libgomp1",
+        "libspdlog1.15"
+      ],
+      "description": "encrypt your files and store them in the cloud",
+      "license": "See /usr/share/doc/cryfs/copyright",
+      "license_path": "usr/share/doc/cryfs/copyright",
+      "name": "cryfs",
+      "url": "https://www.cryfs.org/",
+      "version": "0.11.4-3"
     }
   ],
   "source_integrity": {
