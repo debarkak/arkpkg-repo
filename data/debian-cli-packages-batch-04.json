@@ -82,6 +82,20 @@
       "name": "gdal-plugins",
       "url": "http://www.gdal.org/",
       "version": "3.10.3+dfsg-1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "geoip-database"
+      ],
+      "debian_version": "20250401+really20191224-0+deb13u1",
+      "dependencies": [],
+      "description": "IP lookup command line tools that use the GeoIP library (country database)",
+      "license": "See /usr/share/doc/geoip-database/copyright",
+      "license_path": "usr/share/doc/geoip-database/copyright",
+      "name": "geoip-database",
+      "url": "https://www.maxmind.com/",
+      "version": "20250401+really20191224-0+deb13u1"
     }
   ],
   "source_integrity": {
@@ -123,6 +137,12 @@
       "filename": "pool/main/g/gdal/gdal-plugins_3.10.3+dfsg-1_amd64.deb",
       "sha256": "cb1e07c1de1c7f741272935b25df8c82d3e1b5eefdc862d0786aee7f31aaebeb",
       "version": "3.10.3+dfsg-1"
+    },
+    "geoip-database": {
+      "architecture": "all",
+      "filename": "pool/main/g/geoip-database/geoip-database_20250401+really20191224-0+deb13u1_all.deb",
+      "sha256": "44960112c16d5637067480262bdcf5a10e0cb0b8d4f6add8a4d0af4da02c8816",
+      "version": "20250401+really20191224-0+deb13u1"
     }
   },
   "suite": "trixie"

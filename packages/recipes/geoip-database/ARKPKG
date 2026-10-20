@@ -1,0 +1,7 @@
+Name: geoip-database
+Description: IP lookup command line tools that use the GeoIP library (country database)
+Version: 20250401+really20191224-0+deb13u1
+Arch: any
+URL: https://www.maxmind.com/
+License: See /usr/share/doc/geoip-database/copyright
+Maintainer: arkanaOS Team
