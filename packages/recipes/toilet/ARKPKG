@@ -1,0 +1,10 @@
+Name: toilet
+Description: display large colourful characters in text mode
+Version: 0.3-3
+Arch: x86_64
+URL: http://caca.zoy.org/wiki/toilet
+License: See /usr/share/doc/toilet/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcaca0
+Provides: figlet-toilet=/usr/bin/figlet-toilet, toilet=/usr/bin/toilet
