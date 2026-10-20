@@ -1953,6 +1953,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libocct-data-exchange-7.8",
+        "libocct-draw-7.8",
+        "libocct-foundation-7.8",
+        "libocct-modeling-algorithms-7.8",
+        "libocct-modeling-data-7.8",
+        "libocct-ocaf-7.8",
+        "libocct-visualization-7.8"
+      ],
+      "dependencies": [],
+      "description": "Open CASCADE geometric modeling runtime libraries",
+      "license": "See /usr/share/doc/libocct-foundation-7.8/copyright",
+      "license_path": "usr/share/doc/libocct-foundation-7.8/copyright",
+      "name": "libocct-runtime",
+      "url": "https://www.opencascade.com/",
+      "version": "7.8.1+dfsg1-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libodbc2"
       ],
       "debian_version": "2.3.12-2+deb13u1",
@@ -4423,6 +4442,48 @@
       "filename": "pool/main/n/nss/libnss3_3.110-1+deb13u4_amd64.deb",
       "sha256": "8d20d0754039e15e9bd2c8484e98dc9c2982907d4f20834da29a9501913d00b5",
       "version": "2:3.110-1+deb13u4"
+    },
+    "libocct-data-exchange-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-data-exchange-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "76a3b866ca632260a0be1754ac66313cdb36006b703e87092dd7f540bc30e887",
+      "version": "7.8.1+dfsg1-3"
+    },
+    "libocct-draw-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-draw-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "39caf5a197e8415465ab685baebd8c1c55b473fd42be68aa97919047f757afb0",
+      "version": "7.8.1+dfsg1-3"
+    },
+    "libocct-foundation-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-foundation-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "a8bbf86826dc97ce655495d73e374fcd47bf99da421ff95055e24946eb7947e5",
+      "version": "7.8.1+dfsg1-3"
+    },
+    "libocct-modeling-algorithms-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-modeling-algorithms-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "1212d848fd649366ee818118c161aaf3e97a981285e2300bc1016abafca1e0f8",
+      "version": "7.8.1+dfsg1-3"
+    },
+    "libocct-modeling-data-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-modeling-data-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "93a7d2a8a8ebaed49f51aa2e4c26bc1c6314db70bc226c5c5ecb0e8c476ed591",
+      "version": "7.8.1+dfsg1-3"
+    },
+    "libocct-ocaf-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-ocaf-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "b2990ad52e929ab1299887da5f40b3f5491c61c0ead356d9c2a158665620a005",
+      "version": "7.8.1+dfsg1-3"
+    },
+    "libocct-visualization-7.8": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencascade/libocct-visualization-7.8_7.8.1+dfsg1-3_amd64.deb",
+      "sha256": "851960b04e9819bc5ba44526ce247846a06fc18c0a780d56bc4cfb65a4714a2a",
+      "version": "7.8.1+dfsg1-3"
     },
     "libodbc2": {
       "architecture": "amd64",
