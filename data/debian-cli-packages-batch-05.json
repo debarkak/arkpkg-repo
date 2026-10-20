@@ -3155,6 +3155,24 @@
       "name": "xonsh",
       "url": "https://xon.sh/",
       "version": "0.19.4+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "xpdf"
+      ],
+      "debian_version": "3.04+git20250304-1+b1",
+      "dependencies": [
+        "libpaper2",
+        "libpoppler147",
+        "libxm4"
+      ],
+      "description": "Motif-based PDF reader using the Poppler library",
+      "license": "See /usr/share/doc/xpdf/copyright",
+      "license_path": "usr/share/doc/xpdf/copyright",
+      "name": "xpdf",
+      "url": "https://offog.org/code/xpopple/",
+      "version": "3.04+git20250304-1+b1"
     }
   ],
   "source_integrity": {

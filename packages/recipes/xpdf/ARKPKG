@@ -1,0 +1,12 @@
+Name: xpdf
+Description: Motif-based PDF reader using the Poppler library
+Version: 3.04+git20250304-1+b1
+Arch: x86_64
+URL: https://offog.org/code/xpopple/
+License: See /usr/share/doc/xpdf/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libpaper2
+  libpoppler147
+  libxm4
+Provides: xpdf.real=/usr/bin/xpdf.real, xpdf=/usr/bin/xpdf
