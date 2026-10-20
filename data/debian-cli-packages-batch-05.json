@@ -1132,6 +1132,22 @@
       "name": "libfaad2",
       "url": "https://packages.debian.org/trixie/libfaad2",
       "version": "2.11.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libfftw3-single3"
+      ],
+      "debian_version": "3.3.10-2+b1",
+      "dependencies": [
+        "libgomp1"
+      ],
+      "description": "Library for computing Fast Fourier Transforms - Single precision",
+      "license": "See /usr/share/doc/libfftw3-single3/copyright",
+      "license_path": "usr/share/doc/libfftw3-single3/copyright",
+      "name": "libfftw3-single3",
+      "url": "https://packages.debian.org/trixie/libfftw3-single3",
+      "version": "3.3.10-2+b1"
     }
   ],
   "source_integrity": {

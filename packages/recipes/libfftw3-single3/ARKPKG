@@ -1,0 +1,10 @@
+Name: libfftw3-single3
+Description: Library for computing Fast Fourier Transforms - Single precision
+Version: 3.3.10-2+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfftw3-single3
+License: See /usr/share/doc/libfftw3-single3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgomp1
+Provides: libfftw3f.so.3=/usr/lib/x86_64-linux-gnu/libfftw3f.so.3.6.10, libfftw3f_omp.so.3=/usr/lib/x86_64-linux-gnu/libfftw3f_omp.so.3.6.10, libfftw3f_threads.so.3=/usr/lib/x86_64-linux-gnu/libfftw3f_threads.so.3.6.10
