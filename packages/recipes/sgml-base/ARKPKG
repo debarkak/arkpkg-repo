@@ -1,0 +1,8 @@
+Name: sgml-base
+Description: SGML infrastructure and SGML catalog file support
+Version: 1.31+nmu1
+Arch: any
+URL: https://packages.debian.org/trixie/sgml-base
+License: See /usr/share/doc/sgml-base/copyright
+Maintainer: arkanaOS Team
+Provides: install-sgmlcatalog=/usr/sbin/install-sgmlcatalog, update-catalog=/usr/sbin/update-catalog

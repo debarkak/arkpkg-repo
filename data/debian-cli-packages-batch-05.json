@@ -2829,6 +2829,20 @@
       "name": "sash",
       "url": "https://members.tip.net.au/~dbell/",
       "version": "3.8-7+b13"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "sgml-base"
+      ],
+      "debian_version": "1.31+nmu1",
+      "dependencies": [],
+      "description": "SGML infrastructure and SGML catalog file support",
+      "license": "See /usr/share/doc/sgml-base/copyright",
+      "license_path": "usr/share/doc/sgml-base/copyright",
+      "name": "sgml-base",
+      "url": "https://packages.debian.org/trixie/sgml-base",
+      "version": "1.31+nmu1"
     }
   ],
   "source_integrity": {
