@@ -2819,6 +2819,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "librygel-core-2.8-0"
+      ],
+      "debian_version": "0.44.2-1",
+      "dependencies": [
+        "libgee-0.8-2",
+        "libgssdp-1.6-0",
+        "libgupnp-1.6-0",
+        "xml-runtime-libs"
+      ],
+      "description": "GNOME UPnP/DLNA services - core library",
+      "license": "See /usr/share/doc/librygel-core-2.8-0/copyright",
+      "license_path": "usr/share/doc/librygel-core-2.8-0/copyright",
+      "name": "librygel-core-2.8-0",
+      "url": "https://packages.debian.org/trixie/librygel-core-2.8-0",
+      "version": "0.44.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsasl2-2"
       ],
       "debian_version": "2.1.28+dfsg1-9",
@@ -5634,6 +5653,12 @@
       "filename": "pool/main/r/rubberband/librubberband2_3.3.0+dfsg-2+b3_amd64.deb",
       "sha256": "4593fde69a6a10f2356d0fd1e7b1cd61faa48cc83a1a0b01b7d021dfe5252a85",
       "version": "3.3.0+dfsg-2+b3"
+    },
+    "librygel-core-2.8-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rygel/librygel-core-2.8-0_0.44.2-1_amd64.deb",
+      "sha256": "68337b8af53dbe479e5d174d24b3137aef1d93c7aa4698289462463b4f624c30",
+      "version": "0.44.2-1"
     },
     "libsasl2-2": {
       "architecture": "amd64",
