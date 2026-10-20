@@ -244,6 +244,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "ipset"
+      ],
+      "debian_version": "7.22-1+b1",
+      "dependencies": [
+        "libipset13t64"
+      ],
+      "description": "administration tool for kernel IP sets",
+      "license": "See /usr/share/doc/ipset/copyright",
+      "license_path": "usr/share/doc/ipset/copyright",
+      "name": "ipset",
+      "url": "https://ipset.netfilter.org/",
+      "version": "7.22-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "isc-dhcp-server"
       ],
       "debian_version": "4.4.3-P1-8",
@@ -2409,6 +2425,12 @@
       "filename": "pool/main/i/iperf/iperf_2.2.1+dfsg-1_amd64.deb",
       "sha256": "74b606ab15b63256731b0cabe2e714956c2536d1ae7ed77a3b9cf86983c89549",
       "version": "2.2.1+dfsg-1"
+    },
+    "ipset": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/ipset/ipset_7.22-1+b1_amd64.deb",
+      "sha256": "ff51432ed28090b4e7ffe26618c4cc5d63f73d247fc016e71d777304a14d6bd5",
+      "version": "7.22-1+b1"
     },
     "isc-dhcp-server": {
       "architecture": "amd64",

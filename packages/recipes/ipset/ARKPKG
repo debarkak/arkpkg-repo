@@ -1,0 +1,10 @@
+Name: ipset
+Description: administration tool for kernel IP sets
+Version: 7.22-1+b1
+Arch: x86_64
+URL: https://ipset.netfilter.org/
+License: See /usr/share/doc/ipset/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libipset13t64
+Provides: ipset-translate=/usr/sbin/ipset-translate, ipset=/usr/sbin/ipset
