@@ -411,6 +411,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "isc-dhcp-client"
+      ],
+      "debian_version": "4.4.3-P1-8",
+      "dependencies": [
+        "iproute2"
+      ],
+      "description": "DHCP client for automatically obtaining an IP address (deprecated)",
+      "license": "See /usr/share/doc/isc-dhcp-client/copyright",
+      "license_path": "usr/share/doc/isc-dhcp-client/copyright",
+      "name": "isc-dhcp-client",
+      "url": "http://www.isc.org",
+      "version": "4.4.3-P1-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "isc-dhcp-server"
       ],
       "debian_version": "4.4.3-P1-8",
@@ -4380,6 +4396,12 @@
       "filename": "pool/main/i/ipset/ipset_7.22-1+b1_amd64.deb",
       "sha256": "ff51432ed28090b4e7ffe26618c4cc5d63f73d247fc016e71d777304a14d6bd5",
       "version": "7.22-1+b1"
+    },
+    "isc-dhcp-client": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/isc-dhcp/isc-dhcp-client_4.4.3-P1-8_amd64.deb",
+      "sha256": "691860626bc342eaba61a8d397231a226d659bc28634d350d6daa83812790902",
+      "version": "4.4.3-P1-8"
     },
     "isc-dhcp-server": {
       "architecture": "amd64",

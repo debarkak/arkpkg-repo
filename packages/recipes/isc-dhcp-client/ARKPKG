@@ -1,0 +1,10 @@
+Name: isc-dhcp-client
+Description: DHCP client for automatically obtaining an IP address (deprecated)
+Version: 4.4.3-P1-8
+Arch: x86_64
+URL: http://www.isc.org
+License: See /usr/share/doc/isc-dhcp-client/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  iproute2
+Provides: dhclient-script=/usr/sbin/dhclient-script, dhclient=/usr/sbin/dhclient
