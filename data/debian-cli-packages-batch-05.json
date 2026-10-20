@@ -76,6 +76,23 @@
       "name": "arj",
       "url": "https://sf.net/projects/arj/",
       "version": "3.10.22-28"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "aspell"
+      ],
+      "debian_version": "0.60.8.1-4",
+      "dependencies": [
+        "libaspell15",
+        "ncurses-libs"
+      ],
+      "description": "GNU Aspell spell-checker",
+      "license": "See /usr/share/doc/aspell/copyright",
+      "license_path": "usr/share/doc/aspell/copyright",
+      "name": "aspell",
+      "url": "http://aspell.net/",
+      "version": "0.60.8.1-4"
     }
   ],
   "source_integrity": {

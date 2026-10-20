@@ -1,0 +1,8 @@
+Name: aspell
+Description: GNU Aspell spell-checker
+Version: 0.60.8.1-4
+Arch: x86_64
+URL: http://aspell.net/
+License: See /usr/share/doc/aspell/copyright
+Maintainer: arkanaOS Team
+Provides: aspell-import=/usr/bin/aspell-import, aspell=/usr/bin/aspell, precat=/usr/bin/precat, preunzip=/usr/bin/preunzip, prezip-bin=/usr/bin/prezip-bin, prezip=/usr/bin/prezip, run-with-aspell=/usr/bin/run-with-aspell, word-list-compress=/usr/bin/word-list-compress
