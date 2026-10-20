@@ -711,6 +711,25 @@
       "name": "libadplug-2.3.3-0",
       "url": "https://packages.debian.org/trixie/libadplug-2.3.3-0",
       "version": "2.3.3+dfsg-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libao4"
+      ],
+      "debian_version": "1.2.2+20180113-1.2",
+      "dependencies": [
+        "alsa-libs",
+        "libaudio2",
+        "libpulse0",
+        "libsndio7.0"
+      ],
+      "description": "Cross Platform Audio Output Library",
+      "license": "See /usr/share/doc/libao4/copyright",
+      "license_path": "usr/share/doc/libao4/copyright",
+      "name": "libao4",
+      "url": "https://packages.debian.org/trixie/libao4",
+      "version": "1.2.2+20180113-1.2"
     }
   ],
   "source_integrity": {

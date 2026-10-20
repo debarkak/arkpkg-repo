@@ -1,0 +1,13 @@
+Name: libao4
+Description: Cross Platform Audio Output Library
+Version: 1.2.2+20180113-1.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libao4
+License: See /usr/share/doc/libao4/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  alsa-libs
+  libaudio2
+  libpulse0
+  libsndio7.0
+Provides: libalsa.so=/usr/lib/x86_64-linux-gnu/ao/plugins-4/libalsa.so, libao.so.4=/usr/lib/x86_64-linux-gnu/libao.so.4.1.1, libnas.so=/usr/lib/x86_64-linux-gnu/ao/plugins-4/libnas.so, liboss.so=/usr/lib/x86_64-linux-gnu/ao/plugins-4/liboss.so, libpulse.so=/usr/lib/x86_64-linux-gnu/ao/plugins-4/libpulse.so, libsndio.so=/usr/lib/x86_64-linux-gnu/ao/plugins-4/libsndio.so
