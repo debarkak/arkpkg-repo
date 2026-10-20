@@ -1,0 +1,8 @@
+Name: libmujs3
+Description: Lightweight JavaScript interpreter library
+Version: 1.3.6-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmujs3
+License: See /usr/share/doc/libmujs3/copyright
+Maintainer: arkanaOS Team
+Provides: libmujs.so.3=/usr/lib/x86_64-linux-gnu/libmujs.so.3
