@@ -1,0 +1,8 @@
+Name: enchant-2
+Description: Wrapper for various spell checker engines (binary programs)
+Version: 2.8.2+dfsg1-3
+Arch: x86_64
+URL: https://rrthomas.github.io/enchant/
+License: See /usr/share/doc/enchant-2/copyright
+Maintainer: arkanaOS Team
+Provides: enchant-2=/usr/bin/enchant-2, enchant-lsmod-2=/usr/bin/enchant-lsmod-2

@@ -406,6 +406,22 @@
       "name": "dracut-install",
       "url": "https://github.com/dracut-ng/dracut-ng/wiki",
       "version": "106-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "enchant-2"
+      ],
+      "debian_version": "2.8.2+dfsg1-3",
+      "dependencies": [
+        "libenchant-2-2"
+      ],
+      "description": "Wrapper for various spell checker engines (binary programs)",
+      "license": "See /usr/share/doc/enchant-2/copyright",
+      "license_path": "usr/share/doc/enchant-2/copyright",
+      "name": "enchant-2",
+      "url": "https://rrthomas.github.io/enchant/",
+      "version": "2.8.2+dfsg1-3"
     }
   ],
   "source_integrity": {
