@@ -1,0 +1,10 @@
+Name: libiso9660-12
+Description: library to work with ISO9660 filesystems
+Version: 2.2.0-4.1~deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libiso9660-12
+License: See /usr/share/doc/libiso9660-12/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcdio19t64
+Provides: libiso9660.so.12=/usr/lib/x86_64-linux-gnu/libiso9660.so.12.0.0

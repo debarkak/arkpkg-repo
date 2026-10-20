@@ -1370,6 +1370,22 @@
       "name": "libimobiledevice-glue-1.0-0",
       "url": "https://packages.debian.org/trixie/libimobiledevice-glue-1.0-0",
       "version": "1.3.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libiso9660-12"
+      ],
+      "debian_version": "2.2.0-4.1~deb13u1",
+      "dependencies": [
+        "libcdio19t64"
+      ],
+      "description": "library to work with ISO9660 filesystems",
+      "license": "See /usr/share/doc/libiso9660-12/copyright",
+      "license_path": "usr/share/doc/libiso9660-12/copyright",
+      "name": "libiso9660-12",
+      "url": "https://packages.debian.org/trixie/libiso9660-12",
+      "version": "2.2.0-4.1~deb13u1"
     }
   ],
   "source_integrity": {
