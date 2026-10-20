@@ -1,0 +1,8 @@
+Name: libserd-0-0
+Description: lightweight RDF syntax library
+Version: 0.32.4-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libserd-0-0
+License: See /usr/share/doc/libserd-0-0/copyright
+Maintainer: arkanaOS Team
+Provides: libserd-0.so.0=/usr/lib/x86_64-linux-gnu/libserd-0.so.0.32.4
