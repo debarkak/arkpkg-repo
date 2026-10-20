@@ -615,6 +615,22 @@
       "name": "initramfs-tools-bin",
       "url": "https://packages.debian.org/trixie/initramfs-tools-bin",
       "version": "0.148.4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "ispell"
+      ],
+      "debian_version": "3.4.06-1",
+      "dependencies": [
+        "ncurses-libs"
+      ],
+      "description": "International Ispell (an interactive spelling corrector)",
+      "license": "See /usr/share/doc/ispell/copyright",
+      "license_path": "usr/share/doc/ispell/copyright",
+      "name": "ispell",
+      "url": "https://www.cs.hmc.edu/~geoff/ispell.html",
+      "version": "3.4.06-1"
     }
   ],
   "source_integrity": {

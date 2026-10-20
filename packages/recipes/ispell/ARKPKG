@@ -1,0 +1,10 @@
+Name: ispell
+Description: International Ispell (an interactive spelling corrector)
+Version: 3.4.06-1
+Arch: x86_64
+URL: https://www.cs.hmc.edu/~geoff/ispell.html
+License: See /usr/share/doc/ispell/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  ncurses-libs
+Provides: buildhash=/usr/bin/buildhash, defmt-c=/usr/bin/defmt-c, defmt-sh=/usr/bin/defmt-sh, findaffix=/usr/bin/findaffix, icombine=/usr/bin/icombine, ijoin=/usr/bin/ijoin, ispell=/usr/bin/ispell, munchlist=/usr/bin/munchlist, tryaffix=/usr/bin/tryaffix
