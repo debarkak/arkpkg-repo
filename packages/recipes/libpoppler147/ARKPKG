@@ -1,0 +1,18 @@
+Name: libpoppler147
+Description: PDF rendering library
+Version: 25.03.0-5+deb13u4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpoppler147
+License: See /usr/share/doc/libpoppler147/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcurl3t64-gnutls
+  libgpgmepp6t64
+  libjpeg62-turbo
+  liblcms2-2
+  libnspr4
+  libnss3
+  libopenjp2-7
+  libpng16-16t64
+  libtiff6
+Provides: libpoppler.so.147=/usr/lib/x86_64-linux-gnu/libpoppler.so.147.0.0
