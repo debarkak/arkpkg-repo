@@ -1,0 +1,12 @@
+Name: libsoup-3.0-0
+Description: HTTP library implementation in C -- Shared library
+Version: 3.6.5-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsoup-3.0-0
+License: See /usr/share/doc/libsoup-3.0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  brotli-libs
+  krb5-libs
+  libsqlite3-0
+Provides: libsoup-3.0.so.0=/usr/lib/x86_64-linux-gnu/libsoup-3.0.so.0.7.4

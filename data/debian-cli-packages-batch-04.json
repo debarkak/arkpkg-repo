@@ -2410,6 +2410,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libsoup-3.0-0"
+      ],
+      "debian_version": "3.6.5-3",
+      "dependencies": [
+        "brotli-libs",
+        "krb5-libs",
+        "libsqlite3-0"
+      ],
+      "description": "HTTP library implementation in C -- Shared library",
+      "license": "See /usr/share/doc/libsoup-3.0-0/copyright",
+      "license_path": "usr/share/doc/libsoup-3.0-0/copyright",
+      "name": "libsoup-3.0-0",
+      "url": "https://packages.debian.org/trixie/libsoup-3.0-0",
+      "version": "3.6.5-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libspandsp2t64"
       ],
       "debian_version": "0.0.6+dfsg-2.2",
@@ -4664,6 +4682,12 @@
       "filename": "pool/main/s/sord/libsord-0-0_0.16.18-1_amd64.deb",
       "sha256": "cbb4167b1a85cfec94faa9f85666ee382a8bc79ce93f5d7457514e8334299e52",
       "version": "0.16.18-1"
+    },
+    "libsoup-3.0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/libs/libsoup3/libsoup-3.0-0_3.6.5-3_amd64.deb",
+      "sha256": "7031c74a7a355db57d7eb9d48f1e81c7ccbb41da35db7db501e08b3fe3c2c88a",
+      "version": "3.6.5-3"
     },
     "libspandsp2t64": {
       "architecture": "amd64",
