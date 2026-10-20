@@ -1,0 +1,8 @@
+Name: libdouble-conversion3
+Description: routines to convert IEEE floats to and from strings
+Version: 3.3.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libdouble-conversion3
+License: See /usr/share/doc/libdouble-conversion3/copyright
+Maintainer: arkanaOS Team
+Provides: libdouble-conversion.so.3=/usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3.1

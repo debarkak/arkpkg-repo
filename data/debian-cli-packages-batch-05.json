@@ -1087,6 +1087,20 @@
       "name": "libdconf1",
       "url": "https://packages.debian.org/trixie/libdconf1",
       "version": "0.40.0-5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libdouble-conversion3"
+      ],
+      "debian_version": "3.3.1-1",
+      "dependencies": [],
+      "description": "routines to convert IEEE floats to and from strings",
+      "license": "See /usr/share/doc/libdouble-conversion3/copyright",
+      "license_path": "usr/share/doc/libdouble-conversion3/copyright",
+      "name": "libdouble-conversion3",
+      "url": "https://packages.debian.org/trixie/libdouble-conversion3",
+      "version": "3.3.1-1"
     }
   ],
   "source_integrity": {
