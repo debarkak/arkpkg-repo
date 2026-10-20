@@ -1,0 +1,10 @@
+Name: libmediaart-2.0-0
+Description: media art extraction and cache management library
+Version: 1.9.7-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmediaart-2.0-0
+License: See /usr/share/doc/libmediaart-2.0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgdk-pixbuf-2.0-0
+Provides: libmediaart-2.0.so.0=/usr/lib/x86_64-linux-gnu/libmediaart-2.0.so.0.907.0

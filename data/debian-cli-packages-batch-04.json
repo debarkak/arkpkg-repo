@@ -1656,6 +1656,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libmediaart-2.0-0"
+      ],
+      "debian_version": "1.9.7-1",
+      "dependencies": [
+        "libgdk-pixbuf-2.0-0"
+      ],
+      "description": "media art extraction and cache management library",
+      "license": "See /usr/share/doc/libmediaart-2.0-0/copyright",
+      "license_path": "usr/share/doc/libmediaart-2.0-0/copyright",
+      "name": "libmediaart-2.0-0",
+      "url": "https://packages.debian.org/trixie/libmediaart-2.0-0",
+      "version": "1.9.7-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libmemcached11t64"
       ],
       "debian_version": "1.1.4-1.1+b2",
@@ -4277,6 +4293,12 @@
       "filename": "pool/main/libm/libmatio/libmatio13_1.5.28-2_amd64.deb",
       "sha256": "7e1f8d189e3d018ba60eb7f371b9983b80af9770d8c3fb26157424254cc1906b",
       "version": "1.5.28-2"
+    },
+    "libmediaart-2.0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/libm/libmediaart/libmediaart-2.0-0_1.9.7-1_amd64.deb",
+      "sha256": "4d269b30d4f4cde5e2c6f3a507e8a1e4bd18fc1b2a69b01d20a83168b8f9bdb2",
+      "version": "1.9.7-1"
     },
     "libmemcached11t64": {
       "architecture": "amd64",
