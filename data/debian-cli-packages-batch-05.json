@@ -2563,6 +2563,23 @@
       "name": "printer-driver-cjet",
       "url": "https://packages.debian.org/trixie/printer-driver-cjet",
       "version": "0.8.9-11"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-dymo"
+      ],
+      "debian_version": "1.4.0-12+b1",
+      "dependencies": [
+        "libcups2t64",
+        "libcupsimage2t64"
+      ],
+      "description": "printer driver for DYMO label printers",
+      "license": "See /usr/share/doc/printer-driver-dymo/copyright",
+      "license_path": "usr/share/doc/printer-driver-dymo/copyright",
+      "name": "printer-driver-dymo",
+      "url": "https://www.dymo-label-printers.co.uk/news/download-dymo-sdk-for-linux.html",
+      "version": "1.4.0-12+b1"
     }
   ],
   "source_integrity": {

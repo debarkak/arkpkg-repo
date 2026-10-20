@@ -1,0 +1,10 @@
+Name: printer-driver-dymo
+Description: printer driver for DYMO label printers
+Version: 1.4.0-12+b1
+Arch: x86_64
+URL: https://www.dymo-label-printers.co.uk/news/download-dymo-sdk-for-linux.html
+License: See /usr/share/doc/printer-driver-dymo/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcups2t64
+  libcupsimage2t64
