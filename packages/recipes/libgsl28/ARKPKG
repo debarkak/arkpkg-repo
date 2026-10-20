@@ -1,0 +1,10 @@
+Name: libgsl28
+Description: GNU Scientific Library (GSL) -- library package
+Version: 2.8+dfsg-5
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgsl28
+License: See /usr/share/doc/libgsl28/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgslcblas0
+Provides: libgsl.so.28=/usr/lib/x86_64-linux-gnu/libgsl.so.28.0.0
