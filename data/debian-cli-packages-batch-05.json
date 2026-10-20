@@ -2535,6 +2535,20 @@
       "name": "printer-driver-brlaser",
       "url": "https://github.com/Owl-Maintain/brlaser",
       "version": "6.2.7-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-c2050"
+      ],
+      "debian_version": "0.3b-10+b1",
+      "dependencies": [],
+      "description": "printer driver for Lexmark 2050 Color Jetprinter",
+      "license": "See /usr/share/doc/printer-driver-c2050/copyright",
+      "license_path": "usr/share/doc/printer-driver-c2050/copyright",
+      "name": "printer-driver-c2050",
+      "url": "http://www.prato.linux.it/~mnencia/lexmark2050/",
+      "version": "0.3b-10+b1"
     }
   ],
   "source_integrity": {

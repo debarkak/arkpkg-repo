@@ -1,0 +1,8 @@
+Name: printer-driver-c2050
+Description: printer driver for Lexmark 2050 Color Jetprinter
+Version: 0.3b-10+b1
+Arch: x86_64
+URL: http://www.prato.linux.it/~mnencia/lexmark2050/
+License: See /usr/share/doc/printer-driver-c2050/copyright
+Maintainer: arkanaOS Team
+Provides: c2050=/usr/bin/c2050, ps2lexmark=/usr/bin/ps2lexmark
