@@ -936,6 +936,20 @@
       "name": "liburiparser1",
       "url": "https://packages.debian.org/trixie/liburiparser1",
       "version": "0.9.8+dfsg-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libuu0"
+      ],
+      "debian_version": "0.5.20+20250228-1",
+      "dependencies": [],
+      "description": "Library for de/encoding several popular file encodings - runtime",
+      "license": "See /usr/share/doc/libuu0/copyright",
+      "license_path": "usr/share/doc/libuu0/copyright",
+      "name": "libuu0",
+      "url": "https://packages.debian.org/trixie/libuu0",
+      "version": "0.5.20+20250228-1"
     }
   ],
   "source_integrity": {
@@ -1343,6 +1357,12 @@
       "filename": "pool/main/u/uriparser/liburiparser1_0.9.8+dfsg-2_amd64.deb",
       "sha256": "fd8f461644a9f6016e69ca41820d8789749d6b84b0ae5843bc48bdc5966310cf",
       "version": "0.9.8+dfsg-2"
+    },
+    "libuu0": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/uudeview/libuu0_0.5.20+20250228-1_amd64.deb",
+      "sha256": "f0b6debac29d65e16366ea8ec8098cb8511328a5079a704edd8c2441814019cb",
+      "version": "0.5.20+20250228-1"
     }
   },
   "suite": "trixie"

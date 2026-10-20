@@ -1,0 +1,8 @@
+Name: libuu0
+Description: Library for de/encoding several popular file encodings - runtime
+Version: 0.5.20+20250228-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libuu0
+License: See /usr/share/doc/libuu0/copyright
+Maintainer: arkanaOS Team
+Provides: libuu.so.0=/usr/lib/libuu.so.0.20
