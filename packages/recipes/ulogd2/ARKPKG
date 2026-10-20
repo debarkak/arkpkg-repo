@@ -1,0 +1,14 @@
+Name: ulogd2
+Description: Netfilter Userspace Logging Daemon
+Version: 2.0.8-3
+Arch: x86_64
+URL: https://www.netfilter.org/projects/ulogd/
+License: See /usr/share/doc/ulogd2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmnl
+  libnetfilter-acct1
+  libnetfilter-conntrack3
+  libnetfilter-log1
+  libnfnetlink
+Provides: ulogd=/usr/sbin/ulogd, ulogd_filter_HWHDR.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_HWHDR.so, ulogd_filter_IFINDEX.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_IFINDEX.so, ulogd_filter_IP2BIN.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_IP2BIN.so, ulogd_filter_IP2HBIN.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_IP2HBIN.so, ulogd_filter_IP2STR.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_IP2STR.so, ulogd_filter_MARK.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_MARK.so, ulogd_filter_PRINTFLOW.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_PRINTFLOW.so, ulogd_filter_PRINTPKT.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_PRINTPKT.so, ulogd_filter_PWSNIFF.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_filter_PWSNIFF.so, ulogd_inpflow_NFACCT.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_inpflow_NFACCT.so, ulogd_inpflow_NFCT.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_inpflow_NFCT.so, ulogd_inppkt_NFLOG.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_inppkt_NFLOG.so, ulogd_inppkt_ULOG.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_inppkt_ULOG.so, ulogd_inppkt_UNIXSOCK.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_inppkt_UNIXSOCK.so, ulogd_output_GPRINT.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_GPRINT.so, ulogd_output_GRAPHITE.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_GRAPHITE.so, ulogd_output_IPFIX.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_IPFIX.so, ulogd_output_LOGEMU.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_LOGEMU.so, ulogd_output_NACCT.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_NACCT.so, ulogd_output_OPRINT.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_OPRINT.so, ulogd_output_SYSLOG.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_SYSLOG.so, ulogd_output_XML.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_output_XML.so, ulogd_raw2packet_BASE.so=/usr/lib/x86_64-linux-gnu/ulogd/ulogd_raw2packet_BASE.so

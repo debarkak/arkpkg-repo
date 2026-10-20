@@ -2928,6 +2928,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "ulogd2"
+      ],
+      "debian_version": "2.0.8-3",
+      "dependencies": [
+        "libmnl",
+        "libnetfilter-acct1",
+        "libnetfilter-conntrack3",
+        "libnetfilter-log1",
+        "libnfnetlink"
+      ],
+      "description": "Netfilter Userspace Logging Daemon",
+      "license": "See /usr/share/doc/ulogd2/copyright",
+      "license_path": "usr/share/doc/ulogd2/copyright",
+      "name": "ulogd2",
+      "url": "https://www.netfilter.org/projects/ulogd/",
+      "version": "2.0.8-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "wireguard-tools"
       ],
       "debian_version": "1.0.20210914-3",
@@ -4097,6 +4117,12 @@
       "filename": "pool/main/t/torsocks/torsocks_2.5.0-1+deb13u1_all.deb",
       "sha256": "1e1f2994d4dbcb9a9dc9e238ec20fc59d78a0faa954f1e983646c4d8f85770fb",
       "version": "2.5.0-1+deb13u1"
+    },
+    "ulogd2": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/ulogd2/ulogd2_2.0.8-3_amd64.deb",
+      "sha256": "6018e0c4b1ddcdd96b9b6c28e7fb1698c9fdb63503a064f79cd08a51b2ce9f93",
+      "version": "2.0.8-3"
     },
     "wireguard-tools": {
       "architecture": "amd64",
