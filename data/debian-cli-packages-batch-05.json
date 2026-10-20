@@ -2658,6 +2658,22 @@
       "name": "printer-driver-pnm2ppa",
       "url": "http://pnm2ppa.sf.net/",
       "version": "1.13-13+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-ptouch"
+      ],
+      "debian_version": "1.7.1-1",
+      "dependencies": [
+        "libcups2t64"
+      ],
+      "description": "printer driver Brother P-touch label printers",
+      "license": "See /usr/share/doc/printer-driver-ptouch/copyright",
+      "license_path": "usr/share/doc/printer-driver-ptouch/copyright",
+      "name": "printer-driver-ptouch",
+      "url": "https://github.com/philpem/printer-driver-ptouch",
+      "version": "1.7.1-1"
     }
   ],
   "source_integrity": {

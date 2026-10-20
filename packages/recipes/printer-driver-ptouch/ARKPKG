@@ -1,0 +1,9 @@
+Name: printer-driver-ptouch
+Description: printer driver Brother P-touch label printers
+Version: 1.7.1-1
+Arch: x86_64
+URL: https://github.com/philpem/printer-driver-ptouch
+License: See /usr/share/doc/printer-driver-ptouch/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcups2t64
