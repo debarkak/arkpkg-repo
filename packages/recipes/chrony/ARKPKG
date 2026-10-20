@@ -1,0 +1,14 @@
+Name: chrony
+Description: Versatile implementation of the Network Time Protocol
+Version: 4.6.1-3+deb13u2
+Arch: x86_64
+URL: https://chrony-project.org
+License: See /usr/share/doc/chrony/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  dns-runtime-libs
+  gnutls-libs
+  iproute2
+  libcap
+  nettle-libs
+Provides: chronyc=/usr/bin/chronyc, chronyd=/usr/sbin/chronyd
