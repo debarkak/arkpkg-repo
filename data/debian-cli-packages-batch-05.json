@@ -1101,6 +1101,23 @@
       "name": "libdouble-conversion3",
       "url": "https://packages.debian.org/trixie/libdouble-conversion3",
       "version": "3.3.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libenchant-2-2"
+      ],
+      "debian_version": "2.8.2+dfsg1-3",
+      "dependencies": [
+        "libaspell15",
+        "libhunspell-1.7-0"
+      ],
+      "description": "Wrapper library for various spell checker engines (runtime libs)",
+      "license": "See /usr/share/doc/libenchant-2-2/copyright",
+      "license_path": "usr/share/doc/libenchant-2-2/copyright",
+      "name": "libenchant-2-2",
+      "url": "https://packages.debian.org/trixie/libenchant-2-2",
+      "version": "2.8.2+dfsg1-3"
     }
   ],
   "source_integrity": {

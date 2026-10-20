@@ -1,0 +1,11 @@
+Name: libenchant-2-2
+Description: Wrapper library for various spell checker engines (runtime libs)
+Version: 2.8.2+dfsg1-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libenchant-2-2
+License: See /usr/share/doc/libenchant-2-2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libaspell15
+  libhunspell-1.7-0
+Provides: enchant_aspell.so=/usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so, enchant_hspell.so=/usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so, enchant_hunspell.so=/usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so, libenchant-2.so.2=/usr/lib/x86_64-linux-gnu/libenchant-2.so.2.8.2
