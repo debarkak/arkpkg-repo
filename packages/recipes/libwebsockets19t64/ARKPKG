@@ -1,0 +1,11 @@
+Name: libwebsockets19t64
+Description: lightweight C websockets library
+Version: 4.3.5-1+deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwebsockets19t64
+License: See /usr/share/doc/libwebsockets19t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap
+  openssl-libs
+Provides: libwebsockets.so.19=/usr/lib/x86_64-linux-gnu/libwebsockets.so.19

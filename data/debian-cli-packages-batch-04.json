@@ -1767,6 +1767,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libwebsockets19t64"
+      ],
+      "debian_version": "4.3.5-1+deb13u2",
+      "dependencies": [
+        "libcap",
+        "openssl-libs"
+      ],
+      "description": "lightweight C websockets library",
+      "license": "See /usr/share/doc/libwebsockets19t64/copyright",
+      "license_path": "usr/share/doc/libwebsockets19t64/copyright",
+      "name": "libwebsockets19t64",
+      "url": "https://packages.debian.org/trixie/libwebsockets19t64",
+      "version": "4.3.5-1+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libxdp1"
       ],
       "debian_version": "1.5.4-1",
@@ -2748,6 +2765,12 @@
       "filename": "pool/main/v/vulkan-loader/libvulkan1_1.4.309.0-1_amd64.deb",
       "sha256": "f47da79cd140264fe21cceb08bc87a71bc7fec05819e4a421f3f518d21101a37",
       "version": "1.4.309.0-1"
+    },
+    "libwebsockets19t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libw/libwebsockets/libwebsockets19t64_4.3.5-1+deb13u2_amd64.deb",
+      "sha256": "d518b148939adffa78e60c6a6129150b81643ee89d8948d19f8ac71e0f3c8553",
+      "version": "4.3.5-1+deb13u2"
     },
     "libxdp1": {
       "architecture": "amd64",
