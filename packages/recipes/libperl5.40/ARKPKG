@@ -1,0 +1,13 @@
+Name: libperl5.40
+Description: shared Perl library
+Version: 5.40.1-6+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libperl5.40
+License: See /usr/share/doc/libperl5.40/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcrypt1
+  libdb5.3t64
+  libgdbm-compat4t64
+  libgdbm6t64
+Provides: cpan5.40-x86_64-linux-gnu=/usr/bin/cpan5.40-x86_64-linux-gnu, libperl.so.5.40=/usr/lib/x86_64-linux-gnu/libperl.so.5.40.1, perl5.40-x86_64-linux-gnu=/usr/bin/perl5.40-x86_64-linux-gnu

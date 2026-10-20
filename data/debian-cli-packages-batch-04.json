@@ -1662,6 +1662,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libperl5.40"
+      ],
+      "debian_version": "5.40.1-6+deb13u1",
+      "dependencies": [
+        "libcrypt1",
+        "libdb5.3t64",
+        "libgdbm-compat4t64",
+        "libgdbm6t64"
+      ],
+      "description": "shared Perl library",
+      "license": "See /usr/share/doc/libperl5.40/copyright",
+      "license_path": "usr/share/doc/libperl5.40/copyright",
+      "name": "libperl5.40",
+      "url": "https://packages.debian.org/trixie/libperl5.40",
+      "version": "5.40.1-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpkcs11-helper1t64"
       ],
       "debian_version": "1.30.0-1+b1",
@@ -3170,6 +3189,12 @@
       "filename": "pool/main/p/pcsc-lite/libpcsclite1_2.3.3-1_amd64.deb",
       "sha256": "a8bc4725549060d1e696d358e32a3699d947d5381871553a290389830bebccbd",
       "version": "2.3.3-1"
+    },
+    "libperl5.40": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/perl/libperl5.40_5.40.1-6+deb13u1_amd64.deb",
+      "sha256": "e44777ff47ad248d1debd57e1f96ab5e89061a341008ae39880ba3b5fc15f273",
+      "version": "5.40.1-6+deb13u1"
     },
     "libpkcs11-helper1t64": {
       "architecture": "amd64",
