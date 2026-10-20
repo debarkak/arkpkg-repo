@@ -550,6 +550,24 @@
       "name": "gpgv",
       "url": "https://www.gnupg.org/",
       "version": "2.4.7-21+deb13u1+b5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "groff"
+      ],
+      "debian_version": "1.23.0-9",
+      "dependencies": [
+        "groff-base"
+      ],
+      "description": "GNU troff text-formatting system",
+      "license": "See /usr/share/doc/groff/copyright",
+      "license_path": "usr/share/doc/groff/copyright",
+      "license_source_package": "groff-base",
+      "license_source_path": "usr/share/doc/groff-base/copyright",
+      "name": "groff",
+      "url": "https://www.gnu.org/software/groff/",
+      "version": "1.23.0-9"
     }
   ],
   "source_integrity": {
