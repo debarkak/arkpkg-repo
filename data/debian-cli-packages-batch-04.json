@@ -138,6 +138,20 @@
       "name": "iperf",
       "url": "https://sourceforge.net/projects/iperf2/",
       "version": "2.2.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "isc-dhcp-server"
+      ],
+      "debian_version": "4.4.3-P1-8",
+      "dependencies": [],
+      "description": "ISC DHCP server for automatic IP address assignment (deprecated)",
+      "license": "See /usr/share/doc/isc-dhcp-server/copyright",
+      "license_path": "usr/share/doc/isc-dhcp-server/copyright",
+      "name": "isc-dhcp-server",
+      "url": "http://www.isc.org",
+      "version": "4.4.3-P1-8"
     }
   ],
   "source_integrity": {
@@ -203,6 +217,12 @@
       "filename": "pool/main/i/iperf/iperf_2.2.1+dfsg-1_amd64.deb",
       "sha256": "74b606ab15b63256731b0cabe2e714956c2536d1ae7ed77a3b9cf86983c89549",
       "version": "2.2.1+dfsg-1"
+    },
+    "isc-dhcp-server": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/isc-dhcp/isc-dhcp-server_4.4.3-P1-8_amd64.deb",
+      "sha256": "1546b7cb586c65890a5a3fb43ae1b3b633d195c9c5ec64cffe6a9f1509297f98",
+      "version": "4.4.3-P1-8"
     }
   },
   "suite": "trixie"

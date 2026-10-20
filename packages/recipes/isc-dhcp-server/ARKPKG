@@ -1,0 +1,8 @@
+Name: isc-dhcp-server
+Description: ISC DHCP server for automatic IP address assignment (deprecated)
+Version: 4.4.3-P1-8
+Arch: x86_64
+URL: http://www.isc.org
+License: See /usr/share/doc/isc-dhcp-server/copyright
+Maintainer: arkanaOS Team
+Provides: dhcp-lease-list=/usr/sbin/dhcp-lease-list, dhcpd=/usr/sbin/dhcpd, omshell=/usr/bin/omshell
