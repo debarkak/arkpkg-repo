@@ -376,6 +376,20 @@
       "name": "libdaemon0",
       "url": "https://packages.debian.org/trixie/libdaemon0",
       "version": "0.14-7.1+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libdlt2"
+      ],
+      "debian_version": "2.18.10-10+b1",
+      "dependencies": [],
+      "description": "Diagnostic Log and Trace (DLT) library",
+      "license": "See /usr/share/doc/libdlt2/copyright",
+      "license_path": "usr/share/doc/libdlt2/copyright",
+      "name": "libdlt2",
+      "url": "https://packages.debian.org/trixie/libdlt2",
+      "version": "2.18.10-10+b1"
     }
   ],
   "source_integrity": {
@@ -543,6 +557,12 @@
       "filename": "pool/main/libd/libdaemon/libdaemon0_0.14-7.1+b3_amd64.deb",
       "sha256": "17ebc72ee71797bb561a3a2088330586be4f14c5a6218ba9a1f63d97c18c359d",
       "version": "0.14-7.1+b3"
+    },
+    "libdlt2": {
+      "architecture": "amd64",
+      "filename": "pool/main/d/dlt-daemon/libdlt2_2.18.10-10+b1_amd64.deb",
+      "sha256": "93c5c2a51d0de4bbaa0a7d2c457d8719bbcb73a1d74210f83f243b55b78aec31",
+      "version": "2.18.10-10+b1"
     }
   },
   "suite": "trixie"

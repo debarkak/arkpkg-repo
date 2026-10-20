@@ -1,0 +1,8 @@
+Name: libdlt2
+Description: Diagnostic Log and Trace (DLT) library
+Version: 2.18.10-10+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libdlt2
+License: See /usr/share/doc/libdlt2/copyright
+Maintainer: arkanaOS Team
+Provides: libdlt.so.2=/usr/lib/x86_64-linux-gnu/libdlt.so.2.18.10
