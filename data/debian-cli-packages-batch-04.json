@@ -3373,6 +3373,33 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "proftpd-core"
+      ],
+      "debian_version": "1.3.8.c+dfsg-4+deb13u3",
+      "dependencies": [
+        "acl-libs",
+        "libcap",
+        "libcrypt1",
+        "libhiredis1.1.0",
+        "libidn2-libs",
+        "libmemcached11t64",
+        "libmemcachedutil2t64",
+        "libpcre2-posix3",
+        "ncurses-libs",
+        "openssl-libs",
+        "pam-libs",
+        "pcre2-libs"
+      ],
+      "description": "Versatile, virtual-hosting FTP daemon - binaries",
+      "license": "See /usr/share/doc/proftpd-core/copyright",
+      "license_path": "usr/share/doc/proftpd-core/copyright",
+      "name": "proftpd-core",
+      "url": "http://www.proftpd.org/",
+      "version": "1.3.8.c+dfsg-4+deb13u3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "prometheus"
       ],
       "debian_version": "2.53.3+ds1-2",
@@ -5079,6 +5106,12 @@
       "filename": "pool/main/p/pari/pari-gp_2.17.2-1_amd64.deb",
       "sha256": "136f0438decc835e42ba75d19033ed0c14ff77659db9f31f58163747839bc697",
       "version": "2.17.2-1"
+    },
+    "proftpd-core": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/proftpd-dfsg/proftpd-core_1.3.8.c+dfsg-4+deb13u3_amd64.deb",
+      "sha256": "f26e150fdeb43f0b339cf17febcecf54f9665acaded6d28235d8604257762cb8",
+      "version": "1.3.8.c+dfsg-4+deb13u3"
     },
     "prometheus": {
       "architecture": "amd64",
