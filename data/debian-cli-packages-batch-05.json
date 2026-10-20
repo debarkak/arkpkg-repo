@@ -730,6 +730,20 @@
       "name": "libao4",
       "url": "https://packages.debian.org/trixie/libao4",
       "version": "1.2.2+20180113-1.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libaspell15"
+      ],
+      "debian_version": "0.60.8.1-4",
+      "dependencies": [],
+      "description": "GNU Aspell spell-checker runtime library",
+      "license": "See /usr/share/doc/libaspell15/copyright",
+      "license_path": "usr/share/doc/libaspell15/copyright",
+      "name": "libaspell15",
+      "url": "https://packages.debian.org/trixie/libaspell15",
+      "version": "0.60.8.1-4"
     }
   ],
   "source_integrity": {

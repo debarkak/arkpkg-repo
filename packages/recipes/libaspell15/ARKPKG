@@ -1,0 +1,8 @@
+Name: libaspell15
+Description: GNU Aspell spell-checker runtime library
+Version: 0.60.8.1-4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libaspell15
+License: See /usr/share/doc/libaspell15/copyright
+Maintainer: arkanaOS Team
+Provides: context-filter.so=/usr/lib/aspell/x86_64-linux-gnu/context-filter.so, ddtp-filter.so=/usr/lib/aspell/x86_64-linux-gnu/ddtp-filter.so, debctrl-filter.so=/usr/lib/aspell/x86_64-linux-gnu/debctrl-filter.so, email-filter.so=/usr/lib/aspell/x86_64-linux-gnu/email-filter.so, libaspell.so.15=/usr/lib/x86_64-linux-gnu/libaspell.so.15.3.1, libpspell.so.15=/usr/lib/x86_64-linux-gnu/libpspell.so.15.3.1, markdown-filter.so=/usr/lib/aspell/x86_64-linux-gnu/markdown-filter.so, nroff-filter.so=/usr/lib/aspell/x86_64-linux-gnu/nroff-filter.so, sgml-filter.so=/usr/lib/aspell/x86_64-linux-gnu/sgml-filter.so, tex-filter.so=/usr/lib/aspell/x86_64-linux-gnu/tex-filter.so, texinfo-filter.so=/usr/lib/aspell/x86_64-linux-gnu/texinfo-filter.so
