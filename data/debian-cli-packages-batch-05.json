@@ -1740,6 +1740,26 @@
       "name": "librecode3",
       "url": "https://packages.debian.org/trixie/librecode3",
       "version": "3.7.15-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libshout3"
+      ],
+      "debian_version": "2.4.6-1+b3",
+      "dependencies": [
+        "libogg0",
+        "libspeex1",
+        "libtheora0",
+        "libvorbis0a",
+        "openssl-libs"
+      ],
+      "description": "MP3/Ogg Vorbis broadcast streaming library",
+      "license": "See /usr/share/doc/libshout3/copyright",
+      "license_path": "usr/share/doc/libshout3/copyright",
+      "name": "libshout3",
+      "url": "https://packages.debian.org/trixie/libshout3",
+      "version": "2.4.6-1+b3"
     }
   ],
   "source_integrity": {

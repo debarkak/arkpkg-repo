@@ -1,0 +1,14 @@
+Name: libshout3
+Description: MP3/Ogg Vorbis broadcast streaming library
+Version: 2.4.6-1+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libshout3
+License: See /usr/share/doc/libshout3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libogg0
+  libspeex1
+  libtheora0
+  libvorbis0a
+  openssl-libs
+Provides: libshout.so.3=/usr/lib/x86_64-linux-gnu/libshout.so.3.2.0
