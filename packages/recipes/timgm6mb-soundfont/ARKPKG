@@ -1,0 +1,7 @@
+Name: timgm6mb-soundfont
+Description: TimGM6mb SoundFont from MuseScore 1.3
+Version: 1.3-5
+Arch: any
+URL: https://timbrechbill.com/saxguru/Timidity.php
+License: See /usr/share/doc/timgm6mb-soundfont/copyright
+Maintainer: arkanaOS Team

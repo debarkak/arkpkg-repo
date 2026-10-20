@@ -2993,6 +2993,20 @@
       "name": "texinfo-lib",
       "url": "https://www.gnu.org/software/texinfo/",
       "version": "7.1.1-1+b1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "timgm6mb-soundfont"
+      ],
+      "debian_version": "1.3-5",
+      "dependencies": [],
+      "description": "TimGM6mb SoundFont from MuseScore 1.3",
+      "license": "See /usr/share/doc/timgm6mb-soundfont/copyright",
+      "license_path": "usr/share/doc/timgm6mb-soundfont/copyright",
+      "name": "timgm6mb-soundfont",
+      "url": "https://timbrechbill.com/saxguru/Timidity.php",
+      "version": "1.3-5"
     }
   ],
   "source_integrity": {
