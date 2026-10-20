@@ -1935,6 +1935,20 @@
       "name": "libtheora0",
       "url": "https://packages.debian.org/trixie/libtheora0",
       "version": "1.2.0~alpha1+dfsg-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libuchardet0"
+      ],
+      "debian_version": "0.0.8-1+b2",
+      "dependencies": [],
+      "description": "universal charset detection library - shared library",
+      "license": "See /usr/share/doc/libuchardet0/copyright",
+      "license_path": "usr/share/doc/libuchardet0/copyright",
+      "name": "libuchardet0",
+      "url": "https://packages.debian.org/trixie/libuchardet0",
+      "version": "0.0.8-1+b2"
     }
   ],
   "source_integrity": {

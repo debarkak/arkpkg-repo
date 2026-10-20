@@ -1,0 +1,8 @@
+Name: libuchardet0
+Description: universal charset detection library - shared library
+Version: 0.0.8-1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libuchardet0
+License: See /usr/share/doc/libuchardet0/copyright
+Maintainer: arkanaOS Team
+Provides: libuchardet.so.0=/usr/lib/x86_64-linux-gnu/libuchardet.so.0.0.8
