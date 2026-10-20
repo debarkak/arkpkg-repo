@@ -1408,11 +1408,11 @@
       ],
       "debian_version": "1.10.6+ds-2",
       "dependencies": [],
-      "description": "GLib JSON manipulation library",
+      "description": "glib json manipulation library",
       "license": "See /usr/share/doc/libjson-glib-1.0-0/copyright",
       "license_path": "usr/share/doc/libjson-glib-1.0-0/copyright",
       "name": "libjson-glib-1.0-0",
-      "url": "https://packages.debian.org/trixie/libjson-glib-1.0-0",
+      "url": "https://wiki.gnome.org/Projects/JsonGlib",
       "version": "1.10.6+ds-2"
     },
     {
