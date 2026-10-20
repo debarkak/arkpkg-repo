@@ -1676,6 +1676,20 @@
       "name": "libportaudio2",
       "url": "https://packages.debian.org/trixie/libportaudio2",
       "version": "19.6.0-1.2+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libpugixml1v5"
+      ],
+      "debian_version": "1.14-2",
+      "dependencies": [],
+      "description": "Light-weight C++ XML processing library",
+      "license": "See /usr/share/doc/libpugixml1v5/copyright",
+      "license_path": "usr/share/doc/libpugixml1v5/copyright",
+      "name": "libpugixml1v5",
+      "url": "https://packages.debian.org/trixie/libpugixml1v5",
+      "version": "1.14-2"
     }
   ],
   "source_integrity": {

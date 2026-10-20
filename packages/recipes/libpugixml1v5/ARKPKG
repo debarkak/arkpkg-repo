@@ -1,0 +1,8 @@
+Name: libpugixml1v5
+Description: Light-weight C++ XML processing library
+Version: 1.14-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpugixml1v5
+License: See /usr/share/doc/libpugixml1v5/copyright
+Maintainer: arkanaOS Team
+Provides: libpugixml.so.1=/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14
