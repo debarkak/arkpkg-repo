@@ -2095,6 +2095,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "slrn"
+      ],
+      "debian_version": "1.0.3+dfsg-8",
+      "dependencies": [
+        "libcanlock3",
+        "libuu0",
+        "openssl-libs"
+      ],
+      "description": "threaded text-mode news reader",
+      "license": "See /usr/share/doc/slrn/copyright",
+      "license_path": "usr/share/doc/slrn/copyright",
+      "name": "slrn",
+      "url": "https://slrn.info",
+      "version": "1.0.3+dfsg-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "snap"
       ],
       "debian_version": "2013-11-29-11",
@@ -2998,6 +3016,12 @@
       "filename": "pool/main/s/scilab/scilab-include_2024.1.0+dfsg-6+deb13u1_amd64.deb",
       "sha256": "fa3102b7684c4dcd6e119249ae6561b12ef8fe296feaa63573abc34f38db9c69",
       "version": "2024.1.0+dfsg-6+deb13u1"
+    },
+    "slrn": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/slrn/slrn_1.0.3+dfsg-8_amd64.deb",
+      "sha256": "5ac937dc7b41e0939653d9e06969080acf360df6daa33c8c1478212158744473",
+      "version": "1.0.3+dfsg-8"
     },
     "snap": {
       "architecture": "amd64",
