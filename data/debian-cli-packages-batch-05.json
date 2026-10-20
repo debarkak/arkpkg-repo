@@ -536,6 +536,20 @@
       "name": "gpgconf",
       "url": "https://www.gnupg.org/",
       "version": "2.4.7-21+deb13u1+b5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "gpgv"
+      ],
+      "debian_version": "2.4.7-21+deb13u1+b5",
+      "dependencies": [],
+      "description": "GNU privacy guard - signature verification tool",
+      "license": "See /usr/share/doc/gpgv/copyright",
+      "license_path": "usr/share/doc/gpgv/copyright",
+      "name": "gpgv",
+      "url": "https://www.gnupg.org/",
+      "version": "2.4.7-21+deb13u1+b5"
     }
   ],
   "source_integrity": {
