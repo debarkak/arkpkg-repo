@@ -1,0 +1,17 @@
+Name: libopenmpi40
+Description: high performance message passing library -- shared library
+Version: 5.0.7-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libopenmpi40
+License: See /usr/share/doc/libopenmpi40/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libevent-core-2.1-7t64
+  libevent-pthreads-2.1-7t64
+  libfabric1
+  libhwloc15
+  libnl-libs
+  libpmix2t64
+  libpsm2-2
+  libucx0
+Provides: libmpi.so.40=/usr/lib/x86_64-linux-gnu/libmpi.so.40.40.7, libmpi_java.so.40=/usr/lib/x86_64-linux-gnu/libmpi_java.so.40.40.1, libmpi_mpifh-gfortran.so.40=/usr/lib/x86_64-linux-gnu/libmpi_mpifh-gfortran.so.40.40.1, libmpi_mpifh.so.40=/usr/lib/x86_64-linux-gnu/libmpi_mpifh.so.40.40.1, libmpi_usempi_ignore_tkr-gfortran.so.40=/usr/lib/x86_64-linux-gnu/libmpi_usempi_ignore_tkr-gfortran.so.40.40.1, libmpi_usempi_ignore_tkr.so.40=/usr/lib/x86_64-linux-gnu/libmpi_usempi_ignore_tkr.so.40.40.1, libmpi_usempif08-gfortran.so.40=/usr/lib/x86_64-linux-gnu/libmpi_usempif08-gfortran.so.40.40.3, libmpi_usempif08.so.40=/usr/lib/x86_64-linux-gnu/libmpi_usempif08.so.40.40.3, libompi_dbg_msgq.so=/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi40/libompi_dbg_msgq.so, libopen-pal.so.80=/usr/lib/x86_64-linux-gnu/libopen-pal.so.80.0.5, liboshmem.so.40=/usr/lib/x86_64-linux-gnu/liboshmem.so.40.40.4, libprrte.so.3=/usr/lib/x86_64-linux-gnu/libprrte.so.3.0.8, libprrte.so.3=/usr/lib/x86_64-linux-gnu/openmpi/lib/libprrte.so.3.0.8

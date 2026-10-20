@@ -2470,6 +2470,29 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libopenmpi40"
+      ],
+      "debian_version": "5.0.7-1",
+      "dependencies": [
+        "libevent-core-2.1-7t64",
+        "libevent-pthreads-2.1-7t64",
+        "libfabric1",
+        "libhwloc15",
+        "libnl-libs",
+        "libpmix2t64",
+        "libpsm2-2",
+        "libucx0"
+      ],
+      "description": "high performance message passing library -- shared library",
+      "license": "See /usr/share/doc/libopenmpi40/copyright",
+      "license_path": "usr/share/doc/libopenmpi40/copyright",
+      "name": "libopenmpi40",
+      "url": "https://packages.debian.org/trixie/libopenmpi40",
+      "version": "5.0.7-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "liborc-0.4-0t64"
       ],
       "debian_version": "1:0.4.41-1",
@@ -5491,6 +5514,12 @@
       "filename": "pool/main/o/open-iscsi/libopeniscsiusr_2.1.11-1+deb13u2_amd64.deb",
       "sha256": "1d8047167e8eff24da301bd32b705ade9033e3efb3c72c60e34c7840085f3888",
       "version": "2.1.11-1+deb13u2"
+    },
+    "libopenmpi40": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openmpi/libopenmpi40_5.0.7-1_amd64.deb",
+      "sha256": "2bb6169ff5322490d66e431bf2e1e93c05a97e2787828e49ea11d66dddd38590",
+      "version": "5.0.7-1"
     },
     "liborc-0.4-0t64": {
       "architecture": "amd64",
