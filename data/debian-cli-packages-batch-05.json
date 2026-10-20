@@ -822,6 +822,20 @@
       "name": "libaudcore5t64",
       "url": "https://packages.debian.org/trixie/libaudcore5t64",
       "version": "4.4.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libaudio2"
+      ],
+      "debian_version": "1.9.4-9",
+      "dependencies": [],
+      "description": "Network Audio System - shared libraries",
+      "license": "See /usr/share/doc/libaudio2/copyright",
+      "license_path": "usr/share/doc/libaudio2/copyright",
+      "name": "libaudio2",
+      "url": "https://packages.debian.org/trixie/libaudio2",
+      "version": "1.9.4-9"
     }
   ],
   "source_integrity": {

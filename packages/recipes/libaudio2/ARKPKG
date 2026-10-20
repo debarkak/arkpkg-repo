@@ -1,0 +1,8 @@
+Name: libaudio2
+Description: Network Audio System - shared libraries
+Version: 1.9.4-9
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libaudio2
+License: See /usr/share/doc/libaudio2/copyright
+Maintainer: arkanaOS Team
+Provides: libaudio.so.2=/usr/lib/x86_64-linux-gnu/libaudio.so.2.4
