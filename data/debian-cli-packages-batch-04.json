@@ -1034,6 +1034,20 @@
       "name": "libzimg2",
       "url": "https://packages.debian.org/trixie/libzimg2",
       "version": "3.0.5+ds1-1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libzix-0-0"
+      ],
+      "debian_version": "0.6.2-1",
+      "dependencies": [],
+      "description": "library of portability wrappers and data structures (shared library)",
+      "license": "See /usr/share/doc/libzix-0-0/copyright",
+      "license_path": "usr/share/doc/libzix-0-0/copyright",
+      "name": "libzix-0-0",
+      "url": "https://packages.debian.org/trixie/libzix-0-0",
+      "version": "0.6.2-1"
     }
   ],
   "source_integrity": {
@@ -1483,6 +1497,12 @@
       "filename": "pool/main/z/zimg/libzimg2_3.0.5+ds1-1+b2_amd64.deb",
       "sha256": "d021b92ec5d647565db6b67e92a7e06e16b35ae6046c0f36d454a0cff88bbd50",
       "version": "3.0.5+ds1-1+b2"
+    },
+    "libzix-0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/z/zix/libzix-0-0_0.6.2-1_amd64.deb",
+      "sha256": "896d3b244020120b17a21ded38508582ee861ffa90fc0fb0fd539e27698a96b6",
+      "version": "0.6.2-1"
     }
   },
   "suite": "trixie"

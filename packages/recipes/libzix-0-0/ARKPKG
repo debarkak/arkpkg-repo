@@ -1,0 +1,8 @@
+Name: libzix-0-0
+Description: library of portability wrappers and data structures (shared library)
+Version: 0.6.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libzix-0-0
+License: See /usr/share/doc/libzix-0-0/copyright
+Maintainer: arkanaOS Team
+Provides: libzix-0.so.0=/usr/lib/x86_64-linux-gnu/libzix-0.so.0.6.2
