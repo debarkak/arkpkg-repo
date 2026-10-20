@@ -1892,6 +1892,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libstoken1t64"
+      ],
+      "debian_version": "0.92-1.1+b2",
+      "dependencies": [
+        "libtomcrypt1",
+        "xml-runtime-libs"
+      ],
+      "description": "Software Token for cryptographic authentication - shared library",
+      "license": "See /usr/share/doc/libstoken1t64/copyright",
+      "license_path": "usr/share/doc/libstoken1t64/copyright",
+      "name": "libstoken1t64",
+      "url": "https://packages.debian.org/trixie/libstoken1t64",
+      "version": "0.92-1.1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libstrongswan"
       ],
       "debian_version": "6.0.1-6+deb13u6",
@@ -3342,6 +3359,12 @@
       "filename": "pool/main/s/sratom/libsratom-0-0_0.6.18-1_amd64.deb",
       "sha256": "63195bd9233678ed397cfded0aae85d85cf2584ff7c638b34013ca34544962d7",
       "version": "0.6.18-1"
+    },
+    "libstoken1t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/stoken/libstoken1t64_0.92-1.1+b2_amd64.deb",
+      "sha256": "c35904097ec30031a17ba2e20a025a165bd3649ce041b762594f5e37b44a80a3",
+      "version": "0.92-1.1+b2"
     },
     "libstrongswan": {
       "architecture": "amd64",

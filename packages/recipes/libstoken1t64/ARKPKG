@@ -1,0 +1,11 @@
+Name: libstoken1t64
+Description: Software Token for cryptographic authentication - shared library
+Version: 0.92-1.1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libstoken1t64
+License: See /usr/share/doc/libstoken1t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libtomcrypt1
+  xml-runtime-libs
+Provides: libstoken.so.1=/usr/lib/x86_64-linux-gnu/libstoken.so.1.3.0
