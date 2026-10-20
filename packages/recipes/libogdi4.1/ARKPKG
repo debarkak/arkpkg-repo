@@ -1,0 +1,8 @@
+Name: libogdi4.1
+Description: Open Geographic Datastore Interface Library -- library
+Version: 4.1.1+ds-5
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libogdi4.1
+License: See /usr/share/doc/libogdi4.1/copyright
+Maintainer: arkanaOS Team
+Provides: libogdi.so.4.1=/usr/lib/x86_64-linux-gnu/libogdi.so.4.1, libvpf.so.4.1=/usr/lib/x86_64-linux-gnu/libvpf.so.4.1

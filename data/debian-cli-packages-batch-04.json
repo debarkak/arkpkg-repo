@@ -712,6 +712,20 @@
       "name": "libnspr4",
       "url": "https://packages.debian.org/trixie/libnspr4",
       "version": "2:4.36-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libogdi4.1"
+      ],
+      "debian_version": "4.1.1+ds-5",
+      "dependencies": [],
+      "description": "Open Geographic Datastore Interface Library -- library",
+      "license": "See /usr/share/doc/libogdi4.1/copyright",
+      "license_path": "usr/share/doc/libogdi4.1/copyright",
+      "name": "libogdi4.1",
+      "url": "https://packages.debian.org/trixie/libogdi4.1",
+      "version": "4.1.1+ds-5"
     }
   ],
   "source_integrity": {
@@ -1023,6 +1037,12 @@
       "filename": "pool/main/n/nspr/libnspr4_4.36-1_amd64.deb",
       "sha256": "87fc2039ee89cff2b8010fa9535706b1def40031acfc52bf12197dcb3cb7b064",
       "version": "2:4.36-1"
+    },
+    "libogdi4.1": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/ogdi-dfsg/libogdi4.1_4.1.1+ds-5_amd64.deb",
+      "sha256": "9f7d2e7d4966481539f6ebc0f7270b1ac8f5792deb54a85338aa8a996a050615",
+      "version": "4.1.1+ds-5"
     }
   },
   "suite": "trixie"
