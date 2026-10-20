@@ -1,0 +1,10 @@
+Name: libpostproc58
+Description: FFmpeg library for post processing - runtime files
+Version: 7:7.1.5-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpostproc58
+License: See /usr/share/doc/libpostproc58/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavutil59
+Provides: libpostproc.so.58=/usr/lib/x86_64-linux-gnu/libpostproc.so.58.3.100

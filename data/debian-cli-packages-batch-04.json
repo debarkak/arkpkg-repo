@@ -2055,6 +2055,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpostproc58"
+      ],
+      "debian_version": "7:7.1.5-0+deb13u1",
+      "dependencies": [
+        "libavutil59"
+      ],
+      "description": "FFmpeg library for post processing - runtime files",
+      "license": "See /usr/share/doc/libpostproc58/copyright",
+      "license_path": "usr/share/doc/libpostproc58/copyright",
+      "name": "libpostproc58",
+      "url": "https://packages.debian.org/trixie/libpostproc58",
+      "version": "7:7.1.5-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpsm2-2"
       ],
       "debian_version": "11.2.185-2.1",
@@ -4107,6 +4123,12 @@
       "filename": "pool/main/p/pmix/libpmix2t64_5.0.7-1_amd64.deb",
       "sha256": "1841358ff8589d3a1b5e58a8f06c9c88c71d2154ee67cd1aa42d22cdb78a6121",
       "version": "5.0.7-1"
+    },
+    "libpostproc58": {
+      "architecture": "amd64",
+      "filename": "pool/main/f/ffmpeg/libpostproc58_7.1.5-0+deb13u1_amd64.deb",
+      "sha256": "4a19b79dac4353419018509568f554df3ce937d2283c859f6454c3fe543135b6",
+      "version": "7:7.1.5-0+deb13u1"
     },
     "libpsm2-2": {
       "architecture": "amd64",
