@@ -1,0 +1,10 @@
+Name: librttopo1
+Description: Tuscany Region topology library
+Version: 1.1.0-4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librttopo1
+License: See /usr/share/doc/librttopo1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgeos-c1t64
+Provides: librttopo.so.1=/usr/lib/x86_64-linux-gnu/librttopo.so.1.1.0
