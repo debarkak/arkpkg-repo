@@ -1176,6 +1176,24 @@
       "name": "libfuse2t64",
       "url": "https://packages.debian.org/trixie/libfuse2t64",
       "version": "2.9.9-9"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgirara-gtk3-4"
+      ],
+      "debian_version": "0.4.5-1",
+      "dependencies": [
+        "libgtk-3-0t64",
+        "libjson-glib-1.0-0",
+        "libpango-1.0-0"
+      ],
+      "description": "library for minimalistic user interfaces (shared libraries)",
+      "license": "See /usr/share/doc/libgirara-gtk3-4/copyright",
+      "license_path": "usr/share/doc/libgirara-gtk3-4/copyright",
+      "name": "libgirara-gtk3-4",
+      "url": "https://packages.debian.org/trixie/libgirara-gtk3-4",
+      "version": "0.4.5-1"
     }
   ],
   "source_integrity": {

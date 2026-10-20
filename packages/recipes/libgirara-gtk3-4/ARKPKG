@@ -1,0 +1,12 @@
+Name: libgirara-gtk3-4
+Description: library for minimalistic user interfaces (shared libraries)
+Version: 0.4.5-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgirara-gtk3-4
+License: See /usr/share/doc/libgirara-gtk3-4/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgtk-3-0t64
+  libjson-glib-1.0-0
+  libpango-1.0-0
+Provides: libgirara-gtk3.so.4=/usr/lib/x86_64-linux-gnu/libgirara-gtk3.so.4.0
