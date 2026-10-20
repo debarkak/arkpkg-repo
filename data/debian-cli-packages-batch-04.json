@@ -4147,6 +4147,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "openmpi-bin"
+      ],
+      "debian_version": "5.0.7-1",
+      "dependencies": [
+        "libevent-core-2.1-7t64",
+        "libhwloc15",
+        "libopenmpi40",
+        "libpmix2t64"
+      ],
+      "description": "high performance message passing library -- binaries",
+      "license": "See /usr/share/doc/openmpi-bin/copyright",
+      "license_path": "usr/share/doc/openmpi-bin/copyright",
+      "name": "openmpi-bin",
+      "url": "https://www.open-mpi.org/",
+      "version": "5.0.7-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "openvpn"
       ],
       "debian_version": "2.6.14-1+deb13u3",
@@ -6289,6 +6308,12 @@
       "filename": "pool/main/o/openconnect/openconnect_9.12-3+deb13u2_amd64.deb",
       "sha256": "b867076ca4550af074e717acb00f6d2eabed30454073e581d7dd527d1ba68ebe",
       "version": "9.12-3+deb13u2"
+    },
+    "openmpi-bin": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openmpi/openmpi-bin_5.0.7-1_amd64.deb",
+      "sha256": "9c0604ef15bf0a4265012ec04ffa527c6b960985209b93e262c404b8632d93eb",
+      "version": "5.0.7-1"
     },
     "openvpn": {
       "architecture": "amd64",

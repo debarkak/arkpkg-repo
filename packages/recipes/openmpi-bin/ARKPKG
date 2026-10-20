@@ -1,0 +1,13 @@
+Name: openmpi-bin
+Description: high performance message passing library -- binaries
+Version: 5.0.7-1
+Arch: x86_64
+URL: https://www.open-mpi.org/
+License: See /usr/share/doc/openmpi-bin/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libevent-core-2.1-7t64
+  libhwloc15
+  libopenmpi40
+  libpmix2t64
+Provides: mpiCC.openmpi=/usr/bin/mpiCC.openmpi, mpic++.openmpi=/usr/bin/mpic++.openmpi, mpicc.openmpi=/usr/bin/mpicc.openmpi, mpicxx.openmpi=/usr/bin/mpicxx.openmpi, mpiexec.openmpi=/usr/bin/mpiexec.openmpi, mpif77.openmpi=/usr/bin/mpif77.openmpi, mpif90.openmpi=/usr/bin/mpif90.openmpi, mpifort.openmpi=/usr/bin/mpifort.openmpi, mpijavac.pl=/usr/bin/mpijavac.pl, mpijavac=/usr/bin/mpijavac, mpirun.openmpi=/usr/bin/mpirun.openmpi, ompi_info=/usr/bin/ompi_info, opal_wrapper=/usr/bin/opal_wrapper, oshCC=/usr/bin/oshCC, oshc++=/usr/bin/oshc++, oshcc=/usr/bin/oshcc, oshcxx=/usr/bin/oshcxx, oshfort=/usr/bin/oshfort, oshmem_info=/usr/bin/oshmem_info, oshrun=/usr/bin/oshrun, prte=/usr/bin/prte, prte_info=/usr/bin/prte_info, prted=/usr/bin/prted, prterun=/usr/bin/prterun, prun=/usr/bin/prun, pterm.openmpi=/usr/bin/pterm.openmpi
