@@ -1162,6 +1162,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgupnp-dlna-2.0-4"
+      ],
+      "debian_version": "0.12.0-4+b2",
+      "dependencies": [
+        "libgstreamer-plugins-base1.0-0",
+        "libgstreamer1.0-0",
+        "xml-runtime-libs"
+      ],
+      "description": "DLNA utility library for GUPnP",
+      "license": "See /usr/share/doc/libgupnp-dlna-2.0-4/copyright",
+      "license_path": "usr/share/doc/libgupnp-dlna-2.0-4/copyright",
+      "name": "libgupnp-dlna-2.0-4",
+      "url": "https://packages.debian.org/trixie/libgupnp-dlna-2.0-4",
+      "version": "0.12.0-4+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libhashkit2t64"
       ],
       "debian_version": "1.1.4-1.1+b2",
@@ -3649,6 +3667,12 @@
       "filename": "pool/main/g/gupnp-av/libgupnp-av-1.0-3_0.14.3-1_amd64.deb",
       "sha256": "753d067f77ca0935ed2a9b7ab4a04f8aa39b9c4eee509a6a86f774f7d466dc4b",
       "version": "0.14.3-1"
+    },
+    "libgupnp-dlna-2.0-4": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gupnp-dlna/libgupnp-dlna-2.0-4_0.12.0-4+b2_amd64.deb",
+      "sha256": "4cd6fea85b3454c4b1190ff4ba7f9ab1912d13ee09dc5e63fbb8fd2dbaa5680d",
+      "version": "0.12.0-4+b2"
     },
     "libhashkit2t64": {
       "architecture": "amd64",

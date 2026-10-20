@@ -1,0 +1,12 @@
+Name: libgupnp-dlna-2.0-4
+Description: DLNA utility library for GUPnP
+Version: 0.12.0-4+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgupnp-dlna-2.0-4
+License: See /usr/share/doc/libgupnp-dlna-2.0-4/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgstreamer-plugins-base1.0-0
+  libgstreamer1.0-0
+  xml-runtime-libs
+Provides: libgstreamer.so=/usr/lib/x86_64-linux-gnu/gupnp-dlna/libgstreamer.so, libgupnp-dlna-2.0.so.4=/usr/lib/x86_64-linux-gnu/libgupnp-dlna-2.0.so.4.0.0, libgupnp-dlna-gst-2.0.so.4=/usr/lib/x86_64-linux-gnu/libgupnp-dlna-gst-2.0.so.4.0.0
