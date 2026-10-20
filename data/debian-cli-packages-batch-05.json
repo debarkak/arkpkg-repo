@@ -568,6 +568,22 @@
       "name": "groff",
       "url": "https://www.gnu.org/software/groff/",
       "version": "1.23.0-9"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "groff-base"
+      ],
+      "debian_version": "1.23.0-9",
+      "dependencies": [
+        "libuchardet0"
+      ],
+      "description": "GNU troff text-formatting system (base system components)",
+      "license": "See /usr/share/doc/groff-base/copyright",
+      "license_path": "usr/share/doc/groff-base/copyright",
+      "name": "groff-base",
+      "url": "https://packages.debian.org/trixie/groff-base",
+      "version": "1.23.0-9"
     }
   ],
   "source_integrity": {

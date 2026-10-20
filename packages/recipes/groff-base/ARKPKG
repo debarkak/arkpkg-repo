@@ -1,0 +1,10 @@
+Name: groff-base
+Description: GNU troff text-formatting system (base system components)
+Version: 1.23.0-9
+Arch: x86_64
+URL: https://packages.debian.org/trixie/groff-base
+License: See /usr/share/doc/groff-base/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libuchardet0
+Provides: eqn=/usr/bin/eqn, geqn=/usr/bin/geqn, gpic=/usr/bin/gpic, groff=/usr/bin/groff, grog=/usr/bin/grog, grops=/usr/bin/grops, grotty=/usr/bin/grotty, gtbl=/usr/bin/gtbl, neqn=/usr/bin/neqn, nroff=/usr/bin/nroff, pic=/usr/bin/pic, preconv=/usr/bin/preconv, soelim=/usr/bin/soelim, tbl=/usr/bin/tbl, troff=/usr/bin/troff
