@@ -2706,6 +2706,23 @@
       "name": "psutils",
       "url": "https://github.com/rrthomas/psutils",
       "version": "3.3.8-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "pulseaudio-utils"
+      ],
+      "debian_version": "17.0+dfsg1-2+b1",
+      "dependencies": [
+        "libpulse0",
+        "libsndfile1"
+      ],
+      "description": "Command line tools for the PulseAudio sound server",
+      "license": "See /usr/share/doc/pulseaudio-utils/copyright",
+      "license_path": "usr/share/doc/pulseaudio-utils/copyright",
+      "name": "pulseaudio-utils",
+      "url": "http://pulseaudio.org",
+      "version": "17.0+dfsg1-2+b1"
     }
   ],
   "source_integrity": {

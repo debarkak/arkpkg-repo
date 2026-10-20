@@ -1,0 +1,11 @@
+Name: pulseaudio-utils
+Description: Command line tools for the PulseAudio sound server
+Version: 17.0+dfsg1-2+b1
+Arch: x86_64
+URL: http://pulseaudio.org
+License: See /usr/share/doc/pulseaudio-utils/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libpulse0
+  libsndfile1
+Provides: pa-info=/usr/bin/pa-info, pacat=/usr/bin/pacat, pacmd=/usr/bin/pacmd, pactl=/usr/bin/pactl, padsp=/usr/bin/padsp, pamon=/usr/bin/pamon, paplay=/usr/bin/paplay, parec=/usr/bin/parec, parecord=/usr/bin/parecord, pasuspender=/usr/bin/pasuspender, pax11publish=/usr/bin/pax11publish
