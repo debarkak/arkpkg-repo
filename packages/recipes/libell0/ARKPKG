@@ -1,0 +1,8 @@
+Name: libell0
+Description: Embedded Linux library
+Version: 0.77-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libell0
+License: See /usr/share/doc/libell0/copyright
+Maintainer: arkanaOS Team
+Provides: libell.so.0=/usr/lib/x86_64-linux-gnu/libell.so.0.0.2

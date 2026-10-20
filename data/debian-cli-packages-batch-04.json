@@ -418,6 +418,20 @@
       "name": "libelf1t64",
       "url": "https://packages.debian.org/trixie/libelf1t64",
       "version": "0.192-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libell0"
+      ],
+      "debian_version": "0.77-1",
+      "dependencies": [],
+      "description": "Embedded Linux library",
+      "license": "See /usr/share/doc/libell0/copyright",
+      "license_path": "usr/share/doc/libell0/copyright",
+      "name": "libell0",
+      "url": "https://packages.debian.org/trixie/libell0",
+      "version": "0.77-1"
     }
   ],
   "source_integrity": {
@@ -603,6 +617,12 @@
       "filename": "pool/main/e/elfutils/libelf1t64_0.192-4_amd64.deb",
       "sha256": "94497b7e17b6f574a0605b380d454e20d3f01a9c63b70c2a2263f679d30053e1",
       "version": "0.192-4"
+    },
+    "libell0": {
+      "architecture": "amd64",
+      "filename": "pool/main/e/ell/libell0_0.77-1_amd64.deb",
+      "sha256": "8f1ca795337fe0c2990a34dca608b76a4c94db580cc7173d730f82bc14375af5",
+      "version": "0.77-1"
     }
   },
   "suite": "trixie"
