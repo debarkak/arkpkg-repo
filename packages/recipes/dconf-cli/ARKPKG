@@ -1,0 +1,8 @@
+Name: dconf-cli
+Description: simple configuration storage system - utilities
+Version: 0.40.0-5
+Arch: x86_64
+URL: https://wiki.gnome.org/Projects/dconf
+License: See /usr/share/doc/dconf-cli/copyright
+Maintainer: arkanaOS Team
+Provides: dconf=/usr/bin/dconf

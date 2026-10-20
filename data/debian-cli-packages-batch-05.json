@@ -330,6 +330,22 @@
       "name": "dcmtk",
       "url": "https://dicom.offis.de/dcmtk",
       "version": "3.6.9-5+deb13u3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "dconf-cli"
+      ],
+      "debian_version": "0.40.0-5",
+      "dependencies": [
+        "libdconf1"
+      ],
+      "description": "simple configuration storage system - utilities",
+      "license": "See /usr/share/doc/dconf-cli/copyright",
+      "license_path": "usr/share/doc/dconf-cli/copyright",
+      "name": "dconf-cli",
+      "url": "https://wiki.gnome.org/Projects/dconf",
+      "version": "0.40.0-5"
     }
   ],
   "source_integrity": {
