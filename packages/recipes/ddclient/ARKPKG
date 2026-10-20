@@ -1,0 +1,11 @@
+Name: ddclient
+Description: address updating utility for dynamic DNS services
+Version: 3.11.2-2
+Arch: any
+URL: https://ddclient.net
+License: See /usr/share/doc/ddclient/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  curl
+  perl
+Provides: ddclient=/usr/bin/ddclient

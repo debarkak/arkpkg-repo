@@ -80,6 +80,23 @@
     {
       "arch": "any",
       "debian_packages": [
+        "ddclient"
+      ],
+      "debian_version": "3.11.2-2",
+      "dependencies": [
+        "curl",
+        "perl"
+      ],
+      "description": "address updating utility for dynamic DNS services",
+      "license": "See /usr/share/doc/ddclient/copyright",
+      "license_path": "usr/share/doc/ddclient/copyright",
+      "name": "ddclient",
+      "url": "https://ddclient.net",
+      "version": "3.11.2-2"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
         "fail2ban"
       ],
       "debian_version": "1.1.0-8",
@@ -2271,6 +2288,12 @@
       "filename": "pool/main/b/bridge-utils/bridge-utils_1.7.1-4+b1_amd64.deb",
       "sha256": "890416fc5cdd17925411a63769cef5af108516231b9e0761f4f50dc142cf8293",
       "version": "1.7.1-4+b1"
+    },
+    "ddclient": {
+      "architecture": "all",
+      "filename": "pool/main/d/ddclient/ddclient_3.11.2-2_all.deb",
+      "sha256": "2da80dc1b6cb01a7f514df8f7b314f219de259cfe68a15a5528adfcedabacd37",
+      "version": "3.11.2-2"
     },
     "fail2ban": {
       "architecture": "all",
