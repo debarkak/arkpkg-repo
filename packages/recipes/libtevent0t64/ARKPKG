@@ -1,0 +1,10 @@
+Name: libtevent0t64
+Description: talloc-based event loop library - shared library
+Version: 2:0.16.2+samba4.22.11+dfsg-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtevent0t64
+License: See /usr/share/doc/libtevent0t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libtalloc2
+Provides: libtevent.so.0=/usr/lib/x86_64-linux-gnu/libtevent.so.0.16.2

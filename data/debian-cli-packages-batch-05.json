@@ -1902,6 +1902,22 @@
       "name": "libteckit0",
       "url": "https://packages.debian.org/trixie/libteckit0",
       "version": "2.5.12+ds1-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtevent0t64"
+      ],
+      "debian_version": "2:0.16.2+samba4.22.11+dfsg-0+deb13u1",
+      "dependencies": [
+        "libtalloc2"
+      ],
+      "description": "talloc-based event loop library - shared library",
+      "license": "See /usr/share/doc/libtevent0t64/copyright",
+      "license_path": "usr/share/doc/libtevent0t64/copyright",
+      "name": "libtevent0t64",
+      "url": "https://packages.debian.org/trixie/libtevent0t64",
+      "version": "2:0.16.2+samba4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {
