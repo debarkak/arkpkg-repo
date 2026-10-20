@@ -1,0 +1,12 @@
+Name: libgupnp-1.6-0
+Description: GObject-based library for UPnP
+Version: 1.6.8-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgupnp-1.6-0
+License: See /usr/share/doc/libgupnp-1.6-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgssdp-1.6-0
+  libsoup-3.0-0
+  xml-runtime-libs
+Provides: libgupnp-1.6.so.0=/usr/lib/x86_64-linux-gnu/libgupnp-1.6.so.0.106.8

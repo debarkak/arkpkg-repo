@@ -1446,6 +1446,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgupnp-1.6-0"
+      ],
+      "debian_version": "1.6.8-2",
+      "dependencies": [
+        "libgssdp-1.6-0",
+        "libsoup-3.0-0",
+        "xml-runtime-libs"
+      ],
+      "description": "GObject-based library for UPnP",
+      "license": "See /usr/share/doc/libgupnp-1.6-0/copyright",
+      "license_path": "usr/share/doc/libgupnp-1.6-0/copyright",
+      "name": "libgupnp-1.6-0",
+      "url": "https://packages.debian.org/trixie/libgupnp-1.6-0",
+      "version": "1.6.8-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgupnp-av-1.0-3"
       ],
       "debian_version": "0.14.3-1",
@@ -4803,6 +4821,12 @@
       "filename": "pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.26.2-2_amd64.deb",
       "sha256": "08b463307fbde5496a346b1bb300b465cd22bd326f6f4634f482bf441af28a9b",
       "version": "1.26.2-2"
+    },
+    "libgupnp-1.6-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gupnp/libgupnp-1.6-0_1.6.8-2_amd64.deb",
+      "sha256": "8bac186960fe59d8bcdf8d65ffe6879fa064ed033f0749bc53f74462a13c2ce2",
+      "version": "1.6.8-2"
     },
     "libgupnp-av-1.0-3": {
       "architecture": "amd64",
