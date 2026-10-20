@@ -761,6 +761,23 @@
       "name": "libastrometry0t64",
       "url": "https://packages.debian.org/trixie/libastrometry0t64",
       "version": "0.97+dfsg-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libatk-bridge2.0-0t64"
+      ],
+      "debian_version": "2.56.2-1+deb13u2",
+      "dependencies": [
+        "libatk1.0-0t64",
+        "libatspi2.0-0t64"
+      ],
+      "description": "AT-SPI 2 toolkit bridge - shared library",
+      "license": "See /usr/share/doc/libatk-bridge2.0-0t64/copyright",
+      "license_path": "usr/share/doc/libatk-bridge2.0-0t64/copyright",
+      "name": "libatk-bridge2.0-0t64",
+      "url": "https://packages.debian.org/trixie/libatk-bridge2.0-0t64",
+      "version": "2.56.2-1+deb13u2"
     }
   ],
   "source_integrity": {

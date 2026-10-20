@@ -1,0 +1,11 @@
+Name: libatk-bridge2.0-0t64
+Description: AT-SPI 2 toolkit bridge - shared library
+Version: 2.56.2-1+deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libatk-bridge2.0-0t64
+License: See /usr/share/doc/libatk-bridge2.0-0t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libatk1.0-0t64
+  libatspi2.0-0t64
+Provides: libatk-bridge-2.0.so.0=/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
