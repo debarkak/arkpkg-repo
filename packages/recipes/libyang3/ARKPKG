@@ -1,0 +1,11 @@
+Name: libyang3
+Description: parser toolkit for IETF YANG data modeling language (library)
+Version: 3.12.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libyang3
+License: See /usr/share/doc/libyang3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libxxhash0
+  pcre2-libs
+Provides: libyang.so.3=/usr/lib/x86_64-linux-gnu/libyang.so.3.9.1

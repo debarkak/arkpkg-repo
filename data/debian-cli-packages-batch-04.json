@@ -1828,6 +1828,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libyang3"
+      ],
+      "debian_version": "3.12.2-1",
+      "dependencies": [
+        "libxxhash0",
+        "pcre2-libs"
+      ],
+      "description": "parser toolkit for IETF YANG data modeling language (library)",
+      "license": "See /usr/share/doc/libyang3/copyright",
+      "license_path": "usr/share/doc/libyang3/copyright",
+      "name": "libyang3",
+      "url": "https://packages.debian.org/trixie/libyang3",
+      "version": "3.12.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libz3-4"
       ],
       "debian_version": "4.13.3-1",
@@ -2805,6 +2822,12 @@
       "filename": "pool/main/x/xxhash/libxxhash0_0.8.3-2_amd64.deb",
       "sha256": "81da7064d56fc044f5db4bb3c1e80ff50a4986dcbbf80d958eeca565b44c157f",
       "version": "0.8.3-2"
+    },
+    "libyang3": {
+      "architecture": "amd64",
+      "filename": "pool/main/liby/libyang/libyang3_3.12.2-1_amd64.deb",
+      "sha256": "f99414db72901df4048558e2df318deb61d9b8ac0893919dc7834f8dfd7b0743",
+      "version": "3.12.2-1"
     },
     "libz3-4": {
       "architecture": "amd64",
