@@ -1,0 +1,10 @@
+Name: libhsakmt1
+Description: Thunk library for AMD KFD (shlib)
+Version: 6.2.4+ds-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhsakmt1
+License: See /usr/share/doc/libhsakmt1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libnuma1
+Provides: libhsakmt.so.1=/usr/lib/x86_64-linux-gnu/libhsakmt.so.1.0.6
