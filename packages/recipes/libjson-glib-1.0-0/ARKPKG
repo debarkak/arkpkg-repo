@@ -1,0 +1,8 @@
+Name: libjson-glib-1.0-0
+Description: GLib JSON manipulation library
+Version: 1.10.6+ds-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libjson-glib-1.0-0
+License: See /usr/share/doc/libjson-glib-1.0-0/copyright
+Maintainer: arkanaOS Team
+Provides: libjson-glib-1.0.so.0=/usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.1000.6

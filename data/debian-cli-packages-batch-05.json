@@ -1400,6 +1400,20 @@
       "name": "libixml11t64",
       "url": "https://packages.debian.org/trixie/libixml11t64",
       "version": "1:1.14.20-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libjson-glib-1.0-0"
+      ],
+      "debian_version": "1.10.6+ds-2",
+      "dependencies": [],
+      "description": "GLib JSON manipulation library",
+      "license": "See /usr/share/doc/libjson-glib-1.0-0/copyright",
+      "license_path": "usr/share/doc/libjson-glib-1.0-0/copyright",
+      "name": "libjson-glib-1.0-0",
+      "url": "https://packages.debian.org/trixie/libjson-glib-1.0-0",
+      "version": "1.10.6+ds-2"
     }
   ],
   "source_integrity": {
