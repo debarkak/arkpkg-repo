@@ -2930,6 +2930,23 @@
       "name": "ssl-cert",
       "url": "https://packages.debian.org/trixie/ssl-cert",
       "version": "1.1.3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "swh-plugins"
+      ],
+      "debian_version": "0.4.17-3",
+      "dependencies": [
+        "libfftw3-single3",
+        "libgsm1"
+      ],
+      "description": "Steve Harris's LADSPA plugins",
+      "license": "See /usr/share/doc/swh-plugins/copyright",
+      "license_path": "usr/share/doc/swh-plugins/copyright",
+      "name": "swh-plugins",
+      "url": "http://plugin.org.uk/",
+      "version": "0.4.17-3"
     }
   ],
   "source_integrity": {
