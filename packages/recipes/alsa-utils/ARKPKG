@@ -1,0 +1,8 @@
+Name: alsa-utils
+Description: Utilities for configuring and using ALSA
+Version: 1.2.14-1
+Arch: x86_64
+URL: https://www.alsa-project.org/
+License: See /usr/share/doc/alsa-utils/copyright
+Maintainer: arkanaOS Team
+Provides: aconnect=/usr/bin/aconnect, alsa-info=/usr/sbin/alsa-info, alsabat-test=/usr/sbin/alsabat-test, alsabat=/usr/bin/alsabat, alsactl=/usr/sbin/alsactl, alsaloop=/usr/bin/alsaloop, alsamixer=/usr/bin/alsamixer, alsatplg=/usr/bin/alsatplg, alsaucm=/usr/bin/alsaucm, amidi=/usr/bin/amidi, amixer=/usr/bin/amixer, aplay=/usr/bin/aplay, aplaymidi2=/usr/bin/aplaymidi2, aplaymidi=/usr/bin/aplaymidi, arecord=/usr/bin/arecord, arecordmidi2=/usr/bin/arecordmidi2, arecordmidi=/usr/bin/arecordmidi, aseqdump=/usr/bin/aseqdump, aseqnet=/usr/bin/aseqnet, aseqsend=/usr/bin/aseqsend, axfer=/usr/bin/axfer, iecset=/usr/bin/iecset, libalsatplg_module_nhlt.so=/usr/lib/x86_64-linux-gnu/alsa-topology/libalsatplg_module_nhlt.so, nhlt-dmic-info=/usr/bin/nhlt-dmic-info, speaker-test=/usr/bin/speaker-test

@@ -43,6 +43,25 @@
       "name": "aha",
       "url": "https://github.com/theZiz/aha",
       "version": "0.5.1-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "alsa-utils"
+      ],
+      "debian_version": "1.2.14-1",
+      "dependencies": [
+        "alsa-libs",
+        "libfftw3-single3",
+        "libsamplerate0",
+        "ncurses-libs"
+      ],
+      "description": "Utilities for configuring and using ALSA",
+      "license": "See /usr/share/doc/alsa-utils/copyright",
+      "license_path": "usr/share/doc/alsa-utils/copyright",
+      "name": "alsa-utils",
+      "url": "https://www.alsa-project.org/",
+      "version": "1.2.14-1"
     }
   ],
   "source_integrity": {
