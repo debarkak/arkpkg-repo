@@ -2325,6 +2325,35 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libopenconnect5"
+      ],
+      "debian_version": "9.12-3+deb13u2",
+      "dependencies": [
+        "gmp-libs",
+        "gnutls-libs",
+        "krb5-libs",
+        "libpcsclite1",
+        "libproxy1v5",
+        "libpskc0t64",
+        "libstoken1t64",
+        "libtasn1-libs",
+        "libtss2-esys-3.0.2-0t64",
+        "libtss2-mu-4.0.1-0t64",
+        "libtss2-tctildr0t64",
+        "nettle-libs",
+        "p11-kit-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "open client for various network vendors SSL VPNs - shared library",
+      "license": "See /usr/share/doc/libopenconnect5/copyright",
+      "license_path": "usr/share/doc/libopenconnect5/copyright",
+      "name": "libopenconnect5",
+      "url": "https://packages.debian.org/trixie/libopenconnect5",
+      "version": "9.12-3+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libopencore-amrnb0"
       ],
       "debian_version": "0.1.6-1+b2",
@@ -5204,6 +5233,12 @@
       "filename": "pool/main/o/ogdi-dfsg/libogdi4.1_4.1.1+ds-5_amd64.deb",
       "sha256": "9f7d2e7d4966481539f6ebc0f7270b1ac8f5792deb54a85338aa8a996a050615",
       "version": "4.1.1+ds-5"
+    },
+    "libopenconnect5": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openconnect/libopenconnect5_9.12-3+deb13u2_amd64.deb",
+      "sha256": "3c7d1ea32ed938bc37d357ef7cad97c62f8dfd35b66ae8a1eae62d0c52cd897c",
+      "version": "9.12-3+deb13u2"
     },
     "libopencore-amrnb0": {
       "architecture": "amd64",

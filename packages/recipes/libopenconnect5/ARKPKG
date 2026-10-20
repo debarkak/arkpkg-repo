@@ -1,0 +1,23 @@
+Name: libopenconnect5
+Description: open client for various network vendors SSL VPNs - shared library
+Version: 9.12-3+deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libopenconnect5
+License: See /usr/share/doc/libopenconnect5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  gnutls-libs
+  krb5-libs
+  libpcsclite1
+  libproxy1v5
+  libpskc0t64
+  libstoken1t64
+  libtasn1-libs
+  libtss2-esys-3.0.2-0t64
+  libtss2-mu-4.0.1-0t64
+  libtss2-tctildr0t64
+  nettle-libs
+  p11-kit-libs
+  xml-runtime-libs
+Provides: libopenconnect.so.5=/usr/lib/x86_64-linux-gnu/libopenconnect.so.5.9.0
