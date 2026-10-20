@@ -2642,6 +2642,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "openvswitch-switch"
+      ],
+      "debian_version": "3.5.0-1+b1",
+      "dependencies": [
+        "libcap-ng",
+        "libnuma1",
+        "libunbound8",
+        "libxdp1",
+        "openssl-libs"
+      ],
+      "description": "Open vSwitch switch implementations",
+      "license": "See /usr/share/doc/openvswitch-switch/copyright",
+      "license_path": "usr/share/doc/openvswitch-switch/copyright",
+      "name": "openvswitch-switch",
+      "url": "http://openvswitch.org/",
+      "version": "3.5.0-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "prometheus"
       ],
       "debian_version": "2.53.3+ds1-2",
@@ -3887,6 +3907,12 @@
       "filename": "pool/main/o/openvpn3-client/openvpn3-client_24.1+dfsg-1_amd64.deb",
       "sha256": "10f56b2f71c0317788cdbe2c4ad90896da8c48bd3a231cb2b32a15d7293d062d",
       "version": "24.1+dfsg-1"
+    },
+    "openvswitch-switch": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openvswitch/openvswitch-switch_3.5.0-1+b1_amd64.deb",
+      "sha256": "1b31d4a65f468a35893778b108ff04ab322a6c2c94e39eef4e38ee590ccf4569",
+      "version": "3.5.0-1+b1"
     },
     "prometheus": {
       "architecture": "amd64",

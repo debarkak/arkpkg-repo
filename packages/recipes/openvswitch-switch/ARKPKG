@@ -1,0 +1,14 @@
+Name: openvswitch-switch
+Description: Open vSwitch switch implementations
+Version: 3.5.0-1+b1
+Arch: x86_64
+URL: http://openvswitch.org/
+License: See /usr/share/doc/openvswitch-switch/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap-ng
+  libnuma1
+  libunbound8
+  libxdp1
+  openssl-libs
+Provides: ovs-dpctl-top=/usr/bin/ovs-dpctl-top, ovs-dpctl=/usr/bin/ovs-dpctl, ovs-pcap=/usr/bin/ovs-pcap, ovs-tcpdump=/usr/bin/ovs-tcpdump, ovs-tcpundump=/usr/bin/ovs-tcpundump, ovs-vlan-test=/usr/bin/ovs-vlan-test, ovs-vsctl=/usr/bin/ovs-vsctl
