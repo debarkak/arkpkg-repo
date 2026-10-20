@@ -661,6 +661,24 @@
       "name": "konwert",
       "url": "https://web.archive.org/web/20041207025451/http://qrczak.ids.net.pl/programy/linux/konwert/",
       "version": "1.8-15"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "lame"
+      ],
+      "debian_version": "3.100-6+b3",
+      "dependencies": [
+        "libmp3lame0",
+        "libsndfile1",
+        "ncurses-libs"
+      ],
+      "description": "MP3 encoding library (frontend)",
+      "license": "See /usr/share/doc/lame/copyright",
+      "license_path": "usr/share/doc/lame/copyright",
+      "name": "lame",
+      "url": "https://lame.sourceforge.io/",
+      "version": "3.100-6+b3"
     }
   ],
   "source_integrity": {

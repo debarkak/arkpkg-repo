@@ -1,0 +1,12 @@
+Name: lame
+Description: MP3 encoding library (frontend)
+Version: 3.100-6+b3
+Arch: x86_64
+URL: https://lame.sourceforge.io/
+License: See /usr/share/doc/lame/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmp3lame0
+  libsndfile1
+  ncurses-libs
+Provides: lame=/usr/bin/lame
