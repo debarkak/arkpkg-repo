@@ -1,0 +1,12 @@
+Name: libproj25
+Description: Cartographic projection library
+Version: 9.6.0-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libproj25
+License: See /usr/share/doc/libproj25/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcurl3t64-gnutls
+  libsqlite3-0
+  libtiff6
+Provides: libproj.so.25=/usr/lib/x86_64-linux-gnu/libproj.so.25.9.6.0

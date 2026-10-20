@@ -2392,6 +2392,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libproj25"
+      ],
+      "debian_version": "9.6.0-1",
+      "dependencies": [
+        "libcurl3t64-gnutls",
+        "libsqlite3-0",
+        "libtiff6"
+      ],
+      "description": "Cartographic projection library",
+      "license": "See /usr/share/doc/libproj25/copyright",
+      "license_path": "usr/share/doc/libproj25/copyright",
+      "name": "libproj25",
+      "url": "https://packages.debian.org/trixie/libproj25",
+      "version": "9.6.0-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpskc0t64"
       ],
       "debian_version": "2.6.12-1",
@@ -4944,6 +4962,12 @@
       "filename": "pool/main/p/postgresql-17/libpq5_17.11-0+deb13u1_amd64.deb",
       "sha256": "20a4c9ef58b4baf90deda67cfb2cc062871c062830dddc234d28f5ac7931b86b",
       "version": "17.11-0+deb13u1"
+    },
+    "libproj25": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/proj/libproj25_9.6.0-1_amd64.deb",
+      "sha256": "c6fafb82c6f55c091b54c19ef652eb695fbdd2bfac508e291d132276eefac143",
+      "version": "9.6.0-1"
     },
     "libpskc0t64": {
       "architecture": "amd64",
