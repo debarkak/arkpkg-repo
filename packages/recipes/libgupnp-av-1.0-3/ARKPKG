@@ -1,0 +1,10 @@
+Name: libgupnp-av-1.0-3
+Description: Audio/Visual utility library for GUPnP
+Version: 0.14.3-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgupnp-av-1.0-3
+License: See /usr/share/doc/libgupnp-av-1.0-3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  xml-runtime-libs
+Provides: libgupnp-av-1.0.so.3=/usr/lib/x86_64-linux-gnu/libgupnp-av-1.0.so.3.14.3

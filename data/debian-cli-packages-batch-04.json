@@ -776,6 +776,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgupnp-av-1.0-3"
+      ],
+      "debian_version": "0.14.3-1",
+      "dependencies": [
+        "xml-runtime-libs"
+      ],
+      "description": "Audio/Visual utility library for GUPnP",
+      "license": "See /usr/share/doc/libgupnp-av-1.0-3/copyright",
+      "license_path": "usr/share/doc/libgupnp-av-1.0-3/copyright",
+      "name": "libgupnp-av-1.0-3",
+      "url": "https://packages.debian.org/trixie/libgupnp-av-1.0-3",
+      "version": "0.14.3-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1801,6 +1817,12 @@
       "filename": "pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.26.2-2_amd64.deb",
       "sha256": "08b463307fbde5496a346b1bb300b465cd22bd326f6f4634f482bf441af28a9b",
       "version": "1.26.2-2"
+    },
+    "libgupnp-av-1.0-3": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gupnp-av/libgupnp-av-1.0-3_0.14.3-1_amd64.deb",
+      "sha256": "753d067f77ca0935ed2a9b7ab4a04f8aa39b9c4eee509a6a86f774f7d466dc4b",
+      "version": "0.14.3-1"
     },
     "libibumad3": {
       "architecture": "amd64",
