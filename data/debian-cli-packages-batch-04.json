@@ -856,6 +856,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libibmad5"
+      ],
+      "debian_version": "56.1-1",
+      "dependencies": [
+        "libibumad3"
+      ],
+      "description": "Infiniband Management Datagram (MAD) library",
+      "license": "See /usr/share/doc/libibmad5/copyright",
+      "license_path": "usr/share/doc/libibmad5/copyright",
+      "name": "libibmad5",
+      "url": "https://packages.debian.org/trixie/libibmad5",
+      "version": "56.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1911,6 +1927,12 @@
       "filename": "pool/main/h/hwloc/libhwloc15_2.12.0-4_amd64.deb",
       "sha256": "aa53c4a1878475e7309f2c265c54d9a8a4602dec95564cf84d471d7376ff616c",
       "version": "2.12.0-4"
+    },
+    "libibmad5": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rdma-core/libibmad5_56.1-1_amd64.deb",
+      "sha256": "affc6c5a4e5e8106f4d77ece5f2d15e032ae939532627387ce5466df8d9eeb20",
+      "version": "56.1-1"
     },
     "libibumad3": {
       "architecture": "amd64",
