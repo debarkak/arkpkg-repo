@@ -1,0 +1,7 @@
+Name: mathpiper
+Description: Java Computer Algebra System
+Version: 0.81f+svn4469+dfsg3-4
+Arch: any
+URL: https://www.mathpiper.org/
+License: See /usr/share/doc/mathpiper/copyright
+Maintainer: arkanaOS Team

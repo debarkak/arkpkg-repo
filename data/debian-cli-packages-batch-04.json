@@ -1062,6 +1062,20 @@
       "name": "lua-resty-lrucache",
       "url": "https://github.com/openresty/lua-resty-lrucache",
       "version": "0.15-2"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "mathpiper"
+      ],
+      "debian_version": "0.81f+svn4469+dfsg3-4",
+      "dependencies": [],
+      "description": "Java Computer Algebra System",
+      "license": "See /usr/share/doc/mathpiper/copyright",
+      "license_path": "usr/share/doc/mathpiper/copyright",
+      "name": "mathpiper",
+      "url": "https://www.mathpiper.org/",
+      "version": "0.81f+svn4469+dfsg3-4"
     }
   ],
   "source_integrity": {
@@ -1523,6 +1537,12 @@
       "filename": "pool/main/l/lua-resty-lrucache/lua-resty-lrucache_0.15-2_all.deb",
       "sha256": "ea04a6afb7ceefe51079d3a5154ca2e3fe2317e439a306a013e9bcd28251eeb9",
       "version": "0.15-2"
+    },
+    "mathpiper": {
+      "architecture": "all",
+      "filename": "pool/main/m/mathpiper/mathpiper_0.81f+svn4469+dfsg3-4_all.deb",
+      "sha256": "0cdeea35e35207c0492146d67040ce486769ac6b8346e806e875f2e8343d343b",
+      "version": "0.81f+svn4469+dfsg3-4"
     }
   },
   "suite": "trixie"
