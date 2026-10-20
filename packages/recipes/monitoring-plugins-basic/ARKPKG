@@ -1,0 +1,11 @@
+Name: monitoring-plugins-basic
+Description: Plugins for nagios compatible monitoring systems (basic)
+Version: 2.4.0-3+deb13u1
+Arch: x86_64
+URL: https://www.monitoring-plugins.org
+License: See /usr/share/doc/monitoring-plugins-basic/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  liburiparser1
+  openssl-libs
+  systemd-libs

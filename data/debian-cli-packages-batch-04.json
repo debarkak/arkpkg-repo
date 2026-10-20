@@ -1929,6 +1929,24 @@
       "version": "1.6.0-3"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "monitoring-plugins-basic"
+      ],
+      "debian_version": "2.4.0-3+deb13u1",
+      "dependencies": [
+        "liburiparser1",
+        "openssl-libs",
+        "systemd-libs"
+      ],
+      "description": "Plugins for nagios compatible monitoring systems (basic)",
+      "license": "See /usr/share/doc/monitoring-plugins-basic/copyright",
+      "license_path": "usr/share/doc/monitoring-plugins-basic/copyright",
+      "name": "monitoring-plugins-basic",
+      "url": "https://www.monitoring-plugins.org",
+      "version": "2.4.0-3+deb13u1"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "ndiff"
@@ -2880,6 +2898,12 @@
       "filename": "pool/main/m/minissdpd/minissdpd_1.6.0-3_amd64.deb",
       "sha256": "273f3d86854073debe92c76fd35263fadd2c52b3da8f8fc92be729370641dd72",
       "version": "1.6.0-3"
+    },
+    "monitoring-plugins-basic": {
+      "architecture": "amd64",
+      "filename": "pool/main/m/monitoring-plugins/monitoring-plugins-basic_2.4.0-3+deb13u1_amd64.deb",
+      "sha256": "4dce246b4262c074377055c2fdb477b45b6654a74bcfe33eaea9d2d3a4e8b8b3",
+      "version": "2.4.0-3+deb13u1"
     },
     "ndiff": {
       "architecture": "all",
