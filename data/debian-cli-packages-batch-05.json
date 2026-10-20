@@ -1194,6 +1194,20 @@
       "name": "libgirara-gtk3-4",
       "url": "https://packages.debian.org/trixie/libgirara-gtk3-4",
       "version": "0.4.5-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libglut3.12"
+      ],
+      "debian_version": "3.4.0-4",
+      "dependencies": [],
+      "description": "OpenGL Utility Toolkit",
+      "license": "See /usr/share/doc/libglut3.12/copyright",
+      "license_path": "usr/share/doc/libglut3.12/copyright",
+      "name": "libglut3.12",
+      "url": "https://packages.debian.org/trixie/libglut3.12",
+      "version": "3.4.0-4"
     }
   ],
   "source_integrity": {
