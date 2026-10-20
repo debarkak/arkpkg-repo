@@ -1,0 +1,10 @@
+Name: wdiff
+Description: Compares two files word by word
+Version: 1.2.2-9
+Arch: x86_64
+URL: https://www.gnu.org/software/wdiff/
+License: See /usr/share/doc/wdiff/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  ncurses-libs
+Provides: wdiff=/usr/bin/wdiff

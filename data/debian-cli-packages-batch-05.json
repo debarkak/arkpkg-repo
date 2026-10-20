@@ -3069,6 +3069,22 @@
       "name": "voikko-fi",
       "url": "https://voikko.puimula.org/",
       "version": "2.5-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "wdiff"
+      ],
+      "debian_version": "1.2.2-9",
+      "dependencies": [
+        "ncurses-libs"
+      ],
+      "description": "Compares two files word by word",
+      "license": "See /usr/share/doc/wdiff/copyright",
+      "license_path": "usr/share/doc/wdiff/copyright",
+      "name": "wdiff",
+      "url": "https://www.gnu.org/software/wdiff/",
+      "version": "1.2.2-9"
     }
   ],
   "source_integrity": {
