@@ -760,6 +760,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgstreamer1.0-0"
+      ],
+      "debian_version": "1.26.2-2",
+      "dependencies": [
+        "libcap"
+      ],
+      "description": "Core GStreamer libraries and elements",
+      "license": "See /usr/share/doc/libgstreamer1.0-0/copyright",
+      "license_path": "usr/share/doc/libgstreamer1.0-0/copyright",
+      "name": "libgstreamer1.0-0",
+      "url": "https://packages.debian.org/trixie/libgstreamer1.0-0",
+      "version": "1.26.2-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1779,6 +1795,12 @@
       "filename": "pool/main/g/gpgme1.0/libgpgme11t64_1.24.2-3_amd64.deb",
       "sha256": "6650203af59ccf73b22cd6904fb179a799cb70d62885b19ae725c0655c04241c",
       "version": "1.24.2-3"
+    },
+    "libgstreamer1.0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.26.2-2_amd64.deb",
+      "sha256": "08b463307fbde5496a346b1bb300b465cd22bd326f6f4634f482bf441af28a9b",
+      "version": "1.26.2-2"
     },
     "libibumad3": {
       "architecture": "amd64",

@@ -1,0 +1,10 @@
+Name: libgstreamer1.0-0
+Description: Core GStreamer libraries and elements
+Version: 1.26.2-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgstreamer1.0-0
+License: See /usr/share/doc/libgstreamer1.0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap
+Provides: libgstbase-1.0.so.0=/usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.2602.0, libgstcheck-1.0.so.0=/usr/lib/x86_64-linux-gnu/libgstcheck-1.0.so.0.2602.0, libgstcontroller-1.0.so.0=/usr/lib/x86_64-linux-gnu/libgstcontroller-1.0.so.0.2602.0, libgstcoreelements.so=/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstcoreelements.so, libgstcoretracers.so=/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstcoretracers.so, libgstnet-1.0.so.0=/usr/lib/x86_64-linux-gnu/libgstnet-1.0.so.0.2602.0, libgstreamer-1.0.so.0=/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.2602.0
