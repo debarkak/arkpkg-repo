@@ -1,0 +1,47 @@
+Name: libgdal36
+Description: Geospatial Data Abstraction Library
+Version: 3.10.3+dfsg-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgdal36
+License: See /usr/share/doc/libgdal36/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  giflib
+  libaec0
+  libarmadillo14
+  libavif16
+  libblosc1
+  libcfitsio10t64
+  libcurl3t64-gnutls
+  libdeflate0
+  libfreexl1
+  libfyba0t64
+  libgeos-c1t64
+  libgeotiff5
+  libhdf4-0-alt
+  libhdf5-310
+  libheif1
+  libjpeg62-turbo
+  libkmlbase1t64
+  libkmldom1t64
+  libkmlengine1t64
+  libmariadb3
+  libnetcdf22
+  libodbc2
+  libodbcinst2
+  libogdi4.1
+  libopenjp2-7
+  libpng16-16t64
+  libpoppler147
+  libpq5
+  libproj25
+  libqhull-r8.0
+  libspatialite8t64
+  libsqlite3-0
+  libtiff6
+  libwebp7
+  libxerces-c3.2t64
+  openssl-libs
+  pcre2-libs
+  xml-runtime-libs
+Provides: libgdal.so.36=/usr/lib/x86_64-linux-gnu/libgdal.so.36.3.10.3
