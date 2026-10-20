@@ -1626,6 +1626,22 @@
       "name": "libplist-2.0-4",
       "url": "https://packages.debian.org/trixie/libplist-2.0-4",
       "version": "2.6.0-2+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libpolkit-gobject-1-0"
+      ],
+      "debian_version": "126-2",
+      "dependencies": [
+        "systemd-libs"
+      ],
+      "description": "polkit Authorization API",
+      "license": "See /usr/share/doc/libpolkit-gobject-1-0/copyright",
+      "license_path": "usr/share/doc/libpolkit-gobject-1-0/copyright",
+      "name": "libpolkit-gobject-1-0",
+      "url": "https://packages.debian.org/trixie/libpolkit-gobject-1-0",
+      "version": "126-2"
     }
   ],
   "source_integrity": {

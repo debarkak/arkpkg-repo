@@ -1,0 +1,10 @@
+Name: libpolkit-gobject-1-0
+Description: polkit Authorization API
+Version: 126-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpolkit-gobject-1-0
+License: See /usr/share/doc/libpolkit-gobject-1-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  systemd-libs
+Provides: libpolkit-gobject-1.so.0=/usr/lib/x86_64-linux-gnu/libpolkit-gobject-1.so.0.0.0
