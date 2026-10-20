@@ -1517,6 +1517,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libllvm17t64"
+      ],
+      "debian_version": "1:17.0.6-22+b2",
+      "dependencies": [
+        "dns-runtime-libs",
+        "libffi-libs",
+        "libz3-4",
+        "ncurses-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "Modular compiler and toolchain technologies, runtime library",
+      "license": "See /usr/share/doc/libllvm17t64/copyright",
+      "license_path": "usr/share/doc/libllvm17t64/copyright",
+      "name": "libllvm17t64",
+      "url": "https://packages.debian.org/trixie/libllvm17t64",
+      "version": "1:17.0.6-22+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "liblua5.3-0"
       ],
       "debian_version": "5.3.6-2+b4",
@@ -3851,6 +3871,12 @@
       "filename": "pool/main/l/lilv/liblilv-0-0_0.24.26-1_amd64.deb",
       "sha256": "71f03560980b7c7f89ada7bd49ac3239166db770b2fa752b13d67abbd98ce8bc",
       "version": "0.24.26-1"
+    },
+    "libllvm17t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/l/llvm-toolchain-17/libllvm17t64_17.0.6-22+b2_amd64.deb",
+      "sha256": "7a17e701bac905cc71df20abc674b4ee1b08af99b43d4c153628f23c907b8ee2",
+      "version": "1:17.0.6-22+b2"
     },
     "liblua5.3-0": {
       "architecture": "amd64",

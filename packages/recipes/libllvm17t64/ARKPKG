@@ -1,0 +1,14 @@
+Name: libllvm17t64
+Description: Modular compiler and toolchain technologies, runtime library
+Version: 1:17.0.6-22+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libllvm17t64
+License: See /usr/share/doc/libllvm17t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  dns-runtime-libs
+  libffi-libs
+  libz3-4
+  ncurses-libs
+  xml-runtime-libs
+Provides: libLLVM-17.so.1=/usr/lib/x86_64-linux-gnu/libLLVM-17.so.1
