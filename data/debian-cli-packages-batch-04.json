@@ -638,6 +638,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgdbm-compat4t64"
+      ],
+      "debian_version": "1.24-2",
+      "dependencies": [
+        "libgdbm6t64"
+      ],
+      "description": "GNU dbm database routines (legacy support runtime version) ",
+      "license": "See /usr/share/doc/libgdbm-compat4t64/copyright",
+      "license_path": "usr/share/doc/libgdbm-compat4t64/copyright",
+      "name": "libgdbm-compat4t64",
+      "url": "https://packages.debian.org/trixie/libgdbm-compat4t64",
+      "version": "1.24-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgdbuspp3"
       ],
       "debian_version": "3-2+b1",
@@ -1659,6 +1675,12 @@
       "filename": "pool/main/f/fyba/libfyba0t64_4.1.1-11+b1_amd64.deb",
       "sha256": "217ab27ac3e033ac0a6f3c5fc8270fcdd0c2d15ef517cf5a356b4586f1c15112",
       "version": "4.1.1-11+b1"
+    },
+    "libgdbm-compat4t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gdbm/libgdbm-compat4t64_1.24-2_amd64.deb",
+      "sha256": "2cbd43cf2dfbf57ff48188b5d79d29cf7ea8f0dedaa61ab0bcc02eceff50ea01",
+      "version": "1.24-2"
     },
     "libgdbuspp3": {
       "architecture": "amd64",
