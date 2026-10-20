@@ -40,6 +40,20 @@
       "name": "bridge-utils",
       "url": "https://packages.debian.org/trixie/bridge-utils",
       "version": "1.7.1-4+b1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "fail2ban"
+      ],
+      "debian_version": "1.1.0-8",
+      "dependencies": [],
+      "description": "ban hosts that cause multiple authentication errors",
+      "license": "See /usr/share/doc/fail2ban/copyright",
+      "license_path": "usr/share/doc/fail2ban/copyright",
+      "name": "fail2ban",
+      "url": "https://www.fail2ban.org",
+      "version": "1.1.0-8"
     }
   ],
   "source_integrity": {
@@ -63,6 +77,12 @@
       "filename": "pool/main/b/bridge-utils/bridge-utils_1.7.1-4+b1_amd64.deb",
       "sha256": "890416fc5cdd17925411a63769cef5af108516231b9e0761f4f50dc142cf8293",
       "version": "1.7.1-4+b1"
+    },
+    "fail2ban": {
+      "architecture": "all",
+      "filename": "pool/main/f/fail2ban/fail2ban_1.1.0-8_all.deb",
+      "sha256": "ac35080546f1a1581163b2ebcb9796b08eb4abca3d3643082b76dce505cbd6d8",
+      "version": "1.1.0-8"
     }
   },
   "suite": "trixie"

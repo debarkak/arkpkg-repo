@@ -1,0 +1,8 @@
+Name: fail2ban
+Description: ban hosts that cause multiple authentication errors
+Version: 1.1.0-8
+Arch: any
+URL: https://www.fail2ban.org
+License: See /usr/share/doc/fail2ban/copyright
+Maintainer: arkanaOS Team
+Provides: fail2ban-client=/usr/bin/fail2ban-client, fail2ban-python=/usr/bin/fail2ban-python, fail2ban-regex=/usr/bin/fail2ban-regex, fail2ban-server=/usr/bin/fail2ban-server, fail2ban-testcases=/usr/bin/fail2ban-testcases
