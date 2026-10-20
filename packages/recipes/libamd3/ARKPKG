@@ -1,0 +1,10 @@
+Name: libamd3
+Description: approximate minimum degree ordering library for sparse matrices
+Version: 1:7.10.1+dfsg-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libamd3
+License: See /usr/share/doc/libamd3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsuitesparseconfig7
+Provides: libamd.so.3=/usr/lib/x86_64-linux-gnu/libamd.so.3.3.3

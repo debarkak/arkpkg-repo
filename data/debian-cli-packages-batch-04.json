@@ -406,6 +406,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libamd3"
+      ],
+      "debian_version": "1:7.10.1+dfsg-1",
+      "dependencies": [
+        "libsuitesparseconfig7"
+      ],
+      "description": "approximate minimum degree ordering library for sparse matrices",
+      "license": "See /usr/share/doc/libamd3/copyright",
+      "license_path": "usr/share/doc/libamd3/copyright",
+      "name": "libamd3",
+      "url": "https://packages.debian.org/trixie/libamd3",
+      "version": "1:7.10.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libass9"
       ],
       "debian_version": "1:0.17.3-1+deb13u1",
@@ -3212,6 +3228,12 @@
       "filename": "pool/main/a/alglib/libalglib4.2_4.2.0-2_amd64.deb",
       "sha256": "f65afcd36717c1453f5873a8f65c5b3cdebfb742efe47d8b2882be980227228f",
       "version": "4.2.0-2"
+    },
+    "libamd3": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/suitesparse/libamd3_7.10.1+dfsg-1_amd64.deb",
+      "sha256": "2afe52d511404ba372f4a26675866ddd9e5a207fdec19639cfaf5b6a9c97d65e",
+      "version": "1:7.10.1+dfsg-1"
     },
     "libass9": {
       "architecture": "amd64",
