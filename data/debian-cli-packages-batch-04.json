@@ -768,6 +768,20 @@
       "name": "libpcsclite1",
       "url": "https://packages.debian.org/trixie/libpcsclite1",
       "version": "2.3.3-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libsbc1"
+      ],
+      "debian_version": "2.1-1",
+      "dependencies": [],
+      "description": "Sub Band CODEC library - runtime",
+      "license": "See /usr/share/doc/libsbc1/copyright",
+      "license_path": "usr/share/doc/libsbc1/copyright",
+      "name": "libsbc1",
+      "url": "https://packages.debian.org/trixie/libsbc1",
+      "version": "2.1-1"
     }
   ],
   "source_integrity": {
@@ -1103,6 +1117,12 @@
       "filename": "pool/main/p/pcsc-lite/libpcsclite1_2.3.3-1_amd64.deb",
       "sha256": "a8bc4725549060d1e696d358e32a3699d947d5381871553a290389830bebccbd",
       "version": "2.3.3-1"
+    },
+    "libsbc1": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/sbc/libsbc1_2.1-1_amd64.deb",
+      "sha256": "367a4355c925bbb4d197985a2dae5eff293baace58a16a3e8efaf50208f12a6b",
+      "version": "2.1-1"
     }
   },
   "suite": "trixie"

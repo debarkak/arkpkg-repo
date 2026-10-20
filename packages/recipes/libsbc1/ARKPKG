@@ -1,0 +1,8 @@
+Name: libsbc1
+Description: Sub Band CODEC library - runtime
+Version: 2.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsbc1
+License: See /usr/share/doc/libsbc1/copyright
+Maintainer: arkanaOS Team
+Provides: libsbc.so.1=/usr/lib/x86_64-linux-gnu/libsbc.so.1.3.1
