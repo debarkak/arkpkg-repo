@@ -1176,6 +1176,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnftnl11"
+      ],
+      "debian_version": "1.2.9-1",
+      "dependencies": [
+        "libmnl"
+      ],
+      "description": "Netfilter nftables userspace API library",
+      "license": "See /usr/share/doc/libnftnl11/copyright",
+      "license_path": "usr/share/doc/libnftnl11/copyright",
+      "name": "libnftnl11",
+      "url": "https://packages.debian.org/trixie/libnftnl11",
+      "version": "1.2.9-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libnova-0.16-0t64"
       ],
       "debian_version": "0.16-5.1+b1",
@@ -2217,6 +2233,12 @@
       "filename": "pool/main/n/netplan.io/libnetplan1_1.1.2-7_amd64.deb",
       "sha256": "007b5541494d01127d367385cff32caf976c3cf3e4300554d34b1579d5461180",
       "version": "1.1.2-7"
+    },
+    "libnftnl11": {
+      "architecture": "amd64",
+      "filename": "pool/main/libn/libnftnl/libnftnl11_1.2.9-1_amd64.deb",
+      "sha256": "1b3eae46bfb9c6ab44e404797fb45278045f926d73974a84097ad47a3e27d983",
+      "version": "1.2.9-1"
     },
     "libnova-0.16-0t64": {
       "architecture": "amd64",
