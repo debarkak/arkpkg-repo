@@ -1,0 +1,8 @@
+Name: libunibreak6
+Description: line breaking library for Unicode (shared library)
+Version: 6.1-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libunibreak6
+License: See /usr/share/doc/libunibreak6/copyright
+Maintainer: arkanaOS Team
+Provides: libunibreak.so.6=/usr/lib/x86_64-linux-gnu/libunibreak.so.6.0.1
