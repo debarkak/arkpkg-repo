@@ -1,0 +1,11 @@
+Name: nfacct
+Description: netfilter accounting object tool
+Version: 1.0.2-4
+Arch: x86_64
+URL: https://netfilter.org/projects/nfacct/
+License: See /usr/share/doc/nfacct/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmnl
+  libnetfilter-acct1
+Provides: nfacct=/usr/sbin/nfacct

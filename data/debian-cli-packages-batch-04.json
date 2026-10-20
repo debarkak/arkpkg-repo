@@ -2548,6 +2548,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "nfacct"
+      ],
+      "debian_version": "1.0.2-4",
+      "dependencies": [
+        "libmnl",
+        "libnetfilter-acct1"
+      ],
+      "description": "netfilter accounting object tool",
+      "license": "See /usr/share/doc/nfacct/copyright",
+      "license_path": "usr/share/doc/nfacct/copyright",
+      "name": "nfacct",
+      "url": "https://netfilter.org/projects/nfacct/",
+      "version": "1.0.2-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "ntpsec-ntpdig"
       ],
       "debian_version": "1.2.3+dfsg1-8",
@@ -3777,6 +3794,12 @@
       "filename": "pool/main/n/netavark/netavark_1.14.0-2_amd64.deb",
       "sha256": "34820688e7c671e746d88d109d4f7a34ffbb4a013b7dd2035d2762baf8e50a79",
       "version": "1.14.0-2"
+    },
+    "nfacct": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/nfacct/nfacct_1.0.2-4_amd64.deb",
+      "sha256": "5eef01fc02557f79e3c88eedb69b3c7d1cbeb10b110e5d9960fd2332bdd13b7d",
+      "version": "1.0.2-4"
     },
     "ntpsec-ntpdig": {
       "architecture": "amd64",
