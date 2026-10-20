@@ -2302,6 +2302,24 @@
       "name": "mupdf",
       "url": "https://mupdf.com/",
       "version": "1.25.1+ds1-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "mupdf-tools"
+      ],
+      "debian_version": "1.25.1+ds1-6+deb13u1",
+      "dependencies": [
+        "libmujs3",
+        "libmupdf25.1",
+        "openssl-libs"
+      ],
+      "description": "command line tools for the MuPDF viewer",
+      "license": "See /usr/share/doc/mupdf-tools/copyright",
+      "license_path": "usr/share/doc/mupdf-tools/copyright",
+      "name": "mupdf-tools",
+      "url": "https://mupdf.com/",
+      "version": "1.25.1+ds1-6+deb13u1"
     }
   ],
   "source_integrity": {

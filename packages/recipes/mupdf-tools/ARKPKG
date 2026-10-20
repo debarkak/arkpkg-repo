@@ -1,0 +1,12 @@
+Name: mupdf-tools
+Description: command line tools for the MuPDF viewer
+Version: 1.25.1+ds1-6+deb13u1
+Arch: x86_64
+URL: https://mupdf.com/
+License: See /usr/share/doc/mupdf-tools/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmujs3
+  libmupdf25.1
+  openssl-libs
+Provides: muraster=/usr/bin/muraster, mutool=/usr/bin/mutool
