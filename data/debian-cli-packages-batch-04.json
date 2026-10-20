@@ -194,6 +194,20 @@
       "name": "libalglib4.2",
       "url": "https://packages.debian.org/trixie/libalglib4.2",
       "version": "4.2.0-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libassuan9"
+      ],
+      "debian_version": "3.0.2-2",
+      "dependencies": [],
+      "description": "IPC library for the GnuPG components",
+      "license": "See /usr/share/doc/libassuan9/copyright",
+      "license_path": "usr/share/doc/libassuan9/copyright",
+      "name": "libassuan9",
+      "url": "https://packages.debian.org/trixie/libassuan9",
+      "version": "3.0.2-2"
     }
   ],
   "source_integrity": {
@@ -283,6 +297,12 @@
       "filename": "pool/main/a/alglib/libalglib4.2_4.2.0-2_amd64.deb",
       "sha256": "f65afcd36717c1453f5873a8f65c5b3cdebfb742efe47d8b2882be980227228f",
       "version": "4.2.0-2"
+    },
+    "libassuan9": {
+      "architecture": "amd64",
+      "filename": "pool/main/liba/libassuan/libassuan9_3.0.2-2_amd64.deb",
+      "sha256": "9d78ef8f016e7f24b5e20d1ce91939fe0f1f897e5f9059793201e930ded7eb8e",
+      "version": "3.0.2-2"
     }
   },
   "suite": "trixie"

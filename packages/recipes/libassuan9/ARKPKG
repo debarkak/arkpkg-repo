@@ -1,0 +1,8 @@
+Name: libassuan9
+Description: IPC library for the GnuPG components
+Version: 3.0.2-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libassuan9
+License: See /usr/share/doc/libassuan9/copyright
+Maintainer: arkanaOS Team
+Provides: libassuan.so.9=/usr/lib/x86_64-linux-gnu/libassuan.so.9.0.2
