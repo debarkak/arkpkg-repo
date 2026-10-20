@@ -628,6 +628,20 @@
       "name": "libmetis5",
       "url": "https://packages.debian.org/trixie/libmetis5",
       "version": "5.1.0.dfsg-7+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libminizip1t64"
+      ],
+      "debian_version": "1:1.3.dfsg+really1.3.1-1+b1",
+      "dependencies": [],
+      "description": "compression library - minizip library",
+      "license": "See /usr/share/doc/libminizip1t64/copyright",
+      "license_path": "usr/share/doc/libminizip1t64/copyright",
+      "name": "libminizip1t64",
+      "url": "https://packages.debian.org/trixie/libminizip1t64",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1"
     }
   ],
   "source_integrity": {
@@ -903,6 +917,12 @@
       "filename": "pool/main/m/metis/libmetis5_5.1.0.dfsg-7+b2_amd64.deb",
       "sha256": "2cc25f57cdff33c906f053ffcade96db40fa973695a48beb06e5d9fc266899a7",
       "version": "5.1.0.dfsg-7+b2"
+    },
+    "libminizip1t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/z/zlib/libminizip1t64_1.3.dfsg+really1.3.1-1+b1_amd64.deb",
+      "sha256": "9682faa260b02c865790f02089a755cb19b4b9100d91d3adb11da090709ad5d2",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1"
     }
   },
   "suite": "trixie"

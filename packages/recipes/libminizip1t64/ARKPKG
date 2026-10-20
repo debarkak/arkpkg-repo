@@ -1,0 +1,8 @@
+Name: libminizip1t64
+Description: compression library - minizip library
+Version: 1:1.3.dfsg+really1.3.1-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libminizip1t64
+License: See /usr/share/doc/libminizip1t64/copyright
+Maintainer: arkanaOS Team
+Provides: libminizip.so.1=/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0
