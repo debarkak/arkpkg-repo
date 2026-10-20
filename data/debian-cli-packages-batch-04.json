@@ -913,6 +913,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgstreamer-plugins-base1.0-0"
+      ],
+      "debian_version": "1.26.2-1+deb13u1",
+      "dependencies": [
+        "libgstreamer1.0-0",
+        "liborc-0.4-0t64"
+      ],
+      "description": "GStreamer libraries from the \"base\" set",
+      "license": "See /usr/share/doc/libgstreamer-plugins-base1.0-0/copyright",
+      "license_path": "usr/share/doc/libgstreamer-plugins-base1.0-0/copyright",
+      "name": "libgstreamer-plugins-base1.0-0",
+      "url": "https://packages.debian.org/trixie/libgstreamer-plugins-base1.0-0",
+      "version": "1.26.2-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgstreamer1.0-0"
       ],
       "debian_version": "1.26.2-2",
@@ -2746,6 +2763,12 @@
       "filename": "pool/main/g/gpgme1.0/libgpgmepp6t64_1.24.2-3_amd64.deb",
       "sha256": "81860c69f1480af6969de16845e2091dba9fca1e33732411e28437ea62e1a625",
       "version": "1.24.2-3"
+    },
+    "libgstreamer-plugins-base1.0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.26.2-1+deb13u1_amd64.deb",
+      "sha256": "a20aedb3f89c162b4859cec37076f4eba54b0bcc7e5cb254a26cc4a877a88a1e",
+      "version": "1.26.2-1+deb13u1"
     },
     "libgstreamer1.0-0": {
       "architecture": "amd64",
