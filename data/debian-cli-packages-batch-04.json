@@ -916,6 +916,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libipset13t64"
+      ],
+      "debian_version": "7.22-1+b1",
+      "dependencies": [
+        "libmnl"
+      ],
+      "description": "library for IP sets",
+      "license": "See /usr/share/doc/libipset13t64/copyright",
+      "license_path": "usr/share/doc/libipset13t64/copyright",
+      "name": "libipset13t64",
+      "url": "https://packages.debian.org/trixie/libipset13t64",
+      "version": "7.22-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libjsoncpp26"
       ],
       "debian_version": "1.9.6-3",
@@ -1967,6 +1983,12 @@
       "filename": "pool/main/i/imath/libimath-3-1-29t64_3.1.12-1+b3_amd64.deb",
       "sha256": "f3a55554486424edc3021332ac8c833b99152b75c24578236baebb47e43a510f",
       "version": "3.1.12-1+b3"
+    },
+    "libipset13t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/i/ipset/libipset13t64_7.22-1+b1_amd64.deb",
+      "sha256": "e1787d904412131228411ead317c4c5bdfeadb32c90bc349d9d387c42520fe0f",
+      "version": "7.22-1+b1"
     },
     "libjsoncpp26": {
       "architecture": "amd64",

@@ -1,0 +1,10 @@
+Name: libipset13t64
+Description: library for IP sets
+Version: 7.22-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libipset13t64
+License: See /usr/share/doc/libipset13t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmnl
+Provides: libipset.so.13=/usr/lib/x86_64-linux-gnu/libipset.so.13.4.0
