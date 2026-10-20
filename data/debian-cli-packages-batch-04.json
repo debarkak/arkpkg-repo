@@ -186,6 +186,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "leafnode"
+      ],
+      "debian_version": "1.12.0-4",
+      "dependencies": [
+        "pcre2-libs"
+      ],
+      "description": "NNTP server for small sites",
+      "license": "See /usr/share/doc/leafnode/copyright",
+      "license_path": "usr/share/doc/leafnode/copyright",
+      "name": "leafnode",
+      "url": "http://leafnode.org/",
+      "version": "1.12.0-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libaec0"
       ],
       "debian_version": "1.1.3-1+b1",
@@ -1343,6 +1359,12 @@
       "filename": "pool/main/k/kerberos-configs/krb5-config_2.7_all.deb",
       "sha256": "b6470221ab266cd2a30f36b1d542a40847383cc74be35405257bbb714faf5edc",
       "version": "2.7"
+    },
+    "leafnode": {
+      "architecture": "amd64",
+      "filename": "pool/main/l/leafnode/leafnode_1.12.0-4_amd64.deb",
+      "sha256": "8327e3b9a49cccc9c724b93ac1a250518fbae264b1adfa739e1f6adb48c3a868",
+      "version": "1.12.0-4"
     },
     "libaec0": {
       "architecture": "amd64",

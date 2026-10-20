@@ -1,0 +1,10 @@
+Name: leafnode
+Description: NNTP server for small sites
+Version: 1.12.0-4
+Arch: x86_64
+URL: http://leafnode.org/
+License: See /usr/share/doc/leafnode/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  pcre2-libs
+Provides: applyfilter=/usr/sbin/applyfilter, checkgroups=/usr/sbin/checkgroups, fetchnews=/usr/sbin/fetchnews, leafnode-version=/usr/bin/leafnode-version, leafnode=/usr/sbin/leafnode, newsq=/usr/bin/newsq, texpire=/usr/sbin/texpire, touch_newsgroup=/usr/bin/touch_newsgroup
