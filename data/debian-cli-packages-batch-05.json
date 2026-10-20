@@ -2010,6 +2010,22 @@
       "name": "libwavpack1",
       "url": "https://packages.debian.org/trixie/libwavpack1",
       "version": "5.8.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libwbclient0"
+      ],
+      "debian_version": "2:4.22.11+dfsg-0+deb13u1",
+      "dependencies": [
+        "libbsd"
+      ],
+      "description": "Samba winbind client library",
+      "license": "See /usr/share/doc/libwbclient0/copyright",
+      "license_path": "usr/share/doc/libwbclient0/copyright",
+      "name": "libwbclient0",
+      "url": "https://packages.debian.org/trixie/libwbclient0",
+      "version": "2:4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {
