@@ -2156,6 +2156,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "librubberband2"
+      ],
+      "debian_version": "3.3.0+dfsg-2+b3",
+      "dependencies": [
+        "libfftw3-double3",
+        "libsamplerate0"
+      ],
+      "description": "audio time-stretching and pitch-shifting library",
+      "license": "See /usr/share/doc/librubberband2/copyright",
+      "license_path": "usr/share/doc/librubberband2/copyright",
+      "name": "librubberband2",
+      "url": "https://packages.debian.org/trixie/librubberband2",
+      "version": "3.3.0+dfsg-2+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsasl2-2"
       ],
       "debian_version": "2.1.28+dfsg1-9",
@@ -4177,6 +4194,12 @@
       "filename": "pool/main/libr/librttopo/librttopo1_1.1.0-4_amd64.deb",
       "sha256": "9e99faa81ca826331acae79c4b4401edd96098d354c818efb00bdb51937535b5",
       "version": "1.1.0-4"
+    },
+    "librubberband2": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rubberband/librubberband2_3.3.0+dfsg-2+b3_amd64.deb",
+      "sha256": "4593fde69a6a10f2356d0fd1e7b1cd61faa48cc83a1a0b01b7d021dfe5252a85",
+      "version": "3.3.0+dfsg-2+b3"
     },
     "libsasl2-2": {
       "architecture": "amd64",

@@ -1,0 +1,11 @@
+Name: librubberband2
+Description: audio time-stretching and pitch-shifting library
+Version: 3.3.0+dfsg-2+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librubberband2
+License: See /usr/share/doc/librubberband2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libfftw3-double3
+  libsamplerate0
+Provides: librubberband.so.2=/usr/lib/x86_64-linux-gnu/librubberband.so.2.3.0
