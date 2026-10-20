@@ -2320,6 +2320,20 @@
       "name": "mupdf-tools",
       "url": "https://mupdf.com/",
       "version": "1.25.1+ds1-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "odt2txt"
+      ],
+      "debian_version": "0.5-7",
+      "dependencies": [],
+      "description": "simple converter from OpenDocument Text to plain text",
+      "license": "See /usr/share/doc/odt2txt/copyright",
+      "license_path": "usr/share/doc/odt2txt/copyright",
+      "name": "odt2txt",
+      "url": "https://github.com/dstosberg/odt2txt/",
+      "version": "0.5-7"
     }
   ],
   "source_integrity": {
