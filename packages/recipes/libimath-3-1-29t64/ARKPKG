@@ -1,0 +1,8 @@
+Name: libimath-3-1-29t64
+Description: Utility libraries from ASF used by OpenEXR - runtime
+Version: 3.1.12-1+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libimath-3-1-29t64
+License: See /usr/share/doc/libimath-3-1-29t64/copyright
+Maintainer: arkanaOS Team
+Provides: libImath-3_1.so.29=/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29.11.0
