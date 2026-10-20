@@ -792,6 +792,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libhashkit2t64"
+      ],
+      "debian_version": "1.1.4-1.1+b2",
+      "dependencies": [
+        "openssl-libs"
+      ],
+      "description": "libmemcached hashing functions and algorithms",
+      "license": "See /usr/share/doc/libhashkit2t64/copyright",
+      "license_path": "usr/share/doc/libhashkit2t64/copyright",
+      "name": "libhashkit2t64",
+      "url": "https://packages.debian.org/trixie/libhashkit2t64",
+      "version": "1.1.4-1.1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1823,6 +1839,12 @@
       "filename": "pool/main/g/gupnp-av/libgupnp-av-1.0-3_0.14.3-1_amd64.deb",
       "sha256": "753d067f77ca0935ed2a9b7ab4a04f8aa39b9c4eee509a6a86f774f7d466dc4b",
       "version": "0.14.3-1"
+    },
+    "libhashkit2t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libm/libmemcached/libhashkit2t64_1.1.4-1.1+b2_amd64.deb",
+      "sha256": "15ab3ffef038f85b7bd3d0731c23ddd9873bea34b9eabac91863fc987c7b9177",
+      "version": "1.1.4-1.1+b2"
     },
     "libibumad3": {
       "architecture": "amd64",

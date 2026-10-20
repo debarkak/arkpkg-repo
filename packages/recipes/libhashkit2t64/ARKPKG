@@ -1,0 +1,10 @@
+Name: libhashkit2t64
+Description: libmemcached hashing functions and algorithms
+Version: 1.1.4-1.1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhashkit2t64
+License: See /usr/share/doc/libhashkit2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl-libs
+Provides: libhashkit.so.2=/usr/lib/x86_64-linux-gnu/libhashkit.so.2.0.0
