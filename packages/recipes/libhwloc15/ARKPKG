@@ -1,0 +1,10 @@
+Name: libhwloc15
+Description: Hierarchical view of the machine - shared libs
+Version: 2.12.0-4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhwloc15
+License: See /usr/share/doc/libhwloc15/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  systemd-libs
+Provides: libhwloc.so.15=/usr/lib/x86_64-linux-gnu/libhwloc.so.15.9.0

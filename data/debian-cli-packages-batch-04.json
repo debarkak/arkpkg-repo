@@ -840,6 +840,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libhwloc15"
+      ],
+      "debian_version": "2.12.0-4",
+      "dependencies": [
+        "systemd-libs"
+      ],
+      "description": "Hierarchical view of the machine - shared libs",
+      "license": "See /usr/share/doc/libhwloc15/copyright",
+      "license_path": "usr/share/doc/libhwloc15/copyright",
+      "name": "libhwloc15",
+      "url": "https://packages.debian.org/trixie/libhwloc15",
+      "version": "2.12.0-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1889,6 +1905,12 @@
       "filename": "pool/main/r/roct-thunk-interface/libhsakmt1_6.2.4+ds-1_amd64.deb",
       "sha256": "1fd49134be5a29e0b978d230ffda6b419421e1237dac77e86131dba9f2037147",
       "version": "6.2.4+ds-1"
+    },
+    "libhwloc15": {
+      "architecture": "amd64",
+      "filename": "pool/main/h/hwloc/libhwloc15_2.12.0-4_amd64.deb",
+      "sha256": "aa53c4a1878475e7309f2c265c54d9a8a4602dec95564cf84d471d7376ff616c",
+      "version": "2.12.0-4"
     },
     "libibumad3": {
       "architecture": "amd64",
