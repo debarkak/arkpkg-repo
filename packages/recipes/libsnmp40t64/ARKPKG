@@ -1,0 +1,14 @@
+Name: libsnmp40t64
+Description: SNMP (Simple Network Management Protocol) library
+Version: 5.9.4+dfsg-2+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsnmp40t64
+License: See /usr/share/doc/libsnmp40t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libpci
+  libperl5.40
+  libsensors
+  libwrap-libs
+  openssl-libs
+Provides: libnetsnmp.so.40=/usr/lib/x86_64-linux-gnu/libnetsnmp.so.40.2.1, libnetsnmpagent.so.40=/usr/lib/x86_64-linux-gnu/libnetsnmpagent.so.40.2.1, libnetsnmphelpers.so.40=/usr/lib/x86_64-linux-gnu/libnetsnmphelpers.so.40.2.1, libnetsnmpmibs.so.40=/usr/lib/x86_64-linux-gnu/libnetsnmpmibs.so.40.2.1, libsnmp.so.40=/usr/lib/x86_64-linux-gnu/libsnmp.so.40.2.1

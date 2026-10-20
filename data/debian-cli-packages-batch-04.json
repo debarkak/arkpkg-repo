@@ -2231,6 +2231,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libsnmp40t64"
+      ],
+      "debian_version": "5.9.4+dfsg-2+deb13u1",
+      "dependencies": [
+        "libpci",
+        "libperl5.40",
+        "libsensors",
+        "libwrap-libs",
+        "openssl-libs"
+      ],
+      "description": "SNMP (Simple Network Management Protocol) library",
+      "license": "See /usr/share/doc/libsnmp40t64/copyright",
+      "license_path": "usr/share/doc/libsnmp40t64/copyright",
+      "name": "libsnmp40t64",
+      "url": "https://packages.debian.org/trixie/libsnmp40t64",
+      "version": "5.9.4+dfsg-2+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsord-0-0"
       ],
       "debian_version": "0.16.18-1",
@@ -4224,6 +4244,12 @@
       "filename": "pool/main/libs/libsmi/libsmi2t64_0.4.8+dfsg2-17+b1_amd64.deb",
       "sha256": "c5bef97b6d4c74879993f217a46395500004f186f92e007135496bf4ca2c1085",
       "version": "0.4.8+dfsg2-17+b1"
+    },
+    "libsnmp40t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/net-snmp/libsnmp40t64_5.9.4+dfsg-2+deb13u1_amd64.deb",
+      "sha256": "4e454a4c7ca0e5a4acbd433c4d5ddf246335a508df99faf8c996842c09688fcd",
+      "version": "5.9.4+dfsg-2+deb13u1"
     },
     "libsord-0-0": {
       "architecture": "amd64",
