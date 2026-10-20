@@ -115,6 +115,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "dnsmasq-base"
+      ],
+      "debian_version": "2.91-1+deb13u2",
+      "dependencies": [
+        "gmp-libs",
+        "libidn2-libs",
+        "libnetfilter-conntrack3",
+        "libnftables1",
+        "nettle-libs"
+      ],
+      "description": "Small caching DNS proxy and DHCP/TFTP server - executable",
+      "license": "See /usr/share/doc/dnsmasq-base/copyright",
+      "license_path": "usr/share/doc/dnsmasq-base/copyright",
+      "name": "dnsmasq-base",
+      "url": "https://www.thekelleys.org.uk/dnsmasq/doc.html",
+      "version": "2.91-1+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "ebtables"
       ],
       "debian_version": "2.0.11-6",
@@ -3053,6 +3073,12 @@
       "filename": "pool/main/d/ddclient/ddclient_3.11.2-2_all.deb",
       "sha256": "2da80dc1b6cb01a7f514df8f7b314f219de259cfe68a15a5528adfcedabacd37",
       "version": "3.11.2-2"
+    },
+    "dnsmasq-base": {
+      "architecture": "amd64",
+      "filename": "pool/main/d/dnsmasq/dnsmasq-base_2.91-1+deb13u2_amd64.deb",
+      "sha256": "fcf9e2d93795a0ca043fd22f0de96748c718b9411a5a48f9c0bb1bdb267d4639",
+      "version": "2.91-1+deb13u2"
     },
     "ebtables": {
       "architecture": "amd64",

@@ -1,0 +1,14 @@
+Name: dnsmasq-base
+Description: Small caching DNS proxy and DHCP/TFTP server - executable
+Version: 2.91-1+deb13u2
+Arch: x86_64
+URL: https://www.thekelleys.org.uk/dnsmasq/doc.html
+License: See /usr/share/doc/dnsmasq-base/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  libidn2-libs
+  libnetfilter-conntrack3
+  libnftables1
+  nettle-libs
+Provides: dnsmasq=/usr/sbin/dnsmasq
