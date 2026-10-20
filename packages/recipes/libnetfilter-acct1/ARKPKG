@@ -1,0 +1,10 @@
+Name: libnetfilter-acct1
+Description: Netfilter acct library
+Version: 1.0.3-4+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnetfilter-acct1
+License: See /usr/share/doc/libnetfilter-acct1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmnl
+Provides: libnetfilter_acct.so.1=/usr/lib/x86_64-linux-gnu/libnetfilter_acct.so.1.0.0
