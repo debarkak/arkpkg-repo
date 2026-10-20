@@ -1031,6 +1031,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libges-1.0-0"
+      ],
+      "debian_version": "1.26.2-1",
+      "dependencies": [
+        "libgstreamer-plugins-base1.0-0",
+        "libgstreamer1.0-0",
+        "xml-runtime-libs"
+      ],
+      "description": "GStreamer editing services (shared library)",
+      "license": "See /usr/share/doc/libges-1.0-0/copyright",
+      "license_path": "usr/share/doc/libges-1.0-0/copyright",
+      "name": "libges-1.0-0",
+      "url": "https://packages.debian.org/trixie/libges-1.0-0",
+      "version": "1.26.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgfortran5"
       ],
       "debian_version": "14.2.0-19",
@@ -3583,6 +3601,12 @@
       "filename": "pool/main/g/geos/libgeos3.13.1_3.13.1-1_amd64.deb",
       "sha256": "174b08f3092a8f10cf51d618d934d9703b88b4c51abf41d33535a12b7797e970",
       "version": "3.13.1-1"
+    },
+    "libges-1.0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gstreamer-editing-services1.0/libges-1.0-0_1.26.2-1_amd64.deb",
+      "sha256": "543a58edcfcdc027a8ac5aa6481d789c59e04e338c02d0107818b6ff1fbb6f34",
+      "version": "1.26.2-1"
     },
     "libgfortran5": {
       "architecture": "amd64",

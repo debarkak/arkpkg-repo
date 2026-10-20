@@ -1,0 +1,12 @@
+Name: libges-1.0-0
+Description: GStreamer editing services (shared library)
+Version: 1.26.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libges-1.0-0
+License: See /usr/share/doc/libges-1.0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgstreamer-plugins-base1.0-0
+  libgstreamer1.0-0
+  xml-runtime-libs
+Provides: libges-1.0.so.0=/usr/lib/x86_64-linux-gnu/libges-1.0.so.0.2602.0, libgstges.so=/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstges.so, libgstnle.so=/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstnle.so
