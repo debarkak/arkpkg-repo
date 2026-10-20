@@ -890,11 +890,11 @@
       ],
       "debian_version": "1.83.0-4.2",
       "dependencies": [],
-      "description": "Boost.Iostreams Library",
+      "description": "boost.iostreams library",
       "license": "See /usr/share/doc/libboost-iostreams1.83.0/copyright",
       "license_path": "usr/share/doc/libboost-iostreams1.83.0/copyright",
       "name": "libboost-iostreams1.83.0",
-      "url": "https://packages.debian.org/trixie/libboost-iostreams1.83.0",
+      "url": "http://www.boost.org/libs/iostreams/",
       "version": "1.83.0-4.2"
     },
     {

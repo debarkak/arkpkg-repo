@@ -1,8 +1,8 @@
 Name: libboost-iostreams1.83.0
-Description: Boost.Iostreams Library
+Description: boost.iostreams library
 Version: 1.83.0-4.2
 Arch: x86_64
-URL: https://packages.debian.org/trixie/libboost-iostreams1.83.0
+URL: http://www.boost.org/libs/iostreams/
 License: See /usr/share/doc/libboost-iostreams1.83.0/copyright
 Maintainer: arkanaOS Team
 Provides: libboost_iostreams.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.83.0
