@@ -1,0 +1,8 @@
+Name: libjsoncpp26
+Description: library for reading and writing JSON for C++
+Version: 1.9.6-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libjsoncpp26
+License: See /usr/share/doc/libjsoncpp26/copyright
+Maintainer: arkanaOS Team
+Provides: libjsoncpp.so.26=/usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.9.6
