@@ -1,0 +1,10 @@
+Name: texinfo-lib
+Description: Libraries needed by the texinfo package
+Version: 7.1.1-1+b1
+Arch: x86_64
+URL: https://www.gnu.org/software/texinfo/
+License: See /usr/share/doc/texinfo-lib/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: MiscXS.so=/usr/lib/texinfo/MiscXS.so, Parsetexi.so=/usr/lib/texinfo/Parsetexi.so, XSParagraph.so=/usr/lib/texinfo/XSParagraph.so
