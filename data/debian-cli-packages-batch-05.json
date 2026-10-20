@@ -913,6 +913,24 @@
       "name": "libboost-locale1.83.0",
       "url": "https://packages.debian.org/trixie/libboost-locale1.83.0",
       "version": "1.83.0-4.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcaca0"
+      ],
+      "debian_version": "0.99.beta20-5+deb13u1",
+      "dependencies": [
+        "libglu1-mesa",
+        "libglut3.12",
+        "ncurses-libs"
+      ],
+      "description": "colour ASCII art library",
+      "license": "See /usr/share/doc/libcaca0/copyright",
+      "license_path": "usr/share/doc/libcaca0/copyright",
+      "name": "libcaca0",
+      "url": "https://packages.debian.org/trixie/libcaca0",
+      "version": "0.99.beta20-5+deb13u1"
     }
   ],
   "source_integrity": {
