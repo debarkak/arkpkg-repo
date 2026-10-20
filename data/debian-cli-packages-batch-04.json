@@ -1600,6 +1600,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libmemcachedutil2t64"
+      ],
+      "debian_version": "1.1.4-1.1+b2",
+      "dependencies": [
+        "libmemcached11t64"
+      ],
+      "description": "library implementing connection pooling for libmemcached",
+      "license": "See /usr/share/doc/libmemcachedutil2t64/copyright",
+      "license_path": "usr/share/doc/libmemcachedutil2t64/copyright",
+      "name": "libmemcachedutil2t64",
+      "url": "https://packages.debian.org/trixie/libmemcachedutil2t64",
+      "version": "1.1.4-1.1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libmetis5"
       ],
       "debian_version": "5.1.0.dfsg-7+b2",
@@ -3916,6 +3932,12 @@
       "architecture": "amd64",
       "filename": "pool/main/libm/libmemcached/libmemcached11t64_1.1.4-1.1+b2_amd64.deb",
       "sha256": "fe348032fc0f890f0084e73bfe627fce155a807800df561736f5f0a3f9897b4b",
+      "version": "1.1.4-1.1+b2"
+    },
+    "libmemcachedutil2t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libm/libmemcached/libmemcachedutil2t64_1.1.4-1.1+b2_amd64.deb",
+      "sha256": "c30b51617758cf5730a9e2e74753b18594e7f5d3d23893ce48b063d43f3aaf58",
       "version": "1.1.4-1.1+b2"
     },
     "libmetis5": {

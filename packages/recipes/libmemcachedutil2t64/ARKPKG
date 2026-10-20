@@ -1,0 +1,10 @@
+Name: libmemcachedutil2t64
+Description: library implementing connection pooling for libmemcached
+Version: 1.1.4-1.1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmemcachedutil2t64
+License: See /usr/share/doc/libmemcachedutil2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmemcached11t64
+Provides: libmemcachedutil.so.2=/usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
