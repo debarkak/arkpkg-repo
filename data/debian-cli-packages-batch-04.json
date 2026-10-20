@@ -756,6 +756,29 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libcholmod5"
+      ],
+      "debian_version": "1:7.10.1+dfsg-1",
+      "dependencies": [
+        "libamd3",
+        "libcamd3",
+        "libccolamd3",
+        "libcolamd3",
+        "libgomp1",
+        "liblapack3",
+        "libsuitesparseconfig7",
+        "nmap-runtime-libs"
+      ],
+      "description": "sparse Cholesky factorization library for sparse matrices",
+      "license": "See /usr/share/doc/libcholmod5/copyright",
+      "license_path": "usr/share/doc/libcholmod5/copyright",
+      "name": "libcholmod5",
+      "url": "https://packages.debian.org/trixie/libcholmod5",
+      "version": "1:7.10.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libdaemon0"
       ],
       "debian_version": "0.14-7.1+b3",
@@ -3918,6 +3941,12 @@
       "filename": "pool/main/libc/libcgns/libcgns3.4_3.4.0-5+b2_amd64.deb",
       "sha256": "d606c05aba56ae707a9e1ef41b686a787b95ab2f26fe9ec196dc5c6eb6bfb1fe",
       "version": "3.4.0-5+b2"
+    },
+    "libcholmod5": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/suitesparse/libcholmod5_7.10.1+dfsg-1_amd64.deb",
+      "sha256": "00c51ce82fd1ab979149bea33d259691f814da5e900737f5a5f37eff003c4b0b",
+      "version": "1:7.10.1+dfsg-1"
     },
     "libdaemon0": {
       "architecture": "amd64",

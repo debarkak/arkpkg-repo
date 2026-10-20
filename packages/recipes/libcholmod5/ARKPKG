@@ -1,0 +1,17 @@
+Name: libcholmod5
+Description: sparse Cholesky factorization library for sparse matrices
+Version: 1:7.10.1+dfsg-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcholmod5
+License: See /usr/share/doc/libcholmod5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libamd3
+  libcamd3
+  libccolamd3
+  libcolamd3
+  libgomp1
+  liblapack3
+  libsuitesparseconfig7
+  nmap-runtime-libs
+Provides: libcholmod.so.5=/usr/lib/x86_64-linux-gnu/libcholmod.so.5.3.1
