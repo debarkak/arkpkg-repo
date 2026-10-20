@@ -1,0 +1,10 @@
+Name: libmariadb3
+Description: MariaDB database client library
+Version: 1:11.8.6-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmariadb3
+License: See /usr/share/doc/libmariadb3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl-libs
+Provides: libmariadb.so.3=/usr/lib/x86_64-linux-gnu/libmariadb.so.3
