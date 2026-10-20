@@ -1,0 +1,10 @@
+Name: libgfortran5
+Description: Runtime library for GNU Fortran applications
+Version: 14.2.0-19
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgfortran5
+License: See /usr/share/doc/libgfortran5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gcc-14-base
+Provides: libgfortran.so.5=/usr/lib/x86_64-linux-gnu/libgfortran.so.5.0.0

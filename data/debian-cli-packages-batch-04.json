@@ -712,6 +712,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgfortran5"
+      ],
+      "debian_version": "14.2.0-19",
+      "dependencies": [
+        "gcc-14-base"
+      ],
+      "description": "Runtime library for GNU Fortran applications",
+      "license": "See /usr/share/doc/libgfortran5/copyright",
+      "license_path": "usr/share/doc/libgfortran5/copyright",
+      "license_source_package": "gcc-14-base",
+      "license_source_path": "usr/share/doc/gcc-14-base/copyright",
+      "name": "libgfortran5",
+      "url": "https://packages.debian.org/trixie/libgfortran5",
+      "version": "14.2.0-19"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgl2ps1.4"
       ],
       "debian_version": "1.4.2+dfsg1-2",
@@ -1464,6 +1482,12 @@
       "sha256": "7931fa53b802c906bebe071fe7bc50ed1486c8f41ca90f25950529a127e3711d",
       "version": "0.17-17"
     },
+    "gcc-14-base": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gcc-14/gcc-14-base_14.2.0-19_amd64.deb",
+      "sha256": "5b6825de4263824b78c4c51f6476414f3b4e89c2ab63e81dc8b9b5501e867cf6",
+      "version": "14.2.0-19"
+    },
     "gdal-plugins": {
       "architecture": "amd64",
       "filename": "pool/main/g/gdal/gdal-plugins_3.10.3+dfsg-1_amd64.deb",
@@ -1721,6 +1745,12 @@
       "filename": "pool/main/g/geos/libgeos3.13.1_3.13.1-1_amd64.deb",
       "sha256": "174b08f3092a8f10cf51d618d934d9703b88b4c51abf41d33535a12b7797e970",
       "version": "3.13.1-1"
+    },
+    "libgfortran5": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gcc-14/libgfortran5_14.2.0-19_amd64.deb",
+      "sha256": "11b62b53f4704de557e44b510e18a1a2106bcd9a3fc31a475a45952a9aa3dbb2",
+      "version": "14.2.0-19"
     },
     "libgl2ps1.4": {
       "architecture": "amd64",
