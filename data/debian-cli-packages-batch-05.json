@@ -3085,6 +3085,20 @@
       "name": "wdiff",
       "url": "https://www.gnu.org/software/wdiff/",
       "version": "1.2.2-9"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "wfrench"
+      ],
+      "debian_version": "1.2.9-1",
+      "dependencies": [],
+      "description": "French dictionary words for /usr/share/dict",
+      "license": "See /usr/share/doc/wfrench/copyright",
+      "license_path": "usr/share/doc/wfrench/copyright",
+      "name": "wfrench",
+      "url": "https://gitlab.com/gpernot/wfrench",
+      "version": "1.2.9-1"
     }
   ],
   "source_integrity": {

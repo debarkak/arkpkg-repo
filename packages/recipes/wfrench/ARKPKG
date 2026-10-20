@@ -1,0 +1,7 @@
+Name: wfrench
+Description: French dictionary words for /usr/share/dict
+Version: 1.2.9-1
+Arch: any
+URL: https://gitlab.com/gpernot/wfrench
+License: See /usr/share/doc/wfrench/copyright
+Maintainer: arkanaOS Team
