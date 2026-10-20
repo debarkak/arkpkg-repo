@@ -644,6 +644,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libcamd3"
+      ],
+      "debian_version": "1:7.10.1+dfsg-1",
+      "dependencies": [
+        "libsuitesparseconfig7"
+      ],
+      "description": "symmetric approximate minimum degree library for sparse matrices",
+      "license": "See /usr/share/doc/libcamd3/copyright",
+      "license_path": "usr/share/doc/libcamd3/copyright",
+      "name": "libcamd3",
+      "url": "https://packages.debian.org/trixie/libcamd3",
+      "version": "1:7.10.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libcanlock3"
       ],
       "debian_version": "3.3.1-1",
@@ -3341,6 +3357,12 @@
       "architecture": "amd64",
       "filename": "pool/main/s/suitesparse/libbtf2_7.10.1+dfsg-1_amd64.deb",
       "sha256": "9bf184ab7b22cfef7b6fb0a38f474702ce74e2668ee847f705af542658016333",
+      "version": "1:7.10.1+dfsg-1"
+    },
+    "libcamd3": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/suitesparse/libcamd3_7.10.1+dfsg-1_amd64.deb",
+      "sha256": "36f34973f9ec021ae8bd15174ab40b6772446f7af1ee2c65c303cb0b5d444c30",
       "version": "1:7.10.1+dfsg-1"
     },
     "libcanlock3": {
