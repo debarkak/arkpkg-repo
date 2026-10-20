@@ -1,0 +1,11 @@
+Name: libsndio7.0
+Description: Small audio and MIDI framework from OpenBSD, runtime libraries
+Version: 1.10.0-0.1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsndio7.0
+License: See /usr/share/doc/libsndio7.0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  alsa-libs
+  libbsd
+Provides: libsndio.so.7=/usr/lib/x86_64-linux-gnu/libsndio.so.7.3

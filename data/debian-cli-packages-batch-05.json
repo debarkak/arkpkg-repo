@@ -1793,6 +1793,23 @@
       "name": "libsmbclient0",
       "url": "https://packages.debian.org/trixie/libsmbclient0",
       "version": "2:4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libsndio7.0"
+      ],
+      "debian_version": "1.10.0-0.1",
+      "dependencies": [
+        "alsa-libs",
+        "libbsd"
+      ],
+      "description": "Small audio and MIDI framework from OpenBSD, runtime libraries",
+      "license": "See /usr/share/doc/libsndio7.0/copyright",
+      "license_path": "usr/share/doc/libsndio7.0/copyright",
+      "name": "libsndio7.0",
+      "url": "https://packages.debian.org/trixie/libsndio7.0",
+      "version": "1.10.0-0.1"
     }
   ],
   "source_integrity": {
