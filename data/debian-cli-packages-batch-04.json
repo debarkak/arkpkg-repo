@@ -3501,6 +3501,26 @@
       "version": "2.0.8-3"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "unbound"
+      ],
+      "debian_version": "1.22.0-2+deb13u3",
+      "dependencies": [
+        "dns-runtime-libs",
+        "libevent-2.1-7t64",
+        "libhiredis1.1.0",
+        "openssl-libs",
+        "systemd-libs"
+      ],
+      "description": "validating, recursive, caching DNS resolver",
+      "license": "See /usr/share/doc/unbound/copyright",
+      "license_path": "usr/share/doc/unbound/copyright",
+      "name": "unbound",
+      "url": "https://www.unbound.net/",
+      "version": "1.22.0-2+deb13u3"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "wakeonlan"
@@ -4880,6 +4900,12 @@
       "filename": "pool/main/u/ulogd2/ulogd2_2.0.8-3_amd64.deb",
       "sha256": "6018e0c4b1ddcdd96b9b6c28e7fb1698c9fdb63503a064f79cd08a51b2ce9f93",
       "version": "2.0.8-3"
+    },
+    "unbound": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/unbound/unbound_1.22.0-2+deb13u3_amd64.deb",
+      "sha256": "208ca5d559854680db1c52bfa6aaad153481ee508f557d64841a568571f70430",
+      "version": "1.22.0-2+deb13u3"
     },
     "wakeonlan": {
       "architecture": "all",

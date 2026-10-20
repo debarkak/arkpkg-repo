@@ -1,0 +1,14 @@
+Name: unbound
+Description: validating, recursive, caching DNS resolver
+Version: 1.22.0-2+deb13u3
+Arch: x86_64
+URL: https://www.unbound.net/
+License: See /usr/share/doc/unbound/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  dns-runtime-libs
+  libevent-2.1-7t64
+  libhiredis1.1.0
+  openssl-libs
+  systemd-libs
+Provides: unbound-checkconf=/usr/sbin/unbound-checkconf, unbound-control-setup=/usr/sbin/unbound-control-setup, unbound-control=/usr/sbin/unbound-control, unbound=/usr/sbin/unbound
