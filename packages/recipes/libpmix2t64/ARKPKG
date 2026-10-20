@@ -1,0 +1,13 @@
+Name: libpmix2t64
+Description: Process Management Interface (Exascale) library
+Version: 5.0.7-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpmix2t64
+License: See /usr/share/doc/libpmix2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libevent-core-2.1-7t64
+  libevent-pthreads-2.1-7t64
+  libhwloc15
+  libmunge2
+Provides: libpmix.so.2=/usr/lib/x86_64-linux-gnu/pmix2/lib/libpmix.so.2.13.7, pmix_mca_pcompress_zlib.so=/usr/lib/x86_64-linux-gnu/pmix2/lib/pmix/pmix_mca_pcompress_zlib.so

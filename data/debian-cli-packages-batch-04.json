@@ -1714,6 +1714,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpmix2t64"
+      ],
+      "debian_version": "5.0.7-1",
+      "dependencies": [
+        "libevent-core-2.1-7t64",
+        "libevent-pthreads-2.1-7t64",
+        "libhwloc15",
+        "libmunge2"
+      ],
+      "description": "Process Management Interface (Exascale) library",
+      "license": "See /usr/share/doc/libpmix2t64/copyright",
+      "license_path": "usr/share/doc/libpmix2t64/copyright",
+      "name": "libpmix2t64",
+      "url": "https://packages.debian.org/trixie/libpmix2t64",
+      "version": "5.0.7-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpsm2-2"
       ],
       "debian_version": "11.2.185-2.1",
@@ -3207,6 +3226,12 @@
       "filename": "pool/main/libp/libplacebo/libplacebo349_7.349.0-3_amd64.deb",
       "sha256": "3d2ebdb86ccc35b9d115e8280cfc12c2cdc5ca67d0234af7370259181768dff2",
       "version": "7.349.0-3"
+    },
+    "libpmix2t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/pmix/libpmix2t64_5.0.7-1_amd64.deb",
+      "sha256": "1841358ff8589d3a1b5e58a8f06c9c88c71d2154ee67cd1aa42d22cdb78a6121",
+      "version": "5.0.7-1"
     },
     "libpsm2-2": {
       "architecture": "amd64",
