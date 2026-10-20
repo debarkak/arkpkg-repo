@@ -2054,6 +2054,20 @@
       "name": "libwildmidi2",
       "url": "https://packages.debian.org/trixie/libwildmidi2",
       "version": "0.4.3-1+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libxdamage1"
+      ],
+      "debian_version": "1:1.1.6-1+b2",
+      "dependencies": [],
+      "description": "X11 damaged region extension library",
+      "license": "See /usr/share/doc/libxdamage1/copyright",
+      "license_path": "usr/share/doc/libxdamage1/copyright",
+      "name": "libxdamage1",
+      "url": "https://packages.debian.org/trixie/libxdamage1",
+      "version": "1:1.1.6-1+b2"
     }
   ],
   "source_integrity": {
