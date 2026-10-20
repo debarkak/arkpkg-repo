@@ -2266,6 +2266,23 @@
       "name": "mpg123",
       "url": "http://mpg123.org/",
       "version": "1.32.10-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "mummer"
+      ],
+      "debian_version": "3.23+dfsg-8",
+      "dependencies": [
+        "gawk",
+        "perl"
+      ],
+      "description": "Efficient sequence alignment of full genomes",
+      "license": "See /usr/share/doc/mummer/copyright",
+      "license_path": "usr/share/doc/mummer/copyright",
+      "name": "mummer",
+      "url": "https://mummer.sourceforge.net/",
+      "version": "3.23+dfsg-8"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,11 @@
+Name: mummer
+Description: Efficient sequence alignment of full genomes
+Version: 3.23+dfsg-8
+Arch: x86_64
+URL: https://mummer.sourceforge.net/
+License: See /usr/share/doc/mummer/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gawk
+  perl
+Provides: combineMUMs=/usr/bin/combineMUMs, delta-filter=/usr/bin/delta-filter, delta2blocks=/usr/bin/delta2blocks, delta2maf=/usr/bin/delta2maf, dnadiff=/usr/bin/dnadiff, exact-tandems=/usr/bin/exact-tandems, gaps=/usr/bin/gaps, mapview=/usr/bin/mapview, mgaps=/usr/bin/mgaps, mummer-annotate=/usr/bin/mummer-annotate, mummer=/usr/bin/mummer, mummerplot=/usr/bin/mummerplot, nucmer2xfig=/usr/bin/nucmer2xfig, nucmer=/usr/bin/nucmer, promer=/usr/bin/promer, repeat-match=/usr/bin/repeat-match, run-mummer1=/usr/bin/run-mummer1, run-mummer3=/usr/bin/run-mummer3, show-aligns=/usr/bin/show-aligns, show-coords=/usr/bin/show-coords, show-diff=/usr/bin/show-diff, show-snps=/usr/bin/show-snps, show-tiling=/usr/bin/show-tiling
