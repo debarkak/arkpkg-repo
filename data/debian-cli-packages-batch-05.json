@@ -2815,6 +2815,20 @@
       "name": "samba-libs",
       "url": "https://packages.debian.org/trixie/samba-libs",
       "version": "2:4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "sash"
+      ],
+      "debian_version": "3.8-7+b13",
+      "dependencies": [],
+      "description": "Stand-alone statically linked shell",
+      "license": "See /usr/share/doc/sash/copyright",
+      "license_path": "usr/share/doc/sash/copyright",
+      "name": "sash",
+      "url": "https://members.tip.net.au/~dbell/",
+      "version": "3.8-7+b13"
     }
   ],
   "source_integrity": {

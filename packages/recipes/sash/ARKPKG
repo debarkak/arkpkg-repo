@@ -1,0 +1,8 @@
+Name: sash
+Description: Stand-alone statically linked shell
+Version: 3.8-7+b13
+Arch: x86_64
+URL: https://members.tip.net.au/~dbell/
+License: See /usr/share/doc/sash/copyright
+Maintainer: arkanaOS Team
+Provides: sash=/usr/bin/sash
