@@ -1,5 +1,5 @@
 Name: libgdbm-compat4t64
-Description: GNU dbm database routines (legacy support runtime version) 
+Description: GNU dbm database routines (legacy support runtime version)
 Version: 1.24-2
 Arch: x86_64
 URL: https://packages.debian.org/trixie/libgdbm-compat4t64
