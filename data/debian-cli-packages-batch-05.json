@@ -1287,6 +1287,20 @@
       "name": "libgudev-1.0-0",
       "url": "https://packages.debian.org/trixie/libgudev-1.0-0",
       "version": "238-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgumbo3"
+      ],
+      "debian_version": "0.13.0+dfsg-2",
+      "dependencies": [],
+      "description": "pure-C HTML5 parser",
+      "license": "See /usr/share/doc/libgumbo3/copyright",
+      "license_path": "usr/share/doc/libgumbo3/copyright",
+      "name": "libgumbo3",
+      "url": "https://packages.debian.org/trixie/libgumbo3",
+      "version": "0.13.0+dfsg-2"
     }
   ],
   "source_integrity": {
