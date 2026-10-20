@@ -1,0 +1,8 @@
+Name: libzzip-0-13t64
+Description: library providing read access on ZIP-archives - library
+Version: 0.13.78+dfsg.1-0.1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libzzip-0-13t64
+License: See /usr/share/doc/libzzip-0-13t64/copyright
+Maintainer: arkanaOS Team
+Provides: libzzip-0.so.13=/usr/lib/x86_64-linux-gnu/libzzip-0.so.13.0.78, libzzipfseeko-0.so.13=/usr/lib/x86_64-linux-gnu/libzzipfseeko-0.so.13.0.78, libzzipmmapped-0.so.13=/usr/lib/x86_64-linux-gnu/libzzipmmapped-0.so.13.0.78, libzzipwrap-0.so.13=/usr/lib/x86_64-linux-gnu/libzzipwrap-0.so.13.0.78

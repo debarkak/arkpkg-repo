@@ -2085,6 +2085,20 @@
       "name": "libxm4",
       "url": "https://packages.debian.org/trixie/libxm4",
       "version": "2.3.8-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libzzip-0-13t64"
+      ],
+      "debian_version": "0.13.78+dfsg.1-0.1",
+      "dependencies": [],
+      "description": "library providing read access on ZIP-archives - library",
+      "license": "See /usr/share/doc/libzzip-0-13t64/copyright",
+      "license_path": "usr/share/doc/libzzip-0-13t64/copyright",
+      "name": "libzzip-0-13t64",
+      "url": "https://packages.debian.org/trixie/libzzip-0-13t64",
+      "version": "0.13.78+dfsg.1-0.1"
     }
   ],
   "source_integrity": {
