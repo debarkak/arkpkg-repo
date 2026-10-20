@@ -1918,6 +1918,23 @@
       "name": "libtevent0t64",
       "url": "https://packages.debian.org/trixie/libtevent0t64",
       "version": "2:0.16.2+samba4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtheora0"
+      ],
+      "debian_version": "1.2.0~alpha1+dfsg-6",
+      "dependencies": [
+        "libcairo2",
+        "libogg0"
+      ],
+      "description": "Theora Video Compression Codec (shared library - libtheora)",
+      "license": "See /usr/share/doc/libtheora0/copyright",
+      "license_path": "usr/share/doc/libtheora0/copyright",
+      "name": "libtheora0",
+      "url": "https://packages.debian.org/trixie/libtheora0",
+      "version": "1.2.0~alpha1+dfsg-6"
     }
   ],
   "source_integrity": {

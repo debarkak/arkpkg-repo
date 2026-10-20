@@ -1,0 +1,11 @@
+Name: libtheora0
+Description: Theora Video Compression Codec (shared library - libtheora)
+Version: 1.2.0~alpha1+dfsg-6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtheora0
+License: See /usr/share/doc/libtheora0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcairo2
+  libogg0
+Provides: libtheora.so.0=/usr/lib/x86_64-linux-gnu/libtheora.so.0.4.0
