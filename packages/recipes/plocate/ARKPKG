@@ -1,0 +1,10 @@
+Name: plocate
+Description: much faster locate
+Version: 1.1.23-1
+Arch: x86_64
+URL: https://plocate.sesse.net/
+License: See /usr/share/doc/plocate/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  liburing2
+Provides: plocate-build=/usr/sbin/plocate-build, plocate=/usr/bin/plocate, updatedb.plocate=/usr/sbin/updatedb.plocate
