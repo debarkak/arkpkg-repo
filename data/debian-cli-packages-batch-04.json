@@ -1440,6 +1440,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libsasl2-2"
+      ],
+      "debian_version": "2.1.28+dfsg1-9",
+      "dependencies": [
+        "openssl-libs"
+      ],
+      "description": "Cyrus SASL - authentication abstraction library",
+      "license": "See /usr/share/doc/libsasl2-2/copyright",
+      "license_path": "usr/share/doc/libsasl2-2/copyright",
+      "name": "libsasl2-2",
+      "url": "https://packages.debian.org/trixie/libsasl2-2",
+      "version": "2.1.28+dfsg1-9"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsbc1"
       ],
       "debian_version": "2.1-1",
@@ -2499,6 +2515,12 @@
       "filename": "pool/main/g/gcc-14/libquadmath0_14.2.0-19_amd64.deb",
       "sha256": "f5b51cf0ece3ec3bb7494d0cdbff3ce715ae00cfb2b6ed787f7db91319d64a7b",
       "version": "14.2.0-19"
+    },
+    "libsasl2-2": {
+      "architecture": "amd64",
+      "filename": "pool/main/c/cyrus-sasl2/libsasl2-2_2.1.28+dfsg1-9_amd64.deb",
+      "sha256": "66e49d7ae026811b49a0050f18b0325960a2625ffd1ff60d91b7844a815fa9d2",
+      "version": "2.1.28+dfsg1-9"
     },
     "libsbc1": {
       "architecture": "amd64",

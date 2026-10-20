@@ -1,0 +1,10 @@
+Name: libsasl2-2
+Description: Cyrus SASL - authentication abstraction library
+Version: 2.1.28+dfsg1-9
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsasl2-2
+License: See /usr/share/doc/libsasl2-2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl-libs
+Provides: libsasl2.so.2=/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
