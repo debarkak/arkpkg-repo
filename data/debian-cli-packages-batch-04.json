@@ -200,6 +200,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "ibverbs-providers"
+      ],
+      "debian_version": "56.1-1",
+      "dependencies": [
+        "libibverbs1"
+      ],
+      "description": "User space provider drivers for libibverbs",
+      "license": "See /usr/share/doc/ibverbs-providers/copyright",
+      "license_path": "usr/share/doc/ibverbs-providers/copyright",
+      "name": "ibverbs-providers",
+      "url": "https://github.com/linux-rdma/rdma-core",
+      "version": "56.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "inn2-inews"
       ],
       "debian_version": "2.7.3-1",
@@ -2375,6 +2391,12 @@
       "filename": "pool/main/h/hdf5/hdf5-helpers_1.14.5+repack-3_amd64.deb",
       "sha256": "69488d84155e2e7cd30ad3b55184d2bd1ce703bfdb02cdc08c01a5866c1ea408",
       "version": "1.14.5+repack-3"
+    },
+    "ibverbs-providers": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rdma-core/ibverbs-providers_56.1-1_amd64.deb",
+      "sha256": "4ae7a507fd2667d245c9c06091517ff1acbb2008fd39c8257445badd701b503a",
+      "version": "56.1-1"
     },
     "inn2-inews": {
       "architecture": "amd64",
