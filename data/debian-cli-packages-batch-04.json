@@ -3571,6 +3571,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "snmpd"
+      ],
+      "debian_version": "5.9.4+dfsg-2+deb13u1",
+      "dependencies": [
+        "libsnmp40t64"
+      ],
+      "description": "SNMP (Simple Network Management Protocol) agents",
+      "license": "See /usr/share/doc/snmpd/copyright",
+      "license_path": "usr/share/doc/snmpd/copyright",
+      "license_source_package": "libsnmp40t64",
+      "license_source_path": "usr/share/doc/libsnmp40t64/copyright",
+      "name": "snmpd",
+      "url": "https://net-snmp.sourceforge.net/",
+      "version": "5.9.4+dfsg-2+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "strongswan-libcharon"
       ],
       "debian_version": "6.0.1-6+deb13u6",
@@ -5196,6 +5214,12 @@
       "architecture": "amd64",
       "filename": "pool/main/n/net-snmp/snmp_5.9.4+dfsg-2+deb13u1_amd64.deb",
       "sha256": "74ef3198171dfaf78582e62a06114c06780554eea9c524c350a1758c7be585b8",
+      "version": "5.9.4+dfsg-2+deb13u1"
+    },
+    "snmpd": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/net-snmp/snmpd_5.9.4+dfsg-2+deb13u1_amd64.deb",
+      "sha256": "0b4a6088524946e91425912235e7b02c8043d0eaa0e2939d64011e3e705d2d66",
       "version": "5.9.4+dfsg-2+deb13u1"
     },
     "strongswan-libcharon": {

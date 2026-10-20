@@ -1,0 +1,10 @@
+Name: snmpd
+Description: SNMP (Simple Network Management Protocol) agents
+Version: 5.9.4+dfsg-2+deb13u1
+Arch: x86_64
+URL: https://net-snmp.sourceforge.net/
+License: See /usr/share/doc/snmpd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsnmp40t64
+Provides: net-snmp-create-v3-user=/usr/bin/net-snmp-create-v3-user, snmpd=/usr/sbin/snmpd
