@@ -1,0 +1,10 @@
+Name: libmatio13
+Description: MATLAB MAT File I/O Library - shared library
+Version: 1.5.28-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmatio13
+License: See /usr/share/doc/libmatio13/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libhdf5-310
+Provides: libmatio.so.13=/usr/lib/x86_64-linux-gnu/libmatio.so.13.0.1

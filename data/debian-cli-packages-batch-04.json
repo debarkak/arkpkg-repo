@@ -1567,6 +1567,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libmatio13"
+      ],
+      "debian_version": "1.5.28-2",
+      "dependencies": [
+        "libhdf5-310"
+      ],
+      "description": "MATLAB MAT File I/O Library - shared library",
+      "license": "See /usr/share/doc/libmatio13/copyright",
+      "license_path": "usr/share/doc/libmatio13/copyright",
+      "name": "libmatio13",
+      "url": "https://packages.debian.org/trixie/libmatio13",
+      "version": "1.5.28-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libmemcached11t64"
       ],
       "debian_version": "1.1.4-1.1+b2",
@@ -3889,6 +3905,12 @@
       "filename": "pool/main/m/mariadb/libmariadb3_11.8.6-0+deb13u1_amd64.deb",
       "sha256": "b2a2d1cdf7493c75d43916a18947700740964513ff5ff603cf5cbbf61e9e6385",
       "version": "1:11.8.6-0+deb13u1"
+    },
+    "libmatio13": {
+      "architecture": "amd64",
+      "filename": "pool/main/libm/libmatio/libmatio13_1.5.28-2_amd64.deb",
+      "sha256": "7e1f8d189e3d018ba60eb7f371b9983b80af9770d8c3fb26157424254cc1906b",
+      "version": "1.5.28-2"
     },
     "libmemcached11t64": {
       "architecture": "amd64",
