@@ -2429,6 +2429,20 @@
       "name": "patchutils",
       "url": "http://cyberelk.net/tim/software/patchutils/",
       "version": "0.4.2-1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "pdftk-java"
+      ],
+      "debian_version": "3.3.3-2",
+      "dependencies": [],
+      "description": "pdftk port to java - a tool for manipulating PDF documents",
+      "license": "See /usr/share/doc/pdftk-java/copyright",
+      "license_path": "usr/share/doc/pdftk-java/copyright",
+      "name": "pdftk-java",
+      "url": "https://gitlab.com/pdftk-java/pdftk",
+      "version": "3.3.3-2"
     }
   ],
   "source_integrity": {

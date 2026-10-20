@@ -1,0 +1,8 @@
+Name: pdftk-java
+Description: pdftk port to java - a tool for manipulating PDF documents
+Version: 3.3.3-2
+Arch: any
+URL: https://gitlab.com/pdftk-java/pdftk
+License: See /usr/share/doc/pdftk-java/copyright
+Maintainer: arkanaOS Team
+Provides: pdftk.pdftk-java=/usr/bin/pdftk.pdftk-java
