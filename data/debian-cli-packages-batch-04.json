@@ -454,6 +454,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libarmadillo14"
+      ],
+      "debian_version": "1:14.2.3+dfsg-1+b1",
+      "dependencies": [
+        "libarpack2t64",
+        "liblapack3",
+        "nmap-runtime-libs"
+      ],
+      "description": "streamlined C++ linear algebra library",
+      "license": "See /usr/share/doc/libarmadillo14/copyright",
+      "license_path": "usr/share/doc/libarmadillo14/copyright",
+      "name": "libarmadillo14",
+      "url": "https://packages.debian.org/trixie/libarmadillo14",
+      "version": "1:14.2.3+dfsg-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libarpack2t64"
       ],
       "debian_version": "3.9.1-6",
@@ -3780,6 +3798,12 @@
       "filename": "pool/main/s/suitesparse/libamd3_7.10.1+dfsg-1_amd64.deb",
       "sha256": "2afe52d511404ba372f4a26675866ddd9e5a207fdec19639cfaf5b6a9c97d65e",
       "version": "1:7.10.1+dfsg-1"
+    },
+    "libarmadillo14": {
+      "architecture": "amd64",
+      "filename": "pool/main/a/armadillo/libarmadillo14_14.2.3+dfsg-1+b1_amd64.deb",
+      "sha256": "6237b2bace86bd6c8e64a9d7e343348e0d909e0e972654acfb26269e81224775",
+      "version": "1:14.2.3+dfsg-1+b1"
     },
     "libarpack2t64": {
       "architecture": "amd64",

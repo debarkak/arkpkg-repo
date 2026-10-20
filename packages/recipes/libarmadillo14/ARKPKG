@@ -1,0 +1,12 @@
+Name: libarmadillo14
+Description: streamlined C++ linear algebra library
+Version: 1:14.2.3+dfsg-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libarmadillo14
+License: See /usr/share/doc/libarmadillo14/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libarpack2t64
+  liblapack3
+  nmap-runtime-libs
+Provides: libarmadillo.so.14=/usr/lib/libarmadillo.so.14.2.3
