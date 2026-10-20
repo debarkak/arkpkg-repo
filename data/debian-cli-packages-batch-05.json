@@ -695,6 +695,22 @@
       "name": "lcdf-typetools",
       "url": "https://www.lcdf.org/type/",
       "version": "2.110-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libadplug-2.3.3-0"
+      ],
+      "debian_version": "2.3.3+dfsg-2",
+      "dependencies": [
+        "libbinio1v5"
+      ],
+      "description": "free AdLib sound library",
+      "license": "See /usr/share/doc/libadplug-2.3.3-0/copyright",
+      "license_path": "usr/share/doc/libadplug-2.3.3-0/copyright",
+      "name": "libadplug-2.3.3-0",
+      "url": "https://packages.debian.org/trixie/libadplug-2.3.3-0",
+      "version": "2.3.3+dfsg-2"
     }
   ],
   "source_integrity": {

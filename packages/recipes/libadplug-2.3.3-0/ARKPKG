@@ -1,0 +1,10 @@
+Name: libadplug-2.3.3-0
+Description: free AdLib sound library
+Version: 2.3.3+dfsg-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libadplug-2.3.3-0
+License: See /usr/share/doc/libadplug-2.3.3-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libbinio1v5
+Provides: libadplug-2.3.3.so.0=/usr/lib/x86_64-linux-gnu/libadplug-2.3.3.so.0.0.0
