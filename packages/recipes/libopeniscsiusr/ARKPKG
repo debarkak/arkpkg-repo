@@ -1,0 +1,10 @@
+Name: libopeniscsiusr
+Description: iSCSI userspace library
+Version: 2.1.11-1+deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libopeniscsiusr
+License: See /usr/share/doc/libopeniscsiusr/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  kmod-libs
+Provides: libopeniscsiusr.so.0=/usr/lib/x86_64-linux-gnu/libopeniscsiusr.so.0.2.0
