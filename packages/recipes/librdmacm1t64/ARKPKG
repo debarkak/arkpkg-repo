@@ -1,0 +1,11 @@
+Name: librdmacm1t64
+Description: Library for managing RDMA connections
+Version: 56.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librdmacm1t64
+License: See /usr/share/doc/librdmacm1t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libibverbs1
+  libnl-libs
+Provides: librdmacm.so.1=/usr/lib/x86_64-linux-gnu/librdmacm.so.1.3.56.1

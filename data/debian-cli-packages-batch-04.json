@@ -1767,6 +1767,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "librdmacm1t64"
+      ],
+      "debian_version": "56.1-1",
+      "dependencies": [
+        "libibverbs1",
+        "libnl-libs"
+      ],
+      "description": "Library for managing RDMA connections",
+      "license": "See /usr/share/doc/librdmacm1t64/copyright",
+      "license_path": "usr/share/doc/librdmacm1t64/copyright",
+      "name": "librdmacm1t64",
+      "url": "https://packages.debian.org/trixie/librdmacm1t64",
+      "version": "56.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsasl2-2"
       ],
       "debian_version": "2.1.28+dfsg1-9",
@@ -3244,6 +3261,12 @@
       "filename": "pool/main/g/gcc-14/libquadmath0_14.2.0-19_amd64.deb",
       "sha256": "f5b51cf0ece3ec3bb7494d0cdbff3ce715ae00cfb2b6ed787f7db91319d64a7b",
       "version": "14.2.0-19"
+    },
+    "librdmacm1t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rdma-core/librdmacm1t64_56.1-1_amd64.deb",
+      "sha256": "5b56911725905b8e2a8389c99416ca078395c4ca8ce0d516bc758d5be0134687",
+      "version": "56.1-1"
     },
     "libsasl2-2": {
       "architecture": "amd64",
