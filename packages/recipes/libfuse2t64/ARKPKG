@@ -1,0 +1,8 @@
+Name: libfuse2t64
+Description: Filesystem in Userspace (library)
+Version: 2.9.9-9
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfuse2t64
+License: See /usr/share/doc/libfuse2t64/copyright
+Maintainer: arkanaOS Team
+Provides: libfuse.so.2=/usr/lib/x86_64-linux-gnu/libfuse.so.2.9.9, libulockmgr.so.1=/usr/lib/x86_64-linux-gnu/libulockmgr.so.1.0.1

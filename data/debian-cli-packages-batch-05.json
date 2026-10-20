@@ -1162,6 +1162,20 @@
       "name": "libfmt10",
       "url": "https://packages.debian.org/trixie/libfmt10",
       "version": "10.1.1+ds1-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libfuse2t64"
+      ],
+      "debian_version": "2.9.9-9",
+      "dependencies": [],
+      "description": "Filesystem in Userspace (library)",
+      "license": "See /usr/share/doc/libfuse2t64/copyright",
+      "license_path": "usr/share/doc/libfuse2t64/copyright",
+      "name": "libfuse2t64",
+      "url": "https://packages.debian.org/trixie/libfuse2t64",
+      "version": "2.9.9-9"
     }
   ],
   "source_integrity": {
