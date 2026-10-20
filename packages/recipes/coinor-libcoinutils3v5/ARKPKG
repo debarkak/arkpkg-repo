@@ -1,0 +1,8 @@
+Name: coinor-libcoinutils3v5
+Description: COIN-OR collection of utility classes (shared libraries)
+Version: 2.11.11+ds-5
+Arch: x86_64
+URL: https://github.com/coin-or/CoinUtils
+License: See /usr/share/doc/coinor-libcoinutils3v5/copyright
+Maintainer: arkanaOS Team
+Provides: libCoinUtils.so.3=/usr/lib/x86_64-linux-gnu/libCoinUtils.so.3.11.11

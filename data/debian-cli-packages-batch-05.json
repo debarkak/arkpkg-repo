@@ -210,6 +210,22 @@
       "name": "cdparanoia",
       "url": "https://www.xiph.org/paranoia/",
       "version": "3.10.2+debian-14+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "coinor-libcoinutils3v5"
+      ],
+      "debian_version": "2.11.11+ds-5",
+      "dependencies": [
+        "libopenblas0-openmp"
+      ],
+      "description": "COIN-OR collection of utility classes (shared libraries)",
+      "license": "See /usr/share/doc/coinor-libcoinutils3v5/copyright",
+      "license_path": "usr/share/doc/coinor-libcoinutils3v5/copyright",
+      "name": "coinor-libcoinutils3v5",
+      "url": "https://github.com/coin-or/CoinUtils",
+      "version": "2.11.11+ds-5"
     }
   ],
   "source_integrity": {
