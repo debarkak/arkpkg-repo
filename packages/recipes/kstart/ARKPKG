@@ -1,0 +1,10 @@
+Name: kstart
+Description: Kerberos kinit supporting AFS and ticket refreshing
+Version: 4.3-1
+Arch: x86_64
+URL: https://www.eyrie.org/~eagle/software/kstart/
+License: See /usr/share/doc/kstart/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  krb5-libs
+Provides: k5start=/usr/bin/k5start, krenew=/usr/bin/krenew

@@ -343,6 +343,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "kstart"
+      ],
+      "debian_version": "4.3-1",
+      "dependencies": [
+        "krb5-libs"
+      ],
+      "description": "Kerberos kinit supporting AFS and ticket refreshing",
+      "license": "See /usr/share/doc/kstart/copyright",
+      "license_path": "usr/share/doc/kstart/copyright",
+      "name": "kstart",
+      "url": "https://www.eyrie.org/~eagle/software/kstart/",
+      "version": "4.3-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "leafnode"
       ],
       "debian_version": "1.12.0-4",
@@ -3706,6 +3722,12 @@
       "filename": "pool/main/k/kerberos-configs/krb5-config_2.7_all.deb",
       "sha256": "b6470221ab266cd2a30f36b1d542a40847383cc74be35405257bbb714faf5edc",
       "version": "2.7"
+    },
+    "kstart": {
+      "architecture": "amd64",
+      "filename": "pool/main/k/kstart/kstart_4.3-1_amd64.deb",
+      "sha256": "22528b1054f30dd6532d04422bd6a4fed769cdb54f900ab10dfb0445aa03ddf5",
+      "version": "4.3-1"
     },
     "leafnode": {
       "architecture": "amd64",
