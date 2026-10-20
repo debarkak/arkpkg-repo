@@ -1386,6 +1386,20 @@
       "name": "libiso9660-12",
       "url": "https://packages.debian.org/trixie/libiso9660-12",
       "version": "2.2.0-4.1~deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libixml11t64"
+      ],
+      "debian_version": "1:1.14.20-1+deb13u1",
+      "dependencies": [],
+      "description": "Portable SDK for UPnP Devices (ixml shared library)",
+      "license": "See /usr/share/doc/libixml11t64/copyright",
+      "license_path": "usr/share/doc/libixml11t64/copyright",
+      "name": "libixml11t64",
+      "url": "https://packages.debian.org/trixie/libixml11t64",
+      "version": "1:1.14.20-1+deb13u1"
     }
   ],
   "source_integrity": {

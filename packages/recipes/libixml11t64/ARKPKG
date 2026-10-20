@@ -1,0 +1,8 @@
+Name: libixml11t64
+Description: Portable SDK for UPnP Devices (ixml shared library)
+Version: 1:1.14.20-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libixml11t64
+License: See /usr/share/doc/libixml11t64/copyright
+Maintainer: arkanaOS Team
+Provides: libixml.so.11=/usr/lib/x86_64-linux-gnu/libixml.so.11.1.2
