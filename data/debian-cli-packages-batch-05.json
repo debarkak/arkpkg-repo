@@ -29,6 +29,20 @@
       "name": "acpi",
       "url": "http://sourceforge.net/projects/acpiclient",
       "version": "1.8-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "aha"
+      ],
+      "debian_version": "0.5.1-3",
+      "dependencies": [],
+      "description": "ANSI color to HTML converter",
+      "license": "See /usr/share/doc/aha/copyright",
+      "license_path": "usr/share/doc/aha/copyright",
+      "name": "aha",
+      "url": "https://github.com/theZiz/aha",
+      "version": "0.5.1-3"
     }
   ],
   "source_integrity": {
