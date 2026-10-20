@@ -2143,6 +2143,20 @@
       "name": "mailcap",
       "url": "https://packages.debian.org/trixie/mailcap",
       "version": "3.74"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "mda-lv2"
+      ],
+      "debian_version": "1.2.10-2+b1",
+      "dependencies": [],
+      "description": "Paul Kellett's MDA plugins ported to LV2",
+      "license": "See /usr/share/doc/mda-lv2/copyright",
+      "license_path": "usr/share/doc/mda-lv2/copyright",
+      "name": "mda-lv2",
+      "url": "https://drobilla.net/category/mdalv2/",
+      "version": "1.2.10-2+b1"
     }
   ],
   "source_integrity": {
