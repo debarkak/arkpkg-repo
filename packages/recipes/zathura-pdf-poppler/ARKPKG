@@ -1,0 +1,11 @@
+Name: zathura-pdf-poppler
+Description: PDF support for zathura
+Version: 0.3.3-1
+Arch: x86_64
+URL: https://pwmt.org/projects/zathura
+License: See /usr/share/doc/zathura-pdf-poppler/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcairo2
+  libgirara-gtk3-4
+  libpoppler-glib8t64

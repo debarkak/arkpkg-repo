@@ -3189,6 +3189,24 @@
       "name": "xsltproc",
       "url": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
       "version": "1.1.35-1.2+deb13u3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "zathura-pdf-poppler"
+      ],
+      "debian_version": "0.3.3-1",
+      "dependencies": [
+        "libcairo2",
+        "libgirara-gtk3-4",
+        "libpoppler-glib8t64"
+      ],
+      "description": "PDF support for zathura",
+      "license": "See /usr/share/doc/zathura-pdf-poppler/copyright",
+      "license_path": "usr/share/doc/zathura-pdf-poppler/copyright",
+      "name": "zathura-pdf-poppler",
+      "url": "https://pwmt.org/projects/zathura",
+      "version": "0.3.3-1"
     }
   ],
   "source_integrity": {
