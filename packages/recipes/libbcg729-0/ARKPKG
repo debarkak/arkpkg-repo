@@ -1,0 +1,8 @@
+Name: libbcg729-0
+Description: ITU G.729 Annex A compatible audio codec
+Version: 1.1.1-3+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libbcg729-0
+License: See /usr/share/doc/libbcg729-0/copyright
+Maintainer: arkanaOS Team
+Provides: libbcg729.so.0=/usr/lib/x86_64-linux-gnu/libbcg729.so.0
