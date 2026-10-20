@@ -2505,6 +2505,20 @@
       },
       "url": "https://poppler.freedesktop.org/",
       "version": "25.03.0-5+deb13u4"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "powermgmt-base"
+      ],
+      "debian_version": "1.38",
+      "dependencies": [],
+      "description": "common utils for power management",
+      "license": "See /usr/share/doc/powermgmt-base/copyright",
+      "license_path": "usr/share/doc/powermgmt-base/copyright",
+      "name": "powermgmt-base",
+      "url": "https://packages.debian.org/trixie/powermgmt-base",
+      "version": "1.38"
     }
   ],
   "source_integrity": {

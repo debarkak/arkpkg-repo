@@ -1,0 +1,8 @@
+Name: powermgmt-base
+Description: common utils for power management
+Version: 1.38
+Arch: any
+URL: https://packages.debian.org/trixie/powermgmt-base
+License: See /usr/share/doc/powermgmt-base/copyright
+Maintainer: arkanaOS Team
+Provides: lspower=/usr/bin/lspower, on_ac_power=/usr/bin/on_ac_power, on_ac_power=/usr/sbin/on_ac_power
