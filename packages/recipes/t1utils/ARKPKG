@@ -1,0 +1,8 @@
+Name: t1utils
+Description: Collection of simple Type 1 font manipulation programs
+Version: 1.41-4
+Arch: x86_64
+URL: https://www.lcdf.org/type/
+License: See /usr/share/doc/t1utils/copyright
+Maintainer: arkanaOS Team
+Provides: t1ascii=/usr/bin/t1ascii, t1asm=/usr/bin/t1asm, t1binary=/usr/bin/t1binary, t1disasm=/usr/bin/t1disasm, t1mac=/usr/bin/t1mac, t1unmac=/usr/bin/t1unmac

@@ -2947,6 +2947,20 @@
       "name": "swh-plugins",
       "url": "http://plugin.org.uk/",
       "version": "0.4.17-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "t1utils"
+      ],
+      "debian_version": "1.41-4",
+      "dependencies": [],
+      "description": "Collection of simple Type 1 font manipulation programs",
+      "license": "See /usr/share/doc/t1utils/copyright",
+      "license_path": "usr/share/doc/t1utils/copyright",
+      "name": "t1utils",
+      "url": "https://www.lcdf.org/type/",
+      "version": "1.41-4"
     }
   ],
   "source_integrity": {
