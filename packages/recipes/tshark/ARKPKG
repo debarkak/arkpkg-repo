@@ -1,0 +1,14 @@
+Name: tshark
+Description: network traffic analyzer - console version
+Version: 4.4.18-0+deb13u1
+Arch: x86_64
+URL: https://www.wireshark.org/
+License: See /usr/share/doc/tshark/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libnl-libs
+  libpcap-libs
+  libwireshark18
+  libwiretap15
+  libwsutil16
+Provides: tshark=/usr/bin/tshark
