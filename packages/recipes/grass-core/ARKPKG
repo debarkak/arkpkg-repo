@@ -1,0 +1,27 @@
+Name: grass-core
+Description: GRASS GIS core components
+Version: 8.4.1-1
+Arch: x86_64
+URL: https://grass.osgeo.org/
+License: See /usr/share/doc/grass-core/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libblas.so.3
+  libcairo2
+  libfftw3-double3
+  libgdal36
+  libgeos-c1t64
+  libglu1-mesa
+  libgomp1
+  liblapack3
+  libmariadb3
+  libnetcdf22
+  libodbc2
+  libpng16-16t64
+  libpq5
+  libproj25
+  libsqlite3-0
+  libtiff6
+  nmap-runtime-libs
+  readline-libs
+Provides: grass=/usr/bin/grass, libgrass_arraystats.8.4.so=/usr/lib/grass84/lib/libgrass_arraystats.8.4.so, libgrass_bitmap.8.4.so=/usr/lib/grass84/lib/libgrass_bitmap.8.4.so, libgrass_btree.8.4.so=/usr/lib/grass84/lib/libgrass_btree.8.4.so, libgrass_btree2.8.4.so=/usr/lib/grass84/lib/libgrass_btree2.8.4.so, libgrass_cairodriver.8.4.so=/usr/lib/grass84/lib/libgrass_cairodriver.8.4.so, libgrass_calc.8.4.so=/usr/lib/grass84/lib/libgrass_calc.8.4.so, libgrass_ccmath.8.4.so=/usr/lib/grass84/lib/libgrass_ccmath.8.4.so, libgrass_cdhc.8.4.so=/usr/lib/grass84/lib/libgrass_cdhc.8.4.so, libgrass_cluster.8.4.so=/usr/lib/grass84/lib/libgrass_cluster.8.4.so, libgrass_datetime.8.4.so=/usr/lib/grass84/lib/libgrass_datetime.8.4.so, libgrass_dbmibase.8.4.so=/usr/lib/grass84/lib/libgrass_dbmibase.8.4.so, libgrass_dbmiclient.8.4.so=/usr/lib/grass84/lib/libgrass_dbmiclient.8.4.so, libgrass_dbmidriver.8.4.so=/usr/lib/grass84/lib/libgrass_dbmidriver.8.4.so, libgrass_dbstubs.8.4.so=/usr/lib/grass84/lib/libgrass_dbstubs.8.4.so, libgrass_dgl.8.4.so=/usr/lib/grass84/lib/libgrass_dgl.8.4.so, libgrass_dig2.8.4.so=/usr/lib/grass84/lib/libgrass_dig2.8.4.so, libgrass_display.8.4.so=/usr/lib/grass84/lib/libgrass_display.8.4.so, libgrass_driver.8.4.so=/usr/lib/grass84/lib/libgrass_driver.8.4.so, libgrass_dspf.8.4.so=/usr/lib/grass84/lib/libgrass_dspf.8.4.so, libgrass_g3d.8.4.so=/usr/lib/grass84/lib/libgrass_g3d.8.4.so, libgrass_gis.8.4.so=/usr/lib/grass84/lib/libgrass_gis.8.4.so, libgrass_gmath.8.4.so=/usr/lib/grass84/lib/libgrass_gmath.8.4.so, libgrass_gpde.8.4.so=/usr/lib/grass84/lib/libgrass_gpde.8.4.so, libgrass_gproj.8.4.so=/usr/lib/grass84/lib/libgrass_gproj.8.4.so, libgrass_htmldriver.8.4.so=/usr/lib/grass84/lib/libgrass_htmldriver.8.4.so, libgrass_imagery.8.4.so=/usr/lib/grass84/lib/libgrass_imagery.8.4.so, libgrass_interpdata.8.4.so=/usr/lib/grass84/lib/libgrass_interpdata.8.4.so, libgrass_interpfl.8.4.so=/usr/lib/grass84/lib/libgrass_interpfl.8.4.so, libgrass_iortho.8.4.so=/usr/lib/grass84/lib/libgrass_iortho.8.4.so, libgrass_iostream.8.4.so=/usr/lib/grass84/lib/libgrass_iostream.8.4.so, libgrass_lidar.8.4.so=/usr/lib/grass84/lib/libgrass_lidar.8.4.so, libgrass_linkm.8.4.so=/usr/lib/grass84/lib/libgrass_linkm.8.4.so, libgrass_lrs.8.4.so=/usr/lib/grass84/lib/libgrass_lrs.8.4.so, libgrass_manage.8.4.so=/usr/lib/grass84/lib/libgrass_manage.8.4.so, libgrass_neta.8.4.so=/usr/lib/grass84/lib/libgrass_neta.8.4.so, libgrass_nviz.8.4.so=/usr/lib/grass84/lib/libgrass_nviz.8.4.so, libgrass_ogsf.8.4.so=/usr/lib/grass84/lib/libgrass_ogsf.8.4.so, libgrass_parson.8.4.so=/usr/lib/grass84/lib/libgrass_parson.8.4.so, libgrass_pngdriver.8.4.so=/usr/lib/grass84/lib/libgrass_pngdriver.8.4.so, libgrass_psdriver.8.4.so=/usr/lib/grass84/lib/libgrass_psdriver.8.4.so, libgrass_qtree.8.4.so=/usr/lib/grass84/lib/libgrass_qtree.8.4.so, libgrass_raster.8.4.so=/usr/lib/grass84/lib/libgrass_raster.8.4.so, libgrass_rli.8.4.so=/usr/lib/grass84/lib/libgrass_rli.8.4.so, libgrass_rowio.8.4.so=/usr/lib/grass84/lib/libgrass_rowio.8.4.so, libgrass_rtree.8.4.so=/usr/lib/grass84/lib/libgrass_rtree.8.4.so, libgrass_segment.8.4.so=/usr/lib/grass84/lib/libgrass_segment.8.4.so, libgrass_shape.8.4.so=/usr/lib/grass84/lib/libgrass_shape.8.4.so, libgrass_sim.8.4.so=/usr/lib/grass84/lib/libgrass_sim.8.4.so, libgrass_sqlp.8.4.so=/usr/lib/grass84/lib/libgrass_sqlp.8.4.so, libgrass_stats.8.4.so=/usr/lib/grass84/lib/libgrass_stats.8.4.so, libgrass_symb.8.4.so=/usr/lib/grass84/lib/libgrass_symb.8.4.so, libgrass_temporal.8.4.so=/usr/lib/grass84/lib/libgrass_temporal.8.4.so, libgrass_vector.8.4.so=/usr/lib/grass84/lib/libgrass_vector.8.4.so, libgrass_vedit.8.4.so=/usr/lib/grass84/lib/libgrass_vedit.8.4.so, x-grass=/usr/bin/x-grass

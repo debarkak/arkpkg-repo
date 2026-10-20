@@ -337,6 +337,39 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "grass-core"
+      ],
+      "debian_version": "8.4.1-1",
+      "dependencies": [
+        "libblas.so.3",
+        "libcairo2",
+        "libfftw3-double3",
+        "libgdal36",
+        "libgeos-c1t64",
+        "libglu1-mesa",
+        "libgomp1",
+        "liblapack3",
+        "libmariadb3",
+        "libnetcdf22",
+        "libodbc2",
+        "libpng16-16t64",
+        "libpq5",
+        "libproj25",
+        "libsqlite3-0",
+        "libtiff6",
+        "nmap-runtime-libs",
+        "readline-libs"
+      ],
+      "description": "GRASS GIS core components",
+      "license": "See /usr/share/doc/grass-core/copyright",
+      "license_path": "usr/share/doc/grass-core/copyright",
+      "name": "grass-core",
+      "url": "https://grass.osgeo.org/",
+      "version": "8.4.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "hdf5-helpers"
       ],
       "debian_version": "1.14.5+repack-3",
@@ -4752,6 +4785,12 @@
       "filename": "pool/main/g/gmsh/gmsh_4.13.1+ds1-6_amd64.deb",
       "sha256": "b179dd0c39b5fe653e040fa7ac68b9ebf7e2f6d2d6b0e8f58512cec9c7c5c848",
       "version": "4.13.1+ds1-6"
+    },
+    "grass-core": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/grass/grass-core_8.4.1-1_amd64.deb",
+      "sha256": "2803fb8d2fd3e66f921e269275be4955c0c7d55e4c5a9addb69d9436f9bb53b4",
+      "version": "8.4.1-1"
     },
     "hdf5-helpers": {
       "architecture": "amd64",
