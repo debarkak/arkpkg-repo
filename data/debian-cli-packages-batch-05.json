@@ -2242,6 +2242,30 @@
       "name": "mpd",
       "url": "https://www.musicpd.org/",
       "version": "0.24.4-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "mpg123"
+      ],
+      "debian_version": "1.32.10-1+deb13u1",
+      "dependencies": [
+        "alsa-libs",
+        "libaudio2",
+        "libjack-jackd2-0",
+        "libmpg123-0t64",
+        "libopenal1",
+        "libout123-0t64",
+        "libportaudio2",
+        "libpulse0",
+        "libsyn123-0t64"
+      ],
+      "description": "MPEG layer 1/2/3 audio player",
+      "license": "See /usr/share/doc/mpg123/copyright",
+      "license_path": "usr/share/doc/mpg123/copyright",
+      "name": "mpg123",
+      "url": "http://mpg123.org/",
+      "version": "1.32.10-1+deb13u1"
     }
   ],
   "source_integrity": {

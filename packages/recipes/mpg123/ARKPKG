@@ -1,0 +1,18 @@
+Name: mpg123
+Description: MPEG layer 1/2/3 audio player
+Version: 1.32.10-1+deb13u1
+Arch: x86_64
+URL: http://mpg123.org/
+License: See /usr/share/doc/mpg123/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  alsa-libs
+  libaudio2
+  libjack-jackd2-0
+  libmpg123-0t64
+  libopenal1
+  libout123-0t64
+  libportaudio2
+  libpulse0
+  libsyn123-0t64
+Provides: mpg123-alsa=/usr/bin/mpg123-alsa, mpg123-id3dump=/usr/bin/mpg123-id3dump, mpg123-jack=/usr/bin/mpg123-jack, mpg123-nas=/usr/bin/mpg123-nas, mpg123-openal=/usr/bin/mpg123-openal, mpg123-oss=/usr/bin/mpg123-oss, mpg123-portaudio=/usr/bin/mpg123-portaudio, mpg123-pulse=/usr/bin/mpg123-pulse, mpg123-strip=/usr/bin/mpg123-strip, mpg123.bin=/usr/bin/mpg123.bin, out123=/usr/bin/out123, output_alsa.so=/usr/lib/x86_64-linux-gnu/mpg123/output_alsa.so, output_dummy.so=/usr/lib/x86_64-linux-gnu/mpg123/output_dummy.so, output_jack.so=/usr/lib/x86_64-linux-gnu/mpg123/output_jack.so, output_nas.so=/usr/lib/x86_64-linux-gnu/mpg123/output_nas.so, output_openal.so=/usr/lib/x86_64-linux-gnu/mpg123/output_openal.so, output_oss.so=/usr/lib/x86_64-linux-gnu/mpg123/output_oss.so, output_portaudio.so=/usr/lib/x86_64-linux-gnu/mpg123/output_portaudio.so, output_pulse.so=/usr/lib/x86_64-linux-gnu/mpg123/output_pulse.so
