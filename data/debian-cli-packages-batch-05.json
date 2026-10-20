@@ -2378,6 +2378,20 @@
       "name": "orthanc",
       "url": "https://www.orthanc-server.com/",
       "version": "1.12.7+dfsg-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "os-prober"
+      ],
+      "debian_version": "1.83",
+      "dependencies": [],
+      "description": "utility to detect other OSes on a set of drives",
+      "license": "See /usr/share/doc/os-prober/copyright",
+      "license_path": "usr/share/doc/os-prober/copyright",
+      "name": "os-prober",
+      "url": "https://packages.debian.org/trixie/os-prober",
+      "version": "1.83"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,8 @@
+Name: os-prober
+Description: utility to detect other OSes on a set of drives
+Version: 1.83
+Arch: x86_64
+URL: https://packages.debian.org/trixie/os-prober
+License: See /usr/share/doc/os-prober/copyright
+Maintainer: arkanaOS Team
+Provides: linux-boot-prober=/usr/bin/linux-boot-prober, os-prober=/usr/bin/os-prober
