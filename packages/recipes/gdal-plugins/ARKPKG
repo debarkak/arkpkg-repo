@@ -1,0 +1,7 @@
+Name: gdal-plugins
+Description: Geospatial Data Abstraction Library - Plugins
+Version: 3.10.3+dfsg-1
+Arch: x86_64
+URL: http://www.gdal.org/
+License: See /usr/share/doc/gdal-plugins/copyright
+Maintainer: arkanaOS Team

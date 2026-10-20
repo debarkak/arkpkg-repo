@@ -68,6 +68,20 @@
       "name": "finger",
       "url": "http://ftp.linux.org.uk/pub/linux/Networking/netkit/",
       "version": "0.17-17"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "gdal-plugins"
+      ],
+      "debian_version": "3.10.3+dfsg-1",
+      "dependencies": [],
+      "description": "Geospatial Data Abstraction Library - Plugins",
+      "license": "See /usr/share/doc/gdal-plugins/copyright",
+      "license_path": "usr/share/doc/gdal-plugins/copyright",
+      "name": "gdal-plugins",
+      "url": "http://www.gdal.org/",
+      "version": "3.10.3+dfsg-1"
     }
   ],
   "source_integrity": {
@@ -103,6 +117,12 @@
       "filename": "pool/main/b/bsd-finger/finger_0.17-17_amd64.deb",
       "sha256": "7931fa53b802c906bebe071fe7bc50ed1486c8f41ca90f25950529a127e3711d",
       "version": "0.17-17"
+    },
+    "gdal-plugins": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gdal/gdal-plugins_3.10.3+dfsg-1_amd64.deb",
+      "sha256": "cb1e07c1de1c7f741272935b25df8c82d3e1b5eefdc862d0786aee7f31aaebeb",
+      "version": "3.10.3+dfsg-1"
     }
   },
   "suite": "trixie"
