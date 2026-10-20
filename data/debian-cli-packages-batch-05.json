@@ -362,6 +362,20 @@
       "name": "dictzip",
       "url": "https://sourceforge.net/projects/dict/",
       "version": "1.13.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "direnv"
+      ],
+      "debian_version": "2.32.1-2+b16",
+      "dependencies": [],
+      "description": "Utility to set directory specific environment variables",
+      "license": "See /usr/share/doc/direnv/copyright",
+      "license_path": "usr/share/doc/direnv/copyright",
+      "name": "direnv",
+      "url": "http://direnv.net/",
+      "version": "2.32.1-2+b16"
     }
   ],
   "source_integrity": {

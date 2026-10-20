@@ -1,0 +1,8 @@
+Name: direnv
+Description: Utility to set directory specific environment variables
+Version: 2.32.1-2+b16
+Arch: x86_64
+URL: http://direnv.net/
+License: See /usr/share/doc/direnv/copyright
+Maintainer: arkanaOS Team
+Provides: direnv=/usr/bin/direnv
