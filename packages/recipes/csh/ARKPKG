@@ -1,0 +1,8 @@
+Name: csh
+Description: Shell with C-like syntax
+Version: 20240808-2
+Arch: x86_64
+URL: https://www.openbsd.org/cgi-bin/cvsweb/src/bin/csh/
+License: See /usr/share/doc/csh/copyright
+Maintainer: arkanaOS Team
+Provides: bsd-csh=/usr/bin/bsd-csh

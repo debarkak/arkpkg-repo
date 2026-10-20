@@ -281,6 +281,22 @@
       "name": "cryfs",
       "url": "https://www.cryfs.org/",
       "version": "0.11.4-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "csh"
+      ],
+      "debian_version": "20240808-2",
+      "dependencies": [
+        "libbsd"
+      ],
+      "description": "Shell with C-like syntax",
+      "license": "See /usr/share/doc/csh/copyright",
+      "license_path": "usr/share/doc/csh/copyright",
+      "name": "csh",
+      "url": "https://www.openbsd.org/cgi-bin/cvsweb/src/bin/csh/",
+      "version": "20240808-2"
     }
   ],
   "source_integrity": {
