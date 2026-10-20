@@ -1,0 +1,10 @@
+Name: libamd-comgr2
+Description: ROCm code object manager
+Version: 6.0+git20231212.4510c28+dfsg-3+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libamd-comgr2
+License: See /usr/share/doc/libamd-comgr2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libllvm17t64
+Provides: libamd_comgr.so.2=/usr/lib/x86_64-linux-gnu/libamd_comgr.so.2.6.0

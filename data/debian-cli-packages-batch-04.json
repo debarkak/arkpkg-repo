@@ -422,6 +422,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libamd-comgr2"
+      ],
+      "debian_version": "6.0+git20231212.4510c28+dfsg-3+b2",
+      "dependencies": [
+        "libllvm17t64"
+      ],
+      "description": "ROCm code object manager",
+      "license": "See /usr/share/doc/libamd-comgr2/copyright",
+      "license_path": "usr/share/doc/libamd-comgr2/copyright",
+      "name": "libamd-comgr2",
+      "url": "https://packages.debian.org/trixie/libamd-comgr2",
+      "version": "6.0+git20231212.4510c28+dfsg-3+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libamd3"
       ],
       "debian_version": "1:7.10.1+dfsg-1",
@@ -3752,6 +3768,12 @@
       "filename": "pool/main/a/alglib/libalglib4.2_4.2.0-2_amd64.deb",
       "sha256": "f65afcd36717c1453f5873a8f65c5b3cdebfb742efe47d8b2882be980227228f",
       "version": "4.2.0-2"
+    },
+    "libamd-comgr2": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rocm-compilersupport/libamd-comgr2_6.0+git20231212.4510c28+dfsg-3+b2_amd64.deb",
+      "sha256": "e6de3c9c6b1fa5e6c87882d094484fe0ad0560c61413abd0d28582c4a40de460",
+      "version": "6.0+git20231212.4510c28+dfsg-3+b2"
     },
     "libamd3": {
       "architecture": "amd64",
