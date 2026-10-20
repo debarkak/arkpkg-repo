@@ -1,8 +1,8 @@
 Name: libusbmuxd-2.0-7
-Description: Client library to handle usbmux connections with iOS devices (library)
+Description: client library to handle usbmux connections with ios devices (library)
 Version: 2.1.0-1+b1
 Arch: x86_64
-URL: https://packages.debian.org/trixie/libusbmuxd-2.0-7
+URL: https://libimobiledevice.org
 License: See /usr/share/doc/libusbmuxd-2.0-7/copyright
 Maintainer: arkanaOS Team
 Dependencies:

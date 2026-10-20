@@ -1990,11 +1990,11 @@
         "libimobiledevice-glue-1.0-0",
         "libplist-2.0-4"
       ],
-      "description": "Client library to handle usbmux connections with iOS devices (library)",
+      "description": "client library to handle usbmux connections with ios devices (library)",
       "license": "See /usr/share/doc/libusbmuxd-2.0-7/copyright",
       "license_path": "usr/share/doc/libusbmuxd-2.0-7/copyright",
       "name": "libusbmuxd-2.0-7",
-      "url": "https://packages.debian.org/trixie/libusbmuxd-2.0-7",
+      "url": "https://libimobiledevice.org",
       "version": "2.1.0-1+b1"
     },
     {
