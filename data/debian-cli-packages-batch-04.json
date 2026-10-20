@@ -2195,6 +2195,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpq5"
+      ],
+      "debian_version": "17.11-0+deb13u1",
+      "dependencies": [
+        "krb5-libs",
+        "openldap-libs",
+        "openssl-libs"
+      ],
+      "description": "PostgreSQL C client library",
+      "license": "See /usr/share/doc/libpq5/copyright",
+      "license_path": "usr/share/doc/libpq5/copyright",
+      "name": "libpq5",
+      "url": "https://packages.debian.org/trixie/libpq5",
+      "version": "17.11-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpskc0t64"
       ],
       "debian_version": "2.6.12-1",
@@ -4568,6 +4586,12 @@
       "filename": "pool/main/f/ffmpeg/libpostproc58_7.1.5-0+deb13u1_amd64.deb",
       "sha256": "4a19b79dac4353419018509568f554df3ce937d2283c859f6454c3fe543135b6",
       "version": "7:7.1.5-0+deb13u1"
+    },
+    "libpq5": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/postgresql-17/libpq5_17.11-0+deb13u1_amd64.deb",
+      "sha256": "20a4c9ef58b4baf90deda67cfb2cc062871c062830dddc234d28f5ac7931b86b",
+      "version": "17.11-0+deb13u1"
     },
     "libpskc0t64": {
       "architecture": "amd64",

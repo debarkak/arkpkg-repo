@@ -1,0 +1,12 @@
+Name: libpq5
+Description: PostgreSQL C client library
+Version: 17.11-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpq5
+License: See /usr/share/doc/libpq5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  krb5-libs
+  openldap-libs
+  openssl-libs
+Provides: libpq.so.5=/usr/lib/x86_64-linux-gnu/libpq.so.5.17
