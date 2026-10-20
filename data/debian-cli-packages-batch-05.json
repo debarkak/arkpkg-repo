@@ -792,6 +792,20 @@
       "name": "libatk1.0-0t64",
       "url": "https://packages.debian.org/trixie/libatk1.0-0t64",
       "version": "2.56.2-1+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libatspi2.0-0t64"
+      ],
+      "debian_version": "2.56.2-1+deb13u2",
+      "dependencies": [],
+      "description": "Assistive Technology Service Provider Interface - shared library",
+      "license": "See /usr/share/doc/libatspi2.0-0t64/copyright",
+      "license_path": "usr/share/doc/libatspi2.0-0t64/copyright",
+      "name": "libatspi2.0-0t64",
+      "url": "https://packages.debian.org/trixie/libatspi2.0-0t64",
+      "version": "2.56.2-1+deb13u2"
     }
   ],
   "source_integrity": {

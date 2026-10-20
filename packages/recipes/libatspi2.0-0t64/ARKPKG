@@ -1,0 +1,8 @@
+Name: libatspi2.0-0t64
+Description: Assistive Technology Service Provider Interface - shared library
+Version: 2.56.2-1+deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libatspi2.0-0t64
+License: See /usr/share/doc/libatspi2.0-0t64/copyright
+Maintainer: arkanaOS Team
+Provides: libatspi.so.0=/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
