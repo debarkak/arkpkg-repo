@@ -882,6 +882,20 @@
       "name": "libbinio1v5",
       "url": "https://packages.debian.org/trixie/libbinio1v5",
       "version": "1.5+dfsg-0.1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libboost-iostreams1.83.0"
+      ],
+      "debian_version": "1.83.0-4.2",
+      "dependencies": [],
+      "description": "Boost.Iostreams Library",
+      "license": "See /usr/share/doc/libboost-iostreams1.83.0/copyright",
+      "license_path": "usr/share/doc/libboost-iostreams1.83.0/copyright",
+      "name": "libboost-iostreams1.83.0",
+      "url": "https://packages.debian.org/trixie/libboost-iostreams1.83.0",
+      "version": "1.83.0-4.2"
     }
   ],
   "source_integrity": {
