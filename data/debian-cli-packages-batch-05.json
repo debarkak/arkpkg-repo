@@ -645,6 +645,22 @@
       "name": "iucode-tool",
       "url": "https://gitlab.com/iucode-tool",
       "version": "2.3.1-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "konwert"
+      ],
+      "debian_version": "1.8-15",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "Charset conversion for files or terminal I/O",
+      "license": "See /usr/share/doc/konwert/copyright",
+      "license_path": "usr/share/doc/konwert/copyright",
+      "name": "konwert",
+      "url": "https://web.archive.org/web/20041207025451/http://qrczak.ids.net.pl/programy/linux/konwert/",
+      "version": "1.8-15"
     }
   ],
   "source_integrity": {

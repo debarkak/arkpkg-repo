@@ -1,0 +1,10 @@
+Name: konwert
+Description: Charset conversion for files or terminal I/O
+Version: 1.8-15
+Arch: x86_64
+URL: https://web.archive.org/web/20041207025451/http://qrczak.ids.net.pl/programy/linux/konwert/
+License: See /usr/share/doc/konwert/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: filterm=/usr/bin/filterm, konwert=/usr/bin/konwert, trs=/usr/bin/trs
