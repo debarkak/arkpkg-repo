@@ -1028,6 +1028,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libhsa-runtime64-1"
+      ],
+      "debian_version": "6.1.2-3",
+      "dependencies": [
+        "libelf1t64",
+        "libhsakmt1"
+      ],
+      "description": "HSA Runtime API and runtime for ROCm",
+      "license": "See /usr/share/doc/libhsa-runtime64-1/copyright",
+      "license_path": "usr/share/doc/libhsa-runtime64-1/copyright",
+      "name": "libhsa-runtime64-1",
+      "url": "https://packages.debian.org/trixie/libhsa-runtime64-1",
+      "version": "6.1.2-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libhsakmt1"
       ],
       "debian_version": "6.2.4+ds-1",
@@ -2839,6 +2856,12 @@
       "filename": "pool/main/h/hiredis/libhiredis1.1.0_1.2.0-6+b3_amd64.deb",
       "sha256": "dae3af5380cb0c12e170271f19d318529331cfa17b5fa47971837b3e2a49bb83",
       "version": "1.2.0-6+b3"
+    },
+    "libhsa-runtime64-1": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rocr-runtime/libhsa-runtime64-1_6.1.2-3_amd64.deb",
+      "sha256": "5633b84b2f6527b19d70db064cfbbaf37b426f3a1a826316de115c8acb8c196d",
+      "version": "6.1.2-3"
     },
     "libhsakmt1": {
       "architecture": "amd64",

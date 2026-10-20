@@ -1,0 +1,11 @@
+Name: libhsa-runtime64-1
+Description: HSA Runtime API and runtime for ROCm
+Version: 6.1.2-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhsa-runtime64-1
+License: See /usr/share/doc/libhsa-runtime64-1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libelf1t64
+  libhsakmt1
+Provides: libhsa-runtime64.so.1=/usr/lib/x86_64-linux-gnu/libhsa-runtime64.so.1.13.0
