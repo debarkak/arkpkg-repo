@@ -1,0 +1,8 @@
+Name: libbinio1v5
+Description: Binary I/O stream class library
+Version: 1.5+dfsg-0.1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libbinio1v5
+License: See /usr/share/doc/libbinio1v5/copyright
+Maintainer: arkanaOS Team
+Provides: libbinio.so.1=/usr/lib/x86_64-linux-gnu/libbinio.so.1.0.0

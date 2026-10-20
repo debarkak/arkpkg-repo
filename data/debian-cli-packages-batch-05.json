@@ -868,6 +868,20 @@
       "name": "libb2-1",
       "url": "https://packages.debian.org/trixie/libb2-1",
       "version": "0.98.1-1.1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libbinio1v5"
+      ],
+      "debian_version": "1.5+dfsg-0.1+b2",
+      "dependencies": [],
+      "description": "Binary I/O stream class library",
+      "license": "See /usr/share/doc/libbinio1v5/copyright",
+      "license_path": "usr/share/doc/libbinio1v5/copyright",
+      "name": "libbinio1v5",
+      "url": "https://packages.debian.org/trixie/libbinio1v5",
+      "version": "1.5+dfsg-0.1+b2"
     }
   ],
   "source_integrity": {
