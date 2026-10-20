@@ -1,0 +1,13 @@
+Name: cups-ipp-utils
+Description: Common UNIX Printing System(tm) - IPP developer/admin utilities
+Version: 2.4.10-3+deb13u2
+Arch: x86_64
+URL: https://github.com/OpenPrinting/cups/
+License: See /usr/share/doc/cups-ipp-utils/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavahi-client3
+  libavahi-common3
+  libcups2t64
+  pam-libs
+Provides: ippevepcl=/usr/sbin/ippevepcl, ippeveprinter=/usr/sbin/ippeveprinter, ippeveps=/usr/sbin/ippeveps, ippfind=/usr/bin/ippfind, ipptool=/usr/bin/ipptool

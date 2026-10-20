@@ -112,6 +112,25 @@
       "version": "2.4.10-3+deb13u2"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "cups-ipp-utils"
+      ],
+      "debian_version": "2.4.10-3+deb13u2",
+      "dependencies": [
+        "libavahi-client3",
+        "libavahi-common3",
+        "libcups2t64",
+        "pam-libs"
+      ],
+      "description": "Common UNIX Printing System(tm) - IPP developer/admin utilities",
+      "license": "See /usr/share/doc/cups-ipp-utils/copyright",
+      "license_path": "usr/share/doc/cups-ipp-utils/copyright",
+      "name": "cups-ipp-utils",
+      "url": "https://github.com/OpenPrinting/cups/",
+      "version": "2.4.10-3+deb13u2"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "ddclient"
@@ -3886,6 +3905,12 @@
       "architecture": "amd64",
       "filename": "pool/main/c/cups/cups-client_2.4.10-3+deb13u2_amd64.deb",
       "sha256": "9431e5a740e6fe3f09fa9f4444b520942f5a9540251c24f4e79a0db90123b6af",
+      "version": "2.4.10-3+deb13u2"
+    },
+    "cups-ipp-utils": {
+      "architecture": "amd64",
+      "filename": "pool/main/c/cups/cups-ipp-utils_2.4.10-3+deb13u2_amd64.deb",
+      "sha256": "72dbc630570e0acc72507f96ac72f8e662f6cf830aebeda3af0d07e74e720b22",
       "version": "2.4.10-3+deb13u2"
     },
     "ddclient": {
