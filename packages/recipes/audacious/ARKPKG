@@ -1,0 +1,8 @@
+Name: audacious
+Description: small and fast audio player which supports lots of formats
+Version: 4.4.2-1
+Arch: x86_64
+URL: https://www.audacious-media-player.org/
+License: See /usr/share/doc/audacious/copyright
+Maintainer: arkanaOS Team
+Provides: audacious=/usr/bin/audacious, audtool=/usr/bin/audtool

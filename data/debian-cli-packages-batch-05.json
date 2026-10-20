@@ -116,6 +116,22 @@
       "name": "astrometry.net",
       "url": "http://www.astrometry.net",
       "version": "0.97+dfsg-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "audacious"
+      ],
+      "debian_version": "4.4.2-1",
+      "dependencies": [
+        "libaudcore5t64"
+      ],
+      "description": "small and fast audio player which supports lots of formats",
+      "license": "See /usr/share/doc/audacious/copyright",
+      "license_path": "usr/share/doc/audacious/copyright",
+      "name": "audacious",
+      "url": "https://www.audacious-media-player.org/",
+      "version": "4.4.2-1"
     }
   ],
   "source_integrity": {
