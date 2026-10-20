@@ -1,0 +1,11 @@
+Name: libnetfilter-conntrack3
+Description: Netfilter netlink-conntrack library
+Version: 1.1.0-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnetfilter-conntrack3
+License: See /usr/share/doc/libnetfilter-conntrack3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libmnl
+  libnfnetlink
+Provides: libnetfilter_conntrack.so.3=/usr/lib/x86_64-linux-gnu/libnetfilter_conntrack.so.3.8.0

@@ -1125,6 +1125,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnetfilter-conntrack3"
+      ],
+      "debian_version": "1.1.0-1",
+      "dependencies": [
+        "libmnl",
+        "libnfnetlink"
+      ],
+      "description": "Netfilter netlink-conntrack library",
+      "license": "See /usr/share/doc/libnetfilter-conntrack3/copyright",
+      "license_path": "usr/share/doc/libnetfilter-conntrack3/copyright",
+      "name": "libnetfilter-conntrack3",
+      "url": "https://packages.debian.org/trixie/libnetfilter-conntrack3",
+      "version": "1.1.0-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libnova-0.16-0t64"
       ],
       "debian_version": "0.16-5.1+b1",
@@ -2148,6 +2165,12 @@
       "filename": "pool/main/libn/libnetfilter-acct/libnetfilter-acct1_1.0.3-4+b3_amd64.deb",
       "sha256": "f7c3d68194875c036623df8fa2845122d765d0f49cdff66c92a6e2d9711a8e1e",
       "version": "1.0.3-4+b3"
+    },
+    "libnetfilter-conntrack3": {
+      "architecture": "amd64",
+      "filename": "pool/main/libn/libnetfilter-conntrack/libnetfilter-conntrack3_1.1.0-1_amd64.deb",
+      "sha256": "ffbac5d06fbe432d5171f2eb5b2504968377f27be133f72c81e71250a9957506",
+      "version": "1.1.0-1"
     },
     "libnova-0.16-0t64": {
       "architecture": "amd64",
