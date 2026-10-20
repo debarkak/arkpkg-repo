@@ -1498,6 +1498,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libsord-0-0"
+      ],
+      "debian_version": "0.16.18-1",
+      "dependencies": [
+        "libserd-0-0",
+        "libzix-0-0"
+      ],
+      "description": "library for storing RDF data in memory",
+      "license": "See /usr/share/doc/libsord-0-0/copyright",
+      "license_path": "usr/share/doc/libsord-0-0/copyright",
+      "name": "libsord-0-0",
+      "url": "https://packages.debian.org/trixie/libsord-0-0",
+      "version": "0.16.18-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libtbb12"
       ],
       "debian_version": "2022.1.0-1+deb13u1",
@@ -2539,6 +2556,12 @@
       "filename": "pool/main/libs/libsmi/libsmi2t64_0.4.8+dfsg2-17+b1_amd64.deb",
       "sha256": "c5bef97b6d4c74879993f217a46395500004f186f92e007135496bf4ca2c1085",
       "version": "0.4.8+dfsg2-17+b1"
+    },
+    "libsord-0-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/sord/libsord-0-0_0.16.18-1_amd64.deb",
+      "sha256": "cbb4167b1a85cfec94faa9f85666ee382a8bc79ce93f5d7457514e8334299e52",
+      "version": "0.16.18-1"
     },
     "libtbb12": {
       "architecture": "amd64",

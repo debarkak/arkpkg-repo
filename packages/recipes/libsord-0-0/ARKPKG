@@ -1,0 +1,11 @@
+Name: libsord-0-0
+Description: library for storing RDF data in memory
+Version: 0.16.18-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsord-0-0
+License: See /usr/share/doc/libsord-0-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libserd-0-0
+  libzix-0-0
+Provides: libsord-0.so.0=/usr/lib/x86_64-linux-gnu/libsord-0.so.0.16.18
