@@ -1,0 +1,11 @@
+Name: libgeotiff5
+Description: GeoTIFF (geografic enabled TIFF) library -- run-time files
+Version: 1.7.4-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgeotiff5
+License: See /usr/share/doc/libgeotiff5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libproj25
+  libtiff6
+Provides: libgeotiff.so.5=/usr/lib/x86_64-linux-gnu/libgeotiff.so.5.2.3
