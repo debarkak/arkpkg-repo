@@ -3131,6 +3131,29 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libucx0"
+      ],
+      "debian_version": "1.18.1+ds-2+b1",
+      "dependencies": [
+        "ibverbs-providers",
+        "libamdhip64-5",
+        "libgomp1",
+        "libhsa-runtime64-1",
+        "libibmad5",
+        "libibumad3",
+        "libibverbs1",
+        "librdmacm1t64"
+      ],
+      "description": "Unified Communication X libraries",
+      "license": "See /usr/share/doc/libucx0/copyright",
+      "license_path": "usr/share/doc/libucx0/copyright",
+      "name": "libucx0",
+      "url": "https://packages.debian.org/trixie/libucx0",
+      "version": "1.18.1+ds-2+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libuhd4.8.0"
       ],
       "debian_version": "4.8.0.0+ds1-2",
@@ -5559,6 +5582,12 @@
       "filename": "pool/main/u/ubertooth/libubertooth1_2018.12.R1-5.3_amd64.deb",
       "sha256": "ad944468adbb0a5c7f89eaabea0c2101f9d57fd1c01f4ba7932cd4617ed13019",
       "version": "2018.12.R1-5.3"
+    },
+    "libucx0": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/ucx/libucx0_1.18.1+ds-2+b1_amd64.deb",
+      "sha256": "260ad6438658e55b37dff4ceb1891bf6bb816cedd14b815ddc3f4dffea55e855",
+      "version": "1.18.1+ds-2+b1"
     },
     "libuhd4.8.0": {
       "architecture": "amd64",

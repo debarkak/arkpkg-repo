@@ -1,0 +1,17 @@
+Name: libucx0
+Description: Unified Communication X libraries
+Version: 1.18.1+ds-2+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libucx0
+License: See /usr/share/doc/libucx0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  ibverbs-providers
+  libamdhip64-5
+  libgomp1
+  libhsa-runtime64-1
+  libibmad5
+  libibumad3
+  libibverbs1
+  librdmacm1t64
+Provides: libucm.so.0=/usr/lib/x86_64-linux-gnu/libucm.so.0.0.0, libucm_rocm.so.0=/usr/lib/x86_64-linux-gnu/ucx/libucm_rocm.so.0.0.0, libucp.so.0=/usr/lib/x86_64-linux-gnu/libucp.so.0.0.0, libucs.so.0=/usr/lib/x86_64-linux-gnu/libucs.so.0.0.0, libucs_fuse.so.0=/usr/lib/x86_64-linux-gnu/ucx/libucs_fuse.so.0.0.0, libucs_signal.so.0=/usr/lib/x86_64-linux-gnu/libucs_signal.so.0.0.0, libuct.so.0=/usr/lib/x86_64-linux-gnu/libuct.so.0.0.0, libuct_cma.so.0=/usr/lib/x86_64-linux-gnu/ucx/libuct_cma.so.0.0.0, libuct_ib.so.0=/usr/lib/x86_64-linux-gnu/ucx/libuct_ib.so.0.0.0, libuct_ib_mlx5.so.0=/usr/lib/x86_64-linux-gnu/ucx/libuct_ib_mlx5.so.0.0.0, libuct_rdmacm.so.0=/usr/lib/x86_64-linux-gnu/ucx/libuct_rdmacm.so.0.0.0, libuct_rocm.so.0=/usr/lib/x86_64-linux-gnu/ucx/libuct_rocm.so.0.0.0, libucx_perftest_mad.so.0=/usr/lib/x86_64-linux-gnu/ucx/libucx_perftest_mad.so.0.0.0, libucx_perftest_rocm.so.0=/usr/lib/x86_64-linux-gnu/ucx/libucx_perftest_rocm.so.0.0.0
