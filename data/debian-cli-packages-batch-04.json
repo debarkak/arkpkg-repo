@@ -1892,6 +1892,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnotify4"
+      ],
+      "debian_version": "0.8.6-1",
+      "dependencies": [
+        "libgdk-pixbuf-2.0-0"
+      ],
+      "description": "sends desktop notifications to a notification daemon",
+      "license": "See /usr/share/doc/libnotify4/copyright",
+      "license_path": "usr/share/doc/libnotify4/copyright",
+      "name": "libnotify4",
+      "url": "https://packages.debian.org/trixie/libnotify4",
+      "version": "0.8.6-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libnova-0.16-0t64"
       ],
       "debian_version": "0.16-5.1+b1",
@@ -4383,6 +4399,12 @@
       "filename": "pool/main/libn/libnftnl/libnftnl11_1.2.9-1_amd64.deb",
       "sha256": "1b3eae46bfb9c6ab44e404797fb45278045f926d73974a84097ad47a3e27d983",
       "version": "1.2.9-1"
+    },
+    "libnotify4": {
+      "architecture": "amd64",
+      "filename": "pool/main/libn/libnotify/libnotify4_0.8.6-1_amd64.deb",
+      "sha256": "6f2beb5a20e948247c0c62aba87a7a2cece07c10e09978d1039b3cad2fa16951",
+      "version": "0.8.6-1"
     },
     "libnova-0.16-0t64": {
       "architecture": "amd64",

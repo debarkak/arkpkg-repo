@@ -1,0 +1,10 @@
+Name: libnotify4
+Description: sends desktop notifications to a notification daemon
+Version: 0.8.6-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnotify4
+License: See /usr/share/doc/libnotify4/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgdk-pixbuf-2.0-0
+Provides: libnotify.so.4=/usr/lib/x86_64-linux-gnu/libnotify.so.4.0.0
