@@ -1,0 +1,10 @@
+Name: psutils
+Description: PostScript document handling utilities
+Version: 3.3.8-1
+Arch: any
+URL: https://github.com/rrthomas/psutils
+License: See /usr/share/doc/psutils/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: epsffit=/usr/bin/epsffit, extractres=/usr/bin/extractres, fixdlsrps=/usr/bin/fixdlsrps, fixfmps=/usr/bin/fixfmps, fixpsditps=/usr/bin/fixpsditps, fixpspps=/usr/bin/fixpspps, fixscribeps=/usr/bin/fixscribeps, fixtpps=/usr/bin/fixtpps, fixwfwps=/usr/bin/fixwfwps, fixwpps=/usr/bin/fixwpps, fixwwps=/usr/bin/fixwwps, includeres=/usr/bin/includeres, psbook=/usr/bin/psbook, psjoin=/usr/bin/psjoin, psmerge=/usr/bin/psmerge, psnup=/usr/bin/psnup, psresize=/usr/bin/psresize, psselect=/usr/bin/psselect, pstops=/usr/bin/pstops

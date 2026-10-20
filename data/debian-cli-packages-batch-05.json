@@ -2690,6 +2690,22 @@
       "name": "ps2eps",
       "url": "https://www.tm.uka.de/~bless/ps2eps",
       "version": "1.70-1+b1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "psutils"
+      ],
+      "debian_version": "3.3.8-1",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "PostScript document handling utilities",
+      "license": "See /usr/share/doc/psutils/copyright",
+      "license_path": "usr/share/doc/psutils/copyright",
+      "name": "psutils",
+      "url": "https://github.com/rrthomas/psutils",
+      "version": "3.3.8-1"
     }
   ],
   "source_integrity": {
