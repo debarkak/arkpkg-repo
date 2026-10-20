@@ -250,6 +250,20 @@
       "name": "libboost-chrono1.83.0t64",
       "url": "https://packages.debian.org/trixie/libboost-chrono1.83.0t64",
       "version": "1.83.0-4.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libboost-filesystem1.83.0"
+      ],
+      "debian_version": "1.83.0-4.2",
+      "dependencies": [],
+      "description": "filesystem operations (portable paths, iteration over directories, etc) in C++",
+      "license": "See /usr/share/doc/libboost-filesystem1.83.0/copyright",
+      "license_path": "usr/share/doc/libboost-filesystem1.83.0/copyright",
+      "name": "libboost-filesystem1.83.0",
+      "url": "https://packages.debian.org/trixie/libboost-filesystem1.83.0",
+      "version": "1.83.0-4.2"
     }
   ],
   "source_integrity": {
@@ -362,6 +376,12 @@
       "architecture": "amd64",
       "filename": "pool/main/b/boost1.83/libboost-chrono1.83.0t64_1.83.0-4.2_amd64.deb",
       "sha256": "59ffe41ccadbaba0701ab17e77830022d7a0c9b7f5bf3f8d685c3f5dcb86bfc5",
+      "version": "1.83.0-4.2"
+    },
+    "libboost-filesystem1.83.0": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/boost1.83/libboost-filesystem1.83.0_1.83.0-4.2_amd64.deb",
+      "sha256": "6b587623a4fd1824613e7ee02ba35b84cd9534b520b7f3d08d15f9ed85f28cf3",
       "version": "1.83.0-4.2"
     }
   },

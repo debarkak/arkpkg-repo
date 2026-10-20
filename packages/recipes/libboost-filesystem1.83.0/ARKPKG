@@ -1,0 +1,8 @@
+Name: libboost-filesystem1.83.0
+Description: filesystem operations (portable paths, iteration over directories, etc) in C++
+Version: 1.83.0-4.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libboost-filesystem1.83.0
+License: See /usr/share/doc/libboost-filesystem1.83.0/copyright
+Maintainer: arkanaOS Team
+Provides: libboost_filesystem.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.83.0
