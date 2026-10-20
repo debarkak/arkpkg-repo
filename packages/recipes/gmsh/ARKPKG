@@ -1,0 +1,10 @@
+Name: gmsh
+Description: Three-dimensional finite element mesh generator
+Version: 4.13.1+ds1-6
+Arch: x86_64
+URL: https://gmsh.info
+License: See /usr/share/doc/gmsh/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgmsh4.13
+Provides: gmsh=/usr/bin/gmsh

@@ -305,6 +305,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "gmsh"
+      ],
+      "debian_version": "4.13.1+ds1-6",
+      "dependencies": [
+        "libgmsh4.13"
+      ],
+      "description": "Three-dimensional finite element mesh generator",
+      "license": "See /usr/share/doc/gmsh/copyright",
+      "license_path": "usr/share/doc/gmsh/copyright",
+      "name": "gmsh",
+      "url": "https://gmsh.info",
+      "version": "4.13.1+ds1-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "hdf5-helpers"
       ],
       "debian_version": "1.14.5+repack-3",
@@ -4306,6 +4322,12 @@
       "filename": "pool/main/g/geoip-database/geoip-database_20250401+really20191224-0+deb13u1_all.deb",
       "sha256": "44960112c16d5637067480262bdcf5a10e0cb0b8d4f6add8a4d0af4da02c8816",
       "version": "20250401+really20191224-0+deb13u1"
+    },
+    "gmsh": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gmsh/gmsh_4.13.1+ds1-6_amd64.deb",
+      "sha256": "b179dd0c39b5fe653e040fa7ac68b9ebf7e2f6d2d6b0e8f58512cec9c7c5c848",
+      "version": "4.13.1+ds1-6"
     },
     "hdf5-helpers": {
       "architecture": "amd64",
