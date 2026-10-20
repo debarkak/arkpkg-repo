@@ -1447,6 +1447,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnftables1"
+      ],
+      "debian_version": "1.1.3-1",
+      "dependencies": [
+        "gmp-libs",
+        "libmnl",
+        "libnftnl11"
+      ],
+      "description": "Netfilter nftables high level userspace API library",
+      "license": "See /usr/share/doc/libnftables1/copyright",
+      "license_path": "usr/share/doc/libnftables1/copyright",
+      "name": "libnftables1",
+      "url": "https://packages.debian.org/trixie/libnftables1",
+      "version": "1.1.3-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libnftnl11"
       ],
       "debian_version": "1.2.9-1",
@@ -3068,6 +3086,12 @@
       "filename": "pool/main/n/netplan.io/libnetplan1_1.1.2-7_amd64.deb",
       "sha256": "007b5541494d01127d367385cff32caf976c3cf3e4300554d34b1579d5461180",
       "version": "1.1.2-7"
+    },
+    "libnftables1": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/nftables/libnftables1_1.1.3-1_amd64.deb",
+      "sha256": "c7cbee3dce8452ae5c3c4269f6f52e96b896d36a46ea3c490e0e11e8ff359896",
+      "version": "1.1.3-1"
     },
     "libnftnl11": {
       "architecture": "amd64",
