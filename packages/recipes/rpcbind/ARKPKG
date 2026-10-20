@@ -1,0 +1,11 @@
+Name: rpcbind
+Description: converts RPC program numbers into universal addresses
+Version: 1.2.7-1
+Arch: x86_64
+URL: http://sourceforge.net/projects/rpcbind/
+License: See /usr/share/doc/rpcbind/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libwrap-libs
+  systemd-libs
+Provides: rpcbind=/usr/sbin/rpcbind, rpcinfo=/usr/bin/rpcinfo, rpcinfo=/usr/sbin/rpcinfo

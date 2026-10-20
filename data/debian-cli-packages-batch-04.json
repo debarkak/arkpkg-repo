@@ -2064,6 +2064,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "rpcbind"
+      ],
+      "debian_version": "1.2.7-1",
+      "dependencies": [
+        "libwrap-libs",
+        "systemd-libs"
+      ],
+      "description": "converts RPC program numbers into universal addresses",
+      "license": "See /usr/share/doc/rpcbind/copyright",
+      "license_path": "usr/share/doc/rpcbind/copyright",
+      "name": "rpcbind",
+      "url": "http://sourceforge.net/projects/rpcbind/",
+      "version": "1.2.7-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "scilab-include"
       ],
       "debian_version": "2024.1.0+dfsg-6+deb13u1",
@@ -2969,6 +2986,12 @@
       "filename": "pool/main/p/putty/putty-tools_0.83-3_amd64.deb",
       "sha256": "23f5c5898ab9dbb5e5b908174ddfcedcd8f25efa525a796a74fbb45fd8c73212",
       "version": "0.83-3"
+    },
+    "rpcbind": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rpcbind/rpcbind_1.2.7-1_amd64.deb",
+      "sha256": "29e6ee5f7737f8678e4ef8c992437ae23e1c7cd67d517bc70e29234dccf13786",
+      "version": "1.2.7-1"
     },
     "scilab-include": {
       "architecture": "amd64",
