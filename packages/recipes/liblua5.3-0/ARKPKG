@@ -1,0 +1,8 @@
+Name: liblua5.3-0
+Description: Shared library for the Lua interpreter version 5.3
+Version: 5.3.6-2+b4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/liblua5.3-0
+License: See /usr/share/doc/liblua5.3-0/copyright
+Maintainer: arkanaOS Team
+Provides: liblua5.3-c++.so.0=/usr/lib/x86_64-linux-gnu/liblua5.3-c++.so.0.0.0, liblua5.3.so.0=/usr/lib/x86_64-linux-gnu/liblua5.3.so.0.0.0
