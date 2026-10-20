@@ -1,0 +1,10 @@
+Name: xsltproc
+Description: XSLT 1.0 command line processor
+Version: 1.1.35-1.2+deb13u3
+Arch: x86_64
+URL: https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home
+License: See /usr/share/doc/xsltproc/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  xml-runtime-libs
+Provides: xsltproc=/usr/bin/xsltproc

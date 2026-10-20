@@ -3173,6 +3173,22 @@
       "name": "xpdf",
       "url": "https://offog.org/code/xpopple/",
       "version": "3.04+git20250304-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "xsltproc"
+      ],
+      "debian_version": "1.1.35-1.2+deb13u3",
+      "dependencies": [
+        "xml-runtime-libs"
+      ],
+      "description": "XSLT 1.0 command line processor",
+      "license": "See /usr/share/doc/xsltproc/copyright",
+      "license_path": "usr/share/doc/xsltproc/copyright",
+      "name": "xsltproc",
+      "url": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+      "version": "1.1.35-1.2+deb13u3"
     }
   ],
   "source_integrity": {
