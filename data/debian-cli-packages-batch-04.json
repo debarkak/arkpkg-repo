@@ -2658,6 +2658,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libsphinxbase3t64"
+      ],
+      "debian_version": "0.8+5prealpha+1-21+b1",
+      "dependencies": [
+        "liblapack3",
+        "libpulse0",
+        "nmap-runtime-libs"
+      ],
+      "description": "Speech recognition tool - shared library",
+      "license": "See /usr/share/doc/libsphinxbase3t64/copyright",
+      "license_path": "usr/share/doc/libsphinxbase3t64/copyright",
+      "name": "libsphinxbase3t64",
+      "url": "https://packages.debian.org/trixie/libsphinxbase3t64",
+      "version": "0.8+5prealpha+1-21+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsratom-0-0"
       ],
       "debian_version": "0.6.18-1",
@@ -5075,6 +5093,12 @@
       "filename": "pool/main/s/spandsp/libspandsp2t64_0.0.6+dfsg-2.2_amd64.deb",
       "sha256": "f36c92d0ecf2035502def728e64d6a2817544748091eccbc1714dc8604525b84",
       "version": "0.0.6+dfsg-2.2"
+    },
+    "libsphinxbase3t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/sphinxbase/libsphinxbase3t64_0.8+5prealpha+1-21+b1_amd64.deb",
+      "sha256": "97edf4f50ed24364795e53abecd6e100d1f24278968b2eb01a688c78255eb80b",
+      "version": "0.8+5prealpha+1-21+b1"
     },
     "libsratom-0-0": {
       "architecture": "amd64",

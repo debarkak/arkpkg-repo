@@ -1,0 +1,12 @@
+Name: libsphinxbase3t64
+Description: Speech recognition tool - shared library
+Version: 0.8+5prealpha+1-21+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsphinxbase3t64
+License: See /usr/share/doc/libsphinxbase3t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  liblapack3
+  libpulse0
+  nmap-runtime-libs
+Provides: libsphinxad.so.3=/usr/lib/x86_64-linux-gnu/libsphinxad.so.3.0.0, libsphinxbase.so.3=/usr/lib/x86_64-linux-gnu/libsphinxbase.so.3.0.0
