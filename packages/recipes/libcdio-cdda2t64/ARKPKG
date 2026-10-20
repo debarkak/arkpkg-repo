@@ -1,0 +1,10 @@
+Name: libcdio-cdda2t64
+Description: library to read and control digital audio CDs
+Version: 10.2+2.0.2-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcdio-cdda2t64
+License: See /usr/share/doc/libcdio-cdda2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcdio19t64
+Provides: libcdio_cdda.so.2=/usr/lib/x86_64-linux-gnu/libcdio_cdda.so.2.0.0

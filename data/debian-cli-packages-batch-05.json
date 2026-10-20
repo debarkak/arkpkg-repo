@@ -931,6 +931,22 @@
       "name": "libcaca0",
       "url": "https://packages.debian.org/trixie/libcaca0",
       "version": "0.99.beta20-5+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcdio-cdda2t64"
+      ],
+      "debian_version": "10.2+2.0.2-1+b1",
+      "dependencies": [
+        "libcdio19t64"
+      ],
+      "description": "library to read and control digital audio CDs",
+      "license": "See /usr/share/doc/libcdio-cdda2t64/copyright",
+      "license_path": "usr/share/doc/libcdio-cdda2t64/copyright",
+      "name": "libcdio-cdda2t64",
+      "url": "https://packages.debian.org/trixie/libcdio-cdda2t64",
+      "version": "10.2+2.0.2-1+b1"
     }
   ],
   "source_integrity": {
