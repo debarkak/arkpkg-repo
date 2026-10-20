@@ -1,0 +1,8 @@
+Name: initramfs-tools-bin
+Description: generic modular initramfs generator (binary tools)
+Version: 0.148.4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/initramfs-tools-bin
+License: See /usr/share/doc/initramfs-tools-bin/copyright
+Maintainer: arkanaOS Team
+Provides: unmkinitramfs=/usr/bin/unmkinitramfs

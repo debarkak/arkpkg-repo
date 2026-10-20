@@ -601,6 +601,20 @@
       "name": "iio-sensor-proxy",
       "url": "https://gitlab.freedesktop.org/hadess/iio-sensor-proxy",
       "version": "3.7-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "initramfs-tools-bin"
+      ],
+      "debian_version": "0.148.4",
+      "dependencies": [],
+      "description": "generic modular initramfs generator (binary tools)",
+      "license": "See /usr/share/doc/initramfs-tools-bin/copyright",
+      "license_path": "usr/share/doc/initramfs-tools-bin/copyright",
+      "name": "initramfs-tools-bin",
+      "url": "https://packages.debian.org/trixie/initramfs-tools-bin",
+      "version": "0.148.4"
     }
   ],
   "source_integrity": {
