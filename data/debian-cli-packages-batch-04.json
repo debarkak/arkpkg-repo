@@ -908,6 +908,20 @@
       "name": "libunibreak6",
       "url": "https://packages.debian.org/trixie/libunibreak6",
       "version": "6.1-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libunwind8"
+      ],
+      "debian_version": "1.8.1-0.1",
+      "dependencies": [],
+      "description": "library to determine the call-chain of a program - runtime",
+      "license": "See /usr/share/doc/libunwind8/copyright",
+      "license_path": "usr/share/doc/libunwind8/copyright",
+      "name": "libunwind8",
+      "url": "https://packages.debian.org/trixie/libunwind8",
+      "version": "1.8.1-0.1"
     }
   ],
   "source_integrity": {
@@ -1303,6 +1317,12 @@
       "filename": "pool/main/libu/libunibreak/libunibreak6_6.1-3_amd64.deb",
       "sha256": "a5d5fa113f195288ed145d48d0e886671c94416ae7c800f943bc21cc4ef628cc",
       "version": "6.1-3"
+    },
+    "libunwind8": {
+      "architecture": "amd64",
+      "filename": "pool/main/libu/libunwind/libunwind8_1.8.1-0.1_amd64.deb",
+      "sha256": "db21a86dd05c93413f0ef36282a9c64d32410d240f332273a53be1408bec1f62",
+      "version": "1.8.1-0.1"
     }
   },
   "suite": "trixie"

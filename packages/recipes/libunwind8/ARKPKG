@@ -1,0 +1,8 @@
+Name: libunwind8
+Description: library to determine the call-chain of a program - runtime
+Version: 1.8.1-0.1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libunwind8
+License: See /usr/share/doc/libunwind8/copyright
+Maintainer: arkanaOS Team
+Provides: libunwind-coredump.so.0=/usr/lib/x86_64-linux-gnu/libunwind-coredump.so.0.0.0, libunwind-ptrace.so.0=/usr/lib/x86_64-linux-gnu/libunwind-ptrace.so.0.0.0, libunwind-x86_64.so.8=/usr/lib/x86_64-linux-gnu/libunwind-x86_64.so.8.1.0, libunwind.so.8=/usr/lib/x86_64-linux-gnu/libunwind.so.8.1.0
