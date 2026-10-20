@@ -1,0 +1,10 @@
+Name: libgpgmepp6t64
+Description: C++ wrapper library for GPGME
+Version: 1.24.2-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgpgmepp6t64
+License: See /usr/share/doc/libgpgmepp6t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgpgme11t64
+Provides: libgpgmepp.so.6=/usr/lib/x86_64-linux-gnu/libgpgmepp.so.6.21.2
