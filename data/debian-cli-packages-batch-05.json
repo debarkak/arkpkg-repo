@@ -2753,6 +2753,20 @@
       "name": "qpdf",
       "url": "https://qpdf.sourceforge.io",
       "version": "12.2.0-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "re"
+      ],
+      "debian_version": "0.1-7+b1",
+      "dependencies": [],
+      "description": "Russian Anywhere -- Russian text converter",
+      "license": "See /usr/share/doc/re/copyright",
+      "license_path": "usr/share/doc/re/copyright",
+      "name": "re",
+      "url": "https://packages.debian.org/trixie/re",
+      "version": "0.1-7+b1"
     }
   ],
   "source_integrity": {

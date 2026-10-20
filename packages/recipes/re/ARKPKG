@@ -1,0 +1,8 @@
+Name: re
+Description: Russian Anywhere -- Russian text converter
+Version: 0.1-7+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/re
+License: See /usr/share/doc/re/copyright
+Maintainer: arkanaOS Team
+Provides: re=/usr/bin/re
