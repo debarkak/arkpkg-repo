@@ -1,0 +1,8 @@
+Name: ccze
+Description: robust, modular log coloriser
+Version: 0.2.1-8
+Arch: x86_64
+URL: https://git.madhouse-project.org/archive/ccze
+License: See /usr/share/doc/ccze/copyright
+Maintainer: arkanaOS Team
+Provides: ccze-cssdump=/usr/bin/ccze-cssdump, ccze=/usr/bin/ccze

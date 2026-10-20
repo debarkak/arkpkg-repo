@@ -176,6 +176,24 @@
       "name": "cabextract",
       "url": "https://packages.debian.org/trixie/cabextract",
       "version": "1.11-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "ccze"
+      ],
+      "debian_version": "0.2.1-8",
+      "dependencies": [
+        "ncurses-compat-libs",
+        "ncurses-libs",
+        "pcre2-libs"
+      ],
+      "description": "robust, modular log coloriser",
+      "license": "See /usr/share/doc/ccze/copyright",
+      "license_path": "usr/share/doc/ccze/copyright",
+      "name": "ccze",
+      "url": "https://git.madhouse-project.org/archive/ccze",
+      "version": "0.2.1-8"
     }
   ],
   "source_integrity": {
