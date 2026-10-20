@@ -1,0 +1,10 @@
+Name: libaudcore5t64
+Description: audacious core engine library
+Version: 4.4.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libaudcore5t64
+License: See /usr/share/doc/libaudcore5t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libqt6core6t64
+Provides: libaudcore.so.5=/usr/lib/x86_64-linux-gnu/libaudcore.so.5.5.0
