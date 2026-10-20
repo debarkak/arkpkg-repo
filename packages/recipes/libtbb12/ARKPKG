@@ -1,0 +1,8 @@
+Name: libtbb12
+Description: parallelism library for C++ - runtime files
+Version: 2022.1.0-1+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtbb12
+License: See /usr/share/doc/libtbb12/copyright
+Maintainer: arkanaOS Team
+Provides: libtbb.so.12=/usr/lib/x86_64-linux-gnu/libtbb.so.12.15

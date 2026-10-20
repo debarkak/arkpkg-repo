@@ -810,6 +810,20 @@
       "name": "libsmi2t64",
       "url": "https://packages.debian.org/trixie/libsmi2t64",
       "version": "0.4.8+dfsg2-17+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtbb12"
+      ],
+      "debian_version": "2022.1.0-1+deb13u1",
+      "dependencies": [],
+      "description": "parallelism library for C++ - runtime files",
+      "license": "See /usr/share/doc/libtbb12/copyright",
+      "license_path": "usr/share/doc/libtbb12/copyright",
+      "name": "libtbb12",
+      "url": "https://packages.debian.org/trixie/libtbb12",
+      "version": "2022.1.0-1+deb13u1"
     }
   ],
   "source_integrity": {
@@ -1163,6 +1177,12 @@
       "filename": "pool/main/libs/libsmi/libsmi2t64_0.4.8+dfsg2-17+b1_amd64.deb",
       "sha256": "c5bef97b6d4c74879993f217a46395500004f186f92e007135496bf4ca2c1085",
       "version": "0.4.8+dfsg2-17+b1"
+    },
+    "libtbb12": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/onetbb/libtbb12_2022.1.0-1+deb13u1_amd64.deb",
+      "sha256": "37378f4e8bae165a645d7112799c33b331f4ef077876eedd19c3ad67206cba8f",
+      "version": "2022.1.0-1+deb13u1"
     }
   },
   "suite": "trixie"
