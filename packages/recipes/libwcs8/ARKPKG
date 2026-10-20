@@ -1,0 +1,8 @@
+Name: libwcs8
+Description: Implementation of the FITS WCS standard
+Version: 8.4+ds-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwcs8
+License: See /usr/share/doc/libwcs8/copyright
+Maintainer: arkanaOS Team
+Provides: libwcs.so.8=/usr/lib/x86_64-linux-gnu/libwcs.so.8.4

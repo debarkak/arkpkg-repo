@@ -2026,6 +2026,20 @@
       "name": "libwbclient0",
       "url": "https://packages.debian.org/trixie/libwbclient0",
       "version": "2:4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libwcs8"
+      ],
+      "debian_version": "8.4+ds-1",
+      "dependencies": [],
+      "description": "Implementation of the FITS WCS standard",
+      "license": "See /usr/share/doc/libwcs8/copyright",
+      "license_path": "usr/share/doc/libwcs8/copyright",
+      "name": "libwcs8",
+      "url": "https://packages.debian.org/trixie/libwcs8",
+      "version": "8.4+ds-1"
     }
   ],
   "source_integrity": {
