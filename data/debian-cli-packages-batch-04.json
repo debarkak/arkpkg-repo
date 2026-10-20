@@ -96,6 +96,20 @@
       "name": "geoip-database",
       "url": "https://www.maxmind.com/",
       "version": "20250401+really20191224-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "hdf5-helpers"
+      ],
+      "debian_version": "1.14.5+repack-3",
+      "dependencies": [],
+      "description": "HDF5 - Helper tools",
+      "license": "See /usr/share/doc/hdf5-helpers/copyright",
+      "license_path": "usr/share/doc/hdf5-helpers/copyright",
+      "name": "hdf5-helpers",
+      "url": "http://hdfgroup.org/HDF5/",
+      "version": "1.14.5+repack-3"
     }
   ],
   "source_integrity": {
@@ -143,6 +157,12 @@
       "filename": "pool/main/g/geoip-database/geoip-database_20250401+really20191224-0+deb13u1_all.deb",
       "sha256": "44960112c16d5637067480262bdcf5a10e0cb0b8d4f6add8a4d0af4da02c8816",
       "version": "20250401+really20191224-0+deb13u1"
+    },
+    "hdf5-helpers": {
+      "architecture": "amd64",
+      "filename": "pool/main/h/hdf5/hdf5-helpers_1.14.5+repack-3_amd64.deb",
+      "sha256": "69488d84155e2e7cd30ad3b55184d2bd1ce703bfdb02cdc08c01a5866c1ea408",
+      "version": "1.14.5+repack-3"
     }
   },
   "suite": "trixie"

@@ -1,0 +1,8 @@
+Name: hdf5-helpers
+Description: HDF5 - Helper tools
+Version: 1.14.5+repack-3
+Arch: x86_64
+URL: http://hdfgroup.org/HDF5/
+License: See /usr/share/doc/hdf5-helpers/copyright
+Maintainer: arkanaOS Team
+Provides: h5c++=/usr/bin/h5c++, h5cc=/usr/bin/h5cc, h5fc=/usr/bin/h5fc
