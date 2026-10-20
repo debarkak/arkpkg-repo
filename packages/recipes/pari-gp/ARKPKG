@@ -1,0 +1,11 @@
+Name: pari-gp
+Description: PARI/GP Computer Algebra System binaries
+Version: 2.17.2-1
+Arch: x86_64
+URL: https://pari.math.u-bordeaux.fr
+License: See /usr/share/doc/pari-gp/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  readline-libs
+Provides: gp-2.17=/usr/bin/gp-2.17, gp=/usr/bin/gp, tex2mail=/usr/bin/tex2mail

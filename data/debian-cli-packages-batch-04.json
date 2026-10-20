@@ -2662,6 +2662,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "pari-gp"
+      ],
+      "debian_version": "2.17.2-1",
+      "dependencies": [
+        "gmp-libs",
+        "readline-libs"
+      ],
+      "description": "PARI/GP Computer Algebra System binaries",
+      "license": "See /usr/share/doc/pari-gp/copyright",
+      "license_path": "usr/share/doc/pari-gp/copyright",
+      "name": "pari-gp",
+      "url": "https://pari.math.u-bordeaux.fr",
+      "version": "2.17.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "prometheus"
       ],
       "debian_version": "2.53.3+ds1-2",
@@ -3913,6 +3930,12 @@
       "filename": "pool/main/o/openvswitch/openvswitch-switch_3.5.0-1+b1_amd64.deb",
       "sha256": "1b31d4a65f468a35893778b108ff04ab322a6c2c94e39eef4e38ee590ccf4569",
       "version": "3.5.0-1+b1"
+    },
+    "pari-gp": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/pari/pari-gp_2.17.2-1_amd64.deb",
+      "sha256": "136f0438decc835e42ba75d19033ed0c14ff77659db9f31f58163747839bc697",
+      "version": "2.17.2-1"
     },
     "prometheus": {
       "architecture": "amd64",
