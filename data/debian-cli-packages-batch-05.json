@@ -992,6 +992,20 @@
       "name": "libcdparanoia0",
       "url": "https://packages.debian.org/trixie/libcdparanoia0",
       "version": "3.10.2+debian-14+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcivetweb1"
+      ],
+      "debian_version": "1.16+dfsg-2+deb13u1",
+      "dependencies": [],
+      "description": "embeddable web server with optional CGI, SSL and Lua support (lib)",
+      "license": "See /usr/share/doc/libcivetweb1/copyright",
+      "license_path": "usr/share/doc/libcivetweb1/copyright",
+      "name": "libcivetweb1",
+      "url": "https://packages.debian.org/trixie/libcivetweb1",
+      "version": "1.16+dfsg-2+deb13u1"
     }
   ],
   "source_integrity": {

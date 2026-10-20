@@ -1,0 +1,8 @@
+Name: libcivetweb1
+Description: embeddable web server with optional CGI, SSL and Lua support (lib)
+Version: 1.16+dfsg-2+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcivetweb1
+License: See /usr/share/doc/libcivetweb1/copyright
+Maintainer: arkanaOS Team
+Provides: libcivetweb-cpp.so.1=/usr/lib/x86_64-linux-gnu/libcivetweb-cpp.so.1.15.0, libcivetweb.so.1=/usr/lib/x86_64-linux-gnu/libcivetweb.so.1.15.0
