@@ -1,0 +1,15 @@
+Name: geoclue-2.0
+Description: geoinformation service
+Version: 2.7.2-2
+Arch: x86_64
+URL: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
+License: See /usr/share/doc/geoclue-2.0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavahi-client3
+  libavahi-common3
+  libavahi-glib1
+  libjson-glib-1.0-0
+  libmm-glib0
+  libnotify4
+  libsoup-3.0-0

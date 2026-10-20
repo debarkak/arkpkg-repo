@@ -497,6 +497,28 @@
       "name": "foomatic-db-compressed-ppds",
       "url": "https://www.openprinting.org/",
       "version": "20230202-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "geoclue-2.0"
+      ],
+      "debian_version": "2.7.2-2",
+      "dependencies": [
+        "libavahi-client3",
+        "libavahi-common3",
+        "libavahi-glib1",
+        "libjson-glib-1.0-0",
+        "libmm-glib0",
+        "libnotify4",
+        "libsoup-3.0-0"
+      ],
+      "description": "geoinformation service",
+      "license": "See /usr/share/doc/geoclue-2.0/copyright",
+      "license_path": "usr/share/doc/geoclue-2.0/copyright",
+      "name": "geoclue-2.0",
+      "url": "https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home",
+      "version": "2.7.2-2"
     }
   ],
   "source_integrity": {
