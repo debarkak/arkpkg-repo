@@ -1285,7 +1285,7 @@
       "license": "See /usr/share/doc/libgudev-1.0-0/copyright",
       "license_path": "usr/share/doc/libgudev-1.0-0/copyright",
       "name": "libgudev-1.0-0",
-      "url": "https://packages.debian.org/trixie/libgudev-1.0-0",
+      "url": "https://wiki.gnome.org/Projects/libgudev",
       "version": "238-6"
     },
     {
