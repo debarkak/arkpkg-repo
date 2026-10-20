@@ -519,6 +519,23 @@
       "name": "geoclue-2.0",
       "url": "https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home",
       "version": "2.7.2-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "gpgconf"
+      ],
+      "debian_version": "2.4.7-21+deb13u1+b5",
+      "dependencies": [
+        "libassuan9",
+        "readline-libs"
+      ],
+      "description": "GNU privacy guard - core configuration utilities",
+      "license": "See /usr/share/doc/gpgconf/copyright",
+      "license_path": "usr/share/doc/gpgconf/copyright",
+      "name": "gpgconf",
+      "url": "https://www.gnupg.org/",
+      "version": "2.4.7-21+deb13u1+b5"
     }
   ],
   "source_integrity": {

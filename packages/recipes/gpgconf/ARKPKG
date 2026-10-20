@@ -1,0 +1,11 @@
+Name: gpgconf
+Description: GNU privacy guard - core configuration utilities
+Version: 2.4.7-21+deb13u1+b5
+Arch: x86_64
+URL: https://www.gnupg.org/
+License: See /usr/share/doc/gpgconf/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libassuan9
+  readline-libs
+Provides: gpg-connect-agent=/usr/bin/gpg-connect-agent, gpgconf=/usr/bin/gpgconf
