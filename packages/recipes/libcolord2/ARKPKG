@@ -1,0 +1,11 @@
+Name: libcolord2
+Description: system service to manage device colour profiles -- runtime
+Version: 1.4.7-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcolord2
+License: See /usr/share/doc/libcolord2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  liblcms2-2
+  systemd-libs
+Provides: libcolord.so.2=/usr/lib/x86_64-linux-gnu/libcolord.so.2.0.5, libcolordprivate.so.2=/usr/lib/x86_64-linux-gnu/libcolordprivate.so.2.0.5

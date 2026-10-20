@@ -1020,6 +1020,23 @@
       "name": "libcloudproviders0",
       "url": "https://packages.debian.org/trixie/libcloudproviders0",
       "version": "0.3.6-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcolord2"
+      ],
+      "debian_version": "1.4.7-3",
+      "dependencies": [
+        "liblcms2-2",
+        "systemd-libs"
+      ],
+      "description": "system service to manage device colour profiles -- runtime",
+      "license": "See /usr/share/doc/libcolord2/copyright",
+      "license_path": "usr/share/doc/libcolord2/copyright",
+      "name": "libcolord2",
+      "url": "https://packages.debian.org/trixie/libcolord2",
+      "version": "1.4.7-3"
     }
   ],
   "source_integrity": {
