@@ -1,0 +1,11 @@
+Name: libtomcrypt1
+Description: public domain open source cryptographic toolkit
+Version: 1.18.2+dfsg-7+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtomcrypt1
+License: See /usr/share/doc/libtomcrypt1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gmp-libs
+  libtommath1
+Provides: libtomcrypt.so.1=/usr/lib/x86_64-linux-gnu/libtomcrypt.so.1.0.1

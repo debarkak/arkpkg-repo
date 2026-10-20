@@ -1591,6 +1591,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libtomcrypt1"
+      ],
+      "debian_version": "1.18.2+dfsg-7+b2",
+      "dependencies": [
+        "gmp-libs",
+        "libtommath1"
+      ],
+      "description": "public domain open source cryptographic toolkit",
+      "license": "See /usr/share/doc/libtomcrypt1/copyright",
+      "license_path": "usr/share/doc/libtomcrypt1/copyright",
+      "name": "libtomcrypt1",
+      "url": "https://packages.debian.org/trixie/libtomcrypt1",
+      "version": "1.18.2+dfsg-7+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libtommath1"
       ],
       "debian_version": "1.3.0-1",
@@ -2626,6 +2643,12 @@
       "filename": "pool/main/t/tinyxml2/libtinyxml2-11_11.0.0+dfsg-1+b1_amd64.deb",
       "sha256": "6b61fb15444bcd6b516163f661d6af85eb98f4e89b880060889e9ec8e4e3ad64",
       "version": "11.0.0+dfsg-1+b1"
+    },
+    "libtomcrypt1": {
+      "architecture": "amd64",
+      "filename": "pool/main/libt/libtomcrypt/libtomcrypt1_1.18.2+dfsg-7+b2_amd64.deb",
+      "sha256": "704174c153914d76b8924f35113042f437abddd7f281da9fca8861defb707a01",
+      "version": "1.18.2+dfsg-7+b2"
     },
     "libtommath1": {
       "architecture": "amd64",
