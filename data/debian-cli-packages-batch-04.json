@@ -754,6 +754,20 @@
       "name": "liborc-0.4-0t64",
       "url": "https://packages.debian.org/trixie/liborc-0.4-0t64",
       "version": "1:0.4.41-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libpcsclite1"
+      ],
+      "debian_version": "2.3.3-1",
+      "dependencies": [],
+      "description": "Middleware to access a smart card using PC/SC (library)",
+      "license": "See /usr/share/doc/libpcsclite1/copyright",
+      "license_path": "usr/share/doc/libpcsclite1/copyright",
+      "name": "libpcsclite1",
+      "url": "https://packages.debian.org/trixie/libpcsclite1",
+      "version": "2.3.3-1"
     }
   ],
   "source_integrity": {
@@ -1083,6 +1097,12 @@
       "filename": "pool/main/o/orc/liborc-0.4-0t64_0.4.41-1_amd64.deb",
       "sha256": "5b9afe78be0dd71399c0d4d7e5f26beb6ddf207279997942d8280be1b20bd58c",
       "version": "1:0.4.41-1"
+    },
+    "libpcsclite1": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/pcsc-lite/libpcsclite1_2.3.3-1_amd64.deb",
+      "sha256": "a8bc4725549060d1e696d358e32a3699d947d5381871553a290389830bebccbd",
+      "version": "2.3.3-1"
     }
   },
   "suite": "trixie"
