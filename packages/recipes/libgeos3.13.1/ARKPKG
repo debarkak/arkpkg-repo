@@ -1,0 +1,8 @@
+Name: libgeos3.13.1
+Description: Geometry engine for Geographic Information Systems - C++ Library
+Version: 3.13.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgeos3.13.1
+License: See /usr/share/doc/libgeos3.13.1/copyright
+Maintainer: arkanaOS Team
+Provides: libgeos.so.3.13.1=/usr/lib/x86_64-linux-gnu/libgeos.so.3.13.1

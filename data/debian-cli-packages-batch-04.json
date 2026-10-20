@@ -516,6 +516,20 @@
       "name": "libgee-0.8-2",
       "url": "https://packages.debian.org/trixie/libgee-0.8-2",
       "version": "0.20.8-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgeos3.13.1"
+      ],
+      "debian_version": "3.13.1-1",
+      "dependencies": [],
+      "description": "Geometry engine for Geographic Information Systems - C++ Library",
+      "license": "See /usr/share/doc/libgeos3.13.1/copyright",
+      "license_path": "usr/share/doc/libgeos3.13.1/copyright",
+      "name": "libgeos3.13.1",
+      "url": "https://packages.debian.org/trixie/libgeos3.13.1",
+      "version": "3.13.1-1"
     }
   ],
   "source_integrity": {
@@ -743,6 +757,12 @@
       "filename": "pool/main/libg/libgee-0.8/libgee-0.8-2_0.20.8-1_amd64.deb",
       "sha256": "7ed27d901b248188ca37882d8ed004a974f7c56fa64acfed7ffce82cbfc7fc49",
       "version": "0.20.8-1"
+    },
+    "libgeos3.13.1": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/geos/libgeos3.13.1_3.13.1-1_amd64.deb",
+      "sha256": "174b08f3092a8f10cf51d618d934d9703b88b4c51abf41d33535a12b7797e970",
+      "version": "3.13.1-1"
     }
   },
   "suite": "trixie"
