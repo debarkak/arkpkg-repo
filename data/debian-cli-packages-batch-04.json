@@ -544,6 +544,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libflite1"
+      ],
+      "debian_version": "2.2-7",
+      "dependencies": [
+        "alsa-libs"
+      ],
+      "description": "Small run-time speech synthesis engine - shared libraries",
+      "license": "See /usr/share/doc/libflite1/copyright",
+      "license_path": "usr/share/doc/libflite1/copyright",
+      "name": "libflite1",
+      "url": "https://packages.debian.org/trixie/libflite1",
+      "version": "2.2-7"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libfltk1.3t64"
       ],
       "debian_version": "1.3.11-2",
@@ -1557,6 +1573,12 @@
       "filename": "pool/main/libe/libevent/libevent-pthreads-2.1-7t64_2.1.12-stable-10+b1_amd64.deb",
       "sha256": "0a7819e533e5a03cb57ef3b04269141da9e1140a4c0a95f872655bf5ca0119a7",
       "version": "2.1.12-stable-10+b1"
+    },
+    "libflite1": {
+      "architecture": "amd64",
+      "filename": "pool/main/f/flite/libflite1_2.2-7_amd64.deb",
+      "sha256": "5945190970be7d4a1f71fb6f7e3e340ba2675e770605df0754051d617a6c5ee6",
+      "version": "2.2-7"
     },
     "libfltk1.3t64": {
       "architecture": "amd64",
