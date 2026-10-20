@@ -1,0 +1,10 @@
+Name: libhiredis1.1.0
+Description: minimalistic C client library for Redis
+Version: 1.2.0-6+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libhiredis1.1.0
+License: See /usr/share/doc/libhiredis1.1.0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl-libs
+Provides: libhiredis.so.1.1.0=/usr/lib/x86_64-linux-gnu/libhiredis.so.1.1.0, libhiredis_ssl.so.1.1.0=/usr/lib/x86_64-linux-gnu/libhiredis_ssl.so.1.1.0

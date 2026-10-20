@@ -808,6 +808,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libhiredis1.1.0"
+      ],
+      "debian_version": "1.2.0-6+b3",
+      "dependencies": [
+        "openssl-libs"
+      ],
+      "description": "minimalistic C client library for Redis",
+      "license": "See /usr/share/doc/libhiredis1.1.0/copyright",
+      "license_path": "usr/share/doc/libhiredis1.1.0/copyright",
+      "name": "libhiredis1.1.0",
+      "url": "https://packages.debian.org/trixie/libhiredis1.1.0",
+      "version": "1.2.0-6+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1845,6 +1861,12 @@
       "filename": "pool/main/libm/libmemcached/libhashkit2t64_1.1.4-1.1+b2_amd64.deb",
       "sha256": "15ab3ffef038f85b7bd3d0731c23ddd9873bea34b9eabac91863fc987c7b9177",
       "version": "1.1.4-1.1+b2"
+    },
+    "libhiredis1.1.0": {
+      "architecture": "amd64",
+      "filename": "pool/main/h/hiredis/libhiredis1.1.0_1.2.0-6+b3_amd64.deb",
+      "sha256": "dae3af5380cb0c12e170271f19d318529331cfa17b5fa47971837b3e2a49bb83",
+      "version": "1.2.0-6+b3"
     },
     "libibumad3": {
       "architecture": "amd64",
