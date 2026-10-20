@@ -1,0 +1,8 @@
+Name: libxdp1
+Description: library and utilities for use with XDP - shared library
+Version: 1.5.4-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libxdp1
+License: See /usr/share/doc/libxdp1/copyright
+Maintainer: arkanaOS Team
+Provides: libxdp.so.1=/usr/lib/x86_64-linux-gnu/libxdp.so.1.5.0

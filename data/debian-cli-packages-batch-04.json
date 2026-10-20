@@ -978,6 +978,20 @@
       "name": "libvulkan1",
       "url": "https://packages.debian.org/trixie/libvulkan1",
       "version": "1.4.309.0-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libxdp1"
+      ],
+      "debian_version": "1.5.4-1",
+      "dependencies": [],
+      "description": "library and utilities for use with XDP - shared library",
+      "license": "See /usr/share/doc/libxdp1/copyright",
+      "license_path": "usr/share/doc/libxdp1/copyright",
+      "name": "libxdp1",
+      "url": "https://packages.debian.org/trixie/libxdp1",
+      "version": "1.5.4-1"
     }
   ],
   "source_integrity": {
@@ -1403,6 +1417,12 @@
       "filename": "pool/main/v/vulkan-loader/libvulkan1_1.4.309.0-1_amd64.deb",
       "sha256": "f47da79cd140264fe21cceb08bc87a71bc7fec05819e4a421f3f518d21101a37",
       "version": "1.4.309.0-1"
+    },
+    "libxdp1": {
+      "architecture": "amd64",
+      "filename": "pool/main/x/xdp-tools/libxdp1_1.5.4-1_amd64.deb",
+      "sha256": "f76c5565a96a486e7de5c187427bb4849f5a96b58e6e881aa662b22cadaefc5d",
+      "version": "1.5.4-1"
     }
   },
   "suite": "trixie"
