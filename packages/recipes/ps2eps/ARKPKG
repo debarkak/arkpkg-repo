@@ -1,0 +1,10 @@
+Name: ps2eps
+Description: convert PostScript to EPS (Encapsulated PostScript) files
+Version: 1.70-1+b1
+Arch: x86_64
+URL: https://www.tm.uka.de/~bless/ps2eps
+License: See /usr/share/doc/ps2eps/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: bbox=/usr/bin/bbox, ps2eps=/usr/bin/ps2eps

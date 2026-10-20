@@ -2674,6 +2674,22 @@
       "name": "printer-driver-ptouch",
       "url": "https://github.com/philpem/printer-driver-ptouch",
       "version": "1.7.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "ps2eps"
+      ],
+      "debian_version": "1.70-1+b1",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "convert PostScript to EPS (Encapsulated PostScript) files",
+      "license": "See /usr/share/doc/ps2eps/copyright",
+      "license_path": "usr/share/doc/ps2eps/copyright",
+      "name": "ps2eps",
+      "url": "https://www.tm.uka.de/~bless/ps2eps",
+      "version": "1.70-1+b1"
     }
   ],
   "source_integrity": {
