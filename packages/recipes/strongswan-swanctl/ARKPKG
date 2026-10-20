@@ -1,0 +1,10 @@
+Name: strongswan-swanctl
+Description: strongSwan IPsec client, swanctl command
+Version: 6.0.1-6+deb13u6
+Arch: x86_64
+URL: http://www.strongswan.org
+License: See /usr/share/doc/strongswan-swanctl/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libstrongswan
+Provides: libstrongswan-vici.so=/usr/lib/ipsec/plugins/libstrongswan-vici.so, libvici.so.0=/usr/lib/ipsec/libvici.so.0.0.0, swanctl=/usr/sbin/swanctl

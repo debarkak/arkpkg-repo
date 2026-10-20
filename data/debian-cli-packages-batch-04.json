@@ -2863,6 +2863,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "strongswan-swanctl"
+      ],
+      "debian_version": "6.0.1-6+deb13u6",
+      "dependencies": [
+        "libstrongswan"
+      ],
+      "description": "strongSwan IPsec client, swanctl command",
+      "license": "See /usr/share/doc/strongswan-swanctl/copyright",
+      "license_path": "usr/share/doc/strongswan-swanctl/copyright",
+      "name": "strongswan-swanctl",
+      "url": "http://www.strongswan.org",
+      "version": "6.0.1-6+deb13u6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "tcpd"
       ],
       "debian_version": "7.6.q-36",
@@ -4056,6 +4072,12 @@
       "architecture": "amd64",
       "filename": "pool/main/s/strongswan/strongswan-starter_6.0.1-6+deb13u6_amd64.deb",
       "sha256": "f879b6109eb9a6a48e44864735e21056d4650c253decbef69a2a72aaa3faf1f7",
+      "version": "6.0.1-6+deb13u6"
+    },
+    "strongswan-swanctl": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/strongswan/strongswan-swanctl_6.0.1-6+deb13u6_amd64.deb",
+      "sha256": "0f1263231b9fd6dfe5015adf6a3cc5a43a95a5d1d65d3cfd25cfcdd2b41160d1",
       "version": "6.0.1-6+deb13u6"
     },
     "tcpd": {
