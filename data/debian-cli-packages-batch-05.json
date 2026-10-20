@@ -1518,6 +1518,27 @@
       "name": "libmujs3",
       "url": "https://packages.debian.org/trixie/libmujs3",
       "version": "1.3.6-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libmupdf25.1"
+      ],
+      "debian_version": "1.25.1+ds1-6+deb13u1",
+      "dependencies": [
+        "libgumbo3",
+        "libharfbuzz0b",
+        "libjbig2dec0",
+        "libjpeg62-turbo",
+        "libmujs3",
+        "libopenjp2-7"
+      ],
+      "description": "shared library for the MuPDF viewer",
+      "license": "See /usr/share/doc/libmupdf25.1/copyright",
+      "license_path": "usr/share/doc/libmupdf25.1/copyright",
+      "name": "libmupdf25.1",
+      "url": "https://packages.debian.org/trixie/libmupdf25.1",
+      "version": "1.25.1+ds1-6+deb13u1"
     }
   ],
   "source_integrity": {

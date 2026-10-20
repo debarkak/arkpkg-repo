@@ -1,0 +1,15 @@
+Name: libmupdf25.1
+Description: shared library for the MuPDF viewer
+Version: 1.25.1+ds1-6+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmupdf25.1
+License: See /usr/share/doc/libmupdf25.1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgumbo3
+  libharfbuzz0b
+  libjbig2dec0
+  libjpeg62-turbo
+  libmujs3
+  libopenjp2-7
+Provides: libmupdf.so.25.1=/usr/lib/x86_64-linux-gnu/libmupdf.so.25.1, libmupdfcpp.so.25.1=/usr/lib/x86_64-linux-gnu/libmupdfcpp.so.25.1
