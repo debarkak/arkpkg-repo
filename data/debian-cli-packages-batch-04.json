@@ -2518,6 +2518,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "net-tools"
+      ],
+      "debian_version": "2.10-1.3",
+      "dependencies": [
+        "vis-runtime-libs"
+      ],
+      "description": "NET-3 networking toolkit",
+      "license": "See /usr/share/doc/net-tools/copyright",
+      "license_path": "usr/share/doc/net-tools/copyright",
+      "name": "net-tools",
+      "url": "http://sourceforge.net/projects/net-tools/",
+      "version": "2.10-1.3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "netavark"
       ],
       "debian_version": "1.14.0-2",
@@ -3749,6 +3765,12 @@
       "filename": "pool/main/n/nmap/ndiff_7.95+dfsg-3_all.deb",
       "sha256": "3bc8c71c730cebf71187b53679f32cd02e1fa1372cbc6add0e5ead024a67e00e",
       "version": "7.95+dfsg-3"
+    },
+    "net-tools": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/net-tools/net-tools_2.10-1.3_amd64.deb",
+      "sha256": "e136d38b98f14c2aa1e8fc1c6d2846de6be665a2abebf227fc31984e34d93139",
+      "version": "2.10-1.3"
     },
     "netavark": {
       "architecture": "amd64",

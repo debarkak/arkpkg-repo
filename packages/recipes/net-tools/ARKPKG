@@ -1,0 +1,10 @@
+Name: net-tools
+Description: NET-3 networking toolkit
+Version: 2.10-1.3
+Arch: x86_64
+URL: http://sourceforge.net/projects/net-tools/
+License: See /usr/share/doc/net-tools/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  vis-runtime-libs
+Provides: arp=/usr/sbin/arp, ifconfig=/usr/sbin/ifconfig, ipmaddr=/usr/sbin/ipmaddr, iptunnel=/usr/sbin/iptunnel, mii-tool=/usr/sbin/mii-tool, nameif=/usr/sbin/nameif, netstat=/usr/bin/netstat, plipconfig=/usr/sbin/plipconfig, rarp=/usr/sbin/rarp, route=/usr/sbin/route, slattach=/usr/sbin/slattach
