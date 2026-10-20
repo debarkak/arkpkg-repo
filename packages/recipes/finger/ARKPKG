@@ -1,0 +1,8 @@
+Name: finger
+Description: user information lookup program
+Version: 0.17-17
+Arch: x86_64
+URL: http://ftp.linux.org.uk/pub/linux/Networking/netkit/
+License: See /usr/share/doc/finger/copyright
+Maintainer: arkanaOS Team
+Provides: finger=/usr/bin/finger

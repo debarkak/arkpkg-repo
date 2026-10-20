@@ -54,6 +54,20 @@
       "name": "fail2ban",
       "url": "https://www.fail2ban.org",
       "version": "1.1.0-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "finger"
+      ],
+      "debian_version": "0.17-17",
+      "dependencies": [],
+      "description": "user information lookup program",
+      "license": "See /usr/share/doc/finger/copyright",
+      "license_path": "usr/share/doc/finger/copyright",
+      "name": "finger",
+      "url": "http://ftp.linux.org.uk/pub/linux/Networking/netkit/",
+      "version": "0.17-17"
     }
   ],
   "source_integrity": {
@@ -83,6 +97,12 @@
       "filename": "pool/main/f/fail2ban/fail2ban_1.1.0-8_all.deb",
       "sha256": "ac35080546f1a1581163b2ebcb9796b08eb4abca3d3643082b76dce505cbd6d8",
       "version": "1.1.0-8"
+    },
+    "finger": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/bsd-finger/finger_0.17-17_amd64.deb",
+      "sha256": "7931fa53b802c906bebe071fe7bc50ed1486c8f41ca90f25950529a127e3711d",
+      "version": "0.17-17"
     }
   },
   "suite": "trixie"
