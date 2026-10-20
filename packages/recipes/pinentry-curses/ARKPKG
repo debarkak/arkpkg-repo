@@ -1,0 +1,11 @@
+Name: pinentry-curses
+Description: curses-based PIN or pass-phrase entry dialog for GnuPG
+Version: 1.3.1-2
+Arch: x86_64
+URL: https://www.gnupg.org/related_software/pinentry/
+License: See /usr/share/doc/pinentry-curses/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libassuan9
+  ncurses-libs
+Provides: pinentry-curses=/usr/bin/pinentry-curses

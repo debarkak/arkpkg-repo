@@ -2443,6 +2443,23 @@
       "name": "pdftk-java",
       "url": "https://gitlab.com/pdftk-java/pdftk",
       "version": "3.3.3-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "pinentry-curses"
+      ],
+      "debian_version": "1.3.1-2",
+      "dependencies": [
+        "libassuan9",
+        "ncurses-libs"
+      ],
+      "description": "curses-based PIN or pass-phrase entry dialog for GnuPG",
+      "license": "See /usr/share/doc/pinentry-curses/copyright",
+      "license_path": "usr/share/doc/pinentry-curses/copyright",
+      "name": "pinentry-curses",
+      "url": "https://www.gnupg.org/related_software/pinentry/",
+      "version": "1.3.1-2"
     }
   ],
   "source_integrity": {
