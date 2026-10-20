@@ -1104,6 +1104,20 @@
       "name": "netavark",
       "url": "https://github.com/containers/netavark",
       "version": "1.14.0-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "ntpsec-ntpdig"
+      ],
+      "debian_version": "1.2.3+dfsg1-8",
+      "dependencies": [],
+      "description": "ntpdig SNTP client",
+      "license": "See /usr/share/doc/ntpsec-ntpdig/copyright",
+      "license_path": "usr/share/doc/ntpsec-ntpdig/copyright",
+      "name": "ntpsec-ntpdig",
+      "url": "https://www.ntpsec.org",
+      "version": "1.2.3+dfsg1-8"
     }
   ],
   "source_integrity": {
@@ -1583,6 +1597,12 @@
       "filename": "pool/main/n/netavark/netavark_1.14.0-2_amd64.deb",
       "sha256": "34820688e7c671e746d88d109d4f7a34ffbb4a013b7dd2035d2762baf8e50a79",
       "version": "1.14.0-2"
+    },
+    "ntpsec-ntpdig": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/ntpsec/ntpsec-ntpdig_1.2.3+dfsg1-8_amd64.deb",
+      "sha256": "4c6329cc403643d25a2eeaf1e316210d9dbb63baf6ab628421b6359fca1b0a01",
+      "version": "1.2.3+dfsg1-8"
     }
   },
   "suite": "trixie"

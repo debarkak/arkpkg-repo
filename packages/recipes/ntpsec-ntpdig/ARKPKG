@@ -1,0 +1,8 @@
+Name: ntpsec-ntpdig
+Description: ntpdig SNTP client
+Version: 1.2.3+dfsg1-8
+Arch: x86_64
+URL: https://www.ntpsec.org
+License: See /usr/share/doc/ntpsec-ntpdig/copyright
+Maintainer: arkanaOS Team
+Provides: ntpdig=/usr/bin/ntpdig
