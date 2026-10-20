@@ -1,0 +1,10 @@
+Name: strongswan-libcharon
+Description: strongSwan charon library
+Version: 6.0.1-6+deb13u6
+Arch: x86_64
+URL: http://www.strongswan.org
+License: See /usr/share/doc/strongswan-libcharon/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libstrongswan
+Provides: libcharon.so.0=/usr/lib/ipsec/libcharon.so.0.0.0, libstrongswan-bypass-lan.so=/usr/lib/ipsec/plugins/libstrongswan-bypass-lan.so, libstrongswan-counters.so=/usr/lib/ipsec/plugins/libstrongswan-counters.so, libstrongswan-socket-default.so=/usr/lib/ipsec/plugins/libstrongswan-socket-default.so, libstrongswan-updown.so=/usr/lib/ipsec/plugins/libstrongswan-updown.so

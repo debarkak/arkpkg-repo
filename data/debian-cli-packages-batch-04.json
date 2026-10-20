@@ -2831,6 +2831,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "strongswan-libcharon"
+      ],
+      "debian_version": "6.0.1-6+deb13u6",
+      "dependencies": [
+        "libstrongswan"
+      ],
+      "description": "strongSwan charon library",
+      "license": "See /usr/share/doc/strongswan-libcharon/copyright",
+      "license_path": "usr/share/doc/strongswan-libcharon/copyright",
+      "name": "strongswan-libcharon",
+      "url": "http://www.strongswan.org",
+      "version": "6.0.1-6+deb13u6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "tcpd"
       ],
       "debian_version": "7.6.q-36",
@@ -4013,6 +4029,12 @@
       "filename": "pool/main/s/snap/snap_2013-11-29-11_amd64.deb",
       "sha256": "8611b047dc9e2c708234fcac952f10a74fa845caddd25058c82e30cefe8765c5",
       "version": "2013-11-29-11"
+    },
+    "strongswan-libcharon": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/strongswan/strongswan-libcharon_6.0.1-6+deb13u6_amd64.deb",
+      "sha256": "5122faf52e41861cf7eca5440bcd8eae595e4eadd6fae89c8561a6df4af7f43f",
+      "version": "6.0.1-6+deb13u6"
     },
     "tcpd": {
       "architecture": "amd64",
