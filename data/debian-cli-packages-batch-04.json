@@ -1,0 +1,49 @@
+{
+  "architecture": "amd64",
+  "batch": 4,
+  "excluded_packages": {
+    "arping": "its executable path is already supplied by the arkanaOS base image",
+    "freecad": "Debian's package is a metapackage that depends on freecad-python3; its small launcher-only payload is not a usable standalone application",
+    "gnuplot-nox": "already exists in the package catalog",
+    "gnutls-bin": "its command paths overlap with the existing gnutls-tools package",
+    "ipcalc": "already exists in the package catalog",
+    "libblas3": "its files are already supplied by the existing nmap-runtime-libs package; dependent recipes use that existing provider",
+    "mtr-tiny": "its command and manual paths are already provided by the existing mtr package",
+    "network-manager": "its daemon, nmcli, nm-online and systemd units are already supplied by the existing networkmanager package",
+    "openresolv": "its /usr/sbin/resolvconf path is already supplied by the arkanaOS base image"
+  },
+  "packages": [
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "autossh"
+      ],
+      "debian_version": "1.4g-1+b1",
+      "dependencies": [],
+      "description": "Automatically restart SSH sessions and tunnels",
+      "license": "See /usr/share/doc/autossh/copyright",
+      "license_path": "usr/share/doc/autossh/copyright",
+      "name": "autossh",
+      "url": "https://www.harding.motd.ca/autossh/",
+      "version": "1.4g-1+b1"
+    }
+  ],
+  "source_integrity": {
+    "archive_signing_key_fingerprint": "04B54C3CDCA79751B16BC6B5225629DF75B188BD",
+    "archive_signing_key_sha256": "6f1d277429dd7ffedcc6f8688a7ad9a458859b1139ffa026d1eeaadcbffb0da7",
+    "package_index_file": "dists/trixie/main/binary-amd64/Packages.xz",
+    "package_index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "release_file": "dists/trixie/InRelease",
+    "release_sha256": "0584fba32e13e0ab8285fb16c27adea1ec03a73669c18702821094fd6ca86675",
+    "suite": "trixie"
+  },
+  "sources": {
+    "autossh": {
+      "architecture": "amd64",
+      "filename": "pool/main/a/autossh/autossh_1.4g-1+b1_amd64.deb",
+      "sha256": "3e890599832cce5e6c8c858119995695f0ec859afe2bbe31ec306af769162474",
+      "version": "1.4g-1+b1"
+    }
+  },
+  "suite": "trixie"
+}

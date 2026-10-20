@@ -1,0 +1,8 @@
+Name: autossh
+Description: Automatically restart SSH sessions and tunnels
+Version: 1.4g-1+b1
+Arch: x86_64
+URL: https://www.harding.motd.ca/autossh/
+License: See /usr/share/doc/autossh/copyright
+Maintainer: arkanaOS Team
+Provides: autossh-argv0=/usr/bin/autossh-argv0, autossh=/usr/bin/autossh, rscreen=/usr/bin/rscreen, rtmux=/usr/bin/rtmux, ruscreen=/usr/bin/ruscreen
