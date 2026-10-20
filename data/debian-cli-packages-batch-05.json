@@ -1774,6 +1774,25 @@
       "name": "libsidplayfp6",
       "url": "https://packages.debian.org/trixie/libsidplayfp6",
       "version": "2.12.0-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libsmbclient0"
+      ],
+      "debian_version": "2:4.22.11+dfsg-0+deb13u1",
+      "dependencies": [
+        "libbsd",
+        "libtalloc2",
+        "libtevent0t64",
+        "samba-libs"
+      ],
+      "description": "shared library for communication with SMB/CIFS servers",
+      "license": "See /usr/share/doc/libsmbclient0/copyright",
+      "license_path": "usr/share/doc/libsmbclient0/copyright",
+      "name": "libsmbclient0",
+      "url": "https://packages.debian.org/trixie/libsmbclient0",
+      "version": "2:4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {

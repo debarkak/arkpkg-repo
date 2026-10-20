@@ -1,0 +1,13 @@
+Name: libsmbclient0
+Description: shared library for communication with SMB/CIFS servers
+Version: 2:4.22.11+dfsg-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsmbclient0
+License: See /usr/share/doc/libsmbclient0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libbsd
+  libtalloc2
+  libtevent0t64
+  samba-libs
+Provides: libsmbclient.so.0=/usr/lib/x86_64-linux-gnu/libsmbclient.so.0.8.0
