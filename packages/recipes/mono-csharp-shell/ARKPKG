@@ -1,0 +1,8 @@
+Name: mono-csharp-shell
+Description: interactive C# shell
+Version: 6.12.0.199+dfsg-6
+Arch: any
+URL: http://www.mono-project.com/CsharpRepl
+License: See /usr/share/doc/mono-csharp-shell/copyright
+Maintainer: arkanaOS Team
+Provides: csharp=/usr/bin/csharp

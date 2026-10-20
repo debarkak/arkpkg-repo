@@ -2157,6 +2157,20 @@
       "name": "mda-lv2",
       "url": "https://drobilla.net/category/mdalv2/",
       "version": "1.2.10-2+b1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "mono-csharp-shell"
+      ],
+      "debian_version": "6.12.0.199+dfsg-6",
+      "dependencies": [],
+      "description": "interactive C# shell",
+      "license": "See /usr/share/doc/mono-csharp-shell/copyright",
+      "license_path": "usr/share/doc/mono-csharp-shell/copyright",
+      "name": "mono-csharp-shell",
+      "url": "http://www.mono-project.com/CsharpRepl",
+      "version": "6.12.0.199+dfsg-6"
     }
   ],
   "source_integrity": {
