@@ -903,6 +903,30 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libfreeimage3"
+      ],
+      "debian_version": "3.18.0+ds2-11",
+      "dependencies": [
+        "libimath-3-1-29t64",
+        "libjpeg62-turbo",
+        "libjxr0t64",
+        "libopenexr-3-1-30",
+        "libopenjp2-7",
+        "libpng16-16t64",
+        "libraw23t64",
+        "libtiff6",
+        "libwebpmux3"
+      ],
+      "description": "Support library for graphics image formats (library)",
+      "license": "See /usr/share/doc/libfreeimage3/copyright",
+      "license_path": "usr/share/doc/libfreeimage3/copyright",
+      "name": "libfreeimage3",
+      "url": "https://packages.debian.org/trixie/libfreeimage3",
+      "version": "3.18.0+ds2-11"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libfreexl1"
       ],
       "debian_version": "2.0.0-1+b3",
@@ -3511,6 +3535,12 @@
       "filename": "pool/main/f/fltk1.3/libfltk1.3t64_1.3.11-2_amd64.deb",
       "sha256": "0d90fb887407cf5ed3d60c71c27246dd601457990001cf9b074059431511d991",
       "version": "1.3.11-2"
+    },
+    "libfreeimage3": {
+      "architecture": "amd64",
+      "filename": "pool/main/f/freeimage/libfreeimage3_3.18.0+ds2-11_amd64.deb",
+      "sha256": "e12f886bab9f74ed821437a16ef60355e3a0cca7275cb408bdabeca2f6529477",
+      "version": "3.18.0+ds2-11"
     },
     "libfreexl1": {
       "architecture": "amd64",

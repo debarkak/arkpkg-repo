@@ -1,0 +1,18 @@
+Name: libfreeimage3
+Description: Support library for graphics image formats (library)
+Version: 3.18.0+ds2-11
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfreeimage3
+License: See /usr/share/doc/libfreeimage3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libimath-3-1-29t64
+  libjpeg62-turbo
+  libjxr0t64
+  libopenexr-3-1-30
+  libopenjp2-7
+  libpng16-16t64
+  libraw23t64
+  libtiff6
+  libwebpmux3
+Provides: libfreeimage.so.3=/usr/lib/x86_64-linux-gnu/libfreeimage-3.18.0.so
