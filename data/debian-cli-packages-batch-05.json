@@ -2549,6 +2549,20 @@
       "name": "printer-driver-c2050",
       "url": "http://www.prato.linux.it/~mnencia/lexmark2050/",
       "version": "0.3b-10+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-cjet"
+      ],
+      "debian_version": "0.8.9-11",
+      "dependencies": [],
+      "description": "printer driver for Canon LBP laser printers",
+      "license": "See /usr/share/doc/printer-driver-cjet/copyright",
+      "license_path": "usr/share/doc/printer-driver-cjet/copyright",
+      "name": "printer-driver-cjet",
+      "url": "https://packages.debian.org/trixie/printer-driver-cjet",
+      "version": "0.8.9-11"
     }
   ],
   "source_integrity": {

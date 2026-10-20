@@ -1,0 +1,8 @@
+Name: printer-driver-cjet
+Description: printer driver for Canon LBP laser printers
+Version: 0.8.9-11
+Arch: x86_64
+URL: https://packages.debian.org/trixie/printer-driver-cjet
+License: See /usr/share/doc/printer-driver-cjet/copyright
+Maintainer: arkanaOS Team
+Provides: cjet=/usr/bin/cjet
