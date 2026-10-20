@@ -2597,6 +2597,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "open-iscsi"
+      ],
+      "debian_version": "2.1.11-1+deb13u2",
+      "dependencies": [
+        "kmod-libs",
+        "libisns0t64",
+        "libopeniscsiusr",
+        "openssl-libs",
+        "systemd-libs"
+      ],
+      "description": "iSCSI initiator tools",
+      "license": "See /usr/share/doc/open-iscsi/copyright",
+      "license_path": "usr/share/doc/open-iscsi/copyright",
+      "name": "open-iscsi",
+      "url": "https://www.open-iscsi.com/",
+      "version": "2.1.11-1+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "prometheus"
       ],
       "debian_version": "2.53.3+ds1-2",
@@ -3830,6 +3850,12 @@
       "filename": "pool/main/n/ntpsec/ntpsec-ntpdig_1.2.3+dfsg1-8_amd64.deb",
       "sha256": "4c6329cc403643d25a2eeaf1e316210d9dbb63baf6ab628421b6359fca1b0a01",
       "version": "1.2.3+dfsg1-8"
+    },
+    "open-iscsi": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/open-iscsi/open-iscsi_2.1.11-1+deb13u2_amd64.deb",
+      "sha256": "cbe0add75552f277d0eef21826e1b8610828cbd04ae1c26878bfa455fbbf31d5",
+      "version": "2.1.11-1+deb13u2"
     },
     "prometheus": {
       "architecture": "amd64",

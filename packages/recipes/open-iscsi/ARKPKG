@@ -1,0 +1,14 @@
+Name: open-iscsi
+Description: iSCSI initiator tools
+Version: 2.1.11-1+deb13u2
+Arch: x86_64
+URL: https://www.open-iscsi.com/
+License: See /usr/share/doc/open-iscsi/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  kmod-libs
+  libisns0t64
+  libopeniscsiusr
+  openssl-libs
+  systemd-libs
+Provides: iscsi-iname=/usr/sbin/iscsi-iname, iscsi_discovery=/usr/sbin/iscsi_discovery, iscsiadm=/usr/bin/iscsiadm, iscsiadm=/usr/sbin/iscsiadm, iscsid=/usr/sbin/iscsid, iscsistart=/usr/sbin/iscsistart
