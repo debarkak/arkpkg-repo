@@ -1,0 +1,20 @@
+Name: frr
+Description: FRRouting Internet routing protocol suite
+Version: 10.3-3+deb13u1
+Arch: x86_64
+URL: https://www.frrouting.org
+License: See /usr/share/doc/frr/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  c-ares-libs
+  dns-runtime-libs
+  iproute2
+  libcap
+  libcrypt1
+  liblua5.3-0
+  libunwind8
+  libyang3
+  lsof
+  pam-libs
+  readline-libs
+Provides: libfrr.so.0=/usr/lib/x86_64-linux-gnu/frr/libfrr.so.0.0.0, libfrrcares.so.0=/usr/lib/x86_64-linux-gnu/frr/libfrrcares.so.0.0.0, libfrrospfapiclient.so.0=/usr/lib/x86_64-linux-gnu/frr/libfrrospfapiclient.so.0.0.0, libmgmt_be_nb.so.0=/usr/lib/x86_64-linux-gnu/frr/libmgmt_be_nb.so.0.0.0, mtracebis=/usr/bin/mtracebis, vtysh=/usr/bin/vtysh

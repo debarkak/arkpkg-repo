@@ -251,6 +251,32 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "frr"
+      ],
+      "debian_version": "10.3-3+deb13u1",
+      "dependencies": [
+        "c-ares-libs",
+        "dns-runtime-libs",
+        "iproute2",
+        "libcap",
+        "libcrypt1",
+        "liblua5.3-0",
+        "libunwind8",
+        "libyang3",
+        "lsof",
+        "pam-libs",
+        "readline-libs"
+      ],
+      "description": "FRRouting Internet routing protocol suite",
+      "license": "See /usr/share/doc/frr/copyright",
+      "license_path": "usr/share/doc/frr/copyright",
+      "name": "frr",
+      "url": "https://www.frrouting.org",
+      "version": "10.3-3+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "gdal-plugins"
       ],
       "debian_version": "3.10.3+dfsg-1",
@@ -4256,6 +4282,12 @@
       "filename": "pool/main/b/bsd-finger/finger_0.17-17_amd64.deb",
       "sha256": "7931fa53b802c906bebe071fe7bc50ed1486c8f41ca90f25950529a127e3711d",
       "version": "0.17-17"
+    },
+    "frr": {
+      "architecture": "amd64",
+      "filename": "pool/main/f/frr/frr_10.3-3+deb13u1_amd64.deb",
+      "sha256": "20718ad95f91d9bcda87769421bb33acc7a94d9f0bf0d994d31f0c6d9122ab0a",
+      "version": "10.3-3+deb13u1"
     },
     "gcc-14-base": {
       "architecture": "amd64",
