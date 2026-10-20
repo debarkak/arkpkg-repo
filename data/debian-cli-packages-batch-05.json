@@ -1620,11 +1620,11 @@
       ],
       "debian_version": "2.6.0-2+b1",
       "dependencies": [],
-      "description": "Library for handling Apple binary and XML property lists",
+      "description": "library for handling apple binary and xml property lists",
       "license": "See /usr/share/doc/libplist-2.0-4/copyright",
       "license_path": "usr/share/doc/libplist-2.0-4/copyright",
       "name": "libplist-2.0-4",
-      "url": "https://packages.debian.org/trixie/libplist-2.0-4",
+      "url": "https://www.libimobiledevice.org/",
       "version": "2.6.0-2+b1"
     },
     {
