@@ -1,0 +1,11 @@
+Name: patchutils
+Description: Utilities to work with patches
+Version: 0.4.2-1
+Arch: x86_64
+URL: http://cyberelk.net/tim/software/patchutils/
+License: See /usr/share/doc/patchutils/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  patch
+  perl
+Provides: combinediff=/usr/bin/combinediff, dehtmldiff=/usr/bin/dehtmldiff, editdiff=/usr/bin/editdiff, espdiff=/usr/bin/espdiff, filterdiff=/usr/bin/filterdiff, fixcvsdiff=/usr/bin/fixcvsdiff, flipdiff=/usr/bin/flipdiff, gitdiff=/usr/bin/gitdiff, gitdiffview=/usr/bin/gitdiffview, grepdiff=/usr/bin/grepdiff, interdiff=/usr/bin/interdiff, lsdiff=/usr/bin/lsdiff, patchview=/usr/bin/patchview, recountdiff=/usr/bin/recountdiff, rediff=/usr/bin/rediff, splitdiff=/usr/bin/splitdiff, svndiff=/usr/bin/svndiff, svndiffview=/usr/bin/svndiffview, unwrapdiff=/usr/bin/unwrapdiff
