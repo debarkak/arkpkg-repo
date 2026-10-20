@@ -1,0 +1,11 @@
+Name: libqpdf30
+Description: runtime library for PDF transformation/inspection software
+Version: 12.2.0-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libqpdf30
+License: See /usr/share/doc/libqpdf30/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gnutls-libs
+  libjpeg62-turbo
+Provides: libqpdf.so.30=/usr/lib/x86_64-linux-gnu/libqpdf.so.30.2.0

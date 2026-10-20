@@ -1690,6 +1690,23 @@
       "name": "libpugixml1v5",
       "url": "https://packages.debian.org/trixie/libpugixml1v5",
       "version": "1.14-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libqpdf30"
+      ],
+      "debian_version": "12.2.0-1",
+      "dependencies": [
+        "gnutls-libs",
+        "libjpeg62-turbo"
+      ],
+      "description": "runtime library for PDF transformation/inspection software",
+      "license": "See /usr/share/doc/libqpdf30/copyright",
+      "license_path": "usr/share/doc/libqpdf30/copyright",
+      "name": "libqpdf30",
+      "url": "https://packages.debian.org/trixie/libqpdf30",
+      "version": "12.2.0-1"
     }
   ],
   "source_integrity": {
