@@ -334,6 +334,20 @@
       "name": "libbtbb1",
       "url": "https://packages.debian.org/trixie/libbtbb1",
       "version": "2018.12.R1-1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libbtf2"
+      ],
+      "debian_version": "1:7.10.1+dfsg-1",
+      "dependencies": [],
+      "description": "permutation to block triangular form library for sparse matrices",
+      "license": "See /usr/share/doc/libbtf2/copyright",
+      "license_path": "usr/share/doc/libbtf2/copyright",
+      "name": "libbtf2",
+      "url": "https://packages.debian.org/trixie/libbtf2",
+      "version": "1:7.10.1+dfsg-1"
     }
   ],
   "source_integrity": {
@@ -483,6 +497,12 @@
       "filename": "pool/main/libb/libbtbb/libbtbb1_2018.12.R1-1+b2_amd64.deb",
       "sha256": "f99eef7302d209435dc8c0d3ccabebb3682b472a25dab6a15483dfbdb960b8d4",
       "version": "2018.12.R1-1+b2"
+    },
+    "libbtf2": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/suitesparse/libbtf2_7.10.1+dfsg-1_amd64.deb",
+      "sha256": "9bf184ab7b22cfef7b6fb0a38f474702ce74e2668ee847f705af542658016333",
+      "version": "1:7.10.1+dfsg-1"
     }
   },
   "suite": "trixie"

@@ -1,0 +1,8 @@
+Name: libbtf2
+Description: permutation to block triangular form library for sparse matrices
+Version: 1:7.10.1+dfsg-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libbtf2
+License: See /usr/share/doc/libbtf2/copyright
+Maintainer: arkanaOS Team
+Provides: libbtf.so.2=/usr/lib/x86_64-linux-gnu/libbtf.so.2.3.2
