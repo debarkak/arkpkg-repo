@@ -1277,6 +1277,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libmemcached11t64"
+      ],
+      "debian_version": "1.1.4-1.1+b2",
+      "dependencies": [
+        "libhashkit2t64",
+        "libsasl2-2"
+      ],
+      "description": "C and C++ client library to the memcached server",
+      "license": "See /usr/share/doc/libmemcached11t64/copyright",
+      "license_path": "usr/share/doc/libmemcached11t64/copyright",
+      "name": "libmemcached11t64",
+      "url": "https://packages.debian.org/trixie/libmemcached11t64",
+      "version": "1.1.4-1.1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libmetis5"
       ],
       "debian_version": "5.1.0.dfsg-7+b2",
@@ -2985,6 +3002,12 @@
       "filename": "pool/main/m/mariadb/libmariadb3_11.8.6-0+deb13u1_amd64.deb",
       "sha256": "b2a2d1cdf7493c75d43916a18947700740964513ff5ff603cf5cbbf61e9e6385",
       "version": "1:11.8.6-0+deb13u1"
+    },
+    "libmemcached11t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libm/libmemcached/libmemcached11t64_1.1.4-1.1+b2_amd64.deb",
+      "sha256": "fe348032fc0f890f0084e73bfe627fce155a807800df561736f5f0a3f9897b4b",
+      "version": "1.1.4-1.1+b2"
     },
     "libmetis5": {
       "architecture": "amd64",

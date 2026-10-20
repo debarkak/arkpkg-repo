@@ -1,0 +1,11 @@
+Name: libmemcached11t64
+Description: C and C++ client library to the memcached server
+Version: 1.1.4-1.1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmemcached11t64
+License: See /usr/share/doc/libmemcached11t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libhashkit2t64
+  libsasl2-2
+Provides: libmemcached.so.11=/usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
