@@ -1,0 +1,8 @@
+Name: libmms0
+Description: MMS stream protocol library - shared library
+Version: 0.6.4-3+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmms0
+License: See /usr/share/doc/libmms0/copyright
+Maintainer: arkanaOS Team
+Provides: libmms.so.0=/usr/lib/x86_64-linux-gnu/libmms.so.0.0.2

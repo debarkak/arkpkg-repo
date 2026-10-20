@@ -1462,6 +1462,20 @@
       "name": "libmaa4",
       "url": "https://packages.debian.org/trixie/libmaa4",
       "version": "1.5.1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libmms0"
+      ],
+      "debian_version": "0.6.4-3+b2",
+      "dependencies": [],
+      "description": "MMS stream protocol library - shared library",
+      "license": "See /usr/share/doc/libmms0/copyright",
+      "license_path": "usr/share/doc/libmms0/copyright",
+      "name": "libmms0",
+      "url": "https://packages.debian.org/trixie/libmms0",
+      "version": "0.6.4-3+b2"
     }
   ],
   "source_integrity": {
