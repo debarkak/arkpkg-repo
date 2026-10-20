@@ -1979,6 +1979,23 @@
       "name": "liburing2",
       "url": "https://packages.debian.org/trixie/liburing2",
       "version": "2.9-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libusbmuxd-2.0-7"
+      ],
+      "debian_version": "2.1.0-1+b1",
+      "dependencies": [
+        "libimobiledevice-glue-1.0-0",
+        "libplist-2.0-4"
+      ],
+      "description": "Client library to handle usbmux connections with iOS devices (library)",
+      "license": "See /usr/share/doc/libusbmuxd-2.0-7/copyright",
+      "license_path": "usr/share/doc/libusbmuxd-2.0-7/copyright",
+      "name": "libusbmuxd-2.0-7",
+      "url": "https://packages.debian.org/trixie/libusbmuxd-2.0-7",
+      "version": "2.1.0-1+b1"
     }
   ],
   "source_integrity": {
