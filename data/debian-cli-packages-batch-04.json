@@ -349,6 +349,22 @@
       "version": "56.1-1"
     },
     {
+      "arch": "any",
+      "debian_packages": [
+        "ifenslave"
+      ],
+      "debian_version": "2.14",
+      "dependencies": [
+        "iproute2"
+      ],
+      "description": "configure network interfaces for parallel routing (bonding)",
+      "license": "See /usr/share/doc/ifenslave/copyright",
+      "license_path": "usr/share/doc/ifenslave/copyright",
+      "name": "ifenslave",
+      "url": "https://packages.debian.org/trixie/ifenslave",
+      "version": "2.14"
+    },
+    {
       "arch": "x86_64",
       "debian_packages": [
         "inn2-inews"
@@ -4340,6 +4356,12 @@
       "filename": "pool/main/r/rdma-core/ibverbs-providers_56.1-1_amd64.deb",
       "sha256": "4ae7a507fd2667d245c9c06091517ff1acbb2008fd39c8257445badd701b503a",
       "version": "56.1-1"
+    },
+    "ifenslave": {
+      "architecture": "all",
+      "filename": "pool/main/i/ifenslave/ifenslave_2.14_all.deb",
+      "sha256": "7054cb372388091e86174489c1ff04fed31e2ab90d48649ef9101a4449b6af83",
+      "version": "2.14"
     },
     "inn2-inews": {
       "architecture": "amd64",

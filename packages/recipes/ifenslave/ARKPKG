@@ -1,0 +1,9 @@
+Name: ifenslave
+Description: configure network interfaces for parallel routing (bonding)
+Version: 2.14
+Arch: any
+URL: https://packages.debian.org/trixie/ifenslave
+License: See /usr/share/doc/ifenslave/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  iproute2
