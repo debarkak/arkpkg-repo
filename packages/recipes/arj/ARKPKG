@@ -1,0 +1,8 @@
+Name: arj
+Description: archiver for .arj files
+Version: 3.10.22-28
+Arch: x86_64
+URL: https://sf.net/projects/arj/
+License: See /usr/share/doc/arj/copyright
+Maintainer: arkanaOS Team
+Provides: arj-register=/usr/bin/arj-register, arj=/usr/bin/arj, arjdisp=/usr/bin/arjdisp, rearj=/usr/bin/rearj
