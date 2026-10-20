@@ -1,0 +1,11 @@
+Name: libnss3
+Description: Network Security Service libraries
+Version: 2:3.110-1+deb13u4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnss3
+License: See /usr/share/doc/libnss3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libnspr4
+  libsqlite3-0
+Provides: libfreebl3.so=/usr/lib/x86_64-linux-gnu/libfreebl3.so, libfreeblpriv3.so=/usr/lib/x86_64-linux-gnu/libfreeblpriv3.so, libnss3.so=/usr/lib/x86_64-linux-gnu/libnss3.so, libnssckbi.so=/usr/lib/x86_64-linux-gnu/libnssckbi.so, libnssdbm3.so=/usr/lib/x86_64-linux-gnu/libnssdbm3.so, libnssutil3.so=/usr/lib/x86_64-linux-gnu/libnssutil3.so, libsmime3.so=/usr/lib/x86_64-linux-gnu/libsmime3.so, libsoftokn3.so=/usr/lib/x86_64-linux-gnu/libsoftokn3.so, libssl3.so=/usr/lib/x86_64-linux-gnu/libssl3.so

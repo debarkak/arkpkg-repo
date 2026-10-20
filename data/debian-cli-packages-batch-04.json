@@ -1220,6 +1220,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libnss3"
+      ],
+      "debian_version": "2:3.110-1+deb13u4",
+      "dependencies": [
+        "libnspr4",
+        "libsqlite3-0"
+      ],
+      "description": "Network Security Service libraries",
+      "license": "See /usr/share/doc/libnss3/copyright",
+      "license_path": "usr/share/doc/libnss3/copyright",
+      "name": "libnss3",
+      "url": "https://packages.debian.org/trixie/libnss3",
+      "version": "2:3.110-1+deb13u4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libogdi4.1"
       ],
       "debian_version": "4.1.1+ds-5",
@@ -2251,6 +2268,12 @@
       "filename": "pool/main/n/nspr/libnspr4_4.36-1_amd64.deb",
       "sha256": "87fc2039ee89cff2b8010fa9535706b1def40031acfc52bf12197dcb3cb7b064",
       "version": "2:4.36-1"
+    },
+    "libnss3": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/nss/libnss3_3.110-1+deb13u4_amd64.deb",
+      "sha256": "8d20d0754039e15e9bd2c8484e98dc9c2982907d4f20834da29a9501913d00b5",
+      "version": "2:3.110-1+deb13u4"
     },
     "libogdi4.1": {
       "architecture": "amd64",
