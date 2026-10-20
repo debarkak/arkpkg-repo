@@ -1118,6 +1118,20 @@
       "name": "ntpsec-ntpdig",
       "url": "https://www.ntpsec.org",
       "version": "1.2.3+dfsg1-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "prometheus"
+      ],
+      "debian_version": "2.53.3+ds1-2",
+      "dependencies": [],
+      "description": "monitoring system and time series database",
+      "license": "See /usr/share/doc/prometheus/copyright",
+      "license_path": "usr/share/doc/prometheus/copyright",
+      "name": "prometheus",
+      "url": "https://prometheus.io/",
+      "version": "2.53.3+ds1-2"
     }
   ],
   "source_integrity": {
@@ -1603,6 +1617,12 @@
       "filename": "pool/main/n/ntpsec/ntpsec-ntpdig_1.2.3+dfsg1-8_amd64.deb",
       "sha256": "4c6329cc403643d25a2eeaf1e316210d9dbb63baf6ab628421b6359fca1b0a01",
       "version": "1.2.3+dfsg1-8"
+    },
+    "prometheus": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/prometheus/prometheus_2.53.3+ds1-2_amd64.deb",
+      "sha256": "58c3e6a86c56cb3bfd71032fa48d65945d526441a212f5815dfe5ed9cb787ecc",
+      "version": "2.53.3+ds1-2"
     }
   },
   "suite": "trixie"

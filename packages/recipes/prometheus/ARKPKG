@@ -1,0 +1,8 @@
+Name: prometheus
+Description: monitoring system and time series database
+Version: 2.53.3+ds1-2
+Arch: x86_64
+URL: https://prometheus.io/
+License: See /usr/share/doc/prometheus/copyright
+Maintainer: arkanaOS Team
+Provides: prometheus=/usr/bin/prometheus
