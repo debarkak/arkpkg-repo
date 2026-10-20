@@ -2767,6 +2767,22 @@
       "name": "re",
       "url": "https://packages.debian.org/trixie/re",
       "version": "0.1-7+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "recode"
+      ],
+      "debian_version": "3.7.15-1",
+      "dependencies": [
+        "librecode3"
+      ],
+      "description": "Character set conversion utility",
+      "license": "See /usr/share/doc/recode/copyright",
+      "license_path": "usr/share/doc/recode/copyright",
+      "name": "recode",
+      "url": "https://github.com/rrthomas/recode",
+      "version": "3.7.15-1"
     }
   ],
   "source_integrity": {

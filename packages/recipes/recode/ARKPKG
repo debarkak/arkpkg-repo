@@ -1,0 +1,10 @@
+Name: recode
+Description: Character set conversion utility
+Version: 3.7.15-1
+Arch: x86_64
+URL: https://github.com/rrthomas/recode
+License: See /usr/share/doc/recode/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  librecode3
+Provides: recode=/usr/bin/recode
