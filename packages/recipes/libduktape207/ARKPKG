@@ -1,0 +1,8 @@
+Name: libduktape207
+Description: embeddable Javascript engine, library
+Version: 2.7.0-2+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libduktape207
+License: See /usr/share/doc/libduktape207/copyright
+Maintainer: arkanaOS Team
+Provides: libduktape.so.207=/usr/lib/x86_64-linux-gnu/libduktape.so.207

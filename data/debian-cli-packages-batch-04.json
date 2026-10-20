@@ -390,6 +390,20 @@
       "name": "libdlt2",
       "url": "https://packages.debian.org/trixie/libdlt2",
       "version": "2.18.10-10+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libduktape207"
+      ],
+      "debian_version": "2.7.0-2+b2",
+      "dependencies": [],
+      "description": "embeddable Javascript engine, library",
+      "license": "See /usr/share/doc/libduktape207/copyright",
+      "license_path": "usr/share/doc/libduktape207/copyright",
+      "name": "libduktape207",
+      "url": "https://packages.debian.org/trixie/libduktape207",
+      "version": "2.7.0-2+b2"
     }
   ],
   "source_integrity": {
@@ -563,6 +577,12 @@
       "filename": "pool/main/d/dlt-daemon/libdlt2_2.18.10-10+b1_amd64.deb",
       "sha256": "93c5c2a51d0de4bbaa0a7d2c457d8719bbcb73a1d74210f83f243b55b78aec31",
       "version": "2.18.10-10+b1"
+    },
+    "libduktape207": {
+      "architecture": "amd64",
+      "filename": "pool/main/d/duktape/libduktape207_2.7.0-2+b2_amd64.deb",
+      "sha256": "2d92606f49cf79e23fb4ea67ab7702d52e016a671d32edc51482c4f1e3bade7c",
+      "version": "2.7.0-2+b2"
     }
   },
   "suite": "trixie"
