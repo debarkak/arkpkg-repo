@@ -1,0 +1,7 @@
+Name: voikko-fi
+Description: Description of Finnish morphology written for libvoikko
+Version: 2.5-2
+Arch: x86_64
+URL: https://voikko.puimula.org/
+License: See /usr/share/doc/voikko-fi/copyright
+Maintainer: arkanaOS Team

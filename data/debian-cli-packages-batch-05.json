@@ -3055,6 +3055,20 @@
       "name": "usbmuxd",
       "url": "https://github.com/libimobiledevice/usbmuxd",
       "version": "1.1.1-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "voikko-fi"
+      ],
+      "debian_version": "2.5-2",
+      "dependencies": [],
+      "description": "Description of Finnish morphology written for libvoikko",
+      "license": "See /usr/share/doc/voikko-fi/copyright",
+      "license_path": "usr/share/doc/voikko-fi/copyright",
+      "name": "voikko-fi",
+      "url": "https://voikko.puimula.org/",
+      "version": "2.5-2"
     }
   ],
   "source_integrity": {
