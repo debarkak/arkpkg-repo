@@ -1286,6 +1286,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgssdp-1.6-0"
+      ],
+      "debian_version": "1.6.4-1~deb13u1",
+      "dependencies": [
+        "libsoup-3.0-0"
+      ],
+      "description": "GObject-based library for SSDP",
+      "license": "See /usr/share/doc/libgssdp-1.6-0/copyright",
+      "license_path": "usr/share/doc/libgssdp-1.6-0/copyright",
+      "name": "libgssdp-1.6-0",
+      "url": "https://packages.debian.org/trixie/libgssdp-1.6-0",
+      "version": "1.6.4-1~deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libgstreamer-plugins-base1.0-0"
       ],
       "debian_version": "1.26.2-1+deb13u1",
@@ -4421,6 +4437,12 @@
       "filename": "pool/main/g/gpgme1.0/libgpgmepp6t64_1.24.2-3_amd64.deb",
       "sha256": "81860c69f1480af6969de16845e2091dba9fca1e33732411e28437ea62e1a625",
       "version": "1.24.2-3"
+    },
+    "libgssdp-1.6-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gssdp/libgssdp-1.6-0_1.6.4-1~deb13u1_amd64.deb",
+      "sha256": "ea9f0d33f5a569881b761d6f345ed22a4eafc7b0e6cfd1567d0e586e20793a87",
+      "version": "1.6.4-1~deb13u1"
     },
     "libgstreamer-plugins-base1.0-0": {
       "architecture": "amd64",

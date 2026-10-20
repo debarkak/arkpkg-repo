@@ -1,0 +1,10 @@
+Name: libgssdp-1.6-0
+Description: GObject-based library for SSDP
+Version: 1.6.4-1~deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgssdp-1.6-0
+License: See /usr/share/doc/libgssdp-1.6-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsoup-3.0-0
+Provides: libgssdp-1.6.so.0=/usr/lib/x86_64-linux-gnu/libgssdp-1.6.so.0.106.4
