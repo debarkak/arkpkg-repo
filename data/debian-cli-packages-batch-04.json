@@ -820,6 +820,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libfabric1"
+      ],
+      "debian_version": "2.1.0-1.1",
+      "dependencies": [
+        "ibverbs-providers",
+        "libibverbs1",
+        "libpsm2-2",
+        "librdmacm1t64"
+      ],
+      "description": "libfabric communication library",
+      "license": "See /usr/share/doc/libfabric1/copyright",
+      "license_path": "usr/share/doc/libfabric1/copyright",
+      "name": "libfabric1",
+      "url": "https://packages.debian.org/trixie/libfabric1",
+      "version": "2.1.0-1.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libflite1"
       ],
       "debian_version": "2.2-7",
@@ -3462,6 +3481,12 @@
       "filename": "pool/main/libe/libevent/libevent-pthreads-2.1-7t64_2.1.12-stable-10+b1_amd64.deb",
       "sha256": "0a7819e533e5a03cb57ef3b04269141da9e1140a4c0a95f872655bf5ca0119a7",
       "version": "2.1.12-stable-10+b1"
+    },
+    "libfabric1": {
+      "architecture": "amd64",
+      "filename": "pool/main/libf/libfabric/libfabric1_2.1.0-1.1_amd64.deb",
+      "sha256": "2cab4f5fda610ccebc8c9da61f81cf6a49f99f103ef44b3f22828400565c8639",
+      "version": "2.1.0-1.1"
     },
     "libflite1": {
       "architecture": "amd64",

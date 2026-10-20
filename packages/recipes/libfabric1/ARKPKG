@@ -1,0 +1,13 @@
+Name: libfabric1
+Description: libfabric communication library
+Version: 2.1.0-1.1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfabric1
+License: See /usr/share/doc/libfabric1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  ibverbs-providers
+  libibverbs1
+  libpsm2-2
+  librdmacm1t64
+Provides: libfabric.so.1=/usr/lib/x86_64-linux-gnu/libfabric.so.1.27.0
