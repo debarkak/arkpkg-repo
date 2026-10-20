@@ -1,0 +1,8 @@
+Name: libwildmidi2
+Description: software MIDI player library
+Version: 0.4.3-1+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwildmidi2
+License: See /usr/share/doc/libwildmidi2/copyright
+Maintainer: arkanaOS Team
+Provides: libWildMidi.so.2=/usr/lib/x86_64-linux-gnu/libWildMidi.so.2.1.0

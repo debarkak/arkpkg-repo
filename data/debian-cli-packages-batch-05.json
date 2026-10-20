@@ -2040,6 +2040,20 @@
       "name": "libwcs8",
       "url": "https://packages.debian.org/trixie/libwcs8",
       "version": "8.4+ds-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libwildmidi2"
+      ],
+      "debian_version": "0.4.3-1+b3",
+      "dependencies": [],
+      "description": "software MIDI player library",
+      "license": "See /usr/share/doc/libwildmidi2/copyright",
+      "license_path": "usr/share/doc/libwildmidi2/copyright",
+      "name": "libwildmidi2",
+      "url": "https://packages.debian.org/trixie/libwildmidi2",
+      "version": "0.4.3-1+b3"
     }
   ],
   "source_integrity": {
