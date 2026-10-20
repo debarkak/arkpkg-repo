@@ -656,6 +656,20 @@
       "name": "libmm-glib0",
       "url": "https://packages.debian.org/trixie/libmm-glib0",
       "version": "1.24.0-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libmunge2"
+      ],
+      "debian_version": "0.5.16-1.1~deb13u1",
+      "dependencies": [],
+      "description": "authentication service for credential -- library package",
+      "license": "See /usr/share/doc/libmunge2/copyright",
+      "license_path": "usr/share/doc/libmunge2/copyright",
+      "name": "libmunge2",
+      "url": "https://packages.debian.org/trixie/libmunge2",
+      "version": "0.5.16-1.1~deb13u1"
     }
   ],
   "source_integrity": {
@@ -943,6 +957,12 @@
       "filename": "pool/main/m/modemmanager/libmm-glib0_1.24.0-1+deb13u1_amd64.deb",
       "sha256": "7443ef1adddf02956be3ab9f4003a0e4f60bf167e92243594bcbdd7e06af0a82",
       "version": "1.24.0-1+deb13u1"
+    },
+    "libmunge2": {
+      "architecture": "amd64",
+      "filename": "pool/main/m/munge/libmunge2_0.5.16-1.1~deb13u1_amd64.deb",
+      "sha256": "b302ad6cdcd70faf61b2d1cc4b0295499062b8476d7f222ce585647ce1e2fcc7",
+      "version": "0.5.16-1.1~deb13u1"
     }
   },
   "suite": "trixie"

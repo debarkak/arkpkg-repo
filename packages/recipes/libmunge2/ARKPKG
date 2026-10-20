@@ -1,0 +1,8 @@
+Name: libmunge2
+Description: authentication service for credential -- library package
+Version: 0.5.16-1.1~deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libmunge2
+License: See /usr/share/doc/libmunge2/copyright
+Maintainer: arkanaOS Team
+Provides: libmunge.so.2=/usr/lib/x86_64-linux-gnu/libmunge.so.2.0.0
