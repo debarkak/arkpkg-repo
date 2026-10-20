@@ -1,0 +1,12 @@
+Name: libpskc0t64
+Description: OATH Toolkit Libpskc library
+Version: 2.6.12-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpskc0t64
+License: See /usr/share/doc/libpskc0t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libxmlsec1t64
+  libxmlsec1t64-openssl
+  xml-runtime-libs
+Provides: libpskc.so.0=/usr/lib/x86_64-linux-gnu/libpskc.so.0.0.1

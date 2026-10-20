@@ -2071,6 +2071,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpskc0t64"
+      ],
+      "debian_version": "2.6.12-1",
+      "dependencies": [
+        "libxmlsec1t64",
+        "libxmlsec1t64-openssl",
+        "xml-runtime-libs"
+      ],
+      "description": "OATH Toolkit Libpskc library",
+      "license": "See /usr/share/doc/libpskc0t64/copyright",
+      "license_path": "usr/share/doc/libpskc0t64/copyright",
+      "name": "libpskc0t64",
+      "url": "https://packages.debian.org/trixie/libpskc0t64",
+      "version": "2.6.12-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpsm2-2"
       ],
       "debian_version": "11.2.185-2.1",
@@ -4129,6 +4147,12 @@
       "filename": "pool/main/f/ffmpeg/libpostproc58_7.1.5-0+deb13u1_amd64.deb",
       "sha256": "4a19b79dac4353419018509568f554df3ce937d2283c859f6454c3fe543135b6",
       "version": "7:7.1.5-0+deb13u1"
+    },
+    "libpskc0t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/oath-toolkit/libpskc0t64_2.6.12-1_amd64.deb",
+      "sha256": "f28e027e09840501e27b4fd7db242cb303ae29e3e16b9b7f36c979cbb114a9cf",
+      "version": "2.6.12-1"
     },
     "libpsm2-2": {
       "architecture": "amd64",
