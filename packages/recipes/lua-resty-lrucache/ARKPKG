@@ -1,0 +1,7 @@
+Name: lua-resty-lrucache
+Description: Simple LRU cache for the ngx_lua module
+Version: 0.15-2
+Arch: any
+URL: https://github.com/openresty/lua-resty-lrucache
+License: See /usr/share/doc/lua-resty-lrucache/copyright
+Maintainer: arkanaOS Team
