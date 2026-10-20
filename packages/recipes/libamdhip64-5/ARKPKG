@@ -1,0 +1,12 @@
+Name: libamdhip64-5
+Description: Heterogeneous Interface for Portability - AMD GPUs implementation
+Version: 5.7.1-6+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libamdhip64-5
+License: See /usr/share/doc/libamdhip64-5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libamd-comgr2
+  libhsa-runtime64-1
+  libnuma1
+Provides: libamdhip64.so.5=/usr/lib/x86_64-linux-gnu/libamdhip64.so.5.7.31921

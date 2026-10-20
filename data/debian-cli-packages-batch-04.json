@@ -489,6 +489,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libamdhip64-5"
+      ],
+      "debian_version": "5.7.1-6+deb13u1",
+      "dependencies": [
+        "libamd-comgr2",
+        "libhsa-runtime64-1",
+        "libnuma1"
+      ],
+      "description": "Heterogeneous Interface for Portability - AMD GPUs implementation",
+      "license": "See /usr/share/doc/libamdhip64-5/copyright",
+      "license_path": "usr/share/doc/libamdhip64-5/copyright",
+      "name": "libamdhip64-5",
+      "url": "https://packages.debian.org/trixie/libamdhip64-5",
+      "version": "5.7.1-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libarmadillo14"
       ],
       "debian_version": "1:14.2.3+dfsg-1+b1",
@@ -4056,6 +4074,12 @@
       "filename": "pool/main/s/suitesparse/libamd3_7.10.1+dfsg-1_amd64.deb",
       "sha256": "2afe52d511404ba372f4a26675866ddd9e5a207fdec19639cfaf5b6a9c97d65e",
       "version": "1:7.10.1+dfsg-1"
+    },
+    "libamdhip64-5": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rocm-hipamd/libamdhip64-5_5.7.1-6+deb13u1_amd64.deb",
+      "sha256": "a60c313b59c09d776190a6e70b13337992240227f365ce4b91bb476d47a776d7",
+      "version": "5.7.1-6+deb13u1"
     },
     "libarmadillo14": {
       "architecture": "amd64",
