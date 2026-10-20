@@ -2268,6 +2268,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libspandsp2t64"
+      ],
+      "debian_version": "0.0.6+dfsg-2.2",
+      "dependencies": [
+        "libtiff6"
+      ],
+      "description": "Telephony signal processing library",
+      "license": "See /usr/share/doc/libspandsp2t64/copyright",
+      "license_path": "usr/share/doc/libspandsp2t64/copyright",
+      "name": "libspandsp2t64",
+      "url": "https://packages.debian.org/trixie/libspandsp2t64",
+      "version": "0.0.6+dfsg-2.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsratom-0-0"
       ],
       "debian_version": "0.6.18-1",
@@ -4256,6 +4272,12 @@
       "filename": "pool/main/s/sord/libsord-0-0_0.16.18-1_amd64.deb",
       "sha256": "cbb4167b1a85cfec94faa9f85666ee382a8bc79ce93f5d7457514e8334299e52",
       "version": "0.16.18-1"
+    },
+    "libspandsp2t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/spandsp/libspandsp2t64_0.0.6+dfsg-2.2_amd64.deb",
+      "sha256": "f36c92d0ecf2035502def728e64d6a2817544748091eccbc1714dc8604525b84",
+      "version": "0.0.6+dfsg-2.2"
     },
     "libsratom-0-0": {
       "architecture": "amd64",

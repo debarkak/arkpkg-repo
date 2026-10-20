@@ -1,0 +1,10 @@
+Name: libspandsp2t64
+Description: Telephony signal processing library
+Version: 0.0.6+dfsg-2.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libspandsp2t64
+License: See /usr/share/doc/libspandsp2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libtiff6
+Provides: libspandsp.so.2=/usr/lib/x86_64-linux-gnu/libspandsp.so.2.0.0
