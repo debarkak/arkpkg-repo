@@ -1414,6 +1414,20 @@
       "name": "libjson-glib-1.0-0",
       "url": "https://packages.debian.org/trixie/libjson-glib-1.0-0",
       "version": "1.10.6+ds-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libkpathsea6"
+      ],
+      "debian_version": "2024.20240313.70630+ds-6",
+      "dependencies": [],
+      "description": "TeX Live: path search library for TeX (runtime part)",
+      "license": "See /usr/share/doc/libkpathsea6/copyright",
+      "license_path": "usr/share/doc/libkpathsea6/copyright",
+      "name": "libkpathsea6",
+      "url": "https://packages.debian.org/trixie/libkpathsea6",
+      "version": "2024.20240313.70630+ds-6"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,8 @@
+Name: libkpathsea6
+Description: TeX Live: path search library for TeX (runtime part)
+Version: 2024.20240313.70630+ds-6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libkpathsea6
+License: See /usr/share/doc/libkpathsea6/copyright
+Maintainer: arkanaOS Team
+Provides: libkpathsea.so.6=/usr/lib/x86_64-linux-gnu/libkpathsea.so.6.4.0
