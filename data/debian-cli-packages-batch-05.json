@@ -242,6 +242,22 @@
       "name": "colordiff",
       "url": "http://www.colordiff.org/",
       "version": "1.0.21-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "confget"
+      ],
+      "debian_version": "5.1.2-2",
+      "dependencies": [
+        "pcre2-libs"
+      ],
+      "description": "read variables from INI-style configuration files",
+      "license": "See /usr/share/doc/confget/copyright",
+      "license_path": "usr/share/doc/confget/copyright",
+      "name": "confget",
+      "url": "https://devel.ringlet.net/textproc/confget/",
+      "version": "5.1.2-2"
     }
   ],
   "source_integrity": {

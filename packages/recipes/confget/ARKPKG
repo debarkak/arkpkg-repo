@@ -1,0 +1,8 @@
+Name: confget
+Description: read variables from INI-style configuration files
+Version: 5.1.2-2
+Arch: x86_64
+URL: https://devel.ringlet.net/textproc/confget/
+License: See /usr/share/doc/confget/copyright
+Maintainer: arkanaOS Team
+Provides: confget=/usr/bin/confget
