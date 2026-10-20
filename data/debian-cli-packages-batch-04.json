@@ -422,6 +422,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libarpack2t64"
+      ],
+      "debian_version": "3.9.1-6",
+      "dependencies": [
+        "libgfortran5",
+        "liblapack3",
+        "nmap-runtime-libs"
+      ],
+      "description": "Fortran77 subroutines to solve large scale eigenvalue problems",
+      "license": "See /usr/share/doc/libarpack2t64/copyright",
+      "license_path": "usr/share/doc/libarpack2t64/copyright",
+      "name": "libarpack2t64",
+      "url": "https://packages.debian.org/trixie/libarpack2t64",
+      "version": "3.9.1-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libass9"
       ],
       "debian_version": "1:0.17.3-1+deb13u1",
@@ -3234,6 +3252,12 @@
       "filename": "pool/main/s/suitesparse/libamd3_7.10.1+dfsg-1_amd64.deb",
       "sha256": "2afe52d511404ba372f4a26675866ddd9e5a207fdec19639cfaf5b6a9c97d65e",
       "version": "1:7.10.1+dfsg-1"
+    },
+    "libarpack2t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/a/arpack/libarpack2t64_3.9.1-6_amd64.deb",
+      "sha256": "d4e49ad09975800befd3ef1bbcf13d9413379686bd66f832e2ae13723097b8c4",
+      "version": "3.9.1-6"
     },
     "libass9": {
       "architecture": "amd64",

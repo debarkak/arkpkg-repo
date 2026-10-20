@@ -1,0 +1,12 @@
+Name: libarpack2t64
+Description: Fortran77 subroutines to solve large scale eigenvalue problems
+Version: 3.9.1-6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libarpack2t64
+License: See /usr/share/doc/libarpack2t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgfortran5
+  liblapack3
+  nmap-runtime-libs
+Provides: libarpack.so.2=/usr/lib/x86_64-linux-gnu/libarpack.so.2.1.0
