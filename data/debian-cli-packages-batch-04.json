@@ -274,6 +274,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libblosc1"
+      ],
+      "debian_version": "1.21.5+ds-1+b2",
+      "dependencies": [
+        "libsnappy1v5"
+      ],
+      "description": "high performance meta-compressor optimized for binary data",
+      "license": "See /usr/share/doc/libblosc1/copyright",
+      "license_path": "usr/share/doc/libblosc1/copyright",
+      "name": "libblosc1",
+      "url": "https://packages.debian.org/trixie/libblosc1",
+      "version": "1.21.5+ds-1+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libbluetooth3"
       ],
       "debian_version": "5.82-1.1",
@@ -1411,6 +1427,12 @@
       "filename": "pool/main/b/bcg729/libbcg729-0_1.1.1-3+deb13u1_amd64.deb",
       "sha256": "5b0175dd97a54acae860a6b228683bad092ae5dd02eaf64fb4664b7b9b7e3f01",
       "version": "1.1.1-3+deb13u1"
+    },
+    "libblosc1": {
+      "architecture": "amd64",
+      "filename": "pool/main/c/c-blosc/libblosc1_1.21.5+ds-1+b2_amd64.deb",
+      "sha256": "a3365501d67ef4fcb603d6304504636abe5f14eb547f0846bc0c081e9e9a6184",
+      "version": "1.21.5+ds-1+b2"
     },
     "libbluetooth3": {
       "architecture": "amd64",

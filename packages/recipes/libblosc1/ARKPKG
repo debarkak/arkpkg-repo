@@ -1,0 +1,10 @@
+Name: libblosc1
+Description: high performance meta-compressor optimized for binary data
+Version: 1.21.5+ds-1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libblosc1
+License: See /usr/share/doc/libblosc1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsnappy1v5
+Provides: libblosc.so.1=/usr/lib/x86_64-linux-gnu/libblosc.so.1.21.5
