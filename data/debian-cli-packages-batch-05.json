@@ -422,6 +422,20 @@
       "name": "enchant-2",
       "url": "https://rrthomas.github.io/enchant/",
       "version": "2.8.2+dfsg1-3"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "exfalso"
+      ],
+      "debian_version": "4.6.0-6",
+      "dependencies": [],
+      "description": "audio tag editor for GTK+",
+      "license": "See /usr/share/doc/exfalso/copyright",
+      "license_path": "usr/share/doc/exfalso/copyright",
+      "name": "exfalso",
+      "url": "https://github.com/quodlibet/quodlibet",
+      "version": "4.6.0-6"
     }
   ],
   "source_integrity": {

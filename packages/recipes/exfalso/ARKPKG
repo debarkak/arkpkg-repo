@@ -1,0 +1,8 @@
+Name: exfalso
+Description: audio tag editor for GTK+
+Version: 4.6.0-6
+Arch: any
+URL: https://github.com/quodlibet/quodlibet
+License: See /usr/share/doc/exfalso/copyright
+Maintainer: arkanaOS Team
+Provides: exfalso=/usr/bin/exfalso, operon=/usr/bin/operon
