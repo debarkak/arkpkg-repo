@@ -2279,6 +2279,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libxmlsec1t64-openssl"
+      ],
+      "debian_version": "1.2.41-1+b1",
+      "dependencies": [
+        "libxmlsec1t64",
+        "openssl-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "Openssl engine for the XML security library",
+      "license": "See /usr/share/doc/libxmlsec1t64-openssl/copyright",
+      "license_path": "usr/share/doc/libxmlsec1t64-openssl/copyright",
+      "name": "libxmlsec1t64-openssl",
+      "url": "https://packages.debian.org/trixie/libxmlsec1t64-openssl",
+      "version": "1.2.41-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libxxhash0"
       ],
       "debian_version": "0.8.3-2",
@@ -3585,6 +3603,12 @@
       "architecture": "amd64",
       "filename": "pool/main/x/xmlsec1/libxmlsec1t64_1.2.41-1+b1_amd64.deb",
       "sha256": "bb5fdbea42a51b86b9105dff2d3ee656ee59cbb6d09f411c0b064659e429db21",
+      "version": "1.2.41-1+b1"
+    },
+    "libxmlsec1t64-openssl": {
+      "architecture": "amd64",
+      "filename": "pool/main/x/xmlsec1/libxmlsec1t64-openssl_1.2.41-1+b1_amd64.deb",
+      "sha256": "6ebca68cde4f3ea99b9f12fc1ac6ba32a0bcb04d15c3e9200346e94da70dbffd",
       "version": "1.2.41-1+b1"
     },
     "libxxhash0": {

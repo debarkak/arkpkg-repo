@@ -1,0 +1,12 @@
+Name: libxmlsec1t64-openssl
+Description: Openssl engine for the XML security library
+Version: 1.2.41-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libxmlsec1t64-openssl
+License: See /usr/share/doc/libxmlsec1t64-openssl/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libxmlsec1t64
+  openssl-libs
+  xml-runtime-libs
+Provides: libxmlsec1-openssl.so.1=/usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.41
