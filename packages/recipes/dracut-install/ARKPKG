@@ -1,0 +1,7 @@
+Name: dracut-install
+Description: dracut is an event driven initramfs infrastructure (dracut-install)
+Version: 106-6
+Arch: x86_64
+URL: https://github.com/dracut-ng/dracut-ng/wiki
+License: See /usr/share/doc/dracut-install/copyright
+Maintainer: arkanaOS Team

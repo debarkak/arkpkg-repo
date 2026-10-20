@@ -390,6 +390,22 @@
       "name": "dos2unix",
       "url": "https://waterlan.home.xs4all.nl/dos2unix.html",
       "version": "7.5.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "dracut-install"
+      ],
+      "debian_version": "106-6",
+      "dependencies": [
+        "kmod-libs"
+      ],
+      "description": "dracut is an event driven initramfs infrastructure (dracut-install)",
+      "license": "See /usr/share/doc/dracut-install/copyright",
+      "license_path": "usr/share/doc/dracut-install/copyright",
+      "name": "dracut-install",
+      "url": "https://github.com/dracut-ng/dracut-ng/wiki",
+      "version": "106-6"
     }
   ],
   "source_integrity": {
