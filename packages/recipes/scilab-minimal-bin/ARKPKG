@@ -1,0 +1,30 @@
+Name: scilab-minimal-bin
+Description: Scientific software package for numerical computations (minimal binary files)
+Version: 2024.1.0+dfsg-6+deb13u1
+Arch: x86_64
+URL: https://www.scilab.org
+License: See /usr/share/doc/scilab-minimal-bin/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libamd3
+  libarpack2t64
+  libblas.so.3
+  libfftw3-double3
+  libgfortran5
+  libgomp1
+  libhdf5-310
+  libhdf5-hl-310
+  libklu2
+  liblapack3
+  libmatio13
+  libpcre2-posix3
+  libquadmath0
+  libtcl8.6
+  libtk8.6
+  libumfpack6
+  ncurses-compat-libs
+  ncurses-libs
+  nmap-runtime-libs
+  pcre2-libs
+  xml-runtime-libs
+Provides: libsciaction_binding-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciaction_binding-disable.so.2024.1.0, libsciarnoldi.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciarnoldi.so.2024.1.0, libsciast.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciast.so.2024.1.0, libscicall_scilab.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscicall_scilab.so.2024.1.0, libscicommons-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscicommons-disable.so.2024.1.0, libscicompletion.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscicompletion.so.2024.1.0, libsciconsole-minimal.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciconsole-minimal.so.2024.1.0, libscicoverage.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscicoverage.so.2024.1.0, libscidifferential_equations.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscidifferential_equations.so.2024.1.0, libsciexternal_objects.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciexternal_objects.so.2024.1.0, libscifunctions.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscifunctions.so.2024.1.0, libscifunctions_manager.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscifunctions_manager.so.2024.1.0, libscigraphic_export-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscigraphic_export-disable.so.2024.1.0, libscigraphic_objects-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscigraphic_objects-disable.so.2024.1.0, libscigraphics-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscigraphics-disable.so.2024.1.0, libscigui-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscigui-disable.so.2024.1.0, libscihdf5.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscihdf5.so.2024.1.0, libscihelptools-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscihelptools-disable.so.2024.1.0, libscihistory_browser-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscihistory_browser-disable.so.2024.1.0, libscihistory_manager.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscihistory_manager.so.2024.1.0, libsciinterpolation.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciinterpolation.so.2024.1.0, libscijvm-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscijvm-disable.so.2024.1.0, libscilab-cli.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscilab-cli.so.2024.1.0, libscilocalization.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscilocalization.so.2024.1.0, libscimatio.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscimatio.so.2024.1.0, libscioptimization.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscioptimization.so.2024.1.0, libsciparallel.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciparallel.so.2024.1.0, libscipreferences-cli.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscipreferences-cli.so.2024.1.0, libscirandlib.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscirandlib.so.2024.1.0, libsciscinotes-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciscinotes-disable.so.2024.1.0, libscisignal_processing.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscisignal_processing.so.2024.1.0, libscislint.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscislint.so.2024.1.0, libscisound.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscisound.so.2024.1.0, libscispecial_functions.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscispecial_functions.so.2024.1.0, libscispreadsheet.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscispreadsheet.so.2024.1.0, libscistatistics.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscistatistics.so.2024.1.0, libscisundials.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscisundials.so.2024.1.0, libscitclsci-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscitclsci-disable.so.2024.1.0, libscitclsci.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscitclsci.so.2024.1.0, libsciui_data-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciui_data-disable.so.2024.1.0, libsciumfpack.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciumfpack.so.2024.1.0, libsciwebtools.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libsciwebtools.so.2024.1.0, libscixcos-disable.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscixcos-disable.so.2024.1.0, libscixml.so.2024=/usr/lib/x86_64-linux-gnu/scilab/libscixml.so.2024.1.0, scilab-cli-bin=/usr/bin/scilab-cli-bin

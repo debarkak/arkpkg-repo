@@ -4098,6 +4098,42 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "scilab-minimal-bin"
+      ],
+      "debian_version": "2024.1.0+dfsg-6+deb13u1",
+      "dependencies": [
+        "libamd3",
+        "libarpack2t64",
+        "libblas.so.3",
+        "libfftw3-double3",
+        "libgfortran5",
+        "libgomp1",
+        "libhdf5-310",
+        "libhdf5-hl-310",
+        "libklu2",
+        "liblapack3",
+        "libmatio13",
+        "libpcre2-posix3",
+        "libquadmath0",
+        "libtcl8.6",
+        "libtk8.6",
+        "libumfpack6",
+        "ncurses-compat-libs",
+        "ncurses-libs",
+        "nmap-runtime-libs",
+        "pcre2-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "Scientific software package for numerical computations (minimal binary files)",
+      "license": "See /usr/share/doc/scilab-minimal-bin/copyright",
+      "license_path": "usr/share/doc/scilab-minimal-bin/copyright",
+      "name": "scilab-minimal-bin",
+      "url": "https://www.scilab.org",
+      "version": "2024.1.0+dfsg-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "slrn"
       ],
       "debian_version": "1.0.3+dfsg-8",
@@ -5964,6 +6000,12 @@
       "architecture": "amd64",
       "filename": "pool/main/s/scilab/scilab-include_2024.1.0+dfsg-6+deb13u1_amd64.deb",
       "sha256": "fa3102b7684c4dcd6e119249ae6561b12ef8fe296feaa63573abc34f38db9c69",
+      "version": "2024.1.0+dfsg-6+deb13u1"
+    },
+    "scilab-minimal-bin": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/scilab/scilab-minimal-bin_2024.1.0+dfsg-6+deb13u1_amd64.deb",
+      "sha256": "7b9535e97f51f1a7d0028b5c685830642fc3cb76300b4e3c7b2ee7de597c2ee7",
       "version": "2024.1.0+dfsg-6+deb13u1"
     },
     "slrn": {
