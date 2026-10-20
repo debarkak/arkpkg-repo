@@ -1,0 +1,8 @@
+Name: printer-driver-min12xxw
+Description: printer driver for KonicaMinolta PagePro 1[234]xxW
+Version: 0.0.9-11
+Arch: x86_64
+URL: http://www.hinterbergen.de/mala/min12xxw/
+License: See /usr/share/doc/printer-driver-min12xxw/copyright
+Maintainer: arkanaOS Team
+Provides: esc-m=/usr/bin/esc-m, min12xxw=/usr/bin/min12xxw

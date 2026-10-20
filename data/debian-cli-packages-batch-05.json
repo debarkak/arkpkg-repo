@@ -2630,6 +2630,20 @@
       "name": "printer-driver-hpijs",
       "url": "https://developers.hp.com/hp-linux-imaging-and-printing",
       "version": "3.22.10+dfsg0-8.1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "printer-driver-min12xxw"
+      ],
+      "debian_version": "0.0.9-11",
+      "dependencies": [],
+      "description": "printer driver for KonicaMinolta PagePro 1[234]xxW",
+      "license": "See /usr/share/doc/printer-driver-min12xxw/copyright",
+      "license_path": "usr/share/doc/printer-driver-min12xxw/copyright",
+      "name": "printer-driver-min12xxw",
+      "url": "http://www.hinterbergen.de/mala/min12xxw/",
+      "version": "0.0.9-11"
     }
   ],
   "source_integrity": {
