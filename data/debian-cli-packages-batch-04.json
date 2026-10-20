@@ -2078,6 +2078,23 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libubertooth1"
+      ],
+      "debian_version": "2018.12.R1-5.3",
+      "dependencies": [
+        "libbtbb1",
+        "libusb-libs"
+      ],
+      "description": "Shared library for Bluetooth experimentation",
+      "license": "See /usr/share/doc/libubertooth1/copyright",
+      "license_path": "usr/share/doc/libubertooth1/copyright",
+      "name": "libubertooth1",
+      "url": "https://packages.debian.org/trixie/libubertooth1",
+      "version": "2018.12.R1-5.3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libunbound8"
       ],
       "debian_version": "1.22.0-2+deb13u3",
@@ -3449,6 +3466,12 @@
       "filename": "pool/main/t/tpm2-tss/libtss2-tctildr0t64_4.1.3-1.2_amd64.deb",
       "sha256": "90a301083c38ae92c16fab7d5bfc2d1f3874a09a33f500d289308bdbb12e135d",
       "version": "4.1.3-1.2"
+    },
+    "libubertooth1": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/ubertooth/libubertooth1_2018.12.R1-5.3_amd64.deb",
+      "sha256": "ad944468adbb0a5c7f89eaabea0c2101f9d57fd1c01f4ba7932cd4617ed13019",
+      "version": "2018.12.R1-5.3"
     },
     "libunbound8": {
       "architecture": "amd64",

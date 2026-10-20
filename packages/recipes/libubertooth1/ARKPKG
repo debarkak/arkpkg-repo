@@ -1,0 +1,11 @@
+Name: libubertooth1
+Description: Shared library for Bluetooth experimentation
+Version: 2018.12.R1-5.3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libubertooth1
+License: See /usr/share/doc/libubertooth1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libbtbb1
+  libusb-libs
+Provides: libubertooth.so.1=/usr/lib/x86_64-linux-gnu/libubertooth.so.1.1
