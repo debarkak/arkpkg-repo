@@ -1,0 +1,8 @@
+Name: libopencore-amrnb0
+Description: Adaptive Multi Rate speech codec - shared library
+Version: 0.1.6-1+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libopencore-amrnb0
+License: See /usr/share/doc/libopencore-amrnb0/copyright
+Maintainer: arkanaOS Team
+Provides: libopencore-amrnb.so.0=/usr/lib/x86_64-linux-gnu/libopencore-amrnb.so.0.0.5

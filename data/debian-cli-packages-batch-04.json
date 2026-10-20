@@ -726,6 +726,20 @@
       "name": "libogdi4.1",
       "url": "https://packages.debian.org/trixie/libogdi4.1",
       "version": "4.1.1+ds-5"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libopencore-amrnb0"
+      ],
+      "debian_version": "0.1.6-1+b2",
+      "dependencies": [],
+      "description": "Adaptive Multi Rate speech codec - shared library",
+      "license": "See /usr/share/doc/libopencore-amrnb0/copyright",
+      "license_path": "usr/share/doc/libopencore-amrnb0/copyright",
+      "name": "libopencore-amrnb0",
+      "url": "https://packages.debian.org/trixie/libopencore-amrnb0",
+      "version": "0.1.6-1+b2"
     }
   ],
   "source_integrity": {
@@ -1043,6 +1057,12 @@
       "filename": "pool/main/o/ogdi-dfsg/libogdi4.1_4.1.1+ds-5_amd64.deb",
       "sha256": "9f7d2e7d4966481539f6ebc0f7270b1ac8f5792deb54a85338aa8a996a050615",
       "version": "4.1.1+ds-5"
+    },
+    "libopencore-amrnb0": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/opencore-amr/libopencore-amrnb0_0.1.6-1+b2_amd64.deb",
+      "sha256": "25ec8a9f76a9b4377e676c3223d59eed5a0a3a943438c8cab066238328b24315",
+      "version": "0.1.6-1+b2"
     }
   },
   "suite": "trixie"
