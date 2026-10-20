@@ -1,0 +1,10 @@
+Name: mailcap
+Description: Debian's mailcap system, and support programs
+Version: 3.74
+Arch: any
+URL: https://packages.debian.org/trixie/mailcap
+License: See /usr/share/doc/mailcap/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
+Provides: compose=/usr/bin/compose, edit=/usr/bin/edit, print=/usr/bin/print, run-mailcap=/usr/bin/run-mailcap, see=/usr/bin/see, update-mime=/usr/sbin/update-mime

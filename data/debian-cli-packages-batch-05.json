@@ -2127,6 +2127,22 @@
       "name": "lsp-plugins-r3d-glx",
       "url": "https://lsp-plug.in/",
       "version": "1.2.21-5"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "mailcap"
+      ],
+      "debian_version": "3.74",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "Debian's mailcap system, and support programs",
+      "license": "See /usr/share/doc/mailcap/copyright",
+      "license_path": "usr/share/doc/mailcap/copyright",
+      "name": "mailcap",
+      "url": "https://packages.debian.org/trixie/mailcap",
+      "version": "3.74"
     }
   ],
   "source_integrity": {
