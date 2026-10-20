@@ -1,0 +1,15 @@
+Name: lldpd
+Description: implementation of IEEE 802.1ab (LLDP)
+Version: 1.0.18-1+b1
+Arch: x86_64
+URL: https://lldpd.github.io
+License: See /usr/share/doc/lldpd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libbsd
+  libcap
+  libevent-2.1-7t64
+  libsnmp40t64
+  readline-libs
+  xml-runtime-libs
+Provides: liblldpctl.so.4=/usr/lib/x86_64-linux-gnu/liblldpctl.so.4.9.1, lldpcli=/usr/sbin/lldpcli, lldpctl=/usr/sbin/lldpctl, lldpd=/usr/sbin/lldpd

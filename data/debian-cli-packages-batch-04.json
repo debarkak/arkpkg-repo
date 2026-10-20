@@ -2986,6 +2986,27 @@
       "version": "0.6.2-1"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "lldpd"
+      ],
+      "debian_version": "1.0.18-1+b1",
+      "dependencies": [
+        "libbsd",
+        "libcap",
+        "libevent-2.1-7t64",
+        "libsnmp40t64",
+        "readline-libs",
+        "xml-runtime-libs"
+      ],
+      "description": "implementation of IEEE 802.1ab (LLDP)",
+      "license": "See /usr/share/doc/lldpd/copyright",
+      "license_path": "usr/share/doc/lldpd/copyright",
+      "name": "lldpd",
+      "url": "https://lldpd.github.io",
+      "version": "1.0.18-1+b1"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "lua-resty-lrucache"
@@ -4926,6 +4947,12 @@
       "filename": "pool/main/z/zix/libzix-0-0_0.6.2-1_amd64.deb",
       "sha256": "896d3b244020120b17a21ded38508582ee861ffa90fc0fb0fd539e27698a96b6",
       "version": "0.6.2-1"
+    },
+    "lldpd": {
+      "architecture": "amd64",
+      "filename": "pool/main/l/lldpd/lldpd_1.0.18-1+b1_amd64.deb",
+      "sha256": "4b8aa0565b55de74e914866bd8d36fd97f3bc45cddf13cb5f29c90094b630737",
+      "version": "1.0.18-1+b1"
     },
     "lua-resty-lrucache": {
       "architecture": "all",
