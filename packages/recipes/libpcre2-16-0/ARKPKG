@@ -1,0 +1,8 @@
+Name: libpcre2-16-0
+Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
+Version: 10.46-1~deb13u2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpcre2-16-0
+License: See /usr/share/doc/libpcre2-16-0/copyright
+Maintainer: arkanaOS Team
+Provides: libpcre2-16.so.0=/usr/lib/x86_64-linux-gnu/libpcre2-16.so.0.14.0

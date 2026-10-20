@@ -1598,6 +1598,20 @@
       "name": "libout123-0t64",
       "url": "https://packages.debian.org/trixie/libout123-0t64",
       "version": "1.32.10-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libpcre2-16-0"
+      ],
+      "debian_version": "10.46-1~deb13u2",
+      "dependencies": [],
+      "description": "New Perl Compatible Regular Expression Library - 16 bit runtime files",
+      "license": "See /usr/share/doc/libpcre2-16-0/copyright",
+      "license_path": "usr/share/doc/libpcre2-16-0/copyright",
+      "name": "libpcre2-16-0",
+      "url": "https://packages.debian.org/trixie/libpcre2-16-0",
+      "version": "10.46-1~deb13u2"
     }
   ],
   "source_integrity": {
