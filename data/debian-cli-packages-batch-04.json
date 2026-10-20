@@ -446,6 +446,20 @@
       "name": "libevent-2.1-7t64",
       "url": "https://packages.debian.org/trixie/libevent-2.1-7t64",
       "version": "2.1.12-stable-10+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libevent-core-2.1-7t64"
+      ],
+      "debian_version": "2.1.12-stable-10+b1",
+      "dependencies": [],
+      "description": "Asynchronous event notification library (core)",
+      "license": "See /usr/share/doc/libevent-core-2.1-7t64/copyright",
+      "license_path": "usr/share/doc/libevent-core-2.1-7t64/copyright",
+      "name": "libevent-core-2.1-7t64",
+      "url": "https://packages.debian.org/trixie/libevent-core-2.1-7t64",
+      "version": "2.1.12-stable-10+b1"
     }
   ],
   "source_integrity": {
@@ -642,6 +656,12 @@
       "architecture": "amd64",
       "filename": "pool/main/libe/libevent/libevent-2.1-7t64_2.1.12-stable-10+b1_amd64.deb",
       "sha256": "5b2201fe46d8710bc4b2566abe0a3e29c63dd94779644f6d32c777a5281c86a3",
+      "version": "2.1.12-stable-10+b1"
+    },
+    "libevent-core-2.1-7t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/libe/libevent/libevent-core-2.1-7t64_2.1.12-stable-10+b1_amd64.deb",
+      "sha256": "1bc17a28932ce24d863ae39dfc1a975c5c83760bb67655d9e4dd3807c9b768e0",
       "version": "2.1.12-stable-10+b1"
     }
   },
