@@ -744,6 +744,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libgpgme11t64"
+      ],
+      "debian_version": "1.24.2-3",
+      "dependencies": [
+        "libassuan9"
+      ],
+      "description": "GPGME - GnuPG Made Easy (library)",
+      "license": "See /usr/share/doc/libgpgme11t64/copyright",
+      "license_path": "usr/share/doc/libgpgme11t64/copyright",
+      "name": "libgpgme11t64",
+      "url": "https://packages.debian.org/trixie/libgpgme11t64",
+      "version": "1.24.2-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libibumad3"
       ],
       "debian_version": "56.1-1",
@@ -1757,6 +1773,12 @@
       "filename": "pool/main/g/gl2ps/libgl2ps1.4_1.4.2+dfsg1-2_amd64.deb",
       "sha256": "e92c67bdf9373b3315ef101119cf7ef96ac5ae4ffa9b9c2445686f1af1425260",
       "version": "1.4.2+dfsg1-2"
+    },
+    "libgpgme11t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gpgme1.0/libgpgme11t64_1.24.2-3_amd64.deb",
+      "sha256": "6650203af59ccf73b22cd6904fb179a799cb70d62885b19ae725c0655c04241c",
+      "version": "1.24.2-3"
     },
     "libibumad3": {
       "architecture": "amd64",

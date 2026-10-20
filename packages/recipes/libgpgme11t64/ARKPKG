@@ -1,0 +1,10 @@
+Name: libgpgme11t64
+Description: GPGME - GnuPG Made Easy (library)
+Version: 1.24.2-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgpgme11t64
+License: See /usr/share/doc/libgpgme11t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libassuan9
+Provides: libgpgme.so.11=/usr/lib/x86_64-linux-gnu/libgpgme.so.11.33.2
