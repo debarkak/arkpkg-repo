@@ -93,6 +93,29 @@
       "name": "aspell",
       "url": "http://aspell.net/",
       "version": "0.60.8.1-4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "astrometry.net"
+      ],
+      "debian_version": "0.97+dfsg-2",
+      "dependencies": [
+        "libastrometry0t64",
+        "libcairo2",
+        "libcfitsio10t64",
+        "libgsl28",
+        "libjpeg62-turbo",
+        "libnetpbm11t64",
+        "libpng16-16t64",
+        "libwcs8"
+      ],
+      "description": "Astrometry plate solver",
+      "license": "See /usr/share/doc/astrometry.net/copyright",
+      "license_path": "usr/share/doc/astrometry.net/copyright",
+      "name": "astrometry.net",
+      "url": "http://www.astrometry.net",
+      "version": "0.97+dfsg-2"
     }
   ],
   "source_integrity": {

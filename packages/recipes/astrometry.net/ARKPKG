@@ -1,0 +1,8 @@
+Name: astrometry.net
+Description: Astrometry plate solver
+Version: 0.97+dfsg-2
+Arch: x86_64
+URL: http://www.astrometry.net
+License: See /usr/share/doc/astrometry.net/copyright
+Maintainer: arkanaOS Team
+Provides: an-fitstopnm=/usr/bin/an-fitstopnm, an-pnmtofits=/usr/bin/an-pnmtofits, astrometry-engine=/usr/bin/astrometry-engine, build-astrometry-index=/usr/bin/build-astrometry-index, downsample-fits=/usr/bin/downsample-fits, fit-wcs=/usr/bin/fit-wcs, fits-column-merge=/usr/bin/fits-column-merge, fits-flip-endian=/usr/bin/fits-flip-endian, fits-guess-scale=/usr/bin/fits-guess-scale, fitsgetext=/usr/bin/fitsgetext, get-healpix=/usr/bin/get-healpix, get-wcs=/usr/bin/get-wcs, hpsplit=/usr/bin/hpsplit, image2xy=/usr/bin/image2xy, new-wcs=/usr/bin/new-wcs, pad-file=/usr/bin/pad-file, plot-constellations=/usr/bin/plot-constellations, plotquad=/usr/bin/plotquad, plotxy=/usr/bin/plotxy, query-starkd=/usr/bin/query-starkd, solve-field=/usr/bin/solve-field, subtable=/usr/bin/subtable, tabsort=/usr/bin/tabsort, wcs-grab=/usr/bin/wcs-grab, wcs-match=/usr/bin/wcs-match, wcs-pv2sip=/usr/bin/wcs-pv2sip, wcs-rd2xy=/usr/bin/wcs-rd2xy, wcs-resample=/usr/bin/wcs-resample, wcs-to-tan=/usr/bin/wcs-to-tan, wcs-xy2rd=/usr/bin/wcs-xy2rd, wcsinfo=/usr/bin/wcsinfo
