@@ -1,0 +1,8 @@
+Name: inn2-inews
+Description: NNTP client news injector, from InterNetNews (INN)
+Version: 2.7.3-1
+Arch: x86_64
+URL: https://www.eyrie.org/~eagle/software/inn/
+License: See /usr/share/doc/inn2-inews/copyright
+Maintainer: arkanaOS Team
+Provides: inews=/usr/bin/inews, libinn.so.9=/usr/lib/news/libinn.so.9.0.2, rnews=/usr/bin/rnews
