@@ -1,0 +1,13 @@
+Name: libumfpack6
+Description: sparse LU factorization library
+Version: 1:7.10.1+dfsg-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libumfpack6
+License: See /usr/share/doc/libumfpack6/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libamd3
+  libcholmod5
+  libsuitesparseconfig7
+  nmap-runtime-libs
+Provides: libumfpack.so.6=/usr/lib/x86_64-linux-gnu/libumfpack.so.6.3.5
