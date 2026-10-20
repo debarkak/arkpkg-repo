@@ -1,0 +1,8 @@
+Name: libnetpbm11t64
+Description: Graphics conversion tools shared libraries
+Version: 2:11.10.02-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libnetpbm11t64
+License: See /usr/share/doc/libnetpbm11t64/copyright
+Maintainer: arkanaOS Team
+Provides: libnetpbm.so.11=/usr/lib/x86_64-linux-gnu/libnetpbm.so.11.110

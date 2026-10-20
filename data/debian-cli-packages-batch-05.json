@@ -1539,6 +1539,20 @@
       "name": "libmupdf25.1",
       "url": "https://packages.debian.org/trixie/libmupdf25.1",
       "version": "1.25.1+ds1-6+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libnetpbm11t64"
+      ],
+      "debian_version": "2:11.10.02-1",
+      "dependencies": [],
+      "description": "Graphics conversion tools shared libraries",
+      "license": "See /usr/share/doc/libnetpbm11t64/copyright",
+      "license_path": "usr/share/doc/libnetpbm11t64/copyright",
+      "name": "libnetpbm11t64",
+      "url": "https://packages.debian.org/trixie/libnetpbm11t64",
+      "version": "2:11.10.02-1"
     }
   ],
   "source_integrity": {
