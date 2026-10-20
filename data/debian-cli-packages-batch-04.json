@@ -1798,6 +1798,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libxmlsec1t64"
+      ],
+      "debian_version": "1.2.41-1+b1",
+      "dependencies": [
+        "xml-runtime-libs"
+      ],
+      "description": "XML security library",
+      "license": "See /usr/share/doc/libxmlsec1t64/copyright",
+      "license_path": "usr/share/doc/libxmlsec1t64/copyright",
+      "name": "libxmlsec1t64",
+      "url": "https://packages.debian.org/trixie/libxmlsec1t64",
+      "version": "1.2.41-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libxxhash0"
       ],
       "debian_version": "0.8.3-2",
@@ -2777,6 +2793,12 @@
       "filename": "pool/main/x/xdp-tools/libxdp1_1.5.4-1_amd64.deb",
       "sha256": "f76c5565a96a486e7de5c187427bb4849f5a96b58e6e881aa662b22cadaefc5d",
       "version": "1.5.4-1"
+    },
+    "libxmlsec1t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/x/xmlsec1/libxmlsec1t64_1.2.41-1+b1_amd64.deb",
+      "sha256": "bb5fdbea42a51b86b9105dff2d3ee656ee59cbb6d09f411c0b064659e429db21",
+      "version": "1.2.41-1+b1"
     },
     "libxxhash0": {
       "architecture": "amd64",

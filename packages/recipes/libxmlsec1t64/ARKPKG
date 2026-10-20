@@ -1,0 +1,10 @@
+Name: libxmlsec1t64
+Description: XML security library
+Version: 1.2.41-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libxmlsec1t64
+License: See /usr/share/doc/libxmlsec1t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  xml-runtime-libs
+Provides: libxmlsec1.so.1=/usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.41
