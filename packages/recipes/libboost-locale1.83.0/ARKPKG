@@ -1,0 +1,11 @@
+Name: libboost-locale1.83.0
+Description: C++ facilities for localization
+Version: 1.83.0-4.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libboost-locale1.83.0
+License: See /usr/share/doc/libboost-locale1.83.0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libboost-thread1.83.0
+  libicu76
+Provides: libboost_locale.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_locale.so.1.83.0

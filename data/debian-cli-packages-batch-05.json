@@ -896,6 +896,23 @@
       "name": "libboost-iostreams1.83.0",
       "url": "https://packages.debian.org/trixie/libboost-iostreams1.83.0",
       "version": "1.83.0-4.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libboost-locale1.83.0"
+      ],
+      "debian_version": "1.83.0-4.2",
+      "dependencies": [
+        "libboost-thread1.83.0",
+        "libicu76"
+      ],
+      "description": "C++ facilities for localization",
+      "license": "See /usr/share/doc/libboost-locale1.83.0/copyright",
+      "license_path": "usr/share/doc/libboost-locale1.83.0/copyright",
+      "name": "libboost-locale1.83.0",
+      "url": "https://packages.debian.org/trixie/libboost-locale1.83.0",
+      "version": "1.83.0-4.2"
     }
   ],
   "source_integrity": {
