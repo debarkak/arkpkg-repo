@@ -2737,6 +2737,22 @@
       "name": "python3-pyaml-env",
       "url": "https://github.com/mkaranasou/pyaml_env",
       "version": "1.2.1-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "qpdf"
+      ],
+      "debian_version": "12.2.0-1",
+      "dependencies": [
+        "libqpdf30"
+      ],
+      "description": "tools for transforming and inspecting PDF files",
+      "license": "See /usr/share/doc/qpdf/copyright",
+      "license_path": "usr/share/doc/qpdf/copyright",
+      "name": "qpdf",
+      "url": "https://qpdf.sourceforge.io",
+      "version": "12.2.0-1"
     }
   ],
   "source_integrity": {

@@ -1,0 +1,10 @@
+Name: qpdf
+Description: tools for transforming and inspecting PDF files
+Version: 12.2.0-1
+Arch: x86_64
+URL: https://qpdf.sourceforge.io
+License: See /usr/share/doc/qpdf/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libqpdf30
+Provides: fix-qdf=/usr/bin/fix-qdf, qpdf=/usr/bin/qpdf, zlib-flate=/usr/bin/zlib-flate
