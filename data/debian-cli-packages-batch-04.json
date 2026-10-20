@@ -320,6 +320,20 @@
       "name": "libbs2b0",
       "url": "https://packages.debian.org/trixie/libbs2b0",
       "version": "3.1.0+dfsg-8+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libbtbb1"
+      ],
+      "debian_version": "2018.12.R1-1+b2",
+      "dependencies": [],
+      "description": "Bluetooth baseband decoding library",
+      "license": "See /usr/share/doc/libbtbb1/copyright",
+      "license_path": "usr/share/doc/libbtbb1/copyright",
+      "name": "libbtbb1",
+      "url": "https://packages.debian.org/trixie/libbtbb1",
+      "version": "2018.12.R1-1+b2"
     }
   ],
   "source_integrity": {
@@ -463,6 +477,12 @@
       "filename": "pool/main/libb/libbs2b/libbs2b0_3.1.0+dfsg-8+b1_amd64.deb",
       "sha256": "683621e230de5d9cb919f6c6c3a18db4eb7b80706761b983a4a8f2a56747351d",
       "version": "3.1.0+dfsg-8+b1"
+    },
+    "libbtbb1": {
+      "architecture": "amd64",
+      "filename": "pool/main/libb/libbtbb/libbtbb1_2018.12.R1-1+b2_amd64.deb",
+      "sha256": "f99eef7302d209435dc8c0d3ccabebb3682b472a25dab6a15483dfbdb960b8d4",
+      "version": "2018.12.R1-1+b2"
     }
   },
   "suite": "trixie"
