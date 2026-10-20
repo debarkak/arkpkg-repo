@@ -1132,6 +1132,20 @@
       "name": "prometheus",
       "url": "https://prometheus.io/",
       "version": "2.53.3+ds1-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "prometheus-node-exporter"
+      ],
+      "debian_version": "1.9.0-1+b4",
+      "dependencies": [],
+      "description": "Prometheus exporter for machine metrics",
+      "license": "See /usr/share/doc/prometheus-node-exporter/copyright",
+      "license_path": "usr/share/doc/prometheus-node-exporter/copyright",
+      "name": "prometheus-node-exporter",
+      "url": "https://github.com/prometheus/node_exporter",
+      "version": "1.9.0-1+b4"
     }
   ],
   "source_integrity": {
@@ -1623,6 +1637,12 @@
       "filename": "pool/main/p/prometheus/prometheus_2.53.3+ds1-2_amd64.deb",
       "sha256": "58c3e6a86c56cb3bfd71032fa48d65945d526441a212f5815dfe5ed9cb787ecc",
       "version": "2.53.3+ds1-2"
+    },
+    "prometheus-node-exporter": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/prometheus-node-exporter/prometheus-node-exporter_1.9.0-1+b4_amd64.deb",
+      "sha256": "9db00cad0c9e160a4e9c13cbdb2833d58becb1f4cd60eeb0b5e12477ba6a42bd",
+      "version": "1.9.0-1+b4"
     }
   },
   "suite": "trixie"

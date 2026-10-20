@@ -1,0 +1,8 @@
+Name: prometheus-node-exporter
+Description: Prometheus exporter for machine metrics
+Version: 1.9.0-1+b4
+Arch: x86_64
+URL: https://github.com/prometheus/node_exporter
+License: See /usr/share/doc/prometheus-node-exporter/copyright
+Maintainer: arkanaOS Team
+Provides: prometheus-node-exporter=/usr/bin/prometheus-node-exporter
