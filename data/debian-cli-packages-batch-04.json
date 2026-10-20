@@ -2016,6 +2016,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libtss2-esys-3.0.2-0t64"
+      ],
+      "debian_version": "4.1.3-1.2",
+      "dependencies": [
+        "libtss2-mu-4.0.1-0t64",
+        "libtss2-sys1t64",
+        "openssl-libs"
+      ],
+      "description": "TPM2 Software stack library - TSS and TCTI libraries",
+      "license": "See /usr/share/doc/libtss2-esys-3.0.2-0t64/copyright",
+      "license_path": "usr/share/doc/libtss2-esys-3.0.2-0t64/copyright",
+      "name": "libtss2-esys-3.0.2-0t64",
+      "url": "https://packages.debian.org/trixie/libtss2-esys-3.0.2-0t64",
+      "version": "4.1.3-1.2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libtss2-mu-4.0.1-0t64"
       ],
       "debian_version": "4.1.3-1.2",
@@ -3407,6 +3425,12 @@
       "filename": "pool/main/libt/libtommath/libtommath1_1.3.0-1_amd64.deb",
       "sha256": "0e6025c5c3c07c7055993eb23fd1eb8e55ec037ef46eca2e7622825e85f56a60",
       "version": "1.3.0-1"
+    },
+    "libtss2-esys-3.0.2-0t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/t/tpm2-tss/libtss2-esys-3.0.2-0t64_4.1.3-1.2_amd64.deb",
+      "sha256": "87c0747c54e12be29c149145830385f5c6816b0fd962391858d63d70c921859e",
+      "version": "4.1.3-1.2"
     },
     "libtss2-mu-4.0.1-0t64": {
       "architecture": "amd64",

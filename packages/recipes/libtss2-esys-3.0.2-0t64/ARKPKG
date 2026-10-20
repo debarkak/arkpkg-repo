@@ -1,0 +1,12 @@
+Name: libtss2-esys-3.0.2-0t64
+Description: TPM2 Software stack library - TSS and TCTI libraries
+Version: 4.1.3-1.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtss2-esys-3.0.2-0t64
+License: See /usr/share/doc/libtss2-esys-3.0.2-0t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libtss2-mu-4.0.1-0t64
+  libtss2-sys1t64
+  openssl-libs
+Provides: libtss2-esys.so.0=/usr/lib/x86_64-linux-gnu/libtss2-esys.so.0.0.1
