@@ -1,0 +1,7 @@
+Name: scilab-include
+Description: Scientific software package for numerical computations (include files)
+Version: 2024.1.0+dfsg-6+deb13u1
+Arch: x86_64
+URL: https://www.scilab.org
+License: See /usr/share/doc/scilab-include/copyright
+Maintainer: arkanaOS Team

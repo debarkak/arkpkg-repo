@@ -1174,6 +1174,20 @@
       "name": "putty-tools",
       "url": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
       "version": "0.83-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "scilab-include"
+      ],
+      "debian_version": "2024.1.0+dfsg-6+deb13u1",
+      "dependencies": [],
+      "description": "Scientific software package for numerical computations (include files)",
+      "license": "See /usr/share/doc/scilab-include/copyright",
+      "license_path": "usr/share/doc/scilab-include/copyright",
+      "name": "scilab-include",
+      "url": "https://www.scilab.org",
+      "version": "2024.1.0+dfsg-6+deb13u1"
     }
   ],
   "source_integrity": {
@@ -1683,6 +1697,12 @@
       "filename": "pool/main/p/putty/putty-tools_0.83-3_amd64.deb",
       "sha256": "23f5c5898ab9dbb5e5b908174ddfcedcd8f25efa525a796a74fbb45fd8c73212",
       "version": "0.83-3"
+    },
+    "scilab-include": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/scilab/scilab-include_2024.1.0+dfsg-6+deb13u1_amd64.deb",
+      "sha256": "fa3102b7684c4dcd6e119249ae6561b12ef8fe296feaa63573abc34f38db9c69",
+      "version": "2024.1.0+dfsg-6+deb13u1"
     }
   },
   "suite": "trixie"
