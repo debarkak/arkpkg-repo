@@ -1,0 +1,11 @@
+Name: libportaudio2
+Description: Portable audio I/O - shared library
+Version: 19.6.0-1.2+b3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libportaudio2
+License: See /usr/share/doc/libportaudio2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  alsa-libs
+  libjack-jackd2-0
+Provides: libportaudio.so.2=/usr/lib/x86_64-linux-gnu/libportaudio.so.2.0.0

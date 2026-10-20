@@ -1659,6 +1659,23 @@
       "name": "libpoppler-glib8t64",
       "url": "https://packages.debian.org/trixie/libpoppler-glib8t64",
       "version": "25.03.0-5+deb13u4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libportaudio2"
+      ],
+      "debian_version": "19.6.0-1.2+b3",
+      "dependencies": [
+        "alsa-libs",
+        "libjack-jackd2-0"
+      ],
+      "description": "Portable audio I/O - shared library",
+      "license": "See /usr/share/doc/libportaudio2/copyright",
+      "license_path": "usr/share/doc/libportaudio2/copyright",
+      "name": "libportaudio2",
+      "url": "https://packages.debian.org/trixie/libportaudio2",
+      "version": "19.6.0-1.2+b3"
     }
   ],
   "source_integrity": {
