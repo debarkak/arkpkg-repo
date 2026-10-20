@@ -1996,6 +1996,20 @@
       "name": "libusbmuxd-2.0-7",
       "url": "https://packages.debian.org/trixie/libusbmuxd-2.0-7",
       "version": "2.1.0-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libwavpack1"
+      ],
+      "debian_version": "5.8.1-1",
+      "dependencies": [],
+      "description": "audio codec (lossy and lossless) - library",
+      "license": "See /usr/share/doc/libwavpack1/copyright",
+      "license_path": "usr/share/doc/libwavpack1/copyright",
+      "name": "libwavpack1",
+      "url": "https://packages.debian.org/trixie/libwavpack1",
+      "version": "5.8.1-1"
     }
   ],
   "source_integrity": {

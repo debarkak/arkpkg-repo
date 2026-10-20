@@ -1,0 +1,8 @@
+Name: libwavpack1
+Description: audio codec (lossy and lossless) - library
+Version: 5.8.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libwavpack1
+License: See /usr/share/doc/libwavpack1/copyright
+Maintainer: arkanaOS Team
+Provides: libwavpack.so.1=/usr/lib/x86_64-linux-gnu/libwavpack.so.1.2.7
