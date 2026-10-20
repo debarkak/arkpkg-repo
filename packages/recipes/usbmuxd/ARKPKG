@@ -1,0 +1,12 @@
+Name: usbmuxd
+Description: USB multiplexor daemon for iPhone and iPod Touch devices
+Version: 1.1.1-6+deb13u1
+Arch: x86_64
+URL: https://github.com/libimobiledevice/usbmuxd
+License: See /usr/share/doc/usbmuxd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libimobiledevice-1.0-6
+  libplist-2.0-4
+  libusb-libs
+Provides: usbmuxd=/usr/sbin/usbmuxd
