@@ -1,0 +1,8 @@
+Name: exonerate
+Description: generic tool for pairwise sequence comparison
+Version: 2.4.0-5+b1
+Arch: x86_64
+URL: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
+License: See /usr/share/doc/exonerate/copyright
+Maintainer: arkanaOS Team
+Provides: esd2esi=/usr/bin/esd2esi, exonerate-server=/usr/bin/exonerate-server, exonerate=/usr/bin/exonerate, fasta2esd=/usr/bin/fasta2esd, fastaannotatecdna=/usr/bin/fastaannotatecdna, fastachecksum=/usr/bin/fastachecksum, fastaclean=/usr/bin/fastaclean, fastaclip=/usr/bin/fastaclip, fastacomposition=/usr/bin/fastacomposition, fastadiff=/usr/bin/fastadiff, fastaexplode=/usr/bin/fastaexplode, fastafetch=/usr/bin/fastafetch, fastahardmask=/usr/bin/fastahardmask, fastaindex=/usr/bin/fastaindex, fastalength=/usr/bin/fastalength, fastanrdb=/usr/bin/fastanrdb, fastaoverlap=/usr/bin/fastaoverlap, fastareformat=/usr/bin/fastareformat, fastaremove=/usr/bin/fastaremove, fastarevcomp=/usr/bin/fastarevcomp, fastasoftmask=/usr/bin/fastasoftmask, fastasort=/usr/bin/fastasort, fastasplit=/usr/bin/fastasplit, fastasubseq=/usr/bin/fastasubseq, fastatranslate=/usr/bin/fastatranslate, fastavalidcds=/usr/bin/fastavalidcds, ipcress=/usr/bin/ipcress
