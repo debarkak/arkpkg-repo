@@ -1515,6 +1515,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libstrongswan"
+      ],
+      "debian_version": "6.0.1-6+deb13u6",
+      "dependencies": [
+        "libcap",
+        "openssl-libs",
+        "systemd-libs"
+      ],
+      "description": "strongSwan utility and crypto library",
+      "license": "See /usr/share/doc/libstrongswan/copyright",
+      "license_path": "usr/share/doc/libstrongswan/copyright",
+      "name": "libstrongswan",
+      "url": "https://packages.debian.org/trixie/libstrongswan",
+      "version": "6.0.1-6+deb13u6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libtbb12"
       ],
       "debian_version": "2022.1.0-1+deb13u1",
@@ -2562,6 +2580,12 @@
       "filename": "pool/main/s/sord/libsord-0-0_0.16.18-1_amd64.deb",
       "sha256": "cbb4167b1a85cfec94faa9f85666ee382a8bc79ce93f5d7457514e8334299e52",
       "version": "0.16.18-1"
+    },
+    "libstrongswan": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/strongswan/libstrongswan_6.0.1-6+deb13u6_amd64.deb",
+      "sha256": "58a921ae7b7cc7c7d7f3f2c6a30b4c1e441eaa5af5f50446851655e0fcd51465",
+      "version": "6.0.1-6+deb13u6"
     },
     "libtbb12": {
       "architecture": "amd64",

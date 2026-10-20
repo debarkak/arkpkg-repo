@@ -1,0 +1,12 @@
+Name: libstrongswan
+Description: strongSwan utility and crypto library
+Version: 6.0.1-6+deb13u6
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libstrongswan
+License: See /usr/share/doc/libstrongswan/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap
+  openssl-libs
+  systemd-libs
+Provides: libstrongswan-attr.so=/usr/lib/ipsec/plugins/libstrongswan-attr.so, libstrongswan-constraints.so=/usr/lib/ipsec/plugins/libstrongswan-constraints.so, libstrongswan-dnskey.so=/usr/lib/ipsec/plugins/libstrongswan-dnskey.so, libstrongswan-drbg.so=/usr/lib/ipsec/plugins/libstrongswan-drbg.so, libstrongswan-kernel-netlink.so=/usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so, libstrongswan-nonce.so=/usr/lib/ipsec/plugins/libstrongswan-nonce.so, libstrongswan-openssl.so=/usr/lib/ipsec/plugins/libstrongswan-openssl.so, libstrongswan-pem.so=/usr/lib/ipsec/plugins/libstrongswan-pem.so, libstrongswan-pkcs1.so=/usr/lib/ipsec/plugins/libstrongswan-pkcs1.so, libstrongswan-pkcs7.so=/usr/lib/ipsec/plugins/libstrongswan-pkcs7.so, libstrongswan-pkcs8.so=/usr/lib/ipsec/plugins/libstrongswan-pkcs8.so, libstrongswan-pubkey.so=/usr/lib/ipsec/plugins/libstrongswan-pubkey.so, libstrongswan-random.so=/usr/lib/ipsec/plugins/libstrongswan-random.so, libstrongswan-resolve.so=/usr/lib/ipsec/plugins/libstrongswan-resolve.so, libstrongswan-revocation.so=/usr/lib/ipsec/plugins/libstrongswan-revocation.so, libstrongswan-x509.so=/usr/lib/ipsec/plugins/libstrongswan-x509.so, libstrongswan.so.0=/usr/lib/ipsec/libstrongswan.so.0.0.0
