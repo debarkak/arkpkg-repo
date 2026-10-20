@@ -2617,6 +2617,31 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "openvpn3-client"
+      ],
+      "debian_version": "24.1+dfsg-1",
+      "dependencies": [
+        "libcap-ng",
+        "libgdbuspp3",
+        "libjsoncpp26",
+        "libnl-libs",
+        "libtinyxml2-11",
+        "mosh-runtime-libs",
+        "openssl-libs",
+        "systemd-libs",
+        "util-linux-libs",
+        "vis-runtime-libs"
+      ],
+      "description": "virtual private network client (version 3)",
+      "license": "See /usr/share/doc/openvpn3-client/copyright",
+      "license_path": "usr/share/doc/openvpn3-client/copyright",
+      "name": "openvpn3-client",
+      "url": "https://codeberg.org/OpenVPN/openvpn3-linux",
+      "version": "24.1+dfsg-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "prometheus"
       ],
       "debian_version": "2.53.3+ds1-2",
@@ -3856,6 +3881,12 @@
       "filename": "pool/main/o/open-iscsi/open-iscsi_2.1.11-1+deb13u2_amd64.deb",
       "sha256": "cbe0add75552f277d0eef21826e1b8610828cbd04ae1c26878bfa455fbbf31d5",
       "version": "2.1.11-1+deb13u2"
+    },
+    "openvpn3-client": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openvpn3-client/openvpn3-client_24.1+dfsg-1_amd64.deb",
+      "sha256": "10f56b2f71c0317788cdbe2c4ad90896da8c48bd3a231cb2b32a15d7293d062d",
+      "version": "24.1+dfsg-1"
     },
     "prometheus": {
       "architecture": "amd64",

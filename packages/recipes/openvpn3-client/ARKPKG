@@ -1,0 +1,19 @@
+Name: openvpn3-client
+Description: virtual private network client (version 3)
+Version: 24.1+dfsg-1
+Arch: x86_64
+URL: https://codeberg.org/OpenVPN/openvpn3-linux
+License: See /usr/share/doc/openvpn3-client/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcap-ng
+  libgdbuspp3
+  libjsoncpp26
+  libnl-libs
+  libtinyxml2-11
+  mosh-runtime-libs
+  openssl-libs
+  systemd-libs
+  util-linux-libs
+  vis-runtime-libs
+Provides: openvpn2=/usr/bin/openvpn2, openvpn3-admin=/usr/sbin/openvpn3-admin, openvpn3-as=/usr/bin/openvpn3-as, openvpn3-autoload=/usr/sbin/openvpn3-autoload, openvpn3=/usr/bin/openvpn3
