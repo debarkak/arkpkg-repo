@@ -1760,6 +1760,20 @@
       "name": "libshout3",
       "url": "https://packages.debian.org/trixie/libshout3",
       "version": "2.4.6-1+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libsidplayfp6"
+      ],
+      "debian_version": "2.12.0-1",
+      "dependencies": [],
+      "description": "Library to play Commodore 64 music based on libsidplay2",
+      "license": "See /usr/share/doc/libsidplayfp6/copyright",
+      "license_path": "usr/share/doc/libsidplayfp6/copyright",
+      "name": "libsidplayfp6",
+      "url": "https://packages.debian.org/trixie/libsidplayfp6",
+      "version": "2.12.0-1"
     }
   ],
   "source_integrity": {

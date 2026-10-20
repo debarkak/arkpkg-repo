@@ -1,0 +1,8 @@
+Name: libsidplayfp6
+Description: Library to play Commodore 64 music based on libsidplay2
+Version: 2.12.0-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsidplayfp6
+License: See /usr/share/doc/libsidplayfp6/copyright
+Maintainer: arkanaOS Team
+Provides: libsidplayfp.so.6=/usr/lib/x86_64-linux-gnu/libsidplayfp.so.6.5.37
