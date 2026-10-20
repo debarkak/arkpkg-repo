@@ -1,0 +1,8 @@
+Name: libboost-test1.83.0
+Description: components for writing and executing test suites
+Version: 1.83.0-4.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libboost-test1.83.0
+License: See /usr/share/doc/libboost-test1.83.0/copyright
+Maintainer: arkanaOS Team
+Provides: libboost_prg_exec_monitor.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_prg_exec_monitor.so.1.83.0, libboost_unit_test_framework.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.83.0
