@@ -236,6 +236,20 @@
       "name": "libbluetooth3",
       "url": "https://packages.debian.org/trixie/libbluetooth3",
       "version": "5.82-1.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libboost-chrono1.83.0t64"
+      ],
+      "debian_version": "1.83.0-4.2",
+      "dependencies": [],
+      "description": "C++ representation of time duration, time point, and clocks",
+      "license": "See /usr/share/doc/libboost-chrono1.83.0t64/copyright",
+      "license_path": "usr/share/doc/libboost-chrono1.83.0t64/copyright",
+      "name": "libboost-chrono1.83.0t64",
+      "url": "https://packages.debian.org/trixie/libboost-chrono1.83.0t64",
+      "version": "1.83.0-4.2"
     }
   ],
   "source_integrity": {
@@ -343,6 +357,12 @@
       "filename": "pool/main/b/bluez/libbluetooth3_5.82-1.1_amd64.deb",
       "sha256": "36e8ab3e964ae05d2c5282db8cf907f6e03dd5c98d70dfe9639a107eb791ff7e",
       "version": "5.82-1.1"
+    },
+    "libboost-chrono1.83.0t64": {
+      "architecture": "amd64",
+      "filename": "pool/main/b/boost1.83/libboost-chrono1.83.0t64_1.83.0-4.2_amd64.deb",
+      "sha256": "59ffe41ccadbaba0701ab17e77830022d7a0c9b7f5bf3f8d685c3f5dcb86bfc5",
+      "version": "1.83.0-4.2"
     }
   },
   "suite": "trixie"

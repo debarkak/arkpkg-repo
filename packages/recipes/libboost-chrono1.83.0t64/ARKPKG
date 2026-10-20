@@ -1,0 +1,8 @@
+Name: libboost-chrono1.83.0t64
+Description: C++ representation of time duration, time point, and clocks
+Version: 1.83.0-4.2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libboost-chrono1.83.0t64
+License: See /usr/share/doc/libboost-chrono1.83.0t64/copyright
+Maintainer: arkanaOS Team
+Provides: libboost_chrono.so.1.83.0=/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.83.0
