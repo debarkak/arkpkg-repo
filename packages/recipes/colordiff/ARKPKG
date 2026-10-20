@@ -1,0 +1,8 @@
+Name: colordiff
+Description: tool to colorize 'diff' output
+Version: 1.0.21-1
+Arch: any
+URL: http://www.colordiff.org/
+License: See /usr/share/doc/colordiff/copyright
+Maintainer: arkanaOS Team
+Provides: cdiff=/usr/bin/cdiff, colordiff=/usr/bin/colordiff

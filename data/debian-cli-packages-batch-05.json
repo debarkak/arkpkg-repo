@@ -226,6 +226,22 @@
       "name": "coinor-libcoinutils3v5",
       "url": "https://github.com/coin-or/CoinUtils",
       "version": "2.11.11+ds-5"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "colordiff"
+      ],
+      "debian_version": "1.0.21-1",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "tool to colorize 'diff' output",
+      "license": "See /usr/share/doc/colordiff/copyright",
+      "license_path": "usr/share/doc/colordiff/copyright",
+      "name": "colordiff",
+      "url": "http://www.colordiff.org/",
+      "version": "1.0.21-1"
     }
   ],
   "source_integrity": {
