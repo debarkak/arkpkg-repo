@@ -1,0 +1,8 @@
+Name: libfltk1.3t64
+Description: Fast Light Toolkit - main shared library
+Version: 1.3.11-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libfltk1.3t64
+License: See /usr/share/doc/libfltk1.3t64/copyright
+Maintainer: arkanaOS Team
+Provides: libfltk.so.1.3=/usr/lib/x86_64-linux-gnu/libfltk.so.1.3
