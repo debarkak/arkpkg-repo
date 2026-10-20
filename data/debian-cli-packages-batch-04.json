@@ -922,6 +922,20 @@
       "name": "libunwind8",
       "url": "https://packages.debian.org/trixie/libunwind8",
       "version": "1.8.1-0.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "liburiparser1"
+      ],
+      "debian_version": "0.9.8+dfsg-2",
+      "dependencies": [],
+      "description": "URI parsing library compliant with RFC 3986",
+      "license": "See /usr/share/doc/liburiparser1/copyright",
+      "license_path": "usr/share/doc/liburiparser1/copyright",
+      "name": "liburiparser1",
+      "url": "https://packages.debian.org/trixie/liburiparser1",
+      "version": "0.9.8+dfsg-2"
     }
   ],
   "source_integrity": {
@@ -1323,6 +1337,12 @@
       "filename": "pool/main/libu/libunwind/libunwind8_1.8.1-0.1_amd64.deb",
       "sha256": "db21a86dd05c93413f0ef36282a9c64d32410d240f332273a53be1408bec1f62",
       "version": "1.8.1-0.1"
+    },
+    "liburiparser1": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/uriparser/liburiparser1_0.9.8+dfsg-2_amd64.deb",
+      "sha256": "fd8f461644a9f6016e69ca41820d8789749d6b84b0ae5843bc48bdc5966310cf",
+      "version": "0.9.8+dfsg-2"
     }
   },
   "suite": "trixie"

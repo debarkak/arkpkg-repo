@@ -1,0 +1,8 @@
+Name: liburiparser1
+Description: URI parsing library compliant with RFC 3986
+Version: 0.9.8+dfsg-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/liburiparser1
+License: See /usr/share/doc/liburiparser1/copyright
+Maintainer: arkanaOS Team
+Provides: liburiparser.so.1=/usr/lib/x86_64-linux-gnu/liburiparser.so.1.0.31
