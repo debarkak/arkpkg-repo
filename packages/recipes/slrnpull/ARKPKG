@@ -1,0 +1,10 @@
+Name: slrnpull
+Description: pulls a small newsfeed from an NNTP server
+Version: 1.0.3+dfsg-8
+Arch: x86_64
+URL: https://slrn.info
+License: See /usr/share/doc/slrnpull/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl-libs
+Provides: slrnpull=/usr/bin/slrnpull

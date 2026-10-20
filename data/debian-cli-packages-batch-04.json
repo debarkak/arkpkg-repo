@@ -2113,6 +2113,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "slrnpull"
+      ],
+      "debian_version": "1.0.3+dfsg-8",
+      "dependencies": [
+        "openssl-libs"
+      ],
+      "description": "pulls a small newsfeed from an NNTP server",
+      "license": "See /usr/share/doc/slrnpull/copyright",
+      "license_path": "usr/share/doc/slrnpull/copyright",
+      "name": "slrnpull",
+      "url": "https://slrn.info",
+      "version": "1.0.3+dfsg-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "snap"
       ],
       "debian_version": "2013-11-29-11",
@@ -3021,6 +3037,12 @@
       "architecture": "amd64",
       "filename": "pool/main/s/slrn/slrn_1.0.3+dfsg-8_amd64.deb",
       "sha256": "5ac937dc7b41e0939653d9e06969080acf360df6daa33c8c1478212158744473",
+      "version": "1.0.3+dfsg-8"
+    },
+    "slrnpull": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/slrn/slrnpull_1.0.3+dfsg-8_amd64.deb",
+      "sha256": "57609ff166b81f2ea929cb25ab0b9623cc50c9d515ca6fc5280bfb7f90383139",
       "version": "1.0.3+dfsg-8"
     },
     "snap": {
