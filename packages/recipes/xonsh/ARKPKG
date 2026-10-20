@@ -1,0 +1,8 @@
+Name: xonsh
+Description: Python-powered, cross-platform, Unix-gazing shell
+Version: 0.19.4+dfsg-1
+Arch: any
+URL: https://xon.sh/
+License: See /usr/share/doc/xonsh/copyright
+Maintainer: arkanaOS Team
+Provides: xonsh=/usr/bin/xonsh

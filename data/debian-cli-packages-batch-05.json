@@ -3141,6 +3141,20 @@
       "name": "xdg-utils",
       "url": "https://www.freedesktop.org/wiki/Software/xdg-utils/",
       "version": "1.2.1-2"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "xonsh"
+      ],
+      "debian_version": "0.19.4+dfsg-1",
+      "dependencies": [],
+      "description": "Python-powered, cross-platform, Unix-gazing shell",
+      "license": "See /usr/share/doc/xonsh/copyright",
+      "license_path": "usr/share/doc/xonsh/copyright",
+      "name": "xonsh",
+      "url": "https://xon.sh/",
+      "version": "0.19.4+dfsg-1"
     }
   ],
   "source_integrity": {
