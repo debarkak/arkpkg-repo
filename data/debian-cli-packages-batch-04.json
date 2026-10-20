@@ -2095,6 +2095,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libuhd4.8.0"
+      ],
+      "debian_version": "4.8.0.0+ds1-2",
+      "dependencies": [
+        "libboost-chrono1.83.0t64",
+        "libboost-filesystem1.83.0",
+        "libboost-serialization1.83.0",
+        "libboost-thread1.83.0",
+        "libusb-libs"
+      ],
+      "description": "universal hardware driver for Ettus Research products - library",
+      "license": "See /usr/share/doc/libuhd4.8.0/copyright",
+      "license_path": "usr/share/doc/libuhd4.8.0/copyright",
+      "name": "libuhd4.8.0",
+      "url": "https://packages.debian.org/trixie/libuhd4.8.0",
+      "version": "4.8.0.0+ds1-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libunbound8"
       ],
       "debian_version": "1.22.0-2+deb13u3",
@@ -3472,6 +3492,12 @@
       "filename": "pool/main/u/ubertooth/libubertooth1_2018.12.R1-5.3_amd64.deb",
       "sha256": "ad944468adbb0a5c7f89eaabea0c2101f9d57fd1c01f4ba7932cd4617ed13019",
       "version": "2018.12.R1-5.3"
+    },
+    "libuhd4.8.0": {
+      "architecture": "amd64",
+      "filename": "pool/main/u/uhd/libuhd4.8.0_4.8.0.0+ds1-2_amd64.deb",
+      "sha256": "6571928f98699b9404ad6bd668ebefdad6669ac4470bb0567e6eb413074205a4",
+      "version": "4.8.0.0+ds1-2"
     },
     "libunbound8": {
       "architecture": "amd64",
