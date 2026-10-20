@@ -1,0 +1,33 @@
+Name: libavfilter-extra10
+Description: FFmpeg library with extra media filters - runtime files
+Version: 7:7.1.5-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libavfilter-extra10
+License: See /usr/share/doc/libavfilter-extra10/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libass9
+  libavcodec61
+  libavformat61
+  libavutil59
+  libbs2b0
+  libflite1
+  libfribidi0
+  libharfbuzz0b
+  liblilv-0-0
+  libmysofa1
+  libplacebo349
+  libpocketsphinx3
+  libpostproc58
+  librubberband2
+  libsphinxbase3t64
+  libswresample5
+  libswscale8
+  libtesseract5
+  libva2
+  libvidstab1.1
+  libvpl2
+  libzimg2
+  libzmq5
+  ocl-icd-libopencl1
+Provides: libavfilter.so.10=/usr/lib/x86_64-linux-gnu/libavfilter.so.10.5.100

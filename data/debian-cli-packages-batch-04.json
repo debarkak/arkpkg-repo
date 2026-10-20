@@ -751,6 +751,45 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libavfilter-extra10"
+      ],
+      "debian_version": "7:7.1.5-0+deb13u1",
+      "dependencies": [
+        "libass9",
+        "libavcodec61",
+        "libavformat61",
+        "libavutil59",
+        "libbs2b0",
+        "libflite1",
+        "libfribidi0",
+        "libharfbuzz0b",
+        "liblilv-0-0",
+        "libmysofa1",
+        "libplacebo349",
+        "libpocketsphinx3",
+        "libpostproc58",
+        "librubberband2",
+        "libsphinxbase3t64",
+        "libswresample5",
+        "libswscale8",
+        "libtesseract5",
+        "libva2",
+        "libvidstab1.1",
+        "libvpl2",
+        "libzimg2",
+        "libzmq5",
+        "ocl-icd-libopencl1"
+      ],
+      "description": "FFmpeg library with extra media filters - runtime files",
+      "license": "See /usr/share/doc/libavfilter-extra10/copyright",
+      "license_path": "usr/share/doc/libavfilter-extra10/copyright",
+      "name": "libavfilter-extra10",
+      "url": "https://packages.debian.org/trixie/libavfilter-extra10",
+      "version": "7:7.1.5-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libbcg729-0"
       ],
       "debian_version": "1.1.1-3+deb13u1",
@@ -4935,6 +4974,12 @@
       "filename": "pool/main/a/avahi/libavahi-core7_0.8-16_amd64.deb",
       "sha256": "9bf7e5c7d512803345e06465d959a554449bad85ae949ca7586dcb599a5186c7",
       "version": "0.8-16"
+    },
+    "libavfilter-extra10": {
+      "architecture": "amd64",
+      "filename": "pool/main/f/ffmpeg/libavfilter-extra10_7.1.5-0+deb13u1_amd64.deb",
+      "sha256": "b4419fdef9f2127505beb2be4a00892228a785e9dac8aa1f82bc90324a2782a1",
+      "version": "7:7.1.5-0+deb13u1"
     },
     "libbcg729-0": {
       "architecture": "amd64",
