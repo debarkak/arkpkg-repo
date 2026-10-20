@@ -96,6 +96,22 @@
       "version": "1.44-3"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "cups-client"
+      ],
+      "debian_version": "2.4.10-3+deb13u2",
+      "dependencies": [
+        "libcups2t64"
+      ],
+      "description": "Common UNIX Printing System(tm) - client programs (SysV)",
+      "license": "See /usr/share/doc/cups-client/copyright",
+      "license_path": "usr/share/doc/cups-client/copyright",
+      "name": "cups-client",
+      "url": "https://github.com/OpenPrinting/cups/",
+      "version": "2.4.10-3+deb13u2"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "ddclient"
@@ -3865,6 +3881,12 @@
       "filename": "pool/main/c/connman/connman_1.44-3_amd64.deb",
       "sha256": "160aa629085c330cd6d49d05c8a1da22b100804069e878fbb21ef03b916d03db",
       "version": "1.44-3"
+    },
+    "cups-client": {
+      "architecture": "amd64",
+      "filename": "pool/main/c/cups/cups-client_2.4.10-3+deb13u2_amd64.deb",
+      "sha256": "9431e5a740e6fe3f09fa9f4444b520942f5a9540251c24f4e79a0db90123b6af",
+      "version": "2.4.10-3+deb13u2"
     },
     "ddclient": {
       "architecture": "all",

@@ -1,0 +1,10 @@
+Name: cups-client
+Description: Common UNIX Printing System(tm) - client programs (SysV)
+Version: 2.4.10-3+deb13u2
+Arch: x86_64
+URL: https://github.com/OpenPrinting/cups/
+License: See /usr/share/doc/cups-client/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcups2t64
+Provides: cancel=/usr/bin/cancel, cupsaccept=/usr/sbin/cupsaccept, cupsctl=/usr/sbin/cupsctl, cupsdisable=/usr/sbin/cupsdisable, cupsenable=/usr/sbin/cupsenable, cupsreject=/usr/sbin/cupsreject, cupstestppd=/usr/bin/cupstestppd, lp=/usr/bin/lp, lpadmin=/usr/sbin/lpadmin, lpinfo=/usr/sbin/lpinfo, lpmove=/usr/sbin/lpmove, lpoptions=/usr/bin/lpoptions, lpstat=/usr/bin/lpstat
