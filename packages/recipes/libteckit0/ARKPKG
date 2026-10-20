@@ -1,0 +1,8 @@
+Name: libteckit0
+Description: Encoding conversion library
+Version: 2.5.12+ds1-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libteckit0
+License: See /usr/share/doc/libteckit0/copyright
+Maintainer: arkanaOS Team
+Provides: libTECkit.so.0=/usr/lib/x86_64-linux-gnu/libTECkit.so.0.0.0, libTECkit_Compiler.so.0=/usr/lib/x86_64-linux-gnu/libTECkit_Compiler.so.0.0.0

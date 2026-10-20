@@ -1888,6 +1888,20 @@
       "name": "libtdb1",
       "url": "https://packages.debian.org/trixie/libtdb1",
       "version": "2:1.4.13+samba4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libteckit0"
+      ],
+      "debian_version": "2.5.12+ds1-1+b1",
+      "dependencies": [],
+      "description": "Encoding conversion library",
+      "license": "See /usr/share/doc/libteckit0/copyright",
+      "license_path": "usr/share/doc/libteckit0/copyright",
+      "name": "libteckit0",
+      "url": "https://packages.debian.org/trixie/libteckit0",
+      "version": "2.5.12+ds1-1+b1"
     }
   ],
   "source_integrity": {
