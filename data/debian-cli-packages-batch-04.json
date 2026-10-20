@@ -1180,6 +1180,27 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libffmpegthumbnailer4v5"
+      ],
+      "debian_version": "2.2.3-2",
+      "dependencies": [
+        "libavcodec61",
+        "libavfilter-extra10",
+        "libavformat61",
+        "libavutil59",
+        "libjpeg62-turbo",
+        "libpng16-16t64"
+      ],
+      "description": "shared library for ffmpegthumbnailer",
+      "license": "See /usr/share/doc/libffmpegthumbnailer4v5/copyright",
+      "license_path": "usr/share/doc/libffmpegthumbnailer4v5/copyright",
+      "name": "libffmpegthumbnailer4v5",
+      "url": "https://packages.debian.org/trixie/libffmpegthumbnailer4v5",
+      "version": "2.2.3-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libflite1"
       ],
       "debian_version": "2.2-7",
@@ -5216,6 +5237,12 @@
       "filename": "pool/main/libf/libfabric/libfabric1_2.1.0-1.1_amd64.deb",
       "sha256": "2cab4f5fda610ccebc8c9da61f81cf6a49f99f103ef44b3f22828400565c8639",
       "version": "2.1.0-1.1"
+    },
+    "libffmpegthumbnailer4v5": {
+      "architecture": "amd64",
+      "filename": "pool/main/f/ffmpegthumbnailer/libffmpegthumbnailer4v5_2.2.3-2_amd64.deb",
+      "sha256": "8499c9390a356379b2e49a68a3cba1b544bc00d55482edfc6e7100217cb460eb",
+      "version": "2.2.3-2"
     },
     "libflite1": {
       "architecture": "amd64",

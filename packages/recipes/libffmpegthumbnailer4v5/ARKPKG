@@ -1,0 +1,15 @@
+Name: libffmpegthumbnailer4v5
+Description: shared library for ffmpegthumbnailer
+Version: 2.2.3-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libffmpegthumbnailer4v5
+License: See /usr/share/doc/libffmpegthumbnailer4v5/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavcodec61
+  libavfilter-extra10
+  libavformat61
+  libavutil59
+  libjpeg62-turbo
+  libpng16-16t64
+Provides: libffmpegthumbnailer.so.4=/usr/lib/x86_64-linux-gnu/libffmpegthumbnailer.so.4.15.1
