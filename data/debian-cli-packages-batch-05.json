@@ -3099,6 +3099,20 @@
       "name": "wfrench",
       "url": "https://gitlab.com/gpernot/wfrench",
       "version": "1.2.9-1"
+    },
+    {
+      "arch": "any",
+      "debian_packages": [
+        "wngerman"
+      ],
+      "debian_version": "20161207-15",
+      "dependencies": [],
+      "description": "New German orthography wordlist",
+      "license": "See /usr/share/doc/wngerman/copyright",
+      "license_path": "usr/share/doc/wngerman/copyright",
+      "name": "wngerman",
+      "url": "https://www.j3e.de/ispell/igerman98/",
+      "version": "20161207-15"
     }
   ],
   "source_integrity": {

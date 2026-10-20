@@ -1,0 +1,7 @@
+Name: wngerman
+Description: New German orthography wordlist
+Version: 20161207-15
+Arch: any
+URL: https://www.j3e.de/ispell/igerman98/
+License: See /usr/share/doc/wngerman/copyright
+Maintainer: arkanaOS Team
