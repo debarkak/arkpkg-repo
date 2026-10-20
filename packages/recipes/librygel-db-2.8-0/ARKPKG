@@ -1,0 +1,12 @@
+Name: librygel-db-2.8-0
+Description: GNOME UPnP/DLNA services - db library
+Version: 0.44.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librygel-db-2.8-0
+License: See /usr/share/doc/librygel-db-2.8-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  librygel-core-2.8-0
+  libsqlite3-0
+  libunistring-libs
+Provides: librygel-db-2.8.so.0=/usr/lib/x86_64-linux-gnu/librygel-db-2.8.so.0.44.2

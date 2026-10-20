@@ -2926,6 +2926,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "librygel-db-2.8-0"
+      ],
+      "debian_version": "0.44.2-1",
+      "dependencies": [
+        "librygel-core-2.8-0",
+        "libsqlite3-0",
+        "libunistring-libs"
+      ],
+      "description": "GNOME UPnP/DLNA services - db library",
+      "license": "See /usr/share/doc/librygel-db-2.8-0/copyright",
+      "license_path": "usr/share/doc/librygel-db-2.8-0/copyright",
+      "name": "librygel-db-2.8-0",
+      "url": "https://packages.debian.org/trixie/librygel-db-2.8-0",
+      "version": "0.44.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsasl2-2"
       ],
       "debian_version": "2.1.28+dfsg1-9",
@@ -5783,6 +5801,12 @@
       "architecture": "amd64",
       "filename": "pool/main/r/rygel/librygel-core-2.8-0_0.44.2-1_amd64.deb",
       "sha256": "68337b8af53dbe479e5d174d24b3137aef1d93c7aa4698289462463b4f624c30",
+      "version": "0.44.2-1"
+    },
+    "librygel-db-2.8-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rygel/librygel-db-2.8-0_0.44.2-1_amd64.deb",
+      "sha256": "f90ccf9053620e4724945fd2f6805a94015ef20ea095838a11a0d4de6ce65abb",
       "version": "0.44.2-1"
     },
     "libsasl2-2": {
