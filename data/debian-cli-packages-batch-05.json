@@ -1073,6 +1073,20 @@
       "name": "libdcmtk19",
       "url": "https://packages.debian.org/trixie/libdcmtk19",
       "version": "3.6.9-5+deb13u3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libdconf1"
+      ],
+      "debian_version": "0.40.0-5",
+      "dependencies": [],
+      "description": "simple configuration storage system - runtime library",
+      "license": "See /usr/share/doc/libdconf1/copyright",
+      "license_path": "usr/share/doc/libdconf1/copyright",
+      "name": "libdconf1",
+      "url": "https://packages.debian.org/trixie/libdconf1",
+      "version": "0.40.0-5"
     }
   ],
   "source_integrity": {

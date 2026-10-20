@@ -1,0 +1,8 @@
+Name: libdconf1
+Description: simple configuration storage system - runtime library
+Version: 0.40.0-5
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libdconf1
+License: See /usr/share/doc/libdconf1/copyright
+Maintainer: arkanaOS Team
+Provides: libdconf.so.1=/usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0
