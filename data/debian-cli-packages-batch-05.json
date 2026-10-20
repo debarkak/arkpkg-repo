@@ -194,6 +194,22 @@
       "name": "ccze",
       "url": "https://git.madhouse-project.org/archive/ccze",
       "version": "0.2.1-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "cdparanoia"
+      ],
+      "debian_version": "3.10.2+debian-14+b1",
+      "dependencies": [
+        "libcdparanoia0"
+      ],
+      "description": "audio extraction tool for sampling CDs",
+      "license": "See /usr/share/doc/cdparanoia/copyright",
+      "license_path": "usr/share/doc/cdparanoia/copyright",
+      "name": "cdparanoia",
+      "url": "https://www.xiph.org/paranoia/",
+      "version": "3.10.2+debian-14+b1"
     }
   ],
   "source_integrity": {

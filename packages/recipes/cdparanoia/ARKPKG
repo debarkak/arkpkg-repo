@@ -1,0 +1,8 @@
+Name: cdparanoia
+Description: audio extraction tool for sampling CDs
+Version: 3.10.2+debian-14+b1
+Arch: x86_64
+URL: https://www.xiph.org/paranoia/
+License: See /usr/share/doc/cdparanoia/copyright
+Maintainer: arkanaOS Team
+Provides: cdparanoia=/usr/bin/cdparanoia
