@@ -1,0 +1,14 @@
+Name: libldb2
+Description: LDAP-like embedded database - shared library
+Version: 2:2.11.0+samba4.22.11+dfsg-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libldb2
+License: See /usr/share/doc/libldb2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  dns-runtime-libs
+  libtalloc2
+  libtdb1
+  libtevent0t64
+  openldap-libs
+Provides: asq.so=/usr/lib/x86_64-linux-gnu/samba/ldb/asq.so, ldap.so=/usr/lib/x86_64-linux-gnu/samba/ldb/ldap.so, ldb.so=/usr/lib/x86_64-linux-gnu/samba/ldb/ldb.so, libldb-key-value-private-samba.so.0=/usr/lib/x86_64-linux-gnu/samba/libldb-key-value-private-samba.so.0, libldb-mdb-int-private-samba.so.0=/usr/lib/x86_64-linux-gnu/samba/libldb-mdb-int-private-samba.so.0, libldb-tdb-err-map-private-samba.so.0=/usr/lib/x86_64-linux-gnu/samba/libldb-tdb-err-map-private-samba.so.0, libldb-tdb-int-private-samba.so.0=/usr/lib/x86_64-linux-gnu/samba/libldb-tdb-int-private-samba.so.0, libldb.so.2=/usr/lib/x86_64-linux-gnu/libldb.so.2.11.0, mdb.so=/usr/lib/x86_64-linux-gnu/samba/ldb/mdb.so, paged_searches.so=/usr/lib/x86_64-linux-gnu/samba/ldb/paged_searches.so, rdn_name.so=/usr/lib/x86_64-linux-gnu/samba/ldb/rdn_name.so, sample.so=/usr/lib/x86_64-linux-gnu/samba/ldb/sample.so, server_sort.so=/usr/lib/x86_64-linux-gnu/samba/ldb/server_sort.so, skel.so=/usr/lib/x86_64-linux-gnu/samba/ldb/skel.so, tdb.so=/usr/lib/x86_64-linux-gnu/samba/ldb/tdb.so

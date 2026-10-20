@@ -1428,6 +1428,26 @@
       "name": "libkpathsea6",
       "url": "https://packages.debian.org/trixie/libkpathsea6",
       "version": "2024.20240313.70630+ds-6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libldb2"
+      ],
+      "debian_version": "2:2.11.0+samba4.22.11+dfsg-0+deb13u1",
+      "dependencies": [
+        "dns-runtime-libs",
+        "libtalloc2",
+        "libtdb1",
+        "libtevent0t64",
+        "openldap-libs"
+      ],
+      "description": "LDAP-like embedded database - shared library",
+      "license": "See /usr/share/doc/libldb2/copyright",
+      "license_path": "usr/share/doc/libldb2/copyright",
+      "name": "libldb2",
+      "url": "https://packages.debian.org/trixie/libldb2",
+      "version": "2:2.11.0+samba4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {
