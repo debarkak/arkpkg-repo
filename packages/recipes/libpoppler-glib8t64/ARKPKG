@@ -1,0 +1,11 @@
+Name: libpoppler-glib8t64
+Description: PDF rendering library (GLib-based shared library)
+Version: 25.03.0-5+deb13u4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpoppler-glib8t64
+License: See /usr/share/doc/libpoppler-glib8t64/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libcairo2
+  libpoppler147
+Provides: libpoppler-glib.so.8=/usr/lib/x86_64-linux-gnu/libpoppler-glib.so.8.29.0

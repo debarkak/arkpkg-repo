@@ -1642,6 +1642,23 @@
       "name": "libpolkit-gobject-1-0",
       "url": "https://packages.debian.org/trixie/libpolkit-gobject-1-0",
       "version": "126-2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libpoppler-glib8t64"
+      ],
+      "debian_version": "25.03.0-5+deb13u4",
+      "dependencies": [
+        "libcairo2",
+        "libpoppler147"
+      ],
+      "description": "PDF rendering library (GLib-based shared library)",
+      "license": "See /usr/share/doc/libpoppler-glib8t64/copyright",
+      "license_path": "usr/share/doc/libpoppler-glib8t64/copyright",
+      "name": "libpoppler-glib8t64",
+      "url": "https://packages.debian.org/trixie/libpoppler-glib8t64",
+      "version": "25.03.0-5+deb13u4"
     }
   ],
   "source_integrity": {
