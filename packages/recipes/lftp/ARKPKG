@@ -1,0 +1,13 @@
+Name: lftp
+Description: Sophisticated command-line FTP/HTTP/BitTorrent client programs
+Version: 4.9.2-3+b1
+Arch: x86_64
+URL: https://lftp.yar.ru
+License: See /usr/share/doc/lftp/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gnutls-libs
+  libidn2-libs
+  ncurses-libs
+  readline-libs
+Provides: lftp=/usr/bin/lftp, lftpget=/usr/bin/lftpget
