@@ -2944,6 +2944,26 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "librygel-renderer-2.8-0"
+      ],
+      "debian_version": "0.44.2-1",
+      "dependencies": [
+        "libgee-0.8-2",
+        "libgupnp-1.6-0",
+        "libgupnp-av-1.0-3",
+        "librygel-core-2.8-0",
+        "libsoup-3.0-0"
+      ],
+      "description": "GNOME UPnP/DLNA services - renderer library",
+      "license": "See /usr/share/doc/librygel-renderer-2.8-0/copyright",
+      "license_path": "usr/share/doc/librygel-renderer-2.8-0/copyright",
+      "name": "librygel-renderer-2.8-0",
+      "url": "https://packages.debian.org/trixie/librygel-renderer-2.8-0",
+      "version": "0.44.2-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libsasl2-2"
       ],
       "debian_version": "2.1.28+dfsg1-9",
@@ -5807,6 +5827,12 @@
       "architecture": "amd64",
       "filename": "pool/main/r/rygel/librygel-db-2.8-0_0.44.2-1_amd64.deb",
       "sha256": "f90ccf9053620e4724945fd2f6805a94015ef20ea095838a11a0d4de6ce65abb",
+      "version": "0.44.2-1"
+    },
+    "librygel-renderer-2.8-0": {
+      "architecture": "amd64",
+      "filename": "pool/main/r/rygel/librygel-renderer-2.8-0_0.44.2-1_amd64.deb",
+      "sha256": "9b06a76ca76965278f4cbc07b8c10ae840912f307a04249aff555122ba3683fe",
       "version": "0.44.2-1"
     },
     "libsasl2-2": {

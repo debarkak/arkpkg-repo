@@ -1,0 +1,14 @@
+Name: librygel-renderer-2.8-0
+Description: GNOME UPnP/DLNA services - renderer library
+Version: 0.44.2-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/librygel-renderer-2.8-0
+License: See /usr/share/doc/librygel-renderer-2.8-0/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgee-0.8-2
+  libgupnp-1.6-0
+  libgupnp-av-1.0-3
+  librygel-core-2.8-0
+  libsoup-3.0-0
+Provides: librygel-renderer-2.8.so.0=/usr/lib/x86_64-linux-gnu/librygel-renderer-2.8.so.0.44.2
