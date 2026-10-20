@@ -1,0 +1,11 @@
+Name: libopenblas0-openmp
+Description: Optimized BLAS (linear algebra) library (shared lib, openmp)
+Version: 0.3.29+ds-3
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libopenblas0-openmp
+License: See /usr/share/doc/libopenblas0-openmp/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgfortran5
+  libgomp1
+Provides: libblas.so.3=/usr/lib/x86_64-linux-gnu/openblas-openmp/libblas.so.3, liblapack.so.3=/usr/lib/x86_64-linux-gnu/openblas-openmp/liblapack.so.3, libopenblas.so.0=/usr/lib/x86_64-linux-gnu/openblas-openmp/libopenblasp-r0.3.29.so

@@ -1567,6 +1567,23 @@
       "name": "libnfs14",
       "url": "https://packages.debian.org/trixie/libnfs14",
       "version": "5.0.2-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libopenblas0-openmp"
+      ],
+      "debian_version": "0.3.29+ds-3",
+      "dependencies": [
+        "libgfortran5",
+        "libgomp1"
+      ],
+      "description": "Optimized BLAS (linear algebra) library (shared lib, openmp)",
+      "license": "See /usr/share/doc/libopenblas0-openmp/copyright",
+      "license_path": "usr/share/doc/libopenblas0-openmp/copyright",
+      "name": "libopenblas0-openmp",
+      "url": "https://packages.debian.org/trixie/libopenblas0-openmp",
+      "version": "0.3.29+ds-3"
     }
   ],
   "source_integrity": {
