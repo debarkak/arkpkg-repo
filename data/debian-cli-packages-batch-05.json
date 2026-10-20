@@ -964,6 +964,20 @@
       "name": "libcdio-paranoia2t64",
       "url": "https://packages.debian.org/trixie/libcdio-paranoia2t64",
       "version": "10.2+2.0.2-1+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libcdio19t64"
+      ],
+      "debian_version": "2.2.0-4.1~deb13u1",
+      "dependencies": [],
+      "description": "library to read and control CD-ROM",
+      "license": "See /usr/share/doc/libcdio19t64/copyright",
+      "license_path": "usr/share/doc/libcdio19t64/copyright",
+      "name": "libcdio19t64",
+      "url": "https://packages.debian.org/trixie/libcdio19t64",
+      "version": "2.2.0-4.1~deb13u1"
     }
   ],
   "source_integrity": {

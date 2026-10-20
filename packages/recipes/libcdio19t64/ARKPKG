@@ -1,0 +1,8 @@
+Name: libcdio19t64
+Description: library to read and control CD-ROM
+Version: 2.2.0-4.1~deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcdio19t64
+License: See /usr/share/doc/libcdio19t64/copyright
+Maintainer: arkanaOS Team
+Provides: libcdio.so.19=/usr/lib/x86_64-linux-gnu/libcdio.so.19.0.0
