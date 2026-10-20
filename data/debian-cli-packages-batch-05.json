@@ -1860,6 +1860,20 @@
       "name": "libsyn123-0t64",
       "url": "https://packages.debian.org/trixie/libsyn123-0t64",
       "version": "1.32.10-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtalloc2"
+      ],
+      "debian_version": "2:2.4.3+samba4.22.11+dfsg-0+deb13u1",
+      "dependencies": [],
+      "description": "hierarchical pool based memory allocator",
+      "license": "See /usr/share/doc/libtalloc2/copyright",
+      "license_path": "usr/share/doc/libtalloc2/copyright",
+      "name": "libtalloc2",
+      "url": "https://packages.debian.org/trixie/libtalloc2",
+      "version": "2:2.4.3+samba4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {

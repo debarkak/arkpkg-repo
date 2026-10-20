@@ -1,0 +1,8 @@
+Name: libtalloc2
+Description: hierarchical pool based memory allocator
+Version: 2:2.4.3+samba4.22.11+dfsg-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtalloc2
+License: See /usr/share/doc/libtalloc2/copyright
+Maintainer: arkanaOS Team
+Provides: libtalloc.so.2=/usr/lib/x86_64-linux-gnu/libtalloc.so.2.4.3
