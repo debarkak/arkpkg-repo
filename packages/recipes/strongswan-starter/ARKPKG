@@ -1,0 +1,10 @@
+Name: strongswan-starter
+Description: strongSwan daemon starter and configuration file parser
+Version: 6.0.1-6+deb13u6
+Arch: x86_64
+URL: http://www.strongswan.org
+License: See /usr/share/doc/strongswan-starter/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libstrongswan
+Provides: ipsec=/usr/sbin/ipsec, libstrongswan-stroke.so=/usr/lib/ipsec/plugins/libstrongswan-stroke.so

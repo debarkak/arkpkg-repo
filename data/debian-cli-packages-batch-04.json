@@ -2847,6 +2847,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "strongswan-starter"
+      ],
+      "debian_version": "6.0.1-6+deb13u6",
+      "dependencies": [
+        "libstrongswan"
+      ],
+      "description": "strongSwan daemon starter and configuration file parser",
+      "license": "See /usr/share/doc/strongswan-starter/copyright",
+      "license_path": "usr/share/doc/strongswan-starter/copyright",
+      "name": "strongswan-starter",
+      "url": "http://www.strongswan.org",
+      "version": "6.0.1-6+deb13u6"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "tcpd"
       ],
       "debian_version": "7.6.q-36",
@@ -4034,6 +4050,12 @@
       "architecture": "amd64",
       "filename": "pool/main/s/strongswan/strongswan-libcharon_6.0.1-6+deb13u6_amd64.deb",
       "sha256": "5122faf52e41861cf7eca5440bcd8eae595e4eadd6fae89c8561a6df4af7f43f",
+      "version": "6.0.1-6+deb13u6"
+    },
+    "strongswan-starter": {
+      "architecture": "amd64",
+      "filename": "pool/main/s/strongswan/strongswan-starter_6.0.1-6+deb13u6_amd64.deb",
+      "sha256": "f879b6109eb9a6a48e44864735e21056d4650c253decbef69a2a72aaa3faf1f7",
       "version": "6.0.1-6+deb13u6"
     },
     "tcpd": {
