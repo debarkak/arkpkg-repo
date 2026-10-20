@@ -1,0 +1,8 @@
+Name: putty-tools
+Description: command-line tools for SSH, SCP, and SFTP
+Version: 0.83-3
+Arch: x86_64
+URL: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+License: See /usr/share/doc/putty-tools/copyright
+Maintainer: arkanaOS Team
+Provides: plink=/usr/bin/plink, pscp=/usr/bin/pscp, psftp=/usr/bin/psftp, psusan=/usr/bin/psusan, puttygen=/usr/bin/puttygen

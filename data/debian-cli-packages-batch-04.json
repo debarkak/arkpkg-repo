@@ -1160,6 +1160,20 @@
       "name": "publicsuffix",
       "url": "https://publicsuffix.org",
       "version": "20250328.1952-0.1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "putty-tools"
+      ],
+      "debian_version": "0.83-3",
+      "dependencies": [],
+      "description": "command-line tools for SSH, SCP, and SFTP",
+      "license": "See /usr/share/doc/putty-tools/copyright",
+      "license_path": "usr/share/doc/putty-tools/copyright",
+      "name": "putty-tools",
+      "url": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
+      "version": "0.83-3"
     }
   ],
   "source_integrity": {
@@ -1663,6 +1677,12 @@
       "filename": "pool/main/p/publicsuffix/publicsuffix_20250328.1952-0.1_all.deb",
       "sha256": "80b5b3959ddf1c54c82001380aab866fa9964274a59a7f169110c8a036e40864",
       "version": "20250328.1952-0.1"
+    },
+    "putty-tools": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/putty/putty-tools_0.83-3_amd64.deb",
+      "sha256": "23f5c5898ab9dbb5e5b908174ddfcedcd8f25efa525a796a74fbb45fd8c73212",
+      "version": "0.83-3"
     }
   },
   "suite": "trixie"
