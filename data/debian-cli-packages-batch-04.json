@@ -2565,6 +2565,24 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "ntpsec"
+      ],
+      "debian_version": "1.2.3+dfsg1-8",
+      "dependencies": [
+        "libbsd",
+        "libcap",
+        "openssl-libs"
+      ],
+      "description": "Network Time Protocol daemon and utility programs",
+      "license": "See /usr/share/doc/ntpsec/copyright",
+      "license_path": "usr/share/doc/ntpsec/copyright",
+      "name": "ntpsec",
+      "url": "https://www.ntpsec.org",
+      "version": "1.2.3+dfsg1-8"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "ntpsec-ntpdig"
       ],
       "debian_version": "1.2.3+dfsg1-8",
@@ -3800,6 +3818,12 @@
       "filename": "pool/main/n/nfacct/nfacct_1.0.2-4_amd64.deb",
       "sha256": "5eef01fc02557f79e3c88eedb69b3c7d1cbeb10b110e5d9960fd2332bdd13b7d",
       "version": "1.0.2-4"
+    },
+    "ntpsec": {
+      "architecture": "amd64",
+      "filename": "pool/main/n/ntpsec/ntpsec_1.2.3+dfsg1-8_amd64.deb",
+      "sha256": "0322be1ea7bf2733f6ff79065e62cb1605a5ac051a804405beb205c8b9fd287f",
+      "version": "1.2.3+dfsg1-8"
     },
     "ntpsec-ntpdig": {
       "architecture": "amd64",

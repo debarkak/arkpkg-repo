@@ -1,0 +1,12 @@
+Name: ntpsec
+Description: Network Time Protocol daemon and utility programs
+Version: 1.2.3+dfsg1-8
+Arch: x86_64
+URL: https://www.ntpsec.org
+License: See /usr/share/doc/ntpsec/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libbsd
+  libcap
+  openssl-libs
+Provides: ntpd=/usr/sbin/ntpd, ntpkeygen=/usr/sbin/ntpkeygen, ntpleapfetch=/usr/sbin/ntpleapfetch, ntpmon=/usr/bin/ntpmon, ntpq=/usr/bin/ntpq, ntptime=/usr/sbin/ntptime, ntptrace=/usr/bin/ntptrace, ntpwait=/usr/sbin/ntpwait
