@@ -1,0 +1,10 @@
+Name: ssl-cert
+Description: simple debconf wrapper for OpenSSL
+Version: 1.1.3
+Arch: any
+URL: https://packages.debian.org/trixie/ssl-cert
+License: See /usr/share/doc/ssl-cert/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  openssl
+Provides: make-ssl-cert=/usr/sbin/make-ssl-cert
