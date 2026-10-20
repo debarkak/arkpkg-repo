@@ -1,0 +1,8 @@
+Name: libcanlock3
+Description: library for creating and verifying Usenet cancel locks
+Version: 3.3.1-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libcanlock3
+License: See /usr/share/doc/libcanlock3/copyright
+Maintainer: arkanaOS Team
+Provides: libcanlock-hp.so.3=/usr/lib/x86_64-linux-gnu/libcanlock-hp.so.3.0.3, libcanlock.so.3=/usr/lib/x86_64-linux-gnu/libcanlock.so.3.1.0
