@@ -1,0 +1,13 @@
+Name: openconnect
+Description: open client for various network vendors SSL VPNs
+Version: 9.12-3+deb13u2
+Arch: x86_64
+URL: https://www.infradead.org/openconnect/
+License: See /usr/share/doc/openconnect/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  gnutls-libs
+  libopenconnect5
+  libproxy1v5
+  xml-runtime-libs
+Provides: openconnect=/usr/sbin/openconnect

@@ -3979,6 +3979,25 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "openconnect"
+      ],
+      "debian_version": "9.12-3+deb13u2",
+      "dependencies": [
+        "gnutls-libs",
+        "libopenconnect5",
+        "libproxy1v5",
+        "xml-runtime-libs"
+      ],
+      "description": "open client for various network vendors SSL VPNs",
+      "license": "See /usr/share/doc/openconnect/copyright",
+      "license_path": "usr/share/doc/openconnect/copyright",
+      "name": "openconnect",
+      "url": "https://www.infradead.org/openconnect/",
+      "version": "9.12-3+deb13u2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "openvpn"
       ],
       "debian_version": "2.6.14-1+deb13u3",
@@ -6079,6 +6098,12 @@
       "filename": "pool/main/o/open-iscsi/open-iscsi_2.1.11-1+deb13u2_amd64.deb",
       "sha256": "cbe0add75552f277d0eef21826e1b8610828cbd04ae1c26878bfa455fbbf31d5",
       "version": "2.1.11-1+deb13u2"
+    },
+    "openconnect": {
+      "architecture": "amd64",
+      "filename": "pool/main/o/openconnect/openconnect_9.12-3+deb13u2_amd64.deb",
+      "sha256": "b867076ca4550af074e717acb00f6d2eabed30454073e581d7dd527d1ba68ebe",
+      "version": "9.12-3+deb13u2"
     },
     "openvpn": {
       "architecture": "amd64",
