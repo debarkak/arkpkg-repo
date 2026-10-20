@@ -1,0 +1,11 @@
+Name: tnftp
+Description: enhanced ftp client
+Version: 20230507-2+b1
+Arch: x86_64
+URL: https://en.wikipedia.org/wiki/Tnftp
+License: See /usr/share/doc/tnftp/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  dns-runtime-libs
+  openssl-libs
+Provides: tnftp=/usr/bin/tnftp

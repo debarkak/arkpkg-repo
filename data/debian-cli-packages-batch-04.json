@@ -3409,6 +3409,23 @@
       "version": "5.2+20240610-3"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "tnftp"
+      ],
+      "debian_version": "20230507-2+b1",
+      "dependencies": [
+        "dns-runtime-libs",
+        "openssl-libs"
+      ],
+      "description": "enhanced ftp client",
+      "license": "See /usr/share/doc/tnftp/copyright",
+      "license_path": "usr/share/doc/tnftp/copyright",
+      "name": "tnftp",
+      "url": "https://en.wikipedia.org/wiki/Tnftp",
+      "version": "20230507-2+b1"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "torsocks"
@@ -4792,6 +4809,12 @@
       "filename": "pool/main/t/tftp-hpa/tftpd-hpa_5.2+20240610-3_amd64.deb",
       "sha256": "80826383035c73eabd3b975506d4c0c8265ceeedaa7267ab7f488a8a5b1f808e",
       "version": "5.2+20240610-3"
+    },
+    "tnftp": {
+      "architecture": "amd64",
+      "filename": "pool/main/t/tnftp/tnftp_20230507-2+b1_amd64.deb",
+      "sha256": "4db88538002de355e63d712e982aa02d9a2334603f679916372ad1d0fc337094",
+      "version": "20230507-2+b1"
     },
     "torsocks": {
       "architecture": "all",
