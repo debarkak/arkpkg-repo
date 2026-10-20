@@ -1230,6 +1230,20 @@
       "name": "wireguard-tools",
       "url": "https://www.wireguard.com",
       "version": "1.0.20210914-3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "wsdd2"
+      ],
+      "debian_version": "1.8.7+dfsg-1.2",
+      "dependencies": [],
+      "description": "Web Services on Devices (WSD) daemon",
+      "license": "See /usr/share/doc/wsdd2/copyright",
+      "license_path": "usr/share/doc/wsdd2/copyright",
+      "name": "wsdd2",
+      "url": "https://github.com/Andy2244/wsdd2",
+      "version": "1.8.7+dfsg-1.2"
     }
   ],
   "source_integrity": {
@@ -1763,6 +1777,12 @@
       "filename": "pool/main/w/wireguard/wireguard-tools_1.0.20210914-3_amd64.deb",
       "sha256": "4fc58e193786a86465596c83ebfc10bfcb5241b918e9a4b60113f62e98046fe1",
       "version": "1.0.20210914-3"
+    },
+    "wsdd2": {
+      "architecture": "amd64",
+      "filename": "pool/main/w/wsdd2/wsdd2_1.8.7+dfsg-1.2_amd64.deb",
+      "sha256": "409bb6849587b4aac4fe3ad7873ebebb79472f4d0a90cca451d115adfd0dbaa6",
+      "version": "1.8.7+dfsg-1.2"
     }
   },
   "suite": "trixie"

@@ -1,0 +1,8 @@
+Name: wsdd2
+Description: Web Services on Devices (WSD) daemon
+Version: 1.8.7+dfsg-1.2
+Arch: x86_64
+URL: https://github.com/Andy2244/wsdd2
+License: See /usr/share/doc/wsdd2/copyright
+Maintainer: arkanaOS Team
+Provides: wsdd2=/usr/sbin/wsdd2
