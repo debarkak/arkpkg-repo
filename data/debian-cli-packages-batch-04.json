@@ -488,6 +488,20 @@
       "name": "libfyba0t64",
       "url": "https://packages.debian.org/trixie/libfyba0t64",
       "version": "4.1.1-11+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libgdbuspp3"
+      ],
+      "debian_version": "3-2+b1",
+      "dependencies": [],
+      "description": "Simple C++ based interface to implement D-Bus",
+      "license": "See /usr/share/doc/libgdbuspp3/copyright",
+      "license_path": "usr/share/doc/libgdbuspp3/copyright",
+      "name": "libgdbuspp3",
+      "url": "https://packages.debian.org/trixie/libgdbuspp3",
+      "version": "3-2+b1"
     }
   ],
   "source_integrity": {
@@ -703,6 +717,12 @@
       "filename": "pool/main/f/fyba/libfyba0t64_4.1.1-11+b1_amd64.deb",
       "sha256": "217ab27ac3e033ac0a6f3c5fc8270fcdd0c2d15ef517cf5a356b4586f1c15112",
       "version": "4.1.1-11+b1"
+    },
+    "libgdbuspp3": {
+      "architecture": "amd64",
+      "filename": "pool/main/g/gdbuspp/libgdbuspp3_3-2+b1_amd64.deb",
+      "sha256": "a513dcb1aa8c77a83dfef15abec336edf275b00cff447c851df2d8f26d3be515",
+      "version": "3-2+b1"
     }
   },
   "suite": "trixie"

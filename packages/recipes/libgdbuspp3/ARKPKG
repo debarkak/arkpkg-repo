@@ -1,0 +1,8 @@
+Name: libgdbuspp3
+Description: Simple C++ based interface to implement D-Bus
+Version: 3-2+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libgdbuspp3
+License: See /usr/share/doc/libgdbuspp3/copyright
+Maintainer: arkanaOS Team
+Provides: libgdbuspp.so.3=/usr/lib/x86_64-linux-gnu/libgdbuspp.so.3
