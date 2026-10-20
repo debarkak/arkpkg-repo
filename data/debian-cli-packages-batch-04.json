@@ -2469,6 +2469,22 @@
       "version": "2.0.21-1"
     },
     {
+      "arch": "any",
+      "debian_packages": [
+        "munin-plugins-core"
+      ],
+      "debian_version": "2.0.76-5",
+      "dependencies": [
+        "perl"
+      ],
+      "description": "network-wide graphing framework (plugins for node)",
+      "license": "See /usr/share/doc/munin-plugins-core/copyright",
+      "license_path": "usr/share/doc/munin-plugins-core/copyright",
+      "name": "munin-plugins-core",
+      "url": "https://munin-monitoring.org",
+      "version": "2.0.76-5"
+    },
+    {
       "arch": "x86_64",
       "debian_packages": [
         "nagios-nrpe-server"
@@ -3715,6 +3731,12 @@
       "filename": "pool/main/m/mosquitto/mosquitto-clients_2.0.21-1_amd64.deb",
       "sha256": "2c9d152d817e461595b06968c38b7db16bd9148d8c9887a7f241ec896069ecd5",
       "version": "2.0.21-1"
+    },
+    "munin-plugins-core": {
+      "architecture": "all",
+      "filename": "pool/main/m/munin/munin-plugins-core_2.0.76-5_all.deb",
+      "sha256": "780529a11bc9dc563bd69268b0153421923ff6ceea50b1b48bf80bca8826781c",
+      "version": "2.0.76-5"
     },
     "nagios-nrpe-server": {
       "architecture": "amd64",

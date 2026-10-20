@@ -1,0 +1,9 @@
+Name: munin-plugins-core
+Description: network-wide graphing framework (plugins for node)
+Version: 2.0.76-5
+Arch: any
+URL: https://munin-monitoring.org
+License: See /usr/share/doc/munin-plugins-core/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  perl
