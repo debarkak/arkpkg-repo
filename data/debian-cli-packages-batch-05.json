@@ -836,6 +836,22 @@
       "name": "libaudio2",
       "url": "https://packages.debian.org/trixie/libaudio2",
       "version": "1.9.4-9"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libavahi-glib1"
+      ],
+      "debian_version": "0.8-16",
+      "dependencies": [
+        "libavahi-common3"
+      ],
+      "description": "Avahi GLib integration library",
+      "license": "See /usr/share/doc/libavahi-glib1/copyright",
+      "license_path": "usr/share/doc/libavahi-glib1/copyright",
+      "name": "libavahi-glib1",
+      "url": "https://packages.debian.org/trixie/libavahi-glib1",
+      "version": "0.8-16"
     }
   ],
   "source_integrity": {

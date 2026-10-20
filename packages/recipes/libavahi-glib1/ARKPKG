@@ -1,0 +1,10 @@
+Name: libavahi-glib1
+Description: Avahi GLib integration library
+Version: 0.8-16
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libavahi-glib1
+License: See /usr/share/doc/libavahi-glib1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libavahi-common3
+Provides: libavahi-glib.so.1=/usr/lib/x86_64-linux-gnu/libavahi-glib.so.1.0.2
