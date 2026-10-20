@@ -1913,6 +1913,22 @@
       "version": "0.81f+svn4469+dfsg3-4"
     },
     {
+      "arch": "x86_64",
+      "debian_packages": [
+        "minissdpd"
+      ],
+      "debian_version": "1.6.0-3",
+      "dependencies": [
+        "libnfnetlink"
+      ],
+      "description": "keep memory of all UPnP devices that announced themselves",
+      "license": "See /usr/share/doc/minissdpd/copyright",
+      "license_path": "usr/share/doc/minissdpd/copyright",
+      "name": "minissdpd",
+      "url": "http://miniupnp.free.fr/minissdpd.html",
+      "version": "1.6.0-3"
+    },
+    {
       "arch": "any",
       "debian_packages": [
         "ndiff"
@@ -2858,6 +2874,12 @@
       "filename": "pool/main/m/mathpiper/mathpiper_0.81f+svn4469+dfsg3-4_all.deb",
       "sha256": "0cdeea35e35207c0492146d67040ce486769ac6b8346e806e875f2e8343d343b",
       "version": "0.81f+svn4469+dfsg3-4"
+    },
+    "minissdpd": {
+      "architecture": "amd64",
+      "filename": "pool/main/m/minissdpd/minissdpd_1.6.0-3_amd64.deb",
+      "sha256": "273f3d86854073debe92c76fd35263fadd2c52b3da8f8fc92be729370641dd72",
+      "version": "1.6.0-3"
     },
     "ndiff": {
       "architecture": "all",

@@ -1,0 +1,10 @@
+Name: minissdpd
+Description: keep memory of all UPnP devices that announced themselves
+Version: 1.6.0-3
+Arch: x86_64
+URL: http://miniupnp.free.fr/minissdpd.html
+License: See /usr/share/doc/minissdpd/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libnfnetlink
+Provides: minissdpd=/usr/sbin/minissdpd
