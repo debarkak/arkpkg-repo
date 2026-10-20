@@ -1,0 +1,8 @@
+Name: wireguard-tools
+Description: fast, modern, secure kernel VPN tunnel (userland utilities)
+Version: 1.0.20210914-3
+Arch: x86_64
+URL: https://www.wireguard.com
+License: See /usr/share/doc/wireguard-tools/copyright
+Maintainer: arkanaOS Team
+Provides: wg-quick=/usr/bin/wg-quick, wg=/usr/bin/wg

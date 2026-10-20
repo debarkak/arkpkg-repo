@@ -1216,6 +1216,20 @@
       "name": "torsocks",
       "url": "https://gitweb.torproject.org/torsocks.git",
       "version": "2.5.0-1+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "wireguard-tools"
+      ],
+      "debian_version": "1.0.20210914-3",
+      "dependencies": [],
+      "description": "fast, modern, secure kernel VPN tunnel (userland utilities)",
+      "license": "See /usr/share/doc/wireguard-tools/copyright",
+      "license_path": "usr/share/doc/wireguard-tools/copyright",
+      "name": "wireguard-tools",
+      "url": "https://www.wireguard.com",
+      "version": "1.0.20210914-3"
     }
   ],
   "source_integrity": {
@@ -1743,6 +1757,12 @@
       "filename": "pool/main/t/torsocks/torsocks_2.5.0-1+deb13u1_all.deb",
       "sha256": "1e1f2994d4dbcb9a9dc9e238ec20fc59d78a0faa954f1e983646c4d8f85770fb",
       "version": "2.5.0-1+deb13u1"
+    },
+    "wireguard-tools": {
+      "architecture": "amd64",
+      "filename": "pool/main/w/wireguard/wireguard-tools_1.0.20210914-3_amd64.deb",
+      "sha256": "4fc58e193786a86465596c83ebfc10bfcb5241b918e9a4b60113f62e98046fe1",
+      "version": "1.0.20210914-3"
     }
   },
   "suite": "trixie"
