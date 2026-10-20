@@ -1,0 +1,10 @@
+Name: libvidstab1.1
+Description: video stabilization library (shared library)
+Version: 1.1.0-2+b2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libvidstab1.1
+License: See /usr/share/doc/libvidstab1.1/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libgomp1
+Provides: libvidstab.so.1.1=/usr/lib/x86_64-linux-gnu/libvidstab.so.1.1

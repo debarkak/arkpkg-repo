@@ -2188,6 +2188,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libvidstab1.1"
+      ],
+      "debian_version": "1.1.0-2+b2",
+      "dependencies": [
+        "libgomp1"
+      ],
+      "description": "video stabilization library (shared library)",
+      "license": "See /usr/share/doc/libvidstab1.1/copyright",
+      "license_path": "usr/share/doc/libvidstab1.1/copyright",
+      "name": "libvidstab1.1",
+      "url": "https://packages.debian.org/trixie/libvidstab1.1",
+      "version": "1.1.0-2+b2"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libvoro++1"
       ],
       "debian_version": "0.5+revert-to-0.4.6+dfsg1-1",
@@ -3528,6 +3544,12 @@
       "filename": "pool/main/u/uudeview/libuu0_0.5.20+20250228-1_amd64.deb",
       "sha256": "f0b6debac29d65e16366ea8ec8098cb8511328a5079a704edd8c2441814019cb",
       "version": "0.5.20+20250228-1"
+    },
+    "libvidstab1.1": {
+      "architecture": "amd64",
+      "filename": "pool/main/libv/libvidstab/libvidstab1.1_1.1.0-2+b2_amd64.deb",
+      "sha256": "248da59fbb0d161666ee40846471f066cef65960735c9a39cc0fa9134db4323f",
+      "version": "1.1.0-2+b2"
     },
     "libvoro++1": {
       "architecture": "amd64",
