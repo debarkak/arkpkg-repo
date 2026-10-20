@@ -1,0 +1,8 @@
+Name: libtdb1
+Description: Trivial Database - shared library
+Version: 2:1.4.13+samba4.22.11+dfsg-0+deb13u1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libtdb1
+License: See /usr/share/doc/libtdb1/copyright
+Maintainer: arkanaOS Team
+Provides: libtdb.so.1=/usr/lib/x86_64-linux-gnu/libtdb.so.1.4.13

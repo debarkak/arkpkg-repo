@@ -1874,6 +1874,20 @@
       "name": "libtalloc2",
       "url": "https://packages.debian.org/trixie/libtalloc2",
       "version": "2:2.4.3+samba4.22.11+dfsg-0+deb13u1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libtdb1"
+      ],
+      "debian_version": "2:1.4.13+samba4.22.11+dfsg-0+deb13u1",
+      "dependencies": [],
+      "description": "Trivial Database - shared library",
+      "license": "See /usr/share/doc/libtdb1/copyright",
+      "license_path": "usr/share/doc/libtdb1/copyright",
+      "name": "libtdb1",
+      "url": "https://packages.debian.org/trixie/libtdb1",
+      "version": "2:1.4.13+samba4.22.11+dfsg-0+deb13u1"
     }
   ],
   "source_integrity": {
