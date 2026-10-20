@@ -2515,6 +2515,22 @@
     {
       "arch": "x86_64",
       "debian_packages": [
+        "libpocketsphinx3"
+      ],
+      "debian_version": "0.8+5prealpha+1-15+b4",
+      "dependencies": [
+        "libsphinxbase3t64"
+      ],
+      "description": "Speech recognition tool - front-end library",
+      "license": "See /usr/share/doc/libpocketsphinx3/copyright",
+      "license_path": "usr/share/doc/libpocketsphinx3/copyright",
+      "name": "libpocketsphinx3",
+      "url": "https://packages.debian.org/trixie/libpocketsphinx3",
+      "version": "0.8+5prealpha+1-15+b4"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
         "libpoppler147"
       ],
       "debian_version": "25.03.0-5+deb13u4",
@@ -5299,6 +5315,12 @@
       "filename": "pool/main/p/pmix/libpmix2t64_5.0.7-1_amd64.deb",
       "sha256": "1841358ff8589d3a1b5e58a8f06c9c88c71d2154ee67cd1aa42d22cdb78a6121",
       "version": "5.0.7-1"
+    },
+    "libpocketsphinx3": {
+      "architecture": "amd64",
+      "filename": "pool/main/p/pocketsphinx/libpocketsphinx3_0.8+5prealpha+1-15+b4_amd64.deb",
+      "sha256": "b2c444a2f9b7456fa804f672c0d7849a33d857f5a1de7710b02355721cfd2750",
+      "version": "0.8+5prealpha+1-15+b4"
     },
     "libpoppler147": {
       "architecture": "amd64",

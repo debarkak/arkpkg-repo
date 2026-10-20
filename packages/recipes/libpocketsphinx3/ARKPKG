@@ -1,0 +1,10 @@
+Name: libpocketsphinx3
+Description: Speech recognition tool - front-end library
+Version: 0.8+5prealpha+1-15+b4
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libpocketsphinx3
+License: See /usr/share/doc/libpocketsphinx3/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libsphinxbase3t64
+Provides: libpocketsphinx.so.3=/usr/lib/x86_64-linux-gnu/libpocketsphinx.so.3.0.0
