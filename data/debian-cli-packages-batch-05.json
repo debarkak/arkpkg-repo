@@ -1148,6 +1148,20 @@
       "name": "libfftw3-single3",
       "url": "https://packages.debian.org/trixie/libfftw3-single3",
       "version": "3.3.10-2+b1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libfmt10"
+      ],
+      "debian_version": "10.1.1+ds1-4",
+      "dependencies": [],
+      "description": "fast type-safe C++ formatting library -- library",
+      "license": "See /usr/share/doc/libfmt10/copyright",
+      "license_path": "usr/share/doc/libfmt10/copyright",
+      "name": "libfmt10",
+      "url": "https://packages.debian.org/trixie/libfmt10",
+      "version": "10.1.1+ds1-4"
     }
   ],
   "source_integrity": {
