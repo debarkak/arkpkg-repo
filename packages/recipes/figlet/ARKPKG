@@ -1,0 +1,8 @@
+Name: figlet
+Description: Make large character ASCII banners out of ordinary text
+Version: 2.2.5-3+b2
+Arch: x86_64
+URL: http://www.figlet.org/
+License: See /usr/share/doc/figlet/copyright
+Maintainer: arkanaOS Team
+Provides: chkfont=/usr/bin/chkfont, figlet-figlet=/usr/bin/figlet-figlet, figlist=/usr/bin/figlist, showfigfonts=/usr/bin/showfigfonts
