@@ -1,0 +1,10 @@
+Name: libsz2
+Description: Adaptive Entropy Coding library - SZIP
+Version: 1.1.3-1+b1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libsz2
+License: See /usr/share/doc/libsz2/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libaec0
+Provides: libsz.so.2=/usr/lib/x86_64-linux-gnu/libsz.so.2.0.1
