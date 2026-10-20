@@ -1,0 +1,8 @@
+Name: libvulkan1
+Description: Vulkan loader library
+Version: 1.4.309.0-1
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libvulkan1
+License: See /usr/share/doc/libvulkan1/copyright
+Maintainer: arkanaOS Team
+Provides: libvulkan.so.1=/usr/lib/x86_64-linux-gnu/libvulkan.so.1.4.309

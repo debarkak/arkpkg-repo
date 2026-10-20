@@ -964,6 +964,20 @@
       "name": "libvoro++1",
       "url": "https://packages.debian.org/trixie/libvoro++1",
       "version": "0.5+revert-to-0.4.6+dfsg1-1"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libvulkan1"
+      ],
+      "debian_version": "1.4.309.0-1",
+      "dependencies": [],
+      "description": "Vulkan loader library",
+      "license": "See /usr/share/doc/libvulkan1/copyright",
+      "license_path": "usr/share/doc/libvulkan1/copyright",
+      "name": "libvulkan1",
+      "url": "https://packages.debian.org/trixie/libvulkan1",
+      "version": "1.4.309.0-1"
     }
   ],
   "source_integrity": {
@@ -1383,6 +1397,12 @@
       "filename": "pool/main/v/voro++/libvoro++1_0.5+revert-to-0.4.6+dfsg1-1_amd64.deb",
       "sha256": "4b536aa17c6d9d1dcb8c202b9c31ea6502577996ab18de49496ec3e2dc022443",
       "version": "0.5+revert-to-0.4.6+dfsg1-1"
+    },
+    "libvulkan1": {
+      "architecture": "amd64",
+      "filename": "pool/main/v/vulkan-loader/libvulkan1_1.4.309.0-1_amd64.deb",
+      "sha256": "f47da79cd140264fe21cceb08bc87a71bc7fec05819e4a421f3f518d21101a37",
+      "version": "1.4.309.0-1"
     }
   },
   "suite": "trixie"
