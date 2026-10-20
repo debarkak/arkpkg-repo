@@ -1830,6 +1830,22 @@
       "name": "libsox3",
       "url": "https://packages.debian.org/trixie/libsox3",
       "version": "14.4.2+git20190427-5+b3"
+    },
+    {
+      "arch": "x86_64",
+      "debian_packages": [
+        "libspdlog1.15"
+      ],
+      "debian_version": "1:1.15.2+ds-2",
+      "dependencies": [
+        "libfmt10"
+      ],
+      "description": "Very fast C++ logging library",
+      "license": "See /usr/share/doc/libspdlog1.15/copyright",
+      "license_path": "usr/share/doc/libspdlog1.15/copyright",
+      "name": "libspdlog1.15",
+      "url": "https://packages.debian.org/trixie/libspdlog1.15",
+      "version": "1:1.15.2+ds-2"
     }
   ],
   "source_integrity": {

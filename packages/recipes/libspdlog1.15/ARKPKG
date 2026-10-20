@@ -1,0 +1,10 @@
+Name: libspdlog1.15
+Description: Very fast C++ logging library
+Version: 1:1.15.2+ds-2
+Arch: x86_64
+URL: https://packages.debian.org/trixie/libspdlog1.15
+License: See /usr/share/doc/libspdlog1.15/copyright
+Maintainer: arkanaOS Team
+Dependencies:
+  libfmt10
+Provides: libspdlog.so.1.15=/usr/lib/x86_64-linux-gnu/libspdlog.so.1.15.2
